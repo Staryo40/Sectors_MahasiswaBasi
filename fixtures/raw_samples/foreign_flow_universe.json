@@ -1,0 +1,230 @@
+{
+  "path": "foreign-flow",
+  "params": {
+    "limit": 30
+  },
+  "body": {
+    "results": [
+      {
+        "symbol": "BBCA.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 44194870000,
+        "foreign_buy_idr": 610859830000,
+        "foreign_sell_idr": 566664960000
+      },
+      {
+        "symbol": "PTBA.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 29130128000,
+        "foreign_buy_idr": 46334442000,
+        "foreign_sell_idr": 17204314000
+      },
+      {
+        "symbol": "ASII.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 18056348000,
+        "foreign_buy_idr": 128260978000,
+        "foreign_sell_idr": 110204630000
+      },
+      {
+        "symbol": "ULTJ.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 16144522000,
+        "foreign_buy_idr": 17908726000,
+        "foreign_sell_idr": 1764204000
+      },
+      {
+        "symbol": "DEWA.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 14586075600,
+        "foreign_buy_idr": 36345918200,
+        "foreign_sell_idr": 21759842600
+      },
+      {
+        "symbol": "BUMI.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 13250348300,
+        "foreign_buy_idr": 65737828400,
+        "foreign_sell_idr": 52487480100
+      },
+      {
+        "symbol": "AMMN.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 8100406000,
+        "foreign_buy_idr": 61888721000,
+        "foreign_sell_idr": 53788315000
+      },
+      {
+        "symbol": "VKTR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 7293531500,
+        "foreign_buy_idr": 16043277500,
+        "foreign_sell_idr": 8749746000
+      },
+      {
+        "symbol": "GGRM.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 6830027500,
+        "foreign_buy_idr": 14251672500,
+        "foreign_sell_idr": 7421645000
+      },
+      {
+        "symbol": "BSDE.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 6380472500,
+        "foreign_buy_idr": 11003745000,
+        "foreign_sell_idr": 4623272500
+      },
+      {
+        "symbol": "BSSR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 5850611000,
+        "foreign_buy_idr": 6375197000,
+        "foreign_sell_idr": 524586000
+      },
+      {
+        "symbol": "INCO.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 5618215000,
+        "foreign_buy_idr": 10588631000,
+        "foreign_sell_idr": 4970416000
+      },
+      {
+        "symbol": "WIFI.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 5151141500,
+        "foreign_buy_idr": 21312112500,
+        "foreign_sell_idr": 16160971000
+      },
+      {
+        "symbol": "PANI.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 4900398000,
+        "foreign_buy_idr": 8965330000,
+        "foreign_sell_idr": 4064932000
+      },
+      {
+        "symbol": "ANTM.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 4542544000,
+        "foreign_buy_idr": 31340542000,
+        "foreign_sell_idr": 26797998000
+      },
+      {
+        "symbol": "ARCI.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 4527182500,
+        "foreign_buy_idr": 7384119000,
+        "foreign_sell_idr": 2856936500
+      },
+      {
+        "symbol": "PACK.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 4380238600,
+        "foreign_buy_idr": 11766357800,
+        "foreign_sell_idr": 7386119200
+      },
+      {
+        "symbol": "UNTR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 3342345000,
+        "foreign_buy_idr": 49947300000,
+        "foreign_sell_idr": 46604955000
+      },
+      {
+        "symbol": "MAPI.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 3189900500,
+        "foreign_buy_idr": 6955119000,
+        "foreign_sell_idr": 3765218500
+      },
+      {
+        "symbol": "UVCR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 3057598200,
+        "foreign_buy_idr": 4661934200,
+        "foreign_sell_idr": 1604336000
+      },
+      {
+        "symbol": "LPKR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 2518340900,
+        "foreign_buy_idr": 5000674300,
+        "foreign_sell_idr": 2482333400
+      },
+      {
+        "symbol": "JGLE.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 2388464500,
+        "foreign_buy_idr": 3155080000,
+        "foreign_sell_idr": 766615500
+      },
+      {
+        "symbol": "CYBR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1611624000,
+        "foreign_buy_idr": 6571259600,
+        "foreign_sell_idr": 4959635600
+      },
+      {
+        "symbol": "LUCY.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1546907400,
+        "foreign_buy_idr": 4521788400,
+        "foreign_sell_idr": 2974881000
+      },
+      {
+        "symbol": "UNSP.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1464601400,
+        "foreign_buy_idr": 1943315000,
+        "foreign_sell_idr": 478713600
+      },
+      {
+        "symbol": "MEJA.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1403484300,
+        "foreign_buy_idr": 2635473700,
+        "foreign_sell_idr": 1231989400
+      },
+      {
+        "symbol": "HMSP.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1397645000,
+        "foreign_buy_idr": 5083019000,
+        "foreign_sell_idr": 3685374000
+      },
+      {
+        "symbol": "TKIM.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1383912500,
+        "foreign_buy_idr": 2693127500,
+        "foreign_sell_idr": 1309215000
+      },
+      {
+        "symbol": "KETR.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1370638500,
+        "foreign_buy_idr": 4012328000,
+        "foreign_sell_idr": 2641689500
+      },
+      {
+        "symbol": "INDF.JK",
+        "date": "2026-10-02",
+        "net_foreign_inflow": 1320630000,
+        "foreign_buy_idr": 17968155000,
+        "foreign_sell_idr": 16647525000
+      }
+    ],
+    "pagination": {
+      "total_count": 630,
+      "showing": 30,
+      "limit": 30,
+      "offset": 0,
+      "has_next": true,
+      "has_previous": false,
+      "next_offset": 30,
+      "previous_offset": null
+    }
+  }
+}

@@ -1,0 +1,1253 @@
+{
+  "path": "companies",
+  "params": {
+    "where": "indices in ['LQ45'] and (market_cap > -1000000000 or last_close_price > -1000000000 or roe_ttm > -1000000000 or der_mrq > -1000000000 or pe_ttm > -1000000000 or pb_mrq > -1000000000 or yield_ttm > -1000000000 or yoy_quarter_earnings_growth > -1000000000 or yoy_quarter_revenue_growth > -1000000000 or net_profit_margin[2025] > -1000000000 or pe_peer_avg[2025] > -1000000000 or pb_peer_avg[2025] > -1000000000)",
+    "limit": 200,
+    "include_query_values": "true"
+  },
+  "body": {
+    "results": [
+      {
+        "symbol": "AADI.JK",
+        "company_name": "PT Adaro Andalan Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "JII70",
+            "IDXV30"
+          ],
+          "market_cap": 89938599828000,
+          "last_close_price": 11550,
+          "roe_ttm": 0.197169048021721,
+          "der_mrq": 0.178660181446207,
+          "pe_ttm": 6.47759005956715,
+          "pb_mrq": 1.40039917913537,
+          "yield_ttm": 0.0465870144666531,
+          "yoy_quarter_earnings_growth": 0.56748054778949,
+          "yoy_quarter_revenue_growth": 0.341476005926851,
+          "net_profit_margin[2025]": 0.154814518081822,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "ADMR.JK",
+        "company_name": "PT Alamtri Minerals Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXG30",
+            "JII70"
+          ],
+          "market_cap": 59892615647500,
+          "last_close_price": 1465,
+          "roe_ttm": 0.163167615576958,
+          "der_mrq": 0.980872210635613,
+          "pe_ttm": 11.4726441371224,
+          "pb_mrq": 2.0492315813097,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 0.270704627026903,
+          "yoy_quarter_revenue_growth": 0.429958324543849,
+          "net_profit_margin[2025]": 0.278752821322414,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "ADRO.JK",
+        "company_name": "Alamtri Resources Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXV30"
+          ],
+          "market_cap": 72001235500000,
+          "last_close_price": 2500,
+          "roe_ttm": 0.108691525501839,
+          "der_mrq": 0.378239527308833,
+          "pe_ttm": 7.21801374206633,
+          "pb_mrq": 0.872778991972612,
+          "yield_ttm": 0.0580559997558594,
+          "yoy_quarter_earnings_growth": 1.03434513459917,
+          "yoy_quarter_revenue_growth": 0.223894343665909,
+          "net_profit_margin[2025]": 0.238957731082749,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "AKRA.JK",
+        "company_name": "PT AKR Corporindo Tbk.",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXG30",
+            "JII70",
+            "SRIKEHATI"
+          ],
+          "market_cap": 29307272916000,
+          "last_close_price": 1460,
+          "roe_ttm": 0.166397117834574,
+          "der_mrq": 0.333270771260232,
+          "pe_ttm": 10.7615226634677,
+          "pb_mrq": 2.26164692708982,
+          "yield_ttm": 0.0684931506849315,
+          "yoy_quarter_earnings_growth": 0.25930547091624,
+          "yoy_quarter_revenue_growth": 0.603828958175583,
+          "net_profit_margin[2025]": 0.0537309514982413,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "AMMN.JK",
+        "company_name": "PT Amman Mineral Internasional Tbk.",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "ECONOMIC30",
+            "FTSE"
+          ],
+          "market_cap": 307477242861440,
+          "last_close_price": 4240,
+          "roe_ttm": 0.0971825700701001,
+          "der_mrq": 1.16775978900822,
+          "pe_ttm": 33.3497809513158,
+          "pb_mrq": 3.29719052085567,
+          "yield_ttm": null,
+          "yoy_quarter_earnings_growth": 2.18222229479875,
+          "yoy_quarter_revenue_growth": 388.586507861566,
+          "net_profit_margin[2025]": 0.134836809329545,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "AMRT.JK",
+        "company_name": "PT Sumber Alfaria Trijaya Tbk.",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXVESTA28",
+            "FTSE"
+          ],
+          "market_cap": 52528494650500,
+          "last_close_price": 1265,
+          "roe_ttm": 0.18541428767764,
+          "der_mrq": 0.141093099013147,
+          "pe_ttm": 14.7875990760934,
+          "pb_mrq": 2.95091336281859,
+          "yield_ttm": 0.0328063241106719,
+          "yoy_quarter_earnings_growth": 0.0450042478639627,
+          "yoy_quarter_revenue_growth": 0.0539635350522644,
+          "net_profit_margin[2025]": 0.0269130738838576,
+          "pe_peer_avg[2025]": 9.73660511693047,
+          "pb_peer_avg[2025]": 1.08460101046641
+        }
+      },
+      {
+        "symbol": "ANTM.JK",
+        "company_name": "Aneka Tambang Tbk.",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "ECONOMIC30",
+            "JII70",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 75456601236500,
+          "last_close_price": 3140,
+          "roe_ttm": 0.231006978183056,
+          "der_mrq": 0.151180929275565,
+          "pe_ttm": 8.47726967453278,
+          "pb_mrq": 2.02459294247324,
+          "yield_ttm": 0.0668753702929065,
+          "yoy_quarter_earnings_growth": 0.162414206867193,
+          "yoy_quarter_revenue_growth": 0.0159096269371107,
+          "net_profit_margin[2025]": 0.0851680798092314,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "ASII.JK",
+        "company_name": "Astra International Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXVESTA28",
+            "FTSE",
+            "IDXV30",
+            "SRIKEHATI"
+          ],
+          "market_cap": 187438851038200,
+          "last_close_price": 4630,
+          "roe_ttm": 0.102769075778695,
+          "der_mrq": 0.410876195470667,
+          "pe_ttm": 6.29263944130661,
+          "pb_mrq": 0.814710655276701,
+          "yield_ttm": 0.0842332613390929,
+          "yoy_quarter_earnings_growth": -0.221367820109519,
+          "yoy_quarter_revenue_growth": -0.00315739156687129,
+          "net_profit_margin[2025]": 0.10132903720562,
+          "pe_peer_avg[2025]": 7.64585124225411,
+          "pb_peer_avg[2025]": 2.82353246772146
+        }
+      },
+      {
+        "symbol": "BBCA.JK",
+        "company_name": "PT Bank Central Asia Tbk.",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "FTSE",
+            "SRIKEHATI"
+          ],
+          "market_cap": 744458026950000,
+          "last_close_price": 6100,
+          "roe_ttm": 0.214714061275701,
+          "der_mrq": null,
+          "pe_ttm": 12.8098258047661,
+          "pb_mrq": 2.75279097233183,
+          "yield_ttm": 0.0624590163934426,
+          "yoy_quarter_earnings_growth": -0.00136772238340106,
+          "yoy_quarter_revenue_growth": 0.00305775623420816,
+          "net_profit_margin[2025]": 0.513696762091813,
+          "pe_peer_avg[2025]": 14.6874841154653,
+          "pb_peer_avg[2025]": 0.852068326449239
+        }
+      },
+      {
+        "symbol": "BBNI.JK",
+        "company_name": "PT Bank Negara Indonesia (Persero) Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "FTSE",
+            "IDXV30",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 126281242068120,
+          "last_close_price": 3420,
+          "roe_ttm": 0.123679520615341,
+          "der_mrq": null,
+          "pe_ttm": 6.06926205978193,
+          "pb_mrq": 0.770648739239912,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 0.0750976612626252,
+          "yoy_quarter_revenue_growth": 0.165570167197083,
+          "net_profit_margin[2025]": 0.313433712119701,
+          "pe_peer_avg[2025]": 14.6874841154653,
+          "pb_peer_avg[2025]": 0.852068326449239
+        }
+      },
+      {
+        "symbol": "BBRI.JK",
+        "company_name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "FTSE",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 462133707687960,
+          "last_close_price": 3080,
+          "roe_ttm": 0.189617543571432,
+          "der_mrq": null,
+          "pe_ttm": 7.41519575014574,
+          "pb_mrq": 1.43554029765479,
+          "yield_ttm": 0.112337662337662,
+          "yoy_quarter_earnings_growth": 0.223263408630875,
+          "yoy_quarter_revenue_growth": 0.0844156574078394,
+          "net_profit_margin[2025]": 0.312471192774854,
+          "pe_peer_avg[2025]": 14.6874841154653,
+          "pb_peer_avg[2025]": 0.852068326449239
+        }
+      },
+      {
+        "symbol": "BBTN.JK",
+        "company_name": "PT Bank Tabungan Negara (Persero) Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "ECONOMIC30",
+            "IDXV30",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 14797216466985,
+          "last_close_price": 1065,
+          "roe_ttm": 0.111747188718739,
+          "der_mrq": null,
+          "pe_ttm": 3.52568443119536,
+          "pb_mrq": 0.393985512317585,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 0.61239175311675,
+          "yoy_quarter_revenue_growth": -0.169009731540419,
+          "net_profit_margin[2025]": 0.157146072766518,
+          "pe_peer_avg[2025]": 14.6874841154653,
+          "pb_peer_avg[2025]": 0.852068326449239
+        }
+      },
+      {
+        "symbol": "BMRI.JK",
+        "company_name": "PT Bank Mandiri (Persero) Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "FTSE",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 372371999983880,
+          "last_close_price": 4030,
+          "roe_ttm": 0.238870046621558,
+          "der_mrq": null,
+          "pe_ttm": 5.3200199013405,
+          "pb_mrq": 1.30843511717224,
+          "yield_ttm": 0.134728761583049,
+          "yoy_quarter_earnings_growth": 0.180581189101103,
+          "yoy_quarter_revenue_growth": -0.04598684754587,
+          "net_profit_margin[2025]": 0.4191224071999,
+          "pe_peer_avg[2025]": 14.6874841154653,
+          "pb_peer_avg[2025]": 0.852068326449239
+        }
+      },
+      {
+        "symbol": "BRPT.JK",
+        "company_name": "Barito Pacific Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "FTSE"
+          ],
+          "market_cap": 133121049622480,
+          "last_close_price": 1420,
+          "roe_ttm": 0.0213968922692664,
+          "der_mrq": 1.32002977028281,
+          "pe_ttm": 53.5270660267625,
+          "pb_mrq": 3.05601557179685,
+          "yield_ttm": 0.00114788732058565,
+          "yoy_quarter_earnings_growth": -0.789384177266946,
+          "yoy_quarter_revenue_growth": 0.399694478961319,
+          "net_profit_margin[2025]": 0.0641893193539433,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "BUMI.JK",
+        "company_name": "Bumi Resources Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "JII70"
+          ],
+          "market_cap": 64983693611900,
+          "last_close_price": 175,
+          "roe_ttm": 0.0387208790031215,
+          "der_mrq": 0.219714655702597,
+          "pe_ttm": 31.7751331123138,
+          "pb_mrq": 2.18065656900739,
+          "yield_ttm": null,
+          "yoy_quarter_earnings_growth": 14.0669361743661,
+          "yoy_quarter_revenue_growth": 0.504674611237845,
+          "net_profit_margin[2025]": 0.0568596792913765,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "CPIN.JK",
+        "company_name": "Charoen Pokphand Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "JII70",
+            "FTSE"
+          ],
+          "market_cap": 47718180000000,
+          "last_close_price": 2910,
+          "roe_ttm": 0.213449556614996,
+          "der_mrq": 0.270359370962537,
+          "pe_ttm": 6.40357508109111,
+          "pb_mrq": 1.36739358309181,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 2.11095638198036,
+          "yoy_quarter_revenue_growth": 0.267590788973826,
+          "net_profit_margin[2025]": 0.0798226993546764,
+          "pe_peer_avg[2025]": 12.1475666326432,
+          "pb_peer_avg[2025]": 1.87654333744704
+        }
+      },
+      {
+        "symbol": "CUAN.JK",
+        "company_name": "PT Petrindo Jaya Kreasi Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "FTSE"
+          ],
+          "market_cap": 94993970500000,
+          "last_close_price": 845,
+          "roe_ttm": 0.224681926782255,
+          "der_mrq": 2.234623753272,
+          "pe_ttm": 37.0020668326464,
+          "pb_mrq": 15.2874954822644,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 64.5270509419382,
+          "yoy_quarter_revenue_growth": 0.62089232298605,
+          "net_profit_margin[2025]": 0.110698426643896,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "DEWA.JK",
+        "company_name": "Darma Henwa Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "JII70"
+          ],
+          "market_cap": 13752352774472,
+          "last_close_price": 338,
+          "roe_ttm": 0.553929741989065,
+          "der_mrq": 0.791191708642865,
+          "pe_ttm": 3.06082705051736,
+          "pb_mrq": 1.69866959355839,
+          "yield_ttm": 0.00443786982248521,
+          "yoy_quarter_earnings_growth": 1.6392274170541,
+          "yoy_quarter_revenue_growth": 0.0868369080032481,
+          "net_profit_margin[2025]": 0.673689864220162,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "EMTK.JK",
+        "company_name": "Elang Mahkota Teknologi Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "IDX30",
+            "IDXVESTA28",
+            "FTSE",
+            "IDXV30",
+            "SRIKEHATI"
+          ],
+          "market_cap": 23464904466506,
+          "last_close_price": 382,
+          "roe_ttm": 0.0431532155179292,
+          "der_mrq": 0.0579181610867938,
+          "pe_ttm": 10.4615189155224,
+          "pb_mrq": 0.64065282000482,
+          "yield_ttm": 0.0130890052356021,
+          "yoy_quarter_earnings_growth": -0.974220197757308,
+          "yoy_quarter_revenue_growth": 0.0262273864141711,
+          "net_profit_margin[2025]": 0.355093619552249,
+          "pe_peer_avg[2025]": 15.3208397947199,
+          "pb_peer_avg[2025]": 2.54240600262395
+        }
+      },
+      {
+        "symbol": "ESSA.JK",
+        "company_name": "ESSA Industries Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "ECONOMIC30",
+            "IDXG30",
+            "JII70"
+          ],
+          "market_cap": 10163915663000,
+          "last_close_price": 590,
+          "roe_ttm": 0.0956170691067519,
+          "der_mrq": 0.00019146956532688,
+          "pe_ttm": 10.7159852826448,
+          "pb_mrq": 1.33198544054699,
+          "yield_ttm": 0.088135593220339,
+          "yoy_quarter_earnings_growth": 0.875015932064182,
+          "yoy_quarter_revenue_growth": 0.480826478834997,
+          "net_profit_margin[2025]": 0.136572861368626,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "EXCL.JK",
+        "company_name": "PT XLSMART Telecom Sejahtera Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE"
+          ],
+          "market_cap": 43315672633380,
+          "last_close_price": 2380,
+          "roe_ttm": -0.144432013405829,
+          "der_mrq": 0.718432935858744,
+          "pe_ttm": -10.3249570068411,
+          "pb_mrq": 1.50006374291866,
+          "yield_ttm": 0.0668067226890756,
+          "yoy_quarter_earnings_growth": 0.827823610188977,
+          "yoy_quarter_revenue_growth": 0.160052629587781,
+          "net_profit_margin[2025]": -0.104288323317461,
+          "pe_peer_avg[2025]": 18.2127103566376,
+          "pb_peer_avg[2025]": 2.44703088769422
+        }
+      },
+      {
+        "symbol": "GOTO.JK",
+        "company_name": "PT GoTo Gojek Tokopedia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "IDX30",
+            "FTSE"
+          ],
+          "market_cap": 34217198016600,
+          "last_close_price": 30,
+          "roe_ttm": 6.38350496795411e-05,
+          "der_mrq": 0.178993134247111,
+          "pe_ttm": 18495.7827116757,
+          "pb_mrq": 1.05616195235085,
+          "yield_ttm": null,
+          "yoy_quarter_earnings_growth": 2.17817887658628,
+          "yoy_quarter_revenue_growth": 0.305998495957452,
+          "net_profit_margin[2025]": -0.0647116269369964,
+          "pe_peer_avg[2025]": 15.3208397947199,
+          "pb_peer_avg[2025]": 2.54240600262395
+        }
+      },
+      {
+        "symbol": "HRTA.JK",
+        "company_name": "PT Hartadinata Abadi Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "ECONOMIC30",
+            "IDXG30",
+            "JII70"
+          ],
+          "market_cap": 10085524656000,
+          "last_close_price": 2190,
+          "roe_ttm": 0.354981579073565,
+          "der_mrq": 1.11813602179834,
+          "pe_ttm": 7.58311687030184,
+          "pb_mrq": 2.69973451111731,
+          "yield_ttm": 0.0182648401826484,
+          "yoy_quarter_earnings_growth": 0.340919396770555,
+          "yoy_quarter_revenue_growth": 0.651648409580955,
+          "net_profit_margin[2025]": 0.0219647092387149,
+          "pe_peer_avg[2025]": 5.0841960086024,
+          "pb_peer_avg[2025]": 0.749284683296504
+        }
+      },
+      {
+        "symbol": "ICBP.JK",
+        "company_name": "Indofood CBP Sukses Makmur Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "SRIKEHATI"
+          ],
+          "market_cap": 78717879000000,
+          "last_close_price": 6750,
+          "roe_ttm": 0.0981944222067632,
+          "der_mrq": 0.663213800563594,
+          "pe_ttm": 10.6499958803212,
+          "pb_mrq": 1.49182922901204,
+          "yield_ttm": 0.0392592592592593,
+          "yoy_quarter_earnings_growth": -0.608026044079619,
+          "yoy_quarter_revenue_growth": 0.156905216599489,
+          "net_profit_margin[2025]": 0.123243997939745,
+          "pe_peer_avg[2025]": 12.1475666326432,
+          "pb_peer_avg[2025]": 1.87654333744704
+        }
+      },
+      {
+        "symbol": "INCO.JK",
+        "company_name": "Vale Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "FTSE"
+          ],
+          "market_cap": 43950901506780,
+          "last_close_price": 4170,
+          "roe_ttm": 0.0528218020703384,
+          "der_mrq": 0.000558744456704015,
+          "pe_ttm": 16.4184651103303,
+          "pb_mrq": 0.867252914356623,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 9.70878729999239,
+          "yoy_quarter_revenue_growth": 0.45439212081689,
+          "net_profit_margin[2025]": 0.07681618267109,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "INDF.JK",
+        "company_name": "Indofood Sukses Makmur Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXV30",
+            "SRIKEHATI"
+          ],
+          "market_cap": 59926410862500,
+          "last_close_price": 6825,
+          "roe_ttm": 0.0767418830312053,
+          "der_mrq": 0.634729881215889,
+          "pe_ttm": 6.26148155364467,
+          "pb_mrq": 0.781701751748143,
+          "yield_ttm": 0.0424908424908425,
+          "yoy_quarter_earnings_growth": -0.432906775791415,
+          "yoy_quarter_revenue_growth": 0.118303596757761,
+          "net_profit_margin[2025]": 0.0865201629621527,
+          "pe_peer_avg[2025]": 12.1475666326432,
+          "pb_peer_avg[2025]": 1.87654333744704
+        }
+      },
+      {
+        "symbol": "INDY.JK",
+        "company_name": "Indika Energy Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXG30",
+            "JII70"
+          ],
+          "market_cap": 13233887680000,
+          "last_close_price": 2540,
+          "roe_ttm": 0.00992140542965687,
+          "der_mrq": 0.931155178029468,
+          "pe_ttm": 55.2240081289979,
+          "pb_mrq": 0.616013135452315,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 6.34077961857078,
+          "yoy_quarter_revenue_growth": 0.543053060873674,
+          "net_profit_margin[2025]": 0.00296774142118151,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "INKP.JK",
+        "company_name": "Indah Kiat Pulp & Paper Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "ECONOMIC30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXV30"
+          ],
+          "market_cap": 44041412675050,
+          "last_close_price": 8050,
+          "roe_ttm": 0.0882102025360866,
+          "der_mrq": 0.721198313332109,
+          "pe_ttm": 3.87815487422179,
+          "pb_mrq": 0.342114801741854,
+          "yield_ttm": 0.0093167701863354,
+          "yoy_quarter_earnings_growth": 9.10717316800329,
+          "yoy_quarter_revenue_growth": 0.248464640814396,
+          "net_profit_margin[2025]": 0.142954444835454,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "ISAT.JK",
+        "company_name": "PT Indosat Tbk",
+        "query_values": {
+          "indices": [
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "SRIKEHATI"
+          ],
+          "market_cap": 72564324653250,
+          "last_close_price": 2250,
+          "roe_ttm": 0.186638333296297,
+          "der_mrq": 0.461562410144167,
+          "pe_ttm": 9.69676622942283,
+          "pb_mrq": 1.9585592549446,
+          "yield_ttm": 0.0493333333333333,
+          "yoy_quarter_earnings_growth": 1.75098001501632,
+          "yoy_quarter_revenue_growth": 0.140467034390225,
+          "net_profit_margin[2025]": 0.0974855666254132,
+          "pe_peer_avg[2025]": 18.2127103566376,
+          "pb_peer_avg[2025]": 2.44703088769422
+        }
+      },
+      {
+        "symbol": "ITMG.JK",
+        "company_name": "Indo Tambangraya Megah Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "IDXV30"
+          ],
+          "market_cap": 28474110000000,
+          "last_close_price": 25200,
+          "roe_ttm": 0.10285977982235,
+          "der_mrq": 0.0519966626327933,
+          "pe_ttm": 8.09527275146136,
+          "pb_mrq": 0.837076540823542,
+          "yield_ttm": 0.0292879813058036,
+          "yoy_quarter_earnings_growth": 1.1760460217683,
+          "yoy_quarter_revenue_growth": 0.269452074901431,
+          "net_profit_margin[2025]": 0.10150406117249,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "JPFA.JK",
+        "company_name": "JAPFA Comfeed Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "IDXV30"
+          ],
+          "market_cap": 23394517525995,
+          "last_close_price": 1995,
+          "roe_ttm": 0.245764517682811,
+          "der_mrq": 0.762411613133783,
+          "pe_ttm": 4.46191776703732,
+          "pb_mrq": 1.18018860231586,
+          "yield_ttm": 0.0701754385964912,
+          "yoy_quarter_earnings_growth": 0.185590639150702,
+          "yoy_quarter_revenue_growth": 0.341599869803153,
+          "net_profit_margin[2025]": 0.0659465839916545,
+          "pe_peer_avg[2025]": 12.1475666326432,
+          "pb_peer_avg[2025]": 1.87654333744704
+        }
+      },
+      {
+        "symbol": "KLBF.JK",
+        "company_name": "Kalbe Farma Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "SRIKEHATI"
+          ],
+          "market_cap": 33939708866500,
+          "last_close_price": 725,
+          "roe_ttm": 0.140099110934772,
+          "der_mrq": 0.0320785910051161,
+          "pe_ttm": 9.40282377209645,
+          "pb_mrq": 1.39502490829297,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": -0.00849462950377454,
+          "yoy_quarter_revenue_growth": 0.19025186122983,
+          "net_profit_margin[2025]": 0.103752167331587,
+          "pe_peer_avg[2025]": 9.13665253343321,
+          "pb_peer_avg[2025]": 1.53815515306666
+        }
+      },
+      {
+        "symbol": "MAPI.JK",
+        "company_name": "Mitra Adiperkasa Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXESGL",
+            "ECONOMIC30",
+            "IDXVESTA28",
+            "JII70"
+          ],
+          "market_cap": 24651000000000,
+          "last_close_price": 1485,
+          "roe_ttm": 0.132868794384053,
+          "der_mrq": 0.476905231969694,
+          "pe_ttm": 9.91700627179943,
+          "pb_mrq": 1.61197118291717,
+          "yield_ttm": 0.00673400673400673,
+          "yoy_quarter_earnings_growth": 0.202185546335424,
+          "yoy_quarter_revenue_growth": 0.156161186673699,
+          "net_profit_margin[2025]": 0.0517871371138379,
+          "pe_peer_avg[2025]": 10.0664781604264,
+          "pb_peer_avg[2025]": 1.06673769083503
+        }
+      },
+      {
+        "symbol": "MBMA.JK",
+        "company_name": "PT Merdeka Battery Materials Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "ECONOMIC30",
+            "JII70"
+          ],
+          "market_cap": 50757847353000,
+          "last_close_price": 470,
+          "roe_ttm": 0.0254349845099593,
+          "der_mrq": 0.455141288557296,
+          "pe_ttm": 48.1011676083075,
+          "pb_mrq": 1.84342025007736,
+          "yield_ttm": null,
+          "yoy_quarter_earnings_growth": 9.87233243508396,
+          "yoy_quarter_revenue_growth": 0.273272314072624,
+          "net_profit_margin[2025]": 0.0206091754049278,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "MDKA.JK",
+        "company_name": "PT Merdeka Copper Gold Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "ECONOMIC30",
+            "JII70",
+            "FTSE"
+          ],
+          "market_cap": 69748003747350,
+          "last_close_price": 2850,
+          "roe_ttm": 0.000160335284398099,
+          "der_mrq": 0.751177147410364,
+          "pe_ttm": 8377.41418194513,
+          "pb_mrq": 4.81673466061635,
+          "yield_ttm": 0.00431059352138586,
+          "yoy_quarter_earnings_growth": 16.7507648346224,
+          "yoy_quarter_revenue_growth": 0.265128642329353,
+          "net_profit_margin[2025]": -0.0327542623421634,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "MEDC.JK",
+        "company_name": "PT Medco Energi Internasional Tbk",
+        "query_values": {
+          "indices": [
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "IDXV30"
+          ],
+          "market_cap": 34562317971500,
+          "last_close_price": 1375,
+          "roe_ttm": 0.0617379617311531,
+          "der_mrq": 1.55798440542677,
+          "pe_ttm": 13.686841726962,
+          "pb_mrq": 0.925759292101848,
+          "yield_ttm": 0.0441439264470881,
+          "yoy_quarter_earnings_growth": 2.91601503421248,
+          "yoy_quarter_revenue_growth": 0.221292723969398,
+          "net_profit_margin[2025]": 0.042093504776094,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "NCKL.JK",
+        "company_name": "PT Trimegah Bangun Persada Tbk",
+        "query_values": {
+          "indices": [
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "ECONOMIC30",
+            "FTSE",
+            "IDXV30"
+          ],
+          "market_cap": 53318317000000,
+          "last_close_price": 845,
+          "roe_ttm": 0.201794368269693,
+          "der_mrq": 0.168720432528357,
+          "pe_ttm": 5.00008271215598,
+          "pb_mrq": 1.21530517305778,
+          "yield_ttm": 0.0504615377392289,
+          "yoy_quarter_earnings_growth": 0.268787582219252,
+          "yoy_quarter_revenue_growth": 0.476517066173664,
+          "net_profit_margin[2025]": 0.302081352490529,
+          "pe_peer_avg[2025]": 11.0469310117327,
+          "pb_peer_avg[2025]": 1.23762029050414
+        }
+      },
+      {
+        "symbol": "PGAS.JK",
+        "company_name": "PT Perusahaan Gas Negara Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXV30",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 33332073769500,
+          "last_close_price": 1375,
+          "roe_ttm": 0.0639632440659049,
+          "der_mrq": 0.19582528721696,
+          "pe_ttm": 8.22271586809473,
+          "pb_mrq": 0.693021386555906,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 0.493788152586841,
+          "yoy_quarter_revenue_growth": -0.0149865366589149,
+          "net_profit_margin[2025]": 0.0541673112578178,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "PGEO.JK",
+        "company_name": "PT Pertamina Geothermal Energy Tbk",
+        "query_values": {
+          "indices": [
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "SRIKEHATI",
+            "IDXBUMN20"
+          ],
+          "market_cap": 39434292690820,
+          "last_close_price": 940,
+          "roe_ttm": 0.0705519994846396,
+          "der_mrq": 0.367524708442128,
+          "pe_ttm": 15.5694021128119,
+          "pb_mrq": 1.09819948556792,
+          "yield_ttm": 0.0,
+          "yoy_quarter_earnings_growth": 0.0476247031161121,
+          "yoy_quarter_revenue_growth": 0.264268403636831,
+          "net_profit_margin[2025]": 0.318208288847908,
+          "pe_peer_avg[2025]": 20.4128888077398,
+          "pb_peer_avg[2025]": 1.44403568532445
+        }
+      },
+      {
+        "symbol": "PTBA.JK",
+        "company_name": "Bukit Asam Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXBUMN20"
+          ],
+          "market_cap": 36635696415000,
+          "last_close_price": 3180,
+          "roe_ttm": 0.187335381935615,
+          "der_mrq": 0.117815179597497,
+          "pe_ttm": 7.71795816118271,
+          "pb_mrq": 1.45229964869565,
+          "yield_ttm": 0.0360088060486991,
+          "yoy_quarter_earnings_growth": 3.18535209991734,
+          "yoy_quarter_revenue_growth": 0.152871797559546,
+          "net_profit_margin[2025]": 0.0686949254384184,
+          "pe_peer_avg[2025]": 14.797623491379,
+          "pb_peer_avg[2025]": 1.61127517039477
+        }
+      },
+      {
+        "symbol": "SCMA.JK",
+        "company_name": "Surya Citra Media Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "ECONOMIC30",
+            "IDXG30"
+          ],
+          "market_cap": 10933128964160,
+          "last_close_price": 172,
+          "roe_ttm": 0.133399421119271,
+          "der_mrq": 0.102780960756306,
+          "pe_ttm": 11.0799914587884,
+          "pb_mrq": 1.73135585741888,
+          "yield_ttm": 0.0523255813953488,
+          "yoy_quarter_earnings_growth": 0.36962349511184,
+          "yoy_quarter_revenue_growth": 0.0616043961802394,
+          "net_profit_margin[2025]": 0.111936266377369,
+          "pe_peer_avg[2025]": -1.78574675701668,
+          "pb_peer_avg[2025]": 1.70235547799666
+        }
+      },
+      {
+        "symbol": "TLKM.JK",
+        "company_name": "PT Telkom Indonesia (Persero) Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "IDXG30",
+            "JII70",
+            "FTSE",
+            "IDXBUMN20"
+          ],
+          "market_cap": 222889987350000,
+          "last_close_price": 2250,
+          "roe_ttm": 0.129493948742288,
+          "der_mrq": 0.422067809682012,
+          "pe_ttm": 12.7642874441645,
+          "pb_mrq": 1.88358266375398,
+          "yield_ttm": 0.0991848347981771,
+          "yoy_quarter_earnings_growth": 0.21568247821878,
+          "yoy_quarter_revenue_growth": 0.0639076034648701,
+          "net_profit_margin[2025]": 0.121396737130474,
+          "pe_peer_avg[2025]": 18.2127103566376,
+          "pb_peer_avg[2025]": 2.44703088769422
+        }
+      },
+      {
+        "symbol": "UNTR.JK",
+        "company_name": "United Tractors Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDX30",
+            "IDXG30",
+            "IDXVESTA28",
+            "JII70",
+            "FTSE",
+            "IDXV30"
+          ],
+          "market_cap": 96983513536000,
+          "last_close_price": 26000,
+          "roe_ttm": 0.0750524011971773,
+          "der_mrq": 0.275932343279327,
+          "pe_ttm": 12.6997324662176,
+          "pb_mrq": 1.00424495610667,
+          "yield_ttm": 0.0639615384615385,
+          "yoy_quarter_earnings_growth": -0.936566969406976,
+          "yoy_quarter_revenue_growth": -0.132182743173015,
+          "net_profit_margin[2025]": 0.1127977352158,
+          "pe_peer_avg[2025]": 6.33412512893495,
+          "pb_peer_avg[2025]": 0.939719583768338
+        }
+      },
+      {
+        "symbol": "UNVR.JK",
+        "company_name": "Unilever Indonesia Tbk",
+        "query_values": {
+          "indices": [
+            "IDXHIDIV20",
+            "LQ45",
+            "KOMPAS100",
+            "IDXQ30",
+            "IDXESGL",
+            "IDX30",
+            "JII70",
+            "FTSE",
+            "SRIKEHATI"
+          ],
+          "market_cap": 60277000000000,
+          "last_close_price": 1580,
+          "roe_ttm": 2.79714572578391,
+          "der_mrq": 0.181023112409377,
+          "pe_ttm": 7.12889296785097,
+          "pb_mrq": 19.9405524945953,
+          "yield_ttm": 0.127215189873418,
+          "yoy_quarter_earnings_growth": -0.0970381051540194,
+          "yoy_quarter_revenue_growth": -0.0323350414347319,
+          "net_profit_margin[2025]": 0.239208926045928,
+          "pe_peer_avg[2025]": 20.9323334371573,
+          "pb_peer_avg[2025]": 1.14562653916903
+        }
+      },
+      {
+        "symbol": "WIFI.JK",
+        "company_name": "PT Solusi Sinergi Digital Tbk",
+        "query_values": {
+          "indices": [
+            "SMINFRA18",
+            "LQ45",
+            "KOMPAS100",
+            "IDXG30",
+            "JII70"
+          ],
+          "market_cap": 7617767836525,
+          "last_close_price": 1435,
+          "roe_ttm": 0.0567687984913666,
+          "der_mrq": 1.1128040191143,
+          "pe_ttm": 14.8842421592924,
+          "pb_mrq": 0.998213215550486,
+          "yield_ttm": 0.00139372822299652,
+          "yoy_quarter_earnings_growth": 0.146716175407322,
+          "yoy_quarter_revenue_growth": 1.79294301188618,
+          "net_profit_margin[2025]": 0.246204772439265,
+          "pe_peer_avg[2025]": 15.3208397947199,
+          "pb_peer_avg[2025]": 2.54240600262395
+        }
+      }
+    ],
+    "pagination": {
+      "total_count": 45,
+      "showing": 45,
+      "limit": 200,
+      "offset": 0,
+      "has_next": false,
+      "has_previous": false,
+      "next_offset": null,
+      "previous_offset": null
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "path": "corporate-actions",
+  "params": {
+    "start": "2026-09-04",
+    "end": "2026-11-03",
+    "type": "dividend"
+  },
+  "body": {
+    "start": "2026-09-04",
+    "end": "2026-11-03",
+    "dividend": [
+      {
+        "symbol": "CMRY.JK",
+        "ex_date": "2026-09-04",
+        "cum_date": "2026-09-03",
+        "recording_date": "2026-09-07",
+        "payment_date": "2026-09-18",
+        "dividend_amount": 100.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "TRIS.JK",
+        "ex_date": "2026-09-10",
+        "cum_date": "2026-09-09",
+        "recording_date": "2026-09-11",
+        "payment_date": "2026-09-23",
+        "dividend_amount": 2.27,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "DKFT.JK",
+        "ex_date": "2026-09-14",
+        "cum_date": "2026-09-11",
+        "recording_date": "2026-09-15",
+        "payment_date": "2026-09-21",
+        "dividend_amount": 30.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "BMRI.JK",
+        "ex_date": "2026-09-16",
+        "cum_date": "2026-09-15",
+        "recording_date": "2026-09-17",
+        "payment_date": "2026-10-02",
+        "dividend_amount": 66.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "PSAB.JK",
+        "ex_date": "2026-09-16",
+        "cum_date": "2026-09-15",
+        "recording_date": "2026-09-17",
+        "payment_date": "2026-09-29",
+        "dividend_amount": 30.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "KKGI.JK",
+        "ex_date": "2026-09-24",
+        "cum_date": "2026-09-23",
+        "recording_date": "2026-09-25",
+        "payment_date": "2026-10-15",
+        "dividend_amount": 20.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "HEXA.JK",
+        "ex_date": "2026-09-28",
+        "cum_date": "2026-09-25",
+        "recording_date": "2026-09-29",
+        "payment_date": "2026-10-21",
+        "dividend_amount": 239.3,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "IFII.JK",
+        "ex_date": "2026-09-29",
+        "cum_date": "2026-09-28",
+        "recording_date": "2026-09-30",
+        "payment_date": "2026-10-15",
+        "dividend_amount": 5.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "VICO.JK",
+        "ex_date": "2026-09-29",
+        "cum_date": "2026-09-28",
+        "recording_date": "2026-09-30",
+        "payment_date": "2026-10-22",
+        "dividend_amount": 8.0,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "BSSR.JK",
+        "ex_date": "2026-09-30",
+        "cum_date": "2026-09-29",
+        "recording_date": "2026-10-01",
+        "payment_date": "2026-10-09",
+        "dividend_amount": 406.161,
+        "dividend_yield": null
+      },
+      {
+        "symbol": "CDIA.JK",
+        "ex_date": "2026-10-01",
+        "cum_date": "2026-09-30",
+        "recording_date": "2026-10-02",
+        "payment_date": "2026-10-22",
+        "dividend_amount": 1.42218,
+        "dividend_yield": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Raw API responses and the working database are never committed
+docs/
+data/cache/
+data/sectors.db
+data/sectors.db-*

@@ -1,0 +1,1153 @@
+{
+  "path": "filings",
+  "params": {
+    "start": "2026-09-04",
+    "end": "2026-10-04",
+    "limit": 30
+  },
+  "body": {
+    "results": [
+      {
+        "title": "Harry Surjanto Hambali buys shares of Anabatic Technologies",
+        "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Harry Surjanto Hambali's insider purchase comes after Lie David Limina, Adriansyah Adnan and Inti Global Resources Indonesia in Anabatic Technologies, totaling an accumulation of 75,895,424 shares transacted at an average price of IDR 500.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-03102026-6985-00.pdf-0.pdf",
+        "timestamp": "2026-10-03T20:38:19",
+        "sector": "technology",
+        "sub_sector": "software-it-services",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "ATIC.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Harry Surjanto Hambali",
+        "holding_before": 91845461,
+        "holding_after": 91875461,
+        "amount_transaction": 30000,
+        "price": 449.133,
+        "transaction_value": 13474000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 444,
+            "amount_transacted": 7000
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 442,
+            "amount_transacted": 2200
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 446,
+            "amount_transacted": 3900
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 454,
+            "amount_transacted": 10300
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 450,
+            "amount_transacted": 600
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 452,
+            "amount_transacted": 5000
+          },
+          {
+            "date": "2026-09-25",
+            "type": "buy",
+            "price": 448,
+            "amount_transacted": 1000
+          }
+        ],
+        "share_percentage_before": 3.17,
+        "share_percentage_after": 3.17,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Mufg Bank sells shares of Adira Dinamika Multi Finance",
+        "body": "Mufg Bank sold 55,938,400 shares of Adira Dinamika Multi Finance. This decreases their holdings from 233,440,159 to 177,501,759 shares. The stated purpose of the transaction was sale of a portion of shares to meet the free‑float requirement of pt adira dinamika multi finance tbk..",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-3882-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T21:53:06",
+        "sector": "financials",
+        "sub_sector": "financing-service",
+        "tags": [
+          "divestment",
+          "free_float_compliance"
+        ],
+        "symbol": "ADMF.JK",
+        "transaction_type": "sell",
+        "holder_type": "insider",
+        "holder_name": "Mufg Bank",
+        "holding_before": 233440159,
+        "holding_after": 177501759,
+        "amount_transaction": 55938400,
+        "price": 7800.0,
+        "transaction_value": 436319520000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-29",
+            "type": "sell",
+            "price": 7800,
+            "amount_transacted": 55938400
+          }
+        ],
+        "share_percentage_before": 18.89,
+        "share_percentage_after": 14.36,
+        "share_percentage_transaction": 4.53,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Visionary Capital Global buys shares of Platinum Wahab Nusantara",
+        "body": "Visionary Capital Global bought 2,030,032,377 shares of Platinum Wahab Nusantara. This increases their holdings from 0 to 2,030,032,377 shares. The stated purpose of the transaction was direct investment pursuant to the cspa.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-3251-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T19:41:32",
+        "sector": "consumer-non-cyclicals",
+        "sub_sector": "food-beverage",
+        "tags": [
+          "investment",
+          "takeover"
+        ],
+        "symbol": "TGUK.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Visionary Capital Global",
+        "holding_before": 0,
+        "holding_after": 2030032377,
+        "amount_transaction": 2030032377,
+        "price": 20.0,
+        "transaction_value": 40600647540.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-02",
+            "type": "buy",
+            "price": 20,
+            "amount_transacted": 2030032377
+          }
+        ],
+        "share_percentage_before": 0.0,
+        "share_percentage_after": 56.84,
+        "share_percentage_transaction": 56.84,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Dinasti Kreatif Indonesia sells shares of Platinum Wahab Nusantara",
+        "body": "Dinasti Kreatif Indonesia sold 2,030,032,377 shares of Platinum Wahab Nusantara. This decreases their holdings from 2,476,250,000 to 446,217,623 shares. The stated purpose of the transaction was direct divestiture in accordance with the cspa.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-5070-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T19:28:14",
+        "sector": "consumer-non-cyclicals",
+        "sub_sector": "food-beverage",
+        "tags": [
+          "divestment",
+          "takeover"
+        ],
+        "symbol": "TGUK.JK",
+        "transaction_type": "sell",
+        "holder_type": "insider",
+        "holder_name": "Dinasti Kreatif Indonesia",
+        "holding_before": 2476250000,
+        "holding_after": 446217623,
+        "amount_transaction": 2030032377,
+        "price": 20.0,
+        "transaction_value": 40600647540.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-02",
+            "type": "sell",
+            "price": 20,
+            "amount_transacted": 2030032377
+          }
+        ],
+        "share_percentage_before": 69.33,
+        "share_percentage_after": 12.49,
+        "share_percentage_transaction": 56.84,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Adika Aryasthana Bakrie buys shares of Bumi Resources Minerals",
+        "body": "This is Adika Aryasthana Bakrie's 3rd insider purchase in the last 6 months, totaling an accumulation of 1,512,800 shares transacted at an average price of IDR 660. Adika Aryasthana Bakrie's ownership in Bumi Resources Minerals has decreased from 0.0% to 0.0% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-3323-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T18:30:06",
+        "sector": "basic-materials",
+        "sub_sector": "basic-materials",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "BRMS.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Adika Aryasthana Bakrie",
+        "holding_before": 1122900,
+        "holding_after": 1512800,
+        "amount_transaction": 389900,
+        "price": 640.0,
+        "transaction_value": 249536000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-28",
+            "type": "buy",
+            "price": 640,
+            "amount_transacted": 389900
+          }
+        ],
+        "share_percentage_before": 0.0,
+        "share_percentage_after": 0.0,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Victoria Investama sells shares of Bhuwanatala Indah Permai",
+        "body": "Victoria Investama sold 140,000,000 shares of Bhuwanatala Indah Permai. This decreases their holdings from 573,267,000 to 433,267,000 shares. The stated purpose of the transaction was portfolio strategy revision.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-5866-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T17:57:21",
+        "sector": "properties-real-estate",
+        "sub_sector": "properties-real-estate",
+        "tags": [
+          "divestment"
+        ],
+        "symbol": "BIPP.JK",
+        "transaction_type": "sell",
+        "holder_type": "insider",
+        "holder_name": "Victoria Investama",
+        "holding_before": 573267000,
+        "holding_after": 433267000,
+        "amount_transaction": 140000000,
+        "price": 60.0,
+        "transaction_value": 8400000000.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "sell",
+            "price": 60,
+            "amount_transacted": 140000000
+          }
+        ],
+        "share_percentage_before": 11.4,
+        "share_percentage_after": 8.62,
+        "share_percentage_transaction": 2.78,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Sintawati Halim's position in Erajaya Swasembada",
+        "body": "Sintawati Halim executed a transaction for 3,155,316 shares of Erajaya Swasembada. This increases their holdings from 10,655,315 to 13,810,631 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-4475-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T17:08:51",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Sintawati Halim",
+        "holding_before": 10655315,
+        "holding_after": 13810631,
+        "amount_transaction": 3155316,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 3155316
+          }
+        ],
+        "share_percentage_before": 0.07,
+        "share_percentage_after": 0.09,
+        "share_percentage_transaction": 0.02,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Budiarto Halim's position in Erajaya Swasembada",
+        "body": "Budiarto Halim executed a transaction for 2,243,305 shares of Erajaya Swasembada. This increases their holdings from 8,493,306 to 10,736,611 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-4096-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T17:03:46",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Budiarto Halim",
+        "holding_before": 8493306,
+        "holding_after": 10736611,
+        "amount_transaction": 2243305,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 2243305
+          }
+        ],
+        "share_percentage_before": 0.05,
+        "share_percentage_after": 0.07,
+        "share_percentage_transaction": 0.02,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Samuel Sekuritas Indonesia sells shares of Sentul City",
+        "body": "This is Samuel Sekuritas Indonesia's 17th insider disposal in the last 6 months, totaling a distribution of 15,634,471,800 shares transacted at an average price of IDR 74. Samuel Sekuritas Indonesia's ownership in Sentul City has decreased from 5.59% to 5.18% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-7168-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T16:43:33",
+        "sector": "properties-real-estate",
+        "sub_sector": "properties-real-estate",
+        "tags": [
+          "repurchase-agreement"
+        ],
+        "symbol": "BKSL.JK",
+        "transaction_type": "sell",
+        "holder_type": "institution",
+        "holder_name": "Samuel Sekuritas Indonesia",
+        "holding_before": 9372209400,
+        "holding_after": 8688323600,
+        "amount_transaction": 683885800,
+        "price": 72.0,
+        "transaction_value": 49239777600.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-02",
+            "type": "sell",
+            "price": 72,
+            "amount_transacted": 683885800
+          }
+        ],
+        "share_percentage_before": 5.59,
+        "share_percentage_after": 5.18,
+        "share_percentage_transaction": 0.41,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Muhammad Sulthon buys shares of Bumi Resources Minerals",
+        "body": "This is Muhammad Sulthon's 3rd insider purchase in the last 6 months, totaling an accumulation of 310,500 shares transacted at an average price of IDR 565. Muhammad Sulthon's ownership in Bumi Resources Minerals has decreased from 0.0% to 0.0% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-3275-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T16:38:28",
+        "sector": "basic-materials",
+        "sub_sector": "basic-materials",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "BRMS.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Muhammad Sulthon",
+        "holding_before": 220500,
+        "holding_after": 310500,
+        "amount_transaction": 90000,
+        "price": 545.0,
+        "transaction_value": 49050000.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-02",
+            "type": "buy",
+            "price": 545,
+            "amount_transacted": 90000
+          }
+        ],
+        "share_percentage_before": 0.0,
+        "share_percentage_after": 0.0,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Samuel Sekuritas Indonesia sells shares of MD Entertainment",
+        "body": "This is Samuel Sekuritas Indonesia's 20th insider disposal in the last 6 months, totaling a distribution of 1,705,735,300 shares transacted at an average price of IDR 1,973. Samuel Sekuritas Indonesia's ownership in MD Entertainment has decreased from 9.64% to 9.0% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-6592-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T16:33:53",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "media-entertainment",
+        "tags": [
+          "repurchase-agreement"
+        ],
+        "symbol": "FILM.JK",
+        "transaction_type": "sell",
+        "holder_type": "institution",
+        "holder_name": "Samuel Sekuritas Indonesia",
+        "holding_before": 1049325300,
+        "holding_after": 980247600,
+        "amount_transaction": 69077700,
+        "price": 740.0,
+        "transaction_value": 51117498000.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-02",
+            "type": "sell",
+            "price": 740,
+            "amount_transacted": 69077700
+          }
+        ],
+        "share_percentage_before": 9.64,
+        "share_percentage_after": 9.0,
+        "share_percentage_transaction": 0.64,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Siwie Honoris buys shares of Multi Indocitra",
+        "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Siwie Honoris's insider purchase comes after Anthony Honoris and Buana Graha Utama in Multi Indocitra, totaling an accumulation of 4,013,200 shares transacted at an average price of IDR 512.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-9955-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T16:27:09",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "household-goods",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "MICE.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Siwie Honoris",
+        "holding_before": 1960300,
+        "holding_after": 2060300,
+        "amount_transaction": 100000,
+        "price": 492.0,
+        "transaction_value": 49200000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 490,
+            "amount_transacted": 20000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 492,
+            "amount_transacted": 20000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 496,
+            "amount_transacted": 20000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 488,
+            "amount_transacted": 20000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 494,
+            "amount_transacted": 20000
+          }
+        ],
+        "share_percentage_before": 0.327,
+        "share_percentage_after": 0.343,
+        "share_percentage_transaction": 0.016,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Tunggal Jaya Investama buys shares of Impack Pratama Industri",
+        "body": "This transaction is part of a cluster-buy transaction amidst other insider buys during the last 6 months. Tunggal Jaya Investama's insider purchase comes after Harimas Tunggal Perkasa, Haryanto Tjiptodihardjo, Impack Pratama Industri and Phillip Tjipto in Impack Pratama Industri, totaling an accumulation of 2,382,222,957 shares transacted at an average price of IDR 1,357.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-5970-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T15:57:22",
+        "sector": "industrials",
+        "sub_sector": "industrial-goods",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "IMPC.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Tunggal Jaya Investama",
+        "holding_before": 21127700094,
+        "holding_after": 21136384094,
+        "amount_transaction": 8684000,
+        "price": 1406.402,
+        "transaction_value": 12213196400.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-29",
+            "type": "buy",
+            "price": 1384,
+            "amount_transacted": 1714700
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 1410,
+            "amount_transacted": 300000
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 1412,
+            "amount_transacted": 6669300
+          }
+        ],
+        "share_percentage_before": 38.48,
+        "share_percentage_after": 38.49,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Arya Pradana Setiadharma buys shares of Arkora Hydro",
+        "body": "Arya Pradana Setiadharma bought 220,000 shares of Arkora Hydro. This increases their holdings from 1,725,000 to 1,945,000 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-6068-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T15:47:36",
+        "sector": "infrastructures",
+        "sub_sector": "utilities",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "ARKO.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Arya Pradana Setiadharma",
+        "holding_before": 1725000,
+        "holding_after": 1945000,
+        "amount_transaction": 220000,
+        "price": 3235.136,
+        "transaction_value": 711730000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 3307,
+            "amount_transacted": 135000
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 3121,
+            "amount_transacted": 85000
+          }
+        ],
+        "share_percentage_before": 0.06,
+        "share_percentage_after": 0.07,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Yulie Sekuritas Indonesia sells shares of Metropolitan Land",
+        "body": "Yulie Sekuritas Indonesia sold 150,000,000 shares of Metropolitan Land. This decreases their holdings from 553,900,961 to 403,900,961 shares. The stated purpose of the transaction was sale of shares.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-4727-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T15:42:50",
+        "sector": "properties-real-estate",
+        "sub_sector": "properties-real-estate",
+        "tags": [
+          "divestment"
+        ],
+        "symbol": "MTLA.JK",
+        "transaction_type": "sell",
+        "holder_type": "insider",
+        "holder_name": "Yulie Sekuritas Indonesia",
+        "holding_before": 553900961,
+        "holding_after": 403900961,
+        "amount_transaction": 150000000,
+        "price": 690.0,
+        "transaction_value": 103500000000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-30",
+            "type": "sell",
+            "price": 690,
+            "amount_transacted": 150000000
+          }
+        ],
+        "share_percentage_before": 7.24,
+        "share_percentage_after": 5.28,
+        "share_percentage_transaction": 1.96,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Optimus Vision Global buys shares of Panca Global Kapital",
+        "body": "Optimus Vision Global bought 105,268,258 shares of Panca Global Kapital. This increases their holdings from 81,190,916 to 191,778,774 shares. The stated purpose of the transaction was purchase.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-0150-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T15:37:11",
+        "sector": "financials",
+        "sub_sector": "holding-investment-companies",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "PEGE.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Optimus Vision Global",
+        "holding_before": 81190916,
+        "holding_after": 191778774,
+        "amount_transaction": 105268258,
+        "price": 189.998,
+        "transaction_value": 20000724220.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-28",
+            "type": "buy",
+            "price": 142,
+            "amount_transacted": 5100
+          },
+          {
+            "date": "2026-09-28",
+            "type": "buy",
+            "price": 190,
+            "amount_transacted": 105263158
+          }
+        ],
+        "share_percentage_before": 2.15,
+        "share_percentage_after": 5.08,
+        "share_percentage_transaction": 2.93,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Edwin Soeryadjaya buys shares of Saratoga Investama Sedaya",
+        "body": "This is Edwin Soeryadjaya's 11th insider purchase in the last 6 months, totaling an accumulation of 12,084,600 shares transacted at an average price of IDR 1,796. Edwin Soeryadjaya's ownership in Saratoga Investama Sedaya has increased from 35.965% to 35.972% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-8239-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T14:32:18",
+        "sector": "financials",
+        "sub_sector": "holding-investment-companies",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "SRTG.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Edwin Soeryadjaya",
+        "holding_before": 4878651390,
+        "holding_after": 4879590290,
+        "amount_transaction": 938900,
+        "price": 1779.52,
+        "transaction_value": 1670791000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 1790,
+            "amount_transacted": 528900
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 1766,
+            "amount_transacted": 410000
+          }
+        ],
+        "share_percentage_before": 35.965,
+        "share_percentage_after": 35.972,
+        "share_percentage_transaction": 0.007,
+        "idx_investor_slug": "edwin-soeryadjaya",
+        "idx_conglomerates_group_slug": "saratoga-group"
+      },
+      {
+        "title": "Change in Hasan Aula's position in Erajaya Swasembada",
+        "body": "Hasan Aula executed a transaction for 1,491,987 shares of Erajaya Swasembada. This increases their holdings from 7,741,987 to 9,233,974 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-2947-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T10:56:31",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Hasan Aula",
+        "holding_before": 7741987,
+        "holding_after": 9233974,
+        "amount_transaction": 1491987,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 1491987
+          }
+        ],
+        "share_percentage_before": 0.05,
+        "share_percentage_after": 0.06,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Joy Wahjudi's position in Erajaya Swasembada",
+        "body": "Joy Wahjudi executed a transaction for 1,904,505 shares of Erajaya Swasembada. This increases their holdings from 3,312,907 to 5,217,412 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-8245-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T10:52:13",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Joy Wahjudi",
+        "holding_before": 3312907,
+        "holding_after": 5217412,
+        "amount_transaction": 1904505,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 1904505
+          }
+        ],
+        "share_percentage_before": 0.02,
+        "share_percentage_after": 0.03,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Djohan Sutanto's position in Erajaya Swasembada",
+        "body": "Djohan Sutanto executed a transaction for 975,589 shares of Erajaya Swasembada. This increases their holdings from 1,775,590 to 2,751,179 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-5456-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T10:33:13",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Djohan Sutanto",
+        "holding_before": 1775590,
+        "holding_after": 2751179,
+        "amount_transaction": 975589,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 975589
+          }
+        ],
+        "share_percentage_before": 0.01,
+        "share_percentage_after": 0.02,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Noel Aelyo Laras Kusuma Negara sells shares of Dharma Polimetal",
+        "body": "This is Noel Aelyo Laras Kusuma Negara's 7th insider disposal in the last 6 months, totaling a distribution of 6,645,000 shares transacted at an average price of IDR 898. Noel Aelyo Laras Kusuma Negara's ownership in Dharma Polimetal has decreased from 1.69% to 1.69% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-6079-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T10:10:32",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "automobiles-components",
+        "tags": [
+          "divestment"
+        ],
+        "symbol": "DRMA.JK",
+        "transaction_type": "sell",
+        "holder_type": "insider",
+        "holder_name": "Noel Aelyo Laras Kusuma Negara",
+        "holding_before": 79650000,
+        "holding_after": 79525000,
+        "amount_transaction": 125000,
+        "price": 922.216,
+        "transaction_value": 115277000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-28",
+            "type": "sell",
+            "price": 925,
+            "amount_transacted": 85000
+          },
+          {
+            "date": "2026-09-29",
+            "type": "sell",
+            "price": 920,
+            "amount_transacted": 10400
+          },
+          {
+            "date": "2026-09-29",
+            "type": "sell",
+            "price": 915,
+            "amount_transacted": 29600
+          }
+        ],
+        "share_percentage_before": 1.69,
+        "share_percentage_after": 1.69,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Sim Chee Ping's position in Erajaya Swasembada",
+        "body": "Sim Chee Ping executed a transaction for 1,183,423 shares of Erajaya Swasembada. This increases their holdings from 7,433,425 to 8,616,848 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-9255-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T09:56:16",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Sim Chee Ping",
+        "holding_before": 7433425,
+        "holding_after": 8616848,
+        "amount_transaction": 1183423,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 1183423
+          }
+        ],
+        "share_percentage_before": 0.05,
+        "share_percentage_after": 0.05,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Change in Kim Jong Woon's position in Erajaya Swasembada",
+        "body": "Kim Jong Woon executed a transaction for 1,156,453 shares of Erajaya Swasembada. This increases their holdings from 1,156,454 to 2,312,907 shares. The stated purpose of the transaction was mesop program.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-6962-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T09:53:45",
+        "sector": "consumer-cyclicals",
+        "sub_sector": "retailing",
+        "tags": [
+          "mesop"
+        ],
+        "symbol": "ERAA.JK",
+        "transaction_type": "others",
+        "holder_type": "insider",
+        "holder_name": "Kim Jong Woon",
+        "holding_before": 1156454,
+        "holding_after": 2312907,
+        "amount_transaction": 1156453,
+        "price": 0.0,
+        "transaction_value": 0.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "others",
+            "price": null,
+            "amount_transacted": 1156453
+          }
+        ],
+        "share_percentage_before": 0.01,
+        "share_percentage_after": 0.01,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Eco Energi Perkasa buys shares of Abadi Nusantara Hijau Investama",
+        "body": "Eco Energi Perkasa bought 22,845,000 shares of Abadi Nusantara Hijau Investama. This increases their holdings from 13,135,904,682 to 13,158,749,682 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-9618-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T09:51:36",
+        "sector": "basic-materials",
+        "sub_sector": "basic-materials",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "PACK.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Eco Energi Perkasa",
+        "holding_before": 13135904682,
+        "holding_after": 13158749682,
+        "amount_transaction": 22845000,
+        "price": 581.0,
+        "transaction_value": 13272945000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 581,
+            "amount_transacted": 22845000
+          }
+        ],
+        "share_percentage_before": 38.51,
+        "share_percentage_after": 38.57,
+        "share_percentage_transaction": 0.06,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Sutadi buys shares of BFI Finance Indonesia",
+        "body": "Sutadi bought 1,500,000 shares of BFI Finance Indonesia. This increases their holdings from 22,000,000 to 23,500,000 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-02102026-6540-00.pdf-0.pdf",
+        "timestamp": "2026-10-02T09:03:52",
+        "sector": "financials",
+        "sub_sector": "financing-service",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "BFIN.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Sutadi",
+        "holding_before": 22000000,
+        "holding_after": 23500000,
+        "amount_transaction": 1500000,
+        "price": 922.5,
+        "transaction_value": 1383750000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-29",
+            "type": "buy",
+            "price": 930,
+            "amount_transacted": 500000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 925,
+            "amount_transacted": 250000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 920,
+            "amount_transacted": 250000
+          },
+          {
+            "date": "2026-09-30",
+            "type": "buy",
+            "price": 930,
+            "amount_transacted": 250000
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 900,
+            "amount_transacted": 250000
+          }
+        ],
+        "share_percentage_before": 0.15,
+        "share_percentage_after": 0.16,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Samuel Sekuritas Indonesia sells shares of Nusantara Sawit Sejahtera",
+        "body": "This is Samuel Sekuritas Indonesia's 34th insider disposal in the last 6 months, totaling a distribution of 15,438,911,800 shares transacted at an average price of IDR 640. Samuel Sekuritas Indonesia's ownership in Nusantara Sawit Sejahtera has decreased from 35.48% to 34.77% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01102026-4664-00.pdf-0.pdf",
+        "timestamp": "2026-10-01T17:42:06",
+        "sector": "consumer-non-cyclicals",
+        "sub_sector": "food-beverage",
+        "tags": [
+          "repurchase-agreement"
+        ],
+        "symbol": "NSSS.JK",
+        "transaction_type": "sell",
+        "holder_type": "institution",
+        "holder_name": "Samuel Sekuritas Indonesia",
+        "holding_before": 8445674400,
+        "holding_after": 8274869100,
+        "amount_transaction": 170805300,
+        "price": 770.0,
+        "transaction_value": 131520081000.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "sell",
+            "price": 770,
+            "amount_transacted": 170805300
+          }
+        ],
+        "share_percentage_before": 35.48,
+        "share_percentage_after": 34.77,
+        "share_percentage_transaction": 0.71,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Samuel Sekuritas Indonesia sells shares of Abadi Lestari Indonesia",
+        "body": "This is Samuel Sekuritas Indonesia's 8th insider disposal in the last 6 months, totaling a distribution of 210,520,900 shares transacted at an average price of IDR 3,741. Samuel Sekuritas Indonesia's ownership in Abadi Lestari Indonesia has decreased from 6.57% to 5.62% in this period.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01102026-7792-00.pdf-0.pdf",
+        "timestamp": "2026-10-01T17:38:45",
+        "sector": "consumer-non-cyclicals",
+        "sub_sector": "food-beverage",
+        "tags": [
+          "repurchase-agreement"
+        ],
+        "symbol": "RLCO.JK",
+        "transaction_type": "sell",
+        "holder_type": "institution",
+        "holder_name": "Samuel Sekuritas Indonesia",
+        "holding_before": 205334300,
+        "holding_after": 175686100,
+        "amount_transaction": 29648200,
+        "price": 4090.0,
+        "transaction_value": 121261138000.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "sell",
+            "price": 4090,
+            "amount_transacted": 29648200
+          }
+        ],
+        "share_percentage_before": 6.57,
+        "share_percentage_after": 5.62,
+        "share_percentage_transaction": 0.95,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Muhammad Sulthon buys shares of Bumi Resources Minerals",
+        "body": "Muhammad Sulthon bought 180,500 shares of Bumi Resources Minerals. This increases their holdings from 40,000 to 220,500 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01102026-1439-00.pdf-0.pdf",
+        "timestamp": "2026-10-01T16:56:54",
+        "sector": "basic-materials",
+        "sub_sector": "basic-materials",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "BRMS.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Muhammad Sulthon",
+        "holding_before": 40000,
+        "holding_after": 220500,
+        "amount_transaction": 180500,
+        "price": 559.155,
+        "transaction_value": 100927500.0,
+        "price_transaction": [
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 565,
+            "amount_transacted": 85000
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 545,
+            "amount_transacted": 10000
+          },
+          {
+            "date": "2026-10-01",
+            "type": "buy",
+            "price": 555,
+            "amount_transacted": 85500
+          }
+        ],
+        "share_percentage_before": 0.0,
+        "share_percentage_after": 0.0,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Muhammad Sulthon buys shares of Bumi Resources Minerals",
+        "body": "Muhammad Sulthon bought 40,000 shares of Bumi Resources Minerals. This increases their holdings from 0 to 40,000 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01102026-9695-00.pdf-0.pdf",
+        "timestamp": "2026-10-01T16:44:26",
+        "sector": "basic-materials",
+        "sub_sector": "basic-materials",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "BRMS.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Muhammad Sulthon",
+        "holding_before": 0,
+        "holding_after": 40000,
+        "amount_transaction": 40000,
+        "price": 640.0,
+        "transaction_value": 25600000.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-28",
+            "type": "buy",
+            "price": 640,
+            "amount_transacted": 40000
+          }
+        ],
+        "share_percentage_before": 0.0,
+        "share_percentage_after": 0.0,
+        "share_percentage_transaction": 0.0,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      },
+      {
+        "title": "Aldo Henry Artoko buys shares of Arkora Hydro",
+        "body": "Aldo Henry Artoko bought 279,400 shares of Arkora Hydro. This increases their holdings from 4,820,600 to 5,100,000 shares. The stated purpose of the transaction was investment.",
+        "source": "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_KSEI/LK-01102026-2611-00.pdf-0.pdf",
+        "timestamp": "2026-10-01T16:30:38",
+        "sector": "infrastructures",
+        "sub_sector": "utilities",
+        "tags": [
+          "investment"
+        ],
+        "symbol": "ARKO.JK",
+        "transaction_type": "buy",
+        "holder_type": "insider",
+        "holder_name": "Aldo Henry Artoko",
+        "holding_before": 4820600,
+        "holding_after": 5100000,
+        "amount_transaction": 279400,
+        "price": 3174.0,
+        "transaction_value": 886815600.0,
+        "price_transaction": [
+          {
+            "date": "2026-09-29",
+            "type": "buy",
+            "price": 3174,
+            "amount_transacted": 279400
+          }
+        ],
+        "share_percentage_before": 0.16,
+        "share_percentage_after": 0.17,
+        "share_percentage_transaction": 0.01,
+        "idx_investor_slug": null,
+        "idx_conglomerates_group_slug": null
+      }
+    ],
+    "pagination": {
+      "total_count": 318,
+      "showing": 30,
+      "limit": 30,
+      "offset": 0,
+      "has_next": true,
+      "has_previous": false,
+      "next_offset": 30,
+      "previous_offset": null
+    }
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "path": "brokers",
+  "params": {},
+  "body": [
+    {
+      "code": "AD",
+      "name": "Sukadana Prima Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AF",
+      "name": "Harita Kencana Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AG",
+      "name": "Kiwoom Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AH",
+      "name": "Shinhan Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "AI",
+      "name": "Kay Hian Sekuritas",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AK",
+      "name": "UBS Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "AO",
+      "name": "Erdikha Elit Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AP",
+      "name": "Pacific Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "unknown",
+      "license_type": "Margin, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "AR",
+      "name": "Binaartha Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Derivatives, Derivatives LP, Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "AT",
+      "name": "Phintraco Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Derivatives, Derivatives LP, Stock LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "AZ",
+      "name": "Sucor Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "BB",
+      "name": "Verdhana Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "BF",
+      "name": "Inti Fikasa Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "BK",
+      "name": "J.P. Morgan Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "BQ",
+      "name": "Korea Investment and Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DP ETF, SW LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "BR",
+      "name": "Trust Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Derivatives, Margin, Online, Online AO, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "BS",
+      "name": "Equity Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "CC",
+      "name": "Mandiri Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Members Sponsoring PED, DMA, DMA AO, DP ETF, Stock LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, SOTS"
+    },
+    {
+      "code": "CD",
+      "name": "Mega Capital Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "CP",
+      "name": "KB Valbury Sekuritas",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "DD",
+      "name": "Makindo Sekuritas",
+      "is_foreign": false,
+      "cohort": "retail",
+      "license_type": "Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "DH",
+      "name": "Sinarmas Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DP ETF, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "DP",
+      "name": "DBS Vickers Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "DR",
+      "name": "RHB Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, SW LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "DU",
+      "name": "Kaf Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Online, Online AO, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "DX",
+      "name": "Bahana Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, DP ETF, Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "EL",
+      "name": "Evergreen Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "EP",
+      "name": "MNC Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "ES",
+      "name": "Ekokapital Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Online, Perantara Pedagang Efek"
+    },
+    {
+      "code": "FO",
+      "name": "Forte Global Sekuritas",
+      "is_foreign": false,
+      "cohort": "unknown",
+      "license_type": "Online, Perantara Pedagang Efek"
+    },
+    {
+      "code": "FS",
+      "name": "Yuanta Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "FZ",
+      "name": "Waterfront Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "AO, Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "GA",
+      "name": "Bnc Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Perantara Pedagang Efek"
+    },
+    {
+      "code": "GI",
+      "name": "Webull Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Online AO, Perantara Pedagang Efek"
+    },
+    {
+      "code": "GR",
+      "name": "Panin Sekuritas TBK.",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DP ETF, Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek, SOTS"
+    },
+    {
+      "code": "HD",
+      "name": "KGI Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, SW LP, Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "HP",
+      "name": "Henan Putihrai Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "IC",
+      "name": "Integrity Capital Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "ID",
+      "name": "Anugerah Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Online, Online AO, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "IF",
+      "name": "Samuel Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "IH",
+      "name": "Indo Harvest Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Online, Online AO, Perantara Pedagang Efek"
+    },
+    {
+      "code": "II",
+      "name": "Danatama Makmur Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Manajer Investasi, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "IN",
+      "name": "Investindo Nusantara Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "IT",
+      "name": "Inti Teladan Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Perantara Pedagang Efek"
+    },
+    {
+      "code": "IU",
+      "name": "Indo Capital Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "KI",
+      "name": "Ciptadana Sekuritas Asia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "KK",
+      "name": "Phillip Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DP ETF, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "KZ",
+      "name": "CLSA Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "LG",
+      "name": "Trimegah Sekuritas Indonesia TBK.",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "LS",
+      "name": "Reliance Sekuritas Indonesia TBK.",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "MG",
+      "name": "Semesta Indovest Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Short Selling, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, Short Selling"
+    },
+    {
+      "code": "MI",
+      "name": "Victoria Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "MU",
+      "name": "Minna Padi Investama Sekuritas TBK",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "NI",
+      "name": "BNI Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "OD",
+      "name": "BRI Danareksa Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "OK",
+      "name": "Net Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Perantara Pedagang Efek"
+    },
+    {
+      "code": "PC",
+      "name": "Fac Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Perantara Pedagang Efek, SOTS"
+    },
+    {
+      "code": "PD",
+      "name": "Indo Premier Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DP ETF, Margin, Manajer Investasi, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "PF",
+      "name": "Danasakti Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "PG",
+      "name": "Panca Global Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "PI",
+      "name": "Magenta Kapital Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "AO, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "PO",
+      "name": "Pilarmas Investindo Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "PP",
+      "name": "Aldiracita Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "retail",
+      "license_type": "DMA, Margin, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "QA",
+      "name": "Tuntun Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "retail",
+      "license_type": "Online, Online AO, Perantara Pedagang Efek"
+    },
+    {
+      "code": "RB",
+      "name": "Ina Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Manajer Investasi, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "RF",
+      "name": "Buana Capital Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "RG",
+      "name": "Profindo Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "RO",
+      "name": "Pluang Maju Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "RS",
+      "name": "Yulie Sekuritas Indonesia TBK.",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "RX",
+      "name": "Macquarie Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "SA",
+      "name": "Elit Sukses Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "SF",
+      "name": "Surya Fajar Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "SH",
+      "name": "Artha Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "SQ",
+      "name": "BCA Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "DMA, DP ETF, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "SS",
+      "name": "Supra Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Perantara Pedagang Efek"
+    },
+    {
+      "code": "TF",
+      "name": "Laba Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Derivatives, Derivatives LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "TP",
+      "name": "OCBC Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "TS",
+      "name": "Dwidana Sakti Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "XA",
+      "name": "NH Korindo Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "XC",
+      "name": "Ajaib Sekuritas Asia",
+      "is_foreign": false,
+      "cohort": "retail",
+      "license_type": "Derivatives, Short Selling, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, Short Selling"
+    },
+    {
+      "code": "XL",
+      "name": "Stockbit Sekuritas Digital",
+      "is_foreign": false,
+      "cohort": "retail",
+      "license_type": "Online, Online AO, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "YB",
+      "name": "Yakin Bertumbuh Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "YJ",
+      "name": "Lotus Andalan Sekuritas",
+      "is_foreign": false,
+      "cohort": "institutional",
+      "license_type": "Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO"
+    },
+    {
+      "code": "YO",
+      "name": "Amantara Sekuritas Indonesia",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Penjamin Emisi Efek, Perantara Pedagang Efek"
+    },
+    {
+      "code": "YP",
+      "name": "Mirae Asset Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DP ETF, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "YU",
+      "name": "CGS International Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "APERD, DMA, DMA AO, SW LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "ZP",
+      "name": "Maybank Sekuritas Indonesia",
+      "is_foreign": true,
+      "cohort": "institutional",
+      "license_type": "DMA, DMA AO, SW LP, Margin, Online, Online AO, Penjamin Emisi Efek, Perantara Pedagang Efek, RT AO, SOTS"
+    },
+    {
+      "code": "ZR",
+      "name": "Bumiputera Sekuritas",
+      "is_foreign": false,
+      "cohort": "mixed",
+      "license_type": "Margin, Online, Penjamin Emisi Efek, Perantara Pedagang Efek"
+    }
+  ]
+}
