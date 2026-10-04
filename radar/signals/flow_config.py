@@ -31,3 +31,8 @@ INSIDER_DAYS = 30
 DIVERGENCE_FLAG_THRESHOLD = 0.3
 UNUSUAL_VOLUME_RATIO = 2.0
 VOLUME_MEDIAN_DAYS = 20
+
+# Daily brief (changes_daily.py)
+BRIEF_TOP_N = 5               # "new_top5"
+STREAK_BRIEF_MIN_DAYS = 3     # a foreign streak counts as started/ended at this length
+UPCOMING_DAYS = 14            # corporate actions listed in "upcoming", calendar days ahead
