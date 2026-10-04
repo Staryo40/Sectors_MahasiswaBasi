@@ -10,3 +10,6 @@ docs/
 data/cache/
 data/sectors.db
 data/sectors.db-*
+
+# Demo UI sample built from real API data
+web/demo/sample/
