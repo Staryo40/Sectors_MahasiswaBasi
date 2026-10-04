@@ -1,11 +1,11 @@
-"""Write contract-shaped sample output into web/demo/sample/ for the demo UI.
+"""Write contract-shaped sample output into data/demo/ for the demo UI.
 
 Series, brokers, filings and fundamentals are real rows from data/sectors.db.
 SCORES, RANKS AND REASONS ARE RANDOM PLACEHOLDERS: the real ones come from the
 signal modules via ``python -m radar export``. This exists only so the demo UI
 can be looked at before those modules are finished.
 
-Run from the repo root: ``python web/demo/make_sample.py``
+Run from the repo root: ``python backend/scripts/generate_demo.py``
 """
 
 from __future__ import annotations
@@ -16,11 +16,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "backend"))
 
 from radar import config, db  # noqa: E402
 
-OUT = Path(__file__).resolve().parent / "sample"
+OUT = ROOT / "data" / "demo"
 FLOW_KEYS = [
     ("foreign_5d", 0.30),
     ("foreign_streak", 0.15),

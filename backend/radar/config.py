@@ -9,7 +9,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "data"
 CACHE_DIR = DATA_DIR / "cache"
 DB_PATH = DATA_DIR / "sectors.db"

@@ -3,16 +3,17 @@ name = "sectors-radar"
 version = "0.1.0"
 description = "Smart-money flow radar for IDX stocks, built on the Sectors Financial API"
 requires-python = ">=3.11"
-dependencies = ["jsonschema>=4"]
+dependencies = ["jsonschema>=4", "fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "httpx>=0.27,<1"]
 
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
+where = ["backend"]
 include = ["radar*"]
 
 [tool.setuptools.package-data]
@@ -20,5 +21,5 @@ radar = ["ingest/schema.sql", "export/schemas/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = ["backend", "."]
 addopts = "--import-mode=importlib"
