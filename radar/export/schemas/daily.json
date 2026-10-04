@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "symbol": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "sector": {
+        "type": "string"
+      },
+      "rank": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "rank_prev": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1
+      },
+      "flow_score": {
+        "type": "number",
+        "minimum": -100,
+        "maximum": 100
+      },
+      "flow_score_prev": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "label": {
+        "enum": [
+          "strong_accumulation",
+          "accumulation",
+          "neutral",
+          "distribution",
+          "strong_distribution"
+        ]
+      },
+      "components": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "value": {
+              "type": "number",
+              "minimum": -1,
+              "maximum": 1
+            },
+            "weight": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "contribution": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "key",
+            "value",
+            "weight",
+            "contribution"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "flags": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "divergence_accumulation",
+            "divergence_distribution",
+            "unusual_volume"
+          ]
+        }
+      },
+      "reasons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "params": {
+              "type": "object"
+            },
+            "text_en": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "code",
+            "params",
+            "text_en"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "close": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "change_1d": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "return_10d": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "volume_ratio": {
+        "type": [
+          "number",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "symbol",
+      "name",
+      "sector",
+      "rank",
+      "rank_prev",
+      "flow_score",
+      "flow_score_prev",
+      "label",
+      "components",
+      "flags",
+      "reasons",
+      "close",
+      "change_1d",
+      "return_10d",
+      "volume_ratio"
+    ],
+    "additionalProperties": false
+  }
+}

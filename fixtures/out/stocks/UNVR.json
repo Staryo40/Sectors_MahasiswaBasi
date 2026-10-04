@@ -1,0 +1,250 @@
+{
+  "symbol": "UNVR",
+  "daily": {
+    "symbol": "UNVR",
+    "name": "UNVR (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 5,
+    "rank_prev": 1,
+    "flow_score": -40,
+    "flow_score_prev": -20,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": -0.4,
+        "contribution": -12
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": -0.4,
+        "contribution": -6
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": -0.4,
+        "contribution": -10
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": -0.4,
+        "contribution": -6
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": -0.4,
+        "contribution": -4
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": -0.4,
+        "contribution": -2
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 1,
+          "direction": "out"
+        },
+        "text_en": "Foreign flow shows 1 consecutive days of distribution."
+      }
+    ],
+    "close": 1400,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.0999999999999999
+  },
+  "investor": {
+    "symbol": "UNVR",
+    "name": "UNVR (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 5,
+    "rank_prev": 1,
+    "investor_score": 45,
+    "pillars": {
+      "quality": 50,
+      "valuation": 30,
+      "slow_flow": 50
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.13,
+        "percentile": 0
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.010000000000000002,
+        "percentile": 0
+      }
+    ],
+    "coverage": 0.8,
+    "reasons": [
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "score": 37
+        },
+        "text_en": "Illustrative dividend yield signal."
+      }
+    ]
+  },
+  "series": {
+    "price": [
+      {
+        "date": "2026-09-28",
+        "close": 1400,
+        "volume": 100000
+      },
+      {
+        "date": "2026-09-29",
+        "close": 1398,
+        "volume": 101000
+      },
+      {
+        "date": "2026-09-30",
+        "close": 1396,
+        "volume": 102000
+      },
+      {
+        "date": "2026-10-01",
+        "close": 1394,
+        "volume": 103000
+      },
+      {
+        "date": "2026-10-02",
+        "close": 1392,
+        "volume": 104000
+      }
+    ],
+    "foreign_flow": [
+      {
+        "date": "2026-09-28",
+        "net": -100000,
+        "cum": -100000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-29",
+        "net": -100000,
+        "cum": -200000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-30",
+        "net": -100000,
+        "cum": -300000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-01",
+        "net": -100000,
+        "cum": -400000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-02",
+        "net": -100000,
+        "cum": -500000,
+        "share": 0.1
+      }
+    ],
+    "flow_score": [
+      {
+        "date": "2026-09-28",
+        "score": -30
+      },
+      {
+        "date": "2026-09-29",
+        "score": -28
+      },
+      {
+        "date": "2026-09-30",
+        "score": -26
+      },
+      {
+        "date": "2026-10-01",
+        "score": -24
+      },
+      {
+        "date": "2026-10-02",
+        "score": -22
+      }
+    ],
+    "holder_mix": [
+      {
+        "date": "2026-07-31",
+        "institutional_pct": 60,
+        "individual_pct": 40,
+        "foreign_pct": 20
+      },
+      {
+        "date": "2026-08-31",
+        "institutional_pct": 59,
+        "individual_pct": 41,
+        "foreign_pct": 21
+      },
+      {
+        "date": "2026-09-30",
+        "institutional_pct": 58,
+        "individual_pct": 42,
+        "foreign_pct": 22
+      }
+    ]
+  },
+  "top_brokers": {
+    "buyers": [
+      {
+        "code": "AA",
+        "name": "Illustrative broker",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": 100000,
+        "avg_price": 1000
+      }
+    ],
+    "sellers": [
+      {
+        "code": "ZZ",
+        "name": "Illustrative broker",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -100000,
+        "avg_price": 1010
+      }
+    ]
+  },
+  "filings": [
+    {
+      "date": "2026-10-01",
+      "transaction_type": "accumulation",
+      "holder_type": "insider"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-08",
+      "type": "dividend_ex_date",
+      "detail": "Illustrative dividend ex-date"
+    }
+  ],
+  "fundamentals": [
+    {
+      "key": "roe_ttm",
+      "value": 0.13,
+      "peer_avg": null,
+      "percentile": 0
+    }
+  ]
+}

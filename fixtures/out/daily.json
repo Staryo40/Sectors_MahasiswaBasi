@@ -1,0 +1,320 @@
+[
+  {
+    "symbol": "BBCA",
+    "name": "BBCA (illustrative sample)",
+    "sector": "Financials",
+    "rank": 1,
+    "rank_prev": 5,
+    "flow_score": 60,
+    "flow_score_prev": 40,
+    "label": "strong_accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": 0.6,
+        "contribution": 18
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": 0.6,
+        "contribution": 9
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": 0.6,
+        "contribution": 15
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": 0.6,
+        "contribution": 9
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": 0.6,
+        "contribution": 6
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": 0.6,
+        "contribution": 3
+      }
+    ],
+    "flags": [
+      "divergence_accumulation",
+      "unusual_volume"
+    ],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 5,
+          "direction": "in"
+        },
+        "text_en": "Foreign flow shows 5 consecutive days of accumulation."
+      }
+    ],
+    "close": 1000,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 2.3
+  },
+  {
+    "symbol": "TLKM",
+    "name": "TLKM (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 2,
+    "rank_prev": 4,
+    "flow_score": 35,
+    "flow_score_prev": 25,
+    "label": "accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": 0.35,
+        "contribution": 10.5
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": 0.35,
+        "contribution": 5.25
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": 0.35,
+        "contribution": 8.75
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": 0.35,
+        "contribution": 5.25
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": 0.35,
+        "contribution": 3.5
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": 0.35,
+        "contribution": 1.75
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "in"
+        },
+        "text_en": "Foreign flow shows 4 consecutive days of accumulation."
+      }
+    ],
+    "close": 1100,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.9999999999999998
+  },
+  {
+    "symbol": "ADRO",
+    "name": "ADRO (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 3,
+    "rank_prev": 3,
+    "flow_score": 10,
+    "flow_score_prev": 10,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": 0.1,
+        "contribution": 3
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": 0.1,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": 0.1,
+        "contribution": 2.5
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": 0.1,
+        "contribution": 1.5
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": 0.1,
+        "contribution": 1
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": 0.1,
+        "contribution": 0.5
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 3,
+          "direction": "in"
+        },
+        "text_en": "Foreign flow shows 3 consecutive days of accumulation."
+      }
+    ],
+    "close": 1200,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.6999999999999997
+  },
+  {
+    "symbol": "ASII",
+    "name": "ASII (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 4,
+    "rank_prev": 2,
+    "flow_score": -15,
+    "flow_score_prev": -5,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": -0.15,
+        "contribution": -4.5
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": -0.15,
+        "contribution": -2.25
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": -0.15,
+        "contribution": -3.75
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": -0.15,
+        "contribution": -2.25
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": -0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": -0.15,
+        "contribution": -0.75
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "out"
+        },
+        "text_en": "Foreign flow shows 2 consecutive days of distribution."
+      }
+    ],
+    "close": 1300,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.4
+  },
+  {
+    "symbol": "UNVR",
+    "name": "UNVR (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 5,
+    "rank_prev": 1,
+    "flow_score": -40,
+    "flow_score_prev": -20,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": -0.4,
+        "contribution": -12
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": -0.4,
+        "contribution": -6
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": -0.4,
+        "contribution": -10
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": -0.4,
+        "contribution": -6
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": -0.4,
+        "contribution": -4
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": -0.4,
+        "contribution": -2
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 1,
+          "direction": "out"
+        },
+        "text_en": "Foreign flow shows 1 consecutive days of distribution."
+      }
+    ],
+    "close": 1400,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.0999999999999999
+  }
+]

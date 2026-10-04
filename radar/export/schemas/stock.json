@@ -1,0 +1,635 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "symbol": {
+      "type": "string"
+    },
+    "daily": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rank_prev": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "flow_score": {
+          "type": "number",
+          "minimum": -100,
+          "maximum": 100
+        },
+        "flow_score_prev": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "label": {
+          "enum": [
+            "strong_accumulation",
+            "accumulation",
+            "neutral",
+            "distribution",
+            "strong_distribution"
+          ]
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number",
+                "minimum": -1,
+                "maximum": 1
+              },
+              "weight": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "contribution": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "key",
+              "value",
+              "weight",
+              "contribution"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "divergence_accumulation",
+              "divergence_distribution",
+              "unusual_volume"
+            ]
+          }
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "params": {
+                "type": "object"
+              },
+              "text_en": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "code",
+              "params",
+              "text_en"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "close": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "change_1d": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "return_10d": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "volume_ratio": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "sector",
+        "rank",
+        "rank_prev",
+        "flow_score",
+        "flow_score_prev",
+        "label",
+        "components",
+        "flags",
+        "reasons",
+        "close",
+        "change_1d",
+        "return_10d",
+        "volume_ratio"
+      ],
+      "additionalProperties": false
+    },
+    "investor": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rank_prev": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "investor_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "pillars": {
+          "type": "object",
+          "properties": {
+            "quality": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "valuation": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "slow_flow": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "quality",
+            "valuation",
+            "slow_flow"
+          ],
+          "additionalProperties": false
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string"
+              },
+              "pillar": {
+                "enum": [
+                  "quality",
+                  "valuation",
+                  "slow_flow"
+                ]
+              },
+              "raw": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "percentile": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "required": [
+              "key",
+              "pillar",
+              "raw",
+              "percentile"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "coverage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "params": {
+                "type": "object"
+              },
+              "text_en": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "code",
+              "params",
+              "text_en"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "sector",
+        "rank",
+        "rank_prev",
+        "investor_score",
+        "pillars",
+        "components",
+        "coverage",
+        "reasons"
+      ],
+      "additionalProperties": false
+    },
+    "series": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "close": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "volume": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "date",
+              "close",
+              "volume"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "foreign_flow": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "net": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "cum": {
+                "type": "number"
+              },
+              "share": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "date",
+              "net",
+              "cum",
+              "share"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "flow_score": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "score": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "date",
+              "score"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "holder_mix": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "institutional_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "individual_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "foreign_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "date",
+              "institutional_pct",
+              "individual_pct",
+              "foreign_pct"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "price",
+        "foreign_flow",
+        "flow_score",
+        "holder_mix"
+      ],
+      "additionalProperties": false
+    },
+    "top_brokers": {
+      "type": "object",
+      "properties": {
+        "buyers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "cohort": {
+                "enum": [
+                  "institutional",
+                  "mixed",
+                  "retail",
+                  "unknown"
+                ]
+              },
+              "is_foreign": {
+                "type": "boolean"
+              },
+              "net_value": {
+                "type": "number"
+              },
+              "avg_price": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "name",
+              "cohort",
+              "is_foreign",
+              "net_value",
+              "avg_price"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "sellers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "cohort": {
+                "enum": [
+                  "institutional",
+                  "mixed",
+                  "retail",
+                  "unknown"
+                ]
+              },
+              "is_foreign": {
+                "type": "boolean"
+              },
+              "net_value": {
+                "type": "number"
+              },
+              "avg_price": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "name",
+              "cohort",
+              "is_foreign",
+              "net_value",
+              "avg_price"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "buyers",
+        "sellers"
+      ],
+      "additionalProperties": false
+    },
+    "filings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "transaction_type": {
+            "enum": [
+              "accumulation",
+              "distribution",
+              "others"
+            ]
+          },
+          "holder_type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "date",
+          "transaction_type",
+          "holder_type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "type": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "date",
+          "type",
+          "detail"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "fundamentals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "peer_avg": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "percentile": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "key",
+          "value",
+          "peer_avg",
+          "percentile"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "symbol",
+    "daily",
+    "investor",
+    "series",
+    "top_brokers",
+    "filings",
+    "events",
+    "fundamentals"
+  ],
+  "additionalProperties": false
+}

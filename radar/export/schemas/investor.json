@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "symbol": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "sector": {
+        "type": "string"
+      },
+      "rank": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "rank_prev": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1
+      },
+      "investor_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "pillars": {
+        "type": "object",
+        "properties": {
+          "quality": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "valuation": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "slow_flow": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "quality",
+          "valuation",
+          "slow_flow"
+        ],
+        "additionalProperties": false
+      },
+      "components": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "pillar": {
+              "enum": [
+                "quality",
+                "valuation",
+                "slow_flow"
+              ]
+            },
+            "raw": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "percentile": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "key",
+            "pillar",
+            "raw",
+            "percentile"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "coverage": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reasons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "params": {
+              "type": "object"
+            },
+            "text_en": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "code",
+            "params",
+            "text_en"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "symbol",
+      "name",
+      "sector",
+      "rank",
+      "rank_prev",
+      "investor_score",
+      "pillars",
+      "components",
+      "coverage",
+      "reasons"
+    ],
+    "additionalProperties": false
+  }
+}

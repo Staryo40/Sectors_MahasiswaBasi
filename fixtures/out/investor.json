@@ -1,0 +1,188 @@
+[
+  {
+    "symbol": "BBCA",
+    "name": "BBCA (illustrative sample)",
+    "sector": "Financials",
+    "rank": 1,
+    "rank_prev": 5,
+    "investor_score": 85,
+    "pillars": {
+      "quality": 90,
+      "valuation": 70,
+      "slow_flow": 90
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.25,
+        "percentile": 1
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.03,
+        "percentile": 1
+      }
+    ],
+    "coverage": 1,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "score": 85
+        },
+        "text_en": "Illustrative foreign inflow long signal."
+      }
+    ]
+  },
+  {
+    "symbol": "TLKM",
+    "name": "TLKM (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 2,
+    "rank_prev": 4,
+    "investor_score": 75,
+    "pillars": {
+      "quality": 80,
+      "valuation": 60,
+      "slow_flow": 80
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.22,
+        "percentile": 0.75
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.019999999999999997,
+        "percentile": 0.75
+      }
+    ],
+    "coverage": 0.95,
+    "reasons": [
+      {
+        "code": "QUALITY_HIGH",
+        "params": {
+          "score": 73
+        },
+        "text_en": "Illustrative quality high signal."
+      }
+    ]
+  },
+  {
+    "symbol": "ADRO",
+    "name": "ADRO (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 3,
+    "rank_prev": 3,
+    "investor_score": 65,
+    "pillars": {
+      "quality": 70,
+      "valuation": 50,
+      "slow_flow": 70
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.19,
+        "percentile": 0.5
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.009999999999999998,
+        "percentile": 0.5
+      }
+    ],
+    "coverage": 0.9,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "score": 61
+        },
+        "text_en": "Illustrative valuation below peers signal."
+      }
+    ]
+  },
+  {
+    "symbol": "ASII",
+    "name": "ASII (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 4,
+    "rank_prev": 2,
+    "investor_score": 55,
+    "pillars": {
+      "quality": 60,
+      "valuation": 40,
+      "slow_flow": 60
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.16,
+        "percentile": 0.25
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0,
+        "percentile": 0.25
+      }
+    ],
+    "coverage": 0.85,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0,
+          "months": 3
+        },
+        "text_en": "Illustrative holder shift institutional signal."
+      }
+    ]
+  },
+  {
+    "symbol": "UNVR",
+    "name": "UNVR (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 5,
+    "rank_prev": 1,
+    "investor_score": 45,
+    "pillars": {
+      "quality": 50,
+      "valuation": 30,
+      "slow_flow": 50
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.13,
+        "percentile": 0
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.010000000000000002,
+        "percentile": 0
+      }
+    ],
+    "coverage": 0.8,
+    "reasons": [
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "score": 37
+        },
+        "text_en": "Illustrative dividend yield signal."
+      }
+    ]
+  }
+]

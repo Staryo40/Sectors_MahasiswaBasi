@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "universe": {
+      "type": "string"
+    },
+    "n_stocks": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "credits_used": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "disclaimer": {
+      "const": "Information and analysis only. Not investment advice."
+    }
+  },
+  "required": [
+    "as_of",
+    "generated_at",
+    "universe",
+    "n_stocks",
+    "credits_used",
+    "disclaimer"
+  ],
+  "additionalProperties": false
+}

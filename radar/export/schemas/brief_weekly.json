@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "rank_mover",
+              "holder_shift",
+              "new_top5"
+            ]
+          },
+          "code": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "params": {
+            "type": "object"
+          },
+          "text_en": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "code",
+          "symbol",
+          "params",
+          "text_en"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "upcoming": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "date",
+          "symbol",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "disclaimer": {
+      "const": "Information and analysis only. Not investment advice."
+    }
+  },
+  "required": [
+    "as_of",
+    "items",
+    "upcoming",
+    "disclaimer"
+  ],
+  "additionalProperties": false
+}

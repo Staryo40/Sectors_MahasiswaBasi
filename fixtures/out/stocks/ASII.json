@@ -1,0 +1,251 @@
+{
+  "symbol": "ASII",
+  "daily": {
+    "symbol": "ASII",
+    "name": "ASII (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 4,
+    "rank_prev": 2,
+    "flow_score": -15,
+    "flow_score_prev": -5,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": -0.15,
+        "contribution": -4.5
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": -0.15,
+        "contribution": -2.25
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": -0.15,
+        "contribution": -3.75
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": -0.15,
+        "contribution": -2.25
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": -0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": -0.15,
+        "contribution": -0.75
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "out"
+        },
+        "text_en": "Foreign flow shows 2 consecutive days of distribution."
+      }
+    ],
+    "close": 1300,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.4
+  },
+  "investor": {
+    "symbol": "ASII",
+    "name": "ASII (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 4,
+    "rank_prev": 2,
+    "investor_score": 55,
+    "pillars": {
+      "quality": 60,
+      "valuation": 40,
+      "slow_flow": 60
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.16,
+        "percentile": 0.25
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0,
+        "percentile": 0.25
+      }
+    ],
+    "coverage": 0.85,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0,
+          "months": 3
+        },
+        "text_en": "Illustrative holder shift institutional signal."
+      }
+    ]
+  },
+  "series": {
+    "price": [
+      {
+        "date": "2026-09-28",
+        "close": 1300,
+        "volume": 100000
+      },
+      {
+        "date": "2026-09-29",
+        "close": 1298,
+        "volume": 101000
+      },
+      {
+        "date": "2026-09-30",
+        "close": 1296,
+        "volume": 102000
+      },
+      {
+        "date": "2026-10-01",
+        "close": 1294,
+        "volume": 103000
+      },
+      {
+        "date": "2026-10-02",
+        "close": 1292,
+        "volume": 104000
+      }
+    ],
+    "foreign_flow": [
+      {
+        "date": "2026-09-28",
+        "net": 0,
+        "cum": 0,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-29",
+        "net": 0,
+        "cum": 0,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-30",
+        "net": 0,
+        "cum": 0,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-01",
+        "net": 0,
+        "cum": 0,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-02",
+        "net": 0,
+        "cum": 0,
+        "share": 0.1
+      }
+    ],
+    "flow_score": [
+      {
+        "date": "2026-09-28",
+        "score": -10
+      },
+      {
+        "date": "2026-09-29",
+        "score": -8
+      },
+      {
+        "date": "2026-09-30",
+        "score": -6
+      },
+      {
+        "date": "2026-10-01",
+        "score": -4
+      },
+      {
+        "date": "2026-10-02",
+        "score": -2
+      }
+    ],
+    "holder_mix": [
+      {
+        "date": "2026-07-31",
+        "institutional_pct": 60,
+        "individual_pct": 40,
+        "foreign_pct": 20
+      },
+      {
+        "date": "2026-08-31",
+        "institutional_pct": 60,
+        "individual_pct": 40,
+        "foreign_pct": 21
+      },
+      {
+        "date": "2026-09-30",
+        "institutional_pct": 60,
+        "individual_pct": 40,
+        "foreign_pct": 22
+      }
+    ]
+  },
+  "top_brokers": {
+    "buyers": [
+      {
+        "code": "AA",
+        "name": "Illustrative broker",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": 100000,
+        "avg_price": 1000
+      }
+    ],
+    "sellers": [
+      {
+        "code": "ZZ",
+        "name": "Illustrative broker",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -100000,
+        "avg_price": 1010
+      }
+    ]
+  },
+  "filings": [
+    {
+      "date": "2026-10-01",
+      "transaction_type": "accumulation",
+      "holder_type": "insider"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-08",
+      "type": "dividend_ex_date",
+      "detail": "Illustrative dividend ex-date"
+    }
+  ],
+  "fundamentals": [
+    {
+      "key": "roe_ttm",
+      "value": 0.16,
+      "peer_avg": null,
+      "percentile": 0.25
+    }
+  ]
+}

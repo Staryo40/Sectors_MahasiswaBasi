@@ -1,0 +1,250 @@
+{
+  "symbol": "TLKM",
+  "daily": {
+    "symbol": "TLKM",
+    "name": "TLKM (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 2,
+    "rank_prev": 4,
+    "flow_score": 35,
+    "flow_score_prev": 25,
+    "label": "accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "weight": 0.3,
+        "value": 0.35,
+        "contribution": 10.5
+      },
+      {
+        "key": "foreign_streak",
+        "weight": 0.15,
+        "value": 0.35,
+        "contribution": 5.25
+      },
+      {
+        "key": "broker_concentration",
+        "weight": 0.25,
+        "value": 0.35,
+        "contribution": 8.75
+      },
+      {
+        "key": "institutional_net",
+        "weight": 0.15,
+        "value": 0.35,
+        "contribution": 5.25
+      },
+      {
+        "key": "divergence",
+        "weight": 0.1,
+        "value": 0.35,
+        "contribution": 3.5
+      },
+      {
+        "key": "insider",
+        "weight": 0.05,
+        "value": 0.35,
+        "contribution": 1.75
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "in"
+        },
+        "text_en": "Foreign flow shows 4 consecutive days of accumulation."
+      }
+    ],
+    "close": 1100,
+    "change_1d": -0.004,
+    "return_10d": -0.03,
+    "volume_ratio": 1.9999999999999998
+  },
+  "investor": {
+    "symbol": "TLKM",
+    "name": "TLKM (illustrative sample)",
+    "sector": "Industrials",
+    "rank": 2,
+    "rank_prev": 4,
+    "investor_score": 75,
+    "pillars": {
+      "quality": 80,
+      "valuation": 60,
+      "slow_flow": 80
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.22,
+        "percentile": 0.75
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.019999999999999997,
+        "percentile": 0.75
+      }
+    ],
+    "coverage": 0.95,
+    "reasons": [
+      {
+        "code": "QUALITY_HIGH",
+        "params": {
+          "score": 73
+        },
+        "text_en": "Illustrative quality high signal."
+      }
+    ]
+  },
+  "series": {
+    "price": [
+      {
+        "date": "2026-09-28",
+        "close": 1100,
+        "volume": 100000
+      },
+      {
+        "date": "2026-09-29",
+        "close": 1098,
+        "volume": 101000
+      },
+      {
+        "date": "2026-09-30",
+        "close": 1096,
+        "volume": 102000
+      },
+      {
+        "date": "2026-10-01",
+        "close": 1094,
+        "volume": 103000
+      },
+      {
+        "date": "2026-10-02",
+        "close": 1092,
+        "volume": 104000
+      }
+    ],
+    "foreign_flow": [
+      {
+        "date": "2026-09-28",
+        "net": 200000,
+        "cum": 200000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-29",
+        "net": 200000,
+        "cum": 400000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-09-30",
+        "net": 200000,
+        "cum": 600000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-01",
+        "net": 200000,
+        "cum": 800000,
+        "share": 0.1
+      },
+      {
+        "date": "2026-10-02",
+        "net": 200000,
+        "cum": 1000000,
+        "share": 0.1
+      }
+    ],
+    "flow_score": [
+      {
+        "date": "2026-09-28",
+        "score": 30
+      },
+      {
+        "date": "2026-09-29",
+        "score": 32
+      },
+      {
+        "date": "2026-09-30",
+        "score": 34
+      },
+      {
+        "date": "2026-10-01",
+        "score": 36
+      },
+      {
+        "date": "2026-10-02",
+        "score": 38
+      }
+    ],
+    "holder_mix": [
+      {
+        "date": "2026-07-31",
+        "institutional_pct": 60,
+        "individual_pct": 40,
+        "foreign_pct": 20
+      },
+      {
+        "date": "2026-08-31",
+        "institutional_pct": 62,
+        "individual_pct": 38,
+        "foreign_pct": 21
+      },
+      {
+        "date": "2026-09-30",
+        "institutional_pct": 64,
+        "individual_pct": 36,
+        "foreign_pct": 22
+      }
+    ]
+  },
+  "top_brokers": {
+    "buyers": [
+      {
+        "code": "AA",
+        "name": "Illustrative broker",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": 100000,
+        "avg_price": 1000
+      }
+    ],
+    "sellers": [
+      {
+        "code": "ZZ",
+        "name": "Illustrative broker",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -100000,
+        "avg_price": 1010
+      }
+    ]
+  },
+  "filings": [
+    {
+      "date": "2026-10-01",
+      "transaction_type": "accumulation",
+      "holder_type": "insider"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-08",
+      "type": "dividend_ex_date",
+      "detail": "Illustrative dividend ex-date"
+    }
+  ],
+  "fundamentals": [
+    {
+      "key": "roe_ttm",
+      "value": 0.22,
+      "peer_avg": null,
+      "percentile": 0.75
+    }
+  ]
+}
