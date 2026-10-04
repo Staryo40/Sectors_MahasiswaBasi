@@ -1,0 +1,4934 @@
+[
+  {
+    "symbol": "AADI",
+    "name": "PT Adaro Andalan Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 1,
+    "investor_score": 73.20671213476446,
+    "pillars": {
+      "quality": 69.87179487179488,
+      "valuation": 66.08879492600423,
+      "slow_flow": 82.10227272727273
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.197169048021721,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.154814518081822,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.56748054778949,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.341476005926851,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.178660181446207,
+        "percentile": 0.7435897435897436
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.43774529493475434,
+        "percentile": 0.8372093023255814
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.8691247807115812,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0465870144666531,
+        "percentile": 0.6
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0027919715281338503,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.0022229526908618532,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.010182128048483396,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 1.0182128048483396,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 1.02 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 0.0027919715281338503
+        },
+        "text_en": "Net foreign accumulation equals 0.279% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.43774529493475434,
+          "pb_relative": 0.8691247807115812
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.44×, PB 0.87×)."
+      }
+    ],
+    "rank_prev": 1
+  },
+  {
+    "symbol": "PTBA",
+    "name": "Bukit Asam Tbk",
+    "sector": "Energy",
+    "rank": 2,
+    "investor_score": 69.42755088903345,
+    "pillars": {
+      "quality": 61.92307692307693,
+      "valuation": 58.12191684284707,
+      "slow_flow": 86.07954545454545
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.187335381935615,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0686949254384184,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 3.18535209991734,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.152871797559546,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.117815179597497,
+        "percentile": 0.8461538461538461
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5215674101776642,
+        "percentile": 0.7209302325581395
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.9013355852432268,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0360088060486991,
+        "percentile": 0.5
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.00633560859252469,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.007278551633887373,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.01805992178789584,
+        "percentile": 1.0
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 1.8059921787895838,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 1.81 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.007278551633887373
+        },
+        "text_en": "Net foreign accumulation equals 0.728% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5215674101776642,
+          "pb_relative": 0.9013355852432268
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.52×, PB 0.90×)."
+      }
+    ],
+    "rank_prev": 6
+  },
+  {
+    "symbol": "INKP",
+    "name": "Indah Kiat Pulp & Paper Tbk",
+    "sector": "Basic Materials",
+    "rank": 3,
+    "investor_score": 67.06421945302759,
+    "pillars": {
+      "quality": 54.731934731934736,
+      "valuation": 76.08350951374207,
+      "slow_flow": 74.7159090909091
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0882102025360866,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.142954444835454,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 9.10717316800329,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.248464640814396,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.721198313332109,
+        "percentile": 0.28205128205128205
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.3510617446694369,
+        "percentile": 0.9302325581395349
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.2764295352676343,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0093167701863354,
+        "percentile": 0.375
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0010279726455197909,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.0013812155152430278,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0022526482229804357,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.3510617446694369,
+          "pb_relative": 0.2764295352676343
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.35×, PB 0.28×)."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 0.0010279726455197909
+        },
+        "text_en": "Net foreign accumulation equals 0.103% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.22526482229804357,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.23 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 2
+  },
+  {
+    "symbol": "NCKL",
+    "name": "PT Trimegah Bangun Persada Tbk",
+    "sector": "Basic Materials",
+    "rank": 4,
+    "investor_score": 63.808950981189355,
+    "pillars": {
+      "quality": 73.56643356643357,
+      "valuation": 63.94996476391825,
+      "slow_flow": 52.55681818181818
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.201794368269693,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.302081352490529,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.268787582219252,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.476517066173664,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.168720432528357,
+        "percentile": 0.7692307692307693
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.4526218826609402,
+        "percentile": 0.813953488372093
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.9819693345224083,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0504615377392289,
+        "percentile": 0.65
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0005113345475627072,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.003516117828700407,
+        "percentile": 0.5
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0011636629021880562,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.4526218826609402,
+          "pb_relative": 0.9819693345224083
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.45×, PB 0.98×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0504615377392289
+        },
+        "text_en": "Trailing dividend yield is 5.05%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.11636629021880562,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.12 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 4
+  },
+  {
+    "symbol": "BBRI",
+    "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 5,
+    "investor_score": 62.94364429175475,
+    "pillars": {
+      "quality": 57.38636363636363,
+      "valuation": 63.30866807610994,
+      "slow_flow": 69.0340909090909
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.189617543571432,
+        "percentile": 0.75
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.312471192774854,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.223263408630875,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0844156574078394,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.504864937510833,
+        "percentile": 0.7674418604651163
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.6847713417972128,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.112337662337662,
+        "percentile": 0.95
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0019571767974361164,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.001140328331894431,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.005157404520533482,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.5157404520533482,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.52 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.112337662337662
+        },
+        "text_en": "Trailing dividend yield is 11.23%."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.001140328331894431
+        },
+        "text_en": "Net foreign accumulation equals 0.114% of market cap over available history in the 90-trading-day window."
+      }
+    ],
+    "rank_prev": 3
+  },
+  {
+    "symbol": "ANTM",
+    "name": "Aneka Tambang Tbk.",
+    "sector": "Basic Materials",
+    "rank": 6,
+    "investor_score": 62.5420478262048,
+    "pillars": {
+      "quality": 50.442890442890445,
+      "valuation": 50.53911205073996,
+      "slow_flow": 84.94318181818181
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.231006978183056,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0851680798092314,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.162414206867193,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0159096269371107,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.151180929275565,
+        "percentile": 0.7948717948717948
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.767386857538013,
+        "percentile": 0.5116279069767442
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.6358756865957083,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0668753702929065,
+        "percentile": 0.8
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.008536128190841855,
+        "percentile": 1.0
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.01650517702349892,
+        "percentile": 1.0
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.003883516944548693,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.01650517702349892
+        },
+        "text_en": "Net foreign accumulation equals 1.651% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.3883516944548693,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.39 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0668753702929065
+        },
+        "text_en": "Trailing dividend yield is 6.69%."
+      }
+    ],
+    "rank_prev": 5
+  },
+  {
+    "symbol": "ADRO",
+    "name": "Alamtri Resources Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 7,
+    "investor_score": 59.04114320756763,
+    "pillars": {
+      "quality": 58.43822843822844,
+      "valuation": 75.4474982381959,
+      "slow_flow": 48.01136363636363
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.108691525501839,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.238957731082749,
+        "percentile": 0.75
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 1.03434513459917,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.223894343665909,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.378239527308833,
+        "percentile": 0.5128205128205128
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.4877819567629558,
+        "percentile": 0.7906976744186046
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.5416697333943133,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0580559997558594,
+        "percentile": 0.7
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.005911617891612429,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.002365301592637254,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.00019120158014507282,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.4877819567629558,
+          "pb_relative": 0.5416697333943133
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.49×, PB 0.54×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0580559997558594
+        },
+        "text_en": "Trailing dividend yield is 5.81%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.019120158014507282,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.02 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 8
+  },
+  {
+    "symbol": "INCO",
+    "name": "Vale Indonesia Tbk",
+    "sector": "Basic Materials",
+    "rank": 8,
+    "investor_score": 56.93011228112972,
+    "pillars": {
+      "quality": 64.03263403263404,
+      "valuation": 35.77959830866808,
+      "slow_flow": 63.92045454545454
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0528218020703384,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.07681618267109,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 9.70878729999239,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.45439212081689,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.000558744456704015,
+        "percentile": 0.9743589743589743
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 1.4862467315938346,
+        "percentile": 0.27906976744186046
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.7007423205734213,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.001482312347789952,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.005408985955915536,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.006699028027777332,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.005408985955915536
+        },
+        "text_en": "Net foreign accumulation equals 0.541% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.6699028027777332,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.67 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pb_relative": 0.7007423205734213
+        },
+        "text_en": "Valuation multiples are below their peer averages (PB 0.70×)."
+      }
+    ],
+    "rank_prev": 7
+  },
+  {
+    "symbol": "PGEO",
+    "name": "PT Pertamina Geothermal Energy Tbk",
+    "sector": "Infrastructures",
+    "rank": 9,
+    "investor_score": 55.980018769989705,
+    "pillars": {
+      "quality": 50.31468531468532,
+      "valuation": 42.79157857646229,
+      "slow_flow": 71.875
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0705519994846396,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.318208288847908,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.0476247031161121,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.264268403636831,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.367524708442128,
+        "percentile": 0.5384615384615384
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.7627240935593872,
+        "percentile": 0.5348837209302325
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.7605071652513722,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0007220439256573343,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.0015770362863507677,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0004247321709009988,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.0015770362863507677
+        },
+        "text_en": "Net foreign accumulation equals 0.158% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.04247321709009988,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.04 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.7627240935593872,
+          "pb_relative": 0.7605071652513722
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.76×, PB 0.76×)."
+      }
+    ],
+    "rank_prev": 11
+  },
+  {
+    "symbol": "INDF",
+    "name": "Indofood Sukses Makmur Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 10,
+    "investor_score": 55.29967101696753,
+    "pillars": {
+      "quality": 29.90675990675991,
+      "valuation": 71.92741367159972,
+      "slow_flow": 72.44318181818183
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0767418830312053,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0865201629621527,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.432906775791415,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.118303596757761,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.634729881215889,
+        "percentile": 0.358974358974359
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.515451509178693,
+        "percentile": 0.7441860465116279
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.4165647209680839,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0424908424908425,
+        "percentile": 0.55
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.000393873455130787,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.002544265713657314,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0026351345233628365,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.515451509178693,
+          "pb_relative": 0.4165647209680839
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.52×, PB 0.42×)."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.002544265713657314
+        },
+        "text_en": "Net foreign accumulation equals 0.254% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.26351345233628365,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.26 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 10
+  },
+  {
+    "symbol": "UNVR",
+    "name": "Unilever Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 11,
+    "investor_score": 55.026811608933706,
+    "pillars": {
+      "quality": 53.39160839160839,
+      "valuation": 64.28294573643412,
+      "slow_flow": 50.28409090909091
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 2.79714572578391,
+        "percentile": 1.0
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.239208926045928,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.0970381051540194,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.0323350414347319,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.181023112409377,
+        "percentile": 0.6923076923076923
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.34056847934575535,
+        "percentile": 0.9534883720930233
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 17.405805306377594,
+        "percentile": 0.0
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.127215189873418,
+        "percentile": 0.975
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0005453988171275943,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0035686561706787,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0023489743119265993,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.127215189873418
+        },
+        "text_en": "Trailing dividend yield is 12.72%."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.34056847934575535
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.34×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.23489743119265993,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.23 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 16
+  },
+  {
+    "symbol": "ITMG",
+    "name": "Indo Tambangraya Megah Tbk",
+    "sector": "Energy",
+    "rank": 12,
+    "investor_score": 55.01078257982328,
+    "pillars": {
+      "quality": 63.46153846153845,
+      "valuation": 63.22057787174066,
+      "slow_flow": 39.48863636363637
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.10285977982235,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.10150406117249,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 1.1760460217683,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.269452074901431,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.0519966626327933,
+        "percentile": 0.9230769230769231
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5470657336414604,
+        "percentile": 0.6511627906976745
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.5195118476370826,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0292879813058036,
+        "percentile": 0.45
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.00749979586719304,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.02077768479857667,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.009009890036949297,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.9009890036949297,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.90 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5470657336414604,
+          "pb_relative": 0.5195118476370826
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.55×, PB 0.52×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0292879813058036
+        },
+        "text_en": "Trailing dividend yield is 2.93%."
+      }
+    ],
+    "rank_prev": 13
+  },
+  {
+    "symbol": "WIFI",
+    "name": "PT Solusi Sinergi Digital Tbk",
+    "sector": "Technology",
+    "rank": 13,
+    "investor_score": 54.76879201225131,
+    "pillars": {
+      "quality": 47.56410256410256,
+      "valuation": 51.097603946441154,
+      "slow_flow": 65.625
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0567687984913666,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.246204772439265,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.146716175407322,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 1.79294301188618,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 1.1128040191143,
+        "percentile": 0.1282051282051282
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.9715030219441387,
+        "percentile": 0.3488372093023256
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.39262541644420934,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.00139372822299652,
+        "percentile": 0.275
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0011270058610655094,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.00047795208230720816,
+        "percentile": 0.75
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0015046147219194284,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.9715030219441387,
+          "pb_relative": 0.39262541644420934
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.97×, PB 0.39×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.15046147219194284,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.15 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.00139372822299652
+        },
+        "text_en": "Trailing dividend yield is 0.14%."
+      }
+    ],
+    "rank_prev": 9
+  },
+  {
+    "symbol": "BMRI",
+    "name": "PT Bank Mandiri (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 14,
+    "investor_score": 54.27688953488372,
+    "pillars": {
+      "quality": 55.68181818181818,
+      "valuation": 71.1416490486258,
+      "slow_flow": 40.625
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.238870046621558,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.4191224071999,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.180581189101103,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.04598684754587,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.36221451267741245,
+        "percentile": 0.9069767441860465
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.5355988206072444,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.134728761583049,
+        "percentile": 1.0
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.007237084405155763,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.007944444880732345,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.005630310428651808,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 1.0,
+        "percentile": 0.9886363636363636
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "ratio": 1.0,
+          "days": 30,
+          "direction": "accumulation"
+        },
+        "text_en": "Insider filings show net accumulation over 30 calendar days (ratio 1.00)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.134728761583049
+        },
+        "text_en": "Trailing dividend yield is 13.47%."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.36221451267741245
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.36×)."
+      }
+    ],
+    "rank_prev": 14
+  },
+  {
+    "symbol": "JPFA",
+    "name": "JAPFA Comfeed Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 15,
+    "investor_score": 53.156517658697894,
+    "pillars": {
+      "quality": 50.52447552447553,
+      "valuation": 81.27554615926708,
+      "slow_flow": 36.07954545454545
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.245764517682811,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0659465839916545,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.185590639150702,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.341599869803153,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.762411613133783,
+        "percentile": 0.23076923076923078
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.36730959392699764,
+        "percentile": 0.8837209302325582
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.6289162519004001,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0701754385964912,
+        "percentile": 0.85
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.004079918976484234,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.012351845541542533,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0011464046210911683,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.36730959392699764,
+          "pb_relative": 0.6289162519004001
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.37×, PB 0.63×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0701754385964912
+        },
+        "text_en": "Trailing dividend yield is 7.02%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.11464046210911683,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.11 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 17
+  },
+  {
+    "symbol": "BBCA",
+    "name": "PT Bank Central Asia Tbk.",
+    "sector": "Financials",
+    "rank": 16,
+    "investor_score": 52.228572057787176,
+    "pillars": {
+      "quality": 53.40909090909091,
+      "valuation": 41.92565186751233,
+      "slow_flow": 58.23863636363637
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.214714061275701,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.513696762091813,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.00136772238340106,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.00305775623420816,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.8721592959054093,
+        "percentile": 0.4418604651162791
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 3.230716231177529,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0624590163934426,
+        "percentile": 0.725
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0034145366299754153,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.00012730403067621863,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.00044277622276356343,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.04427762227635634,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.04 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0624590163934426
+        },
+        "text_en": "Trailing dividend yield is 6.25%."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.8721592959054093
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.87×)."
+      }
+    ],
+    "rank_prev": 19
+  },
+  {
+    "symbol": "ICBP",
+    "name": "Indofood CBP Sukses Makmur Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 17,
+    "investor_score": 51.815076638477805,
+    "pillars": {
+      "quality": 36.66666666666667,
+      "valuation": 51.15045806906272,
+      "slow_flow": 69.60227272727273
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0981944222067632,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.123243997939745,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.608026044079619,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.156905216599489,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.663213800563594,
+        "percentile": 0.3333333333333333
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.8767184574812131,
+        "percentile": 0.4186046511627907
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.7949878903631463,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0392592592592593,
+        "percentile": 0.525
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.00012127146489808243,
+        "percentile": 0.75
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.004281160700480764,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0003303468866329151,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.004281160700480764
+        },
+        "text_en": "Net foreign accumulation equals 0.428% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.8767184574812131,
+          "pb_relative": 0.7949878903631463
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.88×, PB 0.79×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.03303468866329151,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 15
+  },
+  {
+    "symbol": "BBNI",
+    "name": "PT Bank Negara Indonesia (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 18,
+    "investor_score": 51.80595930232558,
+    "pillars": {
+      "quality": 52.84090909090909,
+      "valuation": 49.098837209302324,
+      "slow_flow": 52.55681818181819
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.123679520615341,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.313433712119701,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.0750976612626252,
+        "percentile": 0.25
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.165570167197083,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.4132267999113104,
+        "percentile": 0.8604651162790697
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.9044447673009736,
+        "percentile": 0.5
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0038731635672078686,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0028594036619090063,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0005185656147282947,
+        "percentile": 0.75
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.4132267999113104,
+          "pb_relative": 0.9044447673009736
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.41×, PB 0.90×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.051856561472829465,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.05 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 21
+  },
+  {
+    "symbol": "ASII",
+    "name": "Astra International Tbk",
+    "sector": "Industrials",
+    "rank": 19,
+    "investor_score": 50.32359428362335,
+    "pillars": {
+      "quality": 32.01631701631702,
+      "valuation": 76.48872445384073,
+      "slow_flow": 52.55681818181819
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.102769075778695,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.10132903720562,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.221367820109519,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.00315739156687129,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.410876195470667,
+        "percentile": 0.48717948717948717
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.8230135850055392,
+        "percentile": 0.46511627906976744
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.28854304478182885,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0842332613390929,
+        "percentile": 0.875
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0013720870170484895,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.012427267005202023,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0032534915980449997,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 1.0,
+        "percentile": 0.9886363636363636
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "ratio": 1.0,
+          "days": 30,
+          "direction": "accumulation"
+        },
+        "text_en": "Insider filings show net accumulation over 30 calendar days (ratio 1.00)."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.8230135850055392,
+          "pb_relative": 0.28854304478182885
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.82×, PB 0.29×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0842332613390929
+        },
+        "text_en": "Trailing dividend yield is 8.42%."
+      }
+    ],
+    "rank_prev": 23
+  },
+  {
+    "symbol": "ADMR",
+    "name": "PT Alamtri Minerals Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 20,
+    "investor_score": 49.7067866726297,
+    "pillars": {
+      "quality": 57.167832167832174,
+      "valuation": 31.392706131078224,
+      "slow_flow": 54.26136363636363
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.163167615576958,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.278752821322414,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.270704627026903,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.429958324543849,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.980872210635613,
+        "percentile": 0.15384615384615385
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.7753031521450919,
+        "percentile": 0.4883720930232558
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.271807335557482,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.000697703649243515,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0023548713722922397,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0013748751095568057,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.13748751095568057,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.14 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.7753031521450919
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.78×)."
+      }
+    ],
+    "rank_prev": 20
+  },
+  {
+    "symbol": "AKRA",
+    "name": "PT AKR Corporindo Tbk.",
+    "sector": "Energy",
+    "rank": 21,
+    "investor_score": 49.36189997018486,
+    "pillars": {
+      "quality": 55.37296037296037,
+      "valuation": 55.95313601127555,
+      "slow_flow": 37.784090909090914
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.166397117834574,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0537309514982413,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.25930547091624,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.603828958175583,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.333270771260232,
+        "percentile": 0.5641025641025641
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.727246687262809,
+        "percentile": 0.5581395348837209
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.4036379189879191,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0684931506849315,
+        "percentile": 0.825
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.005244038585251492,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0041439077374441574,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0026397248635769976,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": -1.0,
+        "percentile": 0.011363636363636364
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "ratio": -1.0,
+          "days": 30,
+          "direction": "distribution"
+        },
+        "text_en": "Insider filings show net distribution over 30 calendar days (ratio -1.00)."
+      },
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.26397248635769976,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.26 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0684931506849315
+        },
+        "text_en": "Trailing dividend yield is 6.85%."
+      }
+    ],
+    "rank_prev": 27
+  },
+  {
+    "symbol": "DEWA",
+    "name": "Darma Henwa Tbk",
+    "sector": "Energy",
+    "rank": 22,
+    "investor_score": 48.958260489510494,
+    "pillars": {
+      "quality": 63.64801864801865,
+      "valuation": 57.803030303030305,
+      "slow_flow": 25.85227272727273
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.553929741989065,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.673689864220162,
+        "percentile": 1.0
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 1.6392274170541,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0868369080032481,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.791191708642865,
+        "percentile": 0.20512820512820512
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.20684585280201095,
+        "percentile": 1.0
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.0542392911958098,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.00443786982248521,
+        "percentile": 0.325
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.002308792402339973,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.021146723936564044,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.030982701991976724,
+        "percentile": 0.0
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -3.0982701991976724,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 3.10 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.20684585280201095
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.21×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.00443786982248521
+        },
+        "text_en": "Trailing dividend yield is 0.44%."
+      }
+    ],
+    "rank_prev": 26
+  },
+  {
+    "symbol": "ESSA",
+    "name": "ESSA Industries Indonesia Tbk",
+    "sector": "Basic Materials",
+    "rank": 23,
+    "investor_score": 48.889600951374206,
+    "pillars": {
+      "quality": 70.0,
+      "valuation": 54.52431289640592,
+      "slow_flow": 20.738636363636363
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0956170691067519,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.136572861368626,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.875015932064182,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.480826478834997,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.00019146956532688,
+        "percentile": 1.0
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.9700418397891314,
+        "percentile": 0.37209302325581395
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.0762472551289626,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.088135593220339,
+        "percentile": 0.9
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.006995528874647649,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0170493869435406,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.01065027914330896,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -1.065027914330896,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 1.07 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.088135593220339
+        },
+        "text_en": "Trailing dividend yield is 8.81%."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.9700418397891314
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.97×)."
+      }
+    ],
+    "rank_prev": 12
+  },
+  {
+    "symbol": "AMMN",
+    "name": "PT Amman Mineral Internasional Tbk.",
+    "sector": "Basic Materials",
+    "rank": 24,
+    "investor_score": 47.78854793462351,
+    "pillars": {
+      "quality": 57.9020979020979,
+      "valuation": 13.79492600422833,
+      "slow_flow": 60.51136363636363
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0971825700701001,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.134836809329545,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 2.18222229479875,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 388.586507861566,
+        "percentile": 1.0
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 1.16775978900822,
+        "percentile": 0.07692307692307693
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 3.018918187856495,
+        "percentile": 0.13953488372093023
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 2.664137414483219,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": null,
+        "percentile": null
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -8.433779117658422e-05,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.001937786129975478,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0006071550214991062,
+        "percentile": 0.5
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 0.9166666666666666,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.060715502149910616,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.06 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 24
+  },
+  {
+    "symbol": "TLKM",
+    "name": "PT Telkom Indonesia (Persero) Tbk",
+    "sector": "Infrastructures",
+    "rank": 25,
+    "investor_score": 47.771170447769286,
+    "pillars": {
+      "quality": 44.68531468531468,
+      "valuation": 70.6677237491191,
+      "slow_flow": 34.94318181818182
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.129493948742288,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.121396737130474,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.21568247821878,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0639076034648701,
+        "percentile": 0.25
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.422067809682012,
+        "percentile": 0.46153846153846156
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.7008450249422965,
+        "percentile": 0.5813953488372093
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.7697420875340221,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0991848347981771,
+        "percentile": 0.925
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.004403994605906643,
+        "percentile": 0.25
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.006934788010790382,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0037507860489365275,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0991848347981771
+        },
+        "text_en": "Trailing dividend yield is 9.92%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.37507860489365275,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.38 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.7008450249422965,
+          "pb_relative": 0.7697420875340221
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.70×, PB 0.77×)."
+      }
+    ],
+    "rank_prev": 22
+  },
+  {
+    "symbol": "UNTR",
+    "name": "United Tractors Tbk",
+    "sector": "Industrials",
+    "rank": 26,
+    "investor_score": 47.36649082506641,
+    "pillars": {
+      "quality": 29.976689976689975,
+      "valuation": 44.85553206483439,
+      "slow_flow": 69.0340909090909
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0750524011971773,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.1127977352158,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.936566969406976,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.132182743173015,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.275932343279327,
+        "percentile": 0.5897435897435898
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 2.0049702536193807,
+        "percentile": 0.20930232558139536
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.068664496784861,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0639615384615385,
+        "percentile": 0.75
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0014492187370364566,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0017383155275914049,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.00012782351915308077,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 0.0014492187370364566
+        },
+        "text_en": "Net foreign accumulation equals 0.145% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0639615384615385
+        },
+        "text_en": "Trailing dividend yield is 6.40%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.012782351915308077,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.01 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 38
+  },
+  {
+    "symbol": "CPIN",
+    "name": "Charoen Pokphand Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 27,
+    "investor_score": 47.27490919932781,
+    "pillars": {
+      "quality": 63.21678321678322,
+      "valuation": 48.97551092318534,
+      "slow_flow": 27.840909090909093
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.213449556614996,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0798226993546764,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 2.11095638198036,
+        "percentile": 0.75
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.267590788973826,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.270359370962537,
+        "percentile": 0.6153846153846154
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5271487924077969,
+        "percentile": 0.6976744186046512
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.7286767940846455,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.012440726197017573,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.029588645815913348,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.010337583851689258,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.14285714285714285,
+        "percentile": 0.9545454545454546
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "ratio": 0.14285714285714285,
+          "days": 30,
+          "direction": "accumulation"
+        },
+        "text_en": "Insider filings show net accumulation over 30 calendar days (ratio 0.14)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -1.0337583851689258,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 1.03 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5271487924077969,
+          "pb_relative": 0.7286767940846455
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.53×, PB 0.73×)."
+      }
+    ],
+    "rank_prev": 36
+  },
+  {
+    "symbol": "BBTN",
+    "name": "PT Bank Tabungan Negara (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 28,
+    "investor_score": 47.102603065539114,
+    "pillars": {
+      "quality": 45.45454545454546,
+      "valuation": 63.58086680761099,
+      "slow_flow": 37.21590909090909
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.111747188718739,
+        "percentile": 0.5
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.157146072766518,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.61239175311675,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.169009731540419,
+        "percentile": 0.0
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.2400468591814825,
+        "percentile": 0.9767441860465116
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.4623872289202575,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.006242266017131561,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0014574994255250199,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.007857701862273192,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.2400468591814825,
+          "pb_relative": 0.4623872289202575
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.24×, PB 0.46×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.7857701862273192,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.79 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 18
+  },
+  {
+    "symbol": "EMTK",
+    "name": "Elang Mahkota Teknologi Tbk",
+    "sector": "Technology",
+    "rank": 29,
+    "investor_score": 46.89343626334906,
+    "pillars": {
+      "quality": 43.40326340326341,
+      "valuation": 66.82170542635659,
+      "slow_flow": 36.64772727272727
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0431532155179292,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.355093619552249,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.974220197757308,
+        "percentile": 0.0
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0262273864141711,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.0579181610867938,
+        "percentile": 0.8974358974358975
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.6828293393634863,
+        "percentile": 0.6046511627906976
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.25198682639343173,
+        "percentile": 1.0
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0130890052356021,
+        "percentile": 0.4
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0036473488704019358,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.006099453812151467,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0045807150373625705,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.6828293393634863,
+          "pb_relative": 0.25198682639343173
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.68×, PB 0.25×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.45807150373625705,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.46 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0130890052356021
+        },
+        "text_en": "Trailing dividend yield is 1.31%."
+      }
+    ],
+    "rank_prev": 29
+  },
+  {
+    "symbol": "SCMA",
+    "name": "Surya Citra Media Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 30,
+    "investor_score": 46.34083624708625,
+    "pillars": {
+      "quality": 55.163170163170165,
+      "valuation": 55.34090909090909,
+      "slow_flow": 29.829545454545453
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.133399421119271,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.111936266377369,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.36962349511184,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0616043961802394,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.102780960756306,
+        "percentile": 0.8717948717948718
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": null,
+        "percentile": null
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.0170354428302764,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0523255813953488,
+        "percentile": 0.675
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0050385691580683185,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.005369651258340435,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.01398210543224121,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 0.9166666666666666,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -1.398210543224121,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 1.40 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0523255813953488
+        },
+        "text_en": "Trailing dividend yield is 5.23%."
+      }
+    ],
+    "rank_prev": 30
+  },
+  {
+    "symbol": "CUAN",
+    "name": "PT Petrindo Jaya Kreasi Tbk",
+    "sector": "Energy",
+    "rank": 31,
+    "investor_score": 45.63405126849894,
+    "pillars": {
+      "quality": 66.36363636363636,
+      "valuation": 9.933932346723045,
+      "slow_flow": 47.44318181818182
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.224681926782255,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.110698426643896,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 64.5270509419382,
+        "percentile": 1.0
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.62089232298605,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 2.234623753272,
+        "percentile": 0.0
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 2.500541175020676,
+        "percentile": 0.16279069767441862
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 9.48782415514967,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0020490125370641286,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0031518680493516165,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.003032225897958374,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.3032225897958374,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.30 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 25
+  },
+  {
+    "symbol": "ISAT",
+    "name": "PT Indosat Tbk",
+    "sector": "Infrastructures",
+    "rank": 32,
+    "investor_score": 45.33118359353825,
+    "pillars": {
+      "quality": 52.2960372960373,
+      "valuation": 62.25334742776604,
+      "slow_flow": 25.28409090909091
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.186638333296297,
+        "percentile": 0.7045454545454546
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0974855666254132,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 1.75098001501632,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.140467034390225,
+        "percentile": 0.3409090909090909
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.461562410144167,
+        "percentile": 0.41025641025641024
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5324175281736062,
+        "percentile": 0.6744186046511628
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.8003819096824334,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0493333333333333,
+        "percentile": 0.625
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.005648364605590563,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.01745146914205151,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.005903932160151615,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.5903932160151615,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.59 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5324175281736062,
+          "pb_relative": 0.8003819096824334
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.53×, PB 0.80×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0493333333333333
+        },
+        "text_en": "Trailing dividend yield is 4.93%."
+      }
+    ],
+    "rank_prev": 32
+  },
+  {
+    "symbol": "AMRT",
+    "name": "PT Sumber Alfaria Trijaya Tbk.",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 33,
+    "investor_score": 44.802276454165984,
+    "pillars": {
+      "quality": 40.955710955710956,
+      "valuation": 27.373150105708245,
+      "slow_flow": 61.64772727272727
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.18541428767764,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0269130738838576,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.0450042478639627,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.0539635350522644,
+        "percentile": 0.20454545454545456
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.141093099013147,
+        "percentile": 0.8205128205128205
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 1.5187633572999713,
+        "percentile": 0.23255813953488372
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 2.72073632086108,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0328063241106719,
+        "percentile": 0.475
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0006790550773885631,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0028153513342418298,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0003456513482977819,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 0.0006790550773885631
+        },
+        "text_en": "Net foreign accumulation equals 0.068% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.03456513482977819,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0328063241106719
+        },
+        "text_en": "Trailing dividend yield is 3.28%."
+      }
+    ],
+    "rank_prev": 37
+  },
+  {
+    "symbol": "HRTA",
+    "name": "PT Hartadinata Abadi Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 34,
+    "investor_score": 44.6445306147341,
+    "pillars": {
+      "quality": 52.505827505827504,
+      "valuation": 24.96652572233968,
+      "slow_flow": 49.71590909090909
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.354981579073565,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0219647092387149,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.340919396770555,
+        "percentile": 0.5
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.651648409580955,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 1.11813602179834,
+        "percentile": 0.10256410256410256
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 1.4915075771019244,
+        "percentile": 0.2558139534883721
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 3.6030824749275996,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0182648401826484,
+        "percentile": 0.425
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0025499921796036705,
+        "percentile": 0.45454545454545453
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.013743949098130091,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.002901267906037175,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.2901267906037175,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.29 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0182648401826484
+        },
+        "text_en": "Trailing dividend yield is 1.83%."
+      }
+    ],
+    "rank_prev": 33
+  },
+  {
+    "symbol": "MDKA",
+    "name": "PT Merdeka Copper Gold Tbk",
+    "sector": "Basic Materials",
+    "rank": 35,
+    "investor_score": 43.94550773838564,
+    "pillars": {
+      "quality": 38.31002331002331,
+      "valuation": 13.065539112050738,
+      "slow_flow": 72.44318181818181
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.000160335284398099,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": -0.0327542623421634,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 16.7507648346224,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.265128642329353,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.751177147410364,
+        "percentile": 0.2564102564102564
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 758.347650858656,
+        "percentile": 0.046511627906976744
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 3.8919325237098943,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.00431059352138586,
+        "percentile": 0.3
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 3.081696800650965e-05,
+        "percentile": 0.7954545454545454
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.000847116215885173,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.0035255529447227874,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 0.35255529447227874,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 0.35 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 3.081696800650965e-05
+        },
+        "text_en": "Net foreign accumulation equals 0.003% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.00431059352138586
+        },
+        "text_en": "Trailing dividend yield is 0.43%."
+      }
+    ],
+    "rank_prev": 31
+  },
+  {
+    "symbol": "BUMI",
+    "name": "Bumi Resources Tbk",
+    "sector": "Energy",
+    "rank": 36,
+    "investor_score": 43.28617288719033,
+    "pillars": {
+      "quality": 56.91142191142192,
+      "valuation": 25.21141649048626,
+      "slow_flow": 40.625
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0387208790031215,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0568596792913765,
+        "percentile": 0.25
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 14.0669361743661,
+        "percentile": 0.9545454545454546
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.504674611237845,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.219714655702597,
+        "percentile": 0.6410256410256411
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 2.147313258161068,
+        "percentile": 0.18604651162790697
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.3533731600128356,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": null,
+        "percentile": null
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.003334881602672011,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.010041208680703703,
+        "percentile": 0.29545454545454547
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0008989296660923962,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 0.9166666666666666,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.08989296660923962,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.09 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 34
+  },
+  {
+    "symbol": "PGAS",
+    "name": "PT Perusahaan Gas Negara Tbk",
+    "sector": "Energy",
+    "rank": 37,
+    "investor_score": 41.63880813953488,
+    "pillars": {
+      "quality": 35.60606060606061,
+      "valuation": 52.71053558844256,
+      "slow_flow": 40.625
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0639632440659049,
+        "percentile": 0.25
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0541673112578178,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.493788152586841,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": -0.0149865366589149,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.19582528721696,
+        "percentile": 0.6666666666666666
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5556781379716298,
+        "percentile": 0.627906976744186
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.4301074076540957,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.00014689132557003357,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.010124750423083632,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.00796439307484409,
+        "percentile": 0.13636363636363635
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5556781379716298,
+          "pb_relative": 0.4301074076540957
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.56×, PB 0.43×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.7964393074844089,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.80 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 42
+  },
+  {
+    "symbol": "EXCL",
+    "name": "PT XLSMART Telecom Sejahtera Tbk",
+    "sector": "Infrastructures",
+    "rank": 38,
+    "investor_score": 39.75036421911422,
+    "pillars": {
+      "quality": 27.06293706293706,
+      "valuation": 50.075757575757585,
+      "slow_flow": 46.875
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": -0.144432013405829,
+        "percentile": 0.0
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": -0.104288323317461,
+        "percentile": 0.0
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.827823610188977,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.160052629587781,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.718432935858744,
+        "percentile": 0.3076923076923077
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": -0.5669094168116598,
+        "percentile": 0.0
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.6130138162383945,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0668067226890756,
+        "percentile": 0.775
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0026779597071432686,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.00431514568830591,
+        "percentile": 0.4318181818181818
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0004302411636946113,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.0668067226890756
+        },
+        "text_en": "Trailing dividend yield is 6.68%."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pb_relative": 0.6130138162383945
+        },
+        "text_en": "Valuation multiples are below their peer averages (PB 0.61×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.04302411636946113,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.04 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 40
+  },
+  {
+    "symbol": "MAPI",
+    "name": "Mitra Adiperkasa Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 39,
+    "investor_score": 39.39521500786036,
+    "pillars": {
+      "quality": 37.69230769230769,
+      "valuation": 30.852713178294575,
+      "slow_flow": 47.44318181818182
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.132868794384053,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0517871371138379,
+        "percentile": 0.18181818181818182
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 0.202185546335424,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.156161186673699,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.476905231969694,
+        "percentile": 0.38461538461538464
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.985151521093586,
+        "percentile": 0.32558139534883723
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.5111223656636128,
+        "percentile": 0.25
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.00673400673400673,
+        "percentile": 0.35
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.0009004339986207456,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.03406745493083445,
+        "percentile": 0.0
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0003548433734940071,
+        "percentile": 0.5454545454545454
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 20,
+          "net_to_market_cap": 0.0009004339986207456
+        },
+        "text_en": "Net foreign accumulation equals 0.090% of market cap over available history in the 20-trading-day window."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.985151521093586
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.99×)."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.00673400673400673
+        },
+        "text_en": "Trailing dividend yield is 0.67%."
+      }
+    ],
+    "rank_prev": 39
+  },
+  {
+    "symbol": "INDY",
+    "name": "Indika Energy Tbk",
+    "sector": "Energy",
+    "rank": 40,
+    "investor_score": 39.02515483547461,
+    "pillars": {
+      "quality": 41.317016317016325,
+      "valuation": 38.68657505285412,
+      "slow_flow": 36.64772727272727
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.00992140542965687,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.00296774142118151,
+        "percentile": 0.06818181818181818
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 6.34077961857078,
+        "percentile": 0.8636363636363636
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.543053060873674,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.931155178029468,
+        "percentile": 0.1794871794871795
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 3.7319511583174863,
+        "percentile": 0.11627906976744186
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.3823140496240557,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.00326866027927479,
+        "percentile": 0.4090909090909091
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.008254145277738975,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.005463407106686247,
+        "percentile": 0.25
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pb_relative": 0.3823140496240557
+        },
+        "text_en": "Valuation multiples are below their peer averages (PB 0.38×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.5463407106686247,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.55 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 35
+  },
+  {
+    "symbol": "MEDC",
+    "name": "PT Medco Energi Internasional Tbk",
+    "sector": "Energy",
+    "rank": 41,
+    "investor_score": 39.015800333387546,
+    "pillars": {
+      "quality": 34.603729603729604,
+      "valuation": 57.34496124031008,
+      "slow_flow": 30.965909090909093
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0617379617311531,
+        "percentile": 0.22727272727272727
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.042093504776094,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 2.91601503421248,
+        "percentile": 0.8181818181818182
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.221292723969398,
+        "percentile": 0.5
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 1.55798440542677,
+        "percentile": 0.02564102564102564
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.9249351245445504,
+        "percentile": 0.3953488372093023
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.5745507093459602,
+        "percentile": 0.75
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0441439264470881,
+        "percentile": 0.575
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.003305256452828187,
+        "percentile": 0.38636363636363635
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.011797348425421711,
+        "percentile": 0.25
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0003305263194273156,
+        "percentile": 0.5909090909090909
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": -1.0,
+        "percentile": 0.011363636363636364
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "ratio": -1.0,
+          "days": 30,
+          "direction": "distribution"
+        },
+        "text_en": "Insider filings show net distribution over 30 calendar days (ratio -1.00)."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.9249351245445504,
+          "pb_relative": 0.5745507093459602
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.92×, PB 0.57×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.03305263194273156,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 45
+  },
+  {
+    "symbol": "KLBF",
+    "name": "Kalbe Farma Tbk",
+    "sector": "Healthcare",
+    "rank": 42,
+    "investor_score": 38.46991888925029,
+    "pillars": {
+      "quality": 53.974358974358985,
+      "valuation": 29.736610288935875,
+      "slow_flow": 26.988636363636363
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.140099110934772,
+        "percentile": 0.6136363636363636
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.103752167331587,
+        "percentile": 0.5
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.00849462950377454,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.19025186122983,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.0320785910051161,
+        "percentile": 0.9487179487179487
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 1.0291322492224866,
+        "percentile": 0.3023255813953488
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.9069468093070276,
+        "percentile": 0.4772727272727273
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0,
+        "percentile": 0.1125
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.006593938957469872,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.018546094693266336,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.0029348357484975107,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.29348357484975107,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.29 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pb_relative": 0.9069468093070276
+        },
+        "text_en": "Valuation multiples are below their peer averages (PB 0.91×)."
+      }
+    ],
+    "rank_prev": 44
+  },
+  {
+    "symbol": "BRPT",
+    "name": "Barito Pacific Tbk",
+    "sector": "Basic Materials",
+    "rank": 43,
+    "investor_score": 36.44335630454816,
+    "pillars": {
+      "quality": 24.207459207459205,
+      "valuation": 15.961945031712473,
+      "slow_flow": 65.05681818181819
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0213968922692664,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0641893193539433,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": -0.789384177266946,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.399694478961319,
+        "percentile": 0.75
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 1.32002977028281,
+        "percentile": 0.05128205128205128
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 4.845424124574743,
+        "percentile": 0.06976744186046512
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 2.469267508980475,
+        "percentile": 0.1590909090909091
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.00114788732058565,
+        "percentile": 0.25
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0015685073892682106,
+        "percentile": 0.5681818181818182
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.0035615626142113596,
+        "percentile": 0.9090909090909091
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.00032717579934593566,
+        "percentile": 0.6363636363636364
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.0035615626142113596
+        },
+        "text_en": "Net foreign accumulation equals 0.356% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "DIVIDEND_YIELD",
+        "params": {
+          "yield": 0.00114788732058565
+        },
+        "text_en": "Trailing dividend yield is 0.11%."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -0.032717579934593566,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 43
+  },
+  {
+    "symbol": "MBMA",
+    "name": "PT Merdeka Battery Materials Tbk",
+    "sector": "Basic Materials",
+    "rank": 44,
+    "investor_score": 36.044856548490266,
+    "pillars": {
+      "quality": 44.62703962703962,
+      "valuation": 18.28752642706131,
+      "slow_flow": 38.92045454545455
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.0254349845099593,
+        "percentile": 0.11363636363636363
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0206091754049278,
+        "percentile": 0.09090909090909091
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 9.87233243508396,
+        "percentile": 0.9318181818181818
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.273272314072624,
+        "percentile": 0.6590909090909091
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.455141288557296,
+        "percentile": 0.4358974358974359
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 4.354256178229077,
+        "percentile": 0.09302325581395349
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 1.489487740481735,
+        "percentile": 0.2727272727272727
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": null,
+        "percentile": null
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.0021963962601619434,
+        "percentile": 0.5
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.0034488763458100707,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.025489680984146945,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 0.9166666666666666,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -2.5489680984146945,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 2.55 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 41
+  },
+  {
+    "symbol": "GOTO",
+    "name": "PT GoTo Gojek Tokopedia Tbk",
+    "sector": "Technology",
+    "rank": 45,
+    "investor_score": 33.985991963462894,
+    "pillars": {
+      "quality": 44.35897435897436,
+      "valuation": 45.48097251585624,
+      "slow_flow": 13.920454545454547
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 6.38350496795411e-05,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": -0.0647116269369964,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 2.17817887658628,
+        "percentile": 0.7727272727272727
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.305998495957452,
+        "percentile": 0.6818181818181818
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.178993134247111,
+        "percentile": 0.717948717948718
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 1207.2303450395714,
+        "percentile": 0.023255813953488372
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.4154182893136711,
+        "percentile": 0.8863636363636364
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": null,
+        "percentile": null
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": -0.028582147118695587,
+        "percentile": 0.0
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": -0.026461936399956882,
+        "percentile": 0.045454545454545456
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": -0.02651956882724127,
+        "percentile": 0.022727272727272728
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 0.9166666666666666,
+    "reasons": [
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pb_relative": 0.4154182893136711
+        },
+        "text_en": "Valuation multiples are below their peer averages (PB 0.42×)."
+      },
+      {
+        "code": "HOLDER_SHIFT_RETAIL",
+        "params": {
+          "pp": -2.651956882724127,
+          "months": 3
+        },
+        "text_en": "Institutional share fell by 2.65 percentage points across the last 3 monthly snapshots."
+      }
+    ],
+    "rank_prev": 28
+  }
+]

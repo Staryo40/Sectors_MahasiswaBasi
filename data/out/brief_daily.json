@@ -1,0 +1,189 @@
+{
+  "as_of": "2026-10-02",
+  "items": [
+    {
+      "kind": "new_top5",
+      "symbol": "DEWA",
+      "params": {
+        "rank": 4,
+        "flow_score": 14.4
+      },
+      "text_en": "DEWA entered the top 5 of the daily flow list at rank 4",
+      "code": "NEW_TOP5"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "PGEO",
+      "params": {
+        "from": "neutral",
+        "to": "accumulation",
+        "flow_score": 16.8,
+        "flow_score_prev": 11.5
+      },
+      "text_en": "PGEO flow turned from neutral to accumulation (score 11.5 to 16.8)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "UNVR",
+      "params": {
+        "from": "accumulation",
+        "to": "neutral",
+        "flow_score": 11.2,
+        "flow_score_prev": 20.2
+      },
+      "text_en": "UNVR flow turned from accumulation to neutral (score 20.2 to 11.2)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "UNVR",
+      "params": {
+        "days": 5,
+        "direction": "in"
+      },
+      "text_en": "UNVR ended a 5-day net foreign inflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "BBCA",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "BBCA ended a 3-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "PTBA",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -8.0,
+        "flow_score_prev": -18.8
+      },
+      "text_en": "PTBA flow turned from distribution to neutral (score -18.8 to -8)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "PTBA",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "PTBA ended a 3-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "ICBP",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -10.9,
+        "flow_score_prev": -18.9
+      },
+      "text_en": "ICBP flow turned from distribution to neutral (score -18.9 to -10.9)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "ICBP",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "ICBP ended a 3-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "ANTM",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -11.1,
+        "flow_score_prev": -15.1
+      },
+      "text_en": "ANTM flow turned from distribution to neutral (score -15.1 to -11.1)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "AADI",
+      "params": {
+        "from": "neutral",
+        "to": "distribution",
+        "flow_score": -17.1,
+        "flow_score_prev": -6.7
+      },
+      "text_en": "AADI flow turned from neutral to distribution (score -6.7 to -17.1)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "CPIN",
+      "params": {
+        "days": 7,
+        "direction": "out"
+      },
+      "text_en": "CPIN ended a 7-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "INDF",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "INDF ended a 3-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "BRPT",
+      "params": {
+        "days": 10,
+        "direction": "out"
+      },
+      "text_en": "BRPT ended a 10-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "BBRI",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "BBRI has 3 straight days of net foreign outflow",
+      "code": "STREAK_STARTED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "MBMA",
+      "params": {
+        "days": 6,
+        "direction": "out"
+      },
+      "text_en": "MBMA ended a 6-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "ITMG",
+      "params": {
+        "days": 4,
+        "direction": "out"
+      },
+      "text_en": "ITMG ended a 4-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    }
+  ],
+  "upcoming": [],
+  "disclaimer": "Information and analysis only. Not investment advice."
+}

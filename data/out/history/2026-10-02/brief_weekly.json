@@ -1,0 +1,237 @@
+{
+  "as_of": "2026-10-02",
+  "items": [
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "AADI",
+      "params": {
+        "pp": 0.8545176567344437,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "AADI institutional share rose by 0.85 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "new_top5",
+      "code": "NEW_TOP5",
+      "symbol": "PTBA",
+      "params": {
+        "rank": 2,
+        "rank_prev": 6
+      },
+      "text_en": "PTBA entered the investor top five at rank 2."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "PTBA",
+      "params": {
+        "pp": 2.0251055077425306,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "PTBA institutional share rose by 2.03 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "INCO",
+      "params": {
+        "pp": -0.7383288505468877,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "INCO institutional share fell by 0.74 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "UNVR",
+      "params": {
+        "from": 16,
+        "to": 11,
+        "change": 5
+      },
+      "text_en": "UNVR moved from investor rank 16 to 11."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "AKRA",
+      "params": {
+        "from": 27,
+        "to": 21,
+        "change": 6
+      },
+      "text_en": "AKRA moved from investor rank 27 to 21."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "DEWA",
+      "params": {
+        "pp": -1.9310716308337028,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "DEWA institutional share fell by 1.93 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "ESSA",
+      "params": {
+        "from": 12,
+        "to": 23,
+        "change": -11
+      },
+      "text_en": "ESSA moved from investor rank 12 to 23."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "ESSA",
+      "params": {
+        "pp": -1.123779375854117,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "ESSA institutional share fell by 1.12 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "UNTR",
+      "params": {
+        "from": 38,
+        "to": 26,
+        "change": 12
+      },
+      "text_en": "UNTR moved from investor rank 38 to 26."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "CPIN",
+      "params": {
+        "from": 36,
+        "to": 27,
+        "change": 9
+      },
+      "text_en": "CPIN moved from investor rank 36 to 27."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "CPIN",
+      "params": {
+        "pp": -0.6009793877302161,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "CPIN institutional share fell by 0.60 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "BBTN",
+      "params": {
+        "from": 18,
+        "to": 28,
+        "change": -10
+      },
+      "text_en": "BBTN moved from investor rank 18 to 28."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "BBTN",
+      "params": {
+        "pp": -0.5784964022145123,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "BBTN institutional share fell by 0.58 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "SCMA",
+      "params": {
+        "pp": -0.5058466151940166,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "SCMA institutional share fell by 0.51 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "CUAN",
+      "params": {
+        "from": 25,
+        "to": 31,
+        "change": -6
+      },
+      "text_en": "CUAN moved from investor rank 25 to 31."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "PGAS",
+      "params": {
+        "from": 42,
+        "to": 37,
+        "change": 5
+      },
+      "text_en": "PGAS moved from investor rank 42 to 37."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "INDY",
+      "params": {
+        "from": 35,
+        "to": 40,
+        "change": -5
+      },
+      "text_en": "INDY moved from investor rank 35 to 40."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "MBMA",
+      "params": {
+        "pp": -2.5768582626715553,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "MBMA institutional share fell by 2.58 percentage points in the new holder snapshot."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "GOTO",
+      "params": {
+        "from": 28,
+        "to": 45,
+        "change": -17
+      },
+      "text_en": "GOTO moved from investor rank 28 to 45."
+    },
+    {
+      "kind": "holder_shift",
+      "code": "HOLDER_SHIFT",
+      "symbol": "GOTO",
+      "params": {
+        "pp": -1.4184995922775334,
+        "from_date": "2026-08-31",
+        "to_date": "2026-09-30"
+      },
+      "text_en": "GOTO institutional share fell by 1.42 percentage points in the new holder snapshot."
+    }
+  ],
+  "upcoming": [],
+  "disclaimer": "Information and analysis only. Not investment advice."
+}

@@ -1,0 +1,3400 @@
+[
+  {
+    "symbol": "UNTR",
+    "name": "United Tractors Tbk",
+    "sector": "Industrials",
+    "rank": 1,
+    "flow_score": 25.5,
+    "label": "accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.6084,
+        "weight": 0.3,
+        "contribution": 18.25
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1168,
+        "weight": 0.25,
+        "contribution": 2.92
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.1854,
+        "weight": 0.15,
+        "contribution": 2.78
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 1.8
+        },
+        "text_en": "5-day net foreign inflow is 1.8 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.12
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 19
+        },
+        "text_en": "Institutional brokers show net accumulation, 19% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 26000.0,
+    "change_1d": -0.0133,
+    "return_10d": 0.0473,
+    "volume_ratio": 0.78,
+    "rank_prev": 2,
+    "flow_score_prev": 20.6
+  },
+  {
+    "symbol": "AMRT",
+    "name": "PT Sumber Alfaria Trijaya Tbk.",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 2,
+    "flow_score": 25.0,
+    "label": "accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.2302,
+        "weight": 0.3,
+        "contribution": 6.9
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.338,
+        "weight": 0.25,
+        "contribution": 8.45
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.5535,
+        "weight": 0.15,
+        "contribution": 8.3
+      },
+      {
+        "key": "divergence",
+        "value": 0.2841,
+        "weight": 0.1,
+        "contribution": 2.84
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.34
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 55
+        },
+        "text_en": "Institutional brokers show net accumulation, 55% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.7
+        },
+        "text_en": "5-day net foreign inflow is 0.7 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 1265.0,
+    "change_1d": -0.0232,
+    "return_10d": -0.0269,
+    "volume_ratio": 1.24,
+    "rank_prev": 1,
+    "flow_score_prev": 40.8
+  },
+  {
+    "symbol": "PGEO",
+    "name": "PT Pertamina Geothermal Energy Tbk",
+    "sector": "Infrastructures",
+    "rank": 3,
+    "flow_score": 16.8,
+    "label": "accumulation",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.028,
+        "weight": 0.3,
+        "contribution": 0.84
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.2675,
+        "weight": 0.25,
+        "contribution": 6.69
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.4221,
+        "weight": 0.15,
+        "contribution": 6.33
+      },
+      {
+        "key": "divergence",
+        "value": 0.1477,
+        "weight": 0.1,
+        "contribution": 1.48
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.27
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 42
+        },
+        "text_en": "Institutional brokers show net accumulation, 42% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 940.0,
+    "change_1d": -0.0157,
+    "return_10d": -0.1132,
+    "volume_ratio": 0.89,
+    "rank_prev": 4,
+    "flow_score_prev": 11.5
+  },
+  {
+    "symbol": "DEWA",
+    "name": "Darma Henwa Tbk",
+    "sector": "Energy",
+    "rank": 4,
+    "flow_score": 14.4,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.1986,
+        "weight": 0.3,
+        "contribution": 5.96
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.2,
+        "weight": 0.15,
+        "contribution": 3.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1522,
+        "weight": 0.25,
+        "contribution": 3.8
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0062,
+        "weight": 0.15,
+        "contribution": -0.09
+      },
+      {
+        "key": "divergence",
+        "value": 0.1754,
+        "weight": 0.1,
+        "contribution": 1.75
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.6
+        },
+        "text_en": "5-day net foreign inflow is 0.6 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.15
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "in"
+        },
+        "text_en": "Net foreign inflow for 2 trading days in a row"
+      }
+    ],
+    "close": 338.0,
+    "change_1d": 0.012,
+    "return_10d": -0.0865,
+    "volume_ratio": 0.97,
+    "rank_prev": 6,
+    "flow_score_prev": 7.4
+  },
+  {
+    "symbol": "UNVR",
+    "name": "Unilever Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 5,
+    "flow_score": 11.2,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.1798,
+        "weight": 0.3,
+        "contribution": 5.39
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1806,
+        "weight": 0.25,
+        "contribution": 4.52
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0368,
+        "weight": 0.15,
+        "contribution": -0.55
+      },
+      {
+        "key": "divergence",
+        "value": 0.1802,
+        "weight": 0.1,
+        "contribution": 1.8
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.5
+        },
+        "text_en": "5-day net foreign inflow is 0.5 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.18
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      }
+    ],
+    "close": 1580.0,
+    "change_1d": -0.0277,
+    "return_10d": -0.0424,
+    "volume_ratio": 1.44,
+    "rank_prev": 3,
+    "flow_score_prev": 20.2
+  },
+  {
+    "symbol": "BUMI",
+    "name": "Bumi Resources Tbk",
+    "sector": "Energy",
+    "rank": 6,
+    "flow_score": 10.9,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0484,
+        "weight": 0.3,
+        "contribution": -1.45
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.2058,
+        "weight": 0.25,
+        "contribution": 5.15
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.3295,
+        "weight": 0.15,
+        "contribution": 4.94
+      },
+      {
+        "key": "divergence",
+        "value": 0.0787,
+        "weight": 0.1,
+        "contribution": 0.79
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.21
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 33
+        },
+        "text_en": "Institutional brokers show net accumulation, 33% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 175.0,
+    "change_1d": 0.0294,
+    "return_10d": -0.0933,
+    "volume_ratio": 0.69,
+    "rank_prev": 7,
+    "flow_score_prev": 2.5
+  },
+  {
+    "symbol": "MAPI",
+    "name": "Mitra Adiperkasa Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 7,
+    "flow_score": 9.9,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.0327,
+        "weight": 0.3,
+        "contribution": 0.98
+      },
+      {
+        "key": "foreign_streak",
+        "value": 1.0,
+        "weight": 0.15,
+        "contribution": 15.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1986,
+        "weight": 0.25,
+        "contribution": 4.96
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.8109,
+        "weight": 0.15,
+        "contribution": -12.16
+      },
+      {
+        "key": "divergence",
+        "value": 0.1156,
+        "weight": 0.1,
+        "contribution": 1.16
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 10,
+          "direction": "in"
+        },
+        "text_en": "Net foreign inflow for at least 10 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 81
+        },
+        "text_en": "Institutional brokers show net distribution, 81% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.2
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      }
+    ],
+    "close": 1485.0,
+    "change_1d": 0.0034,
+    "return_10d": -0.01,
+    "volume_ratio": 0.95,
+    "rank_prev": 5,
+    "flow_score_prev": 7.7
+  },
+  {
+    "symbol": "KLBF",
+    "name": "Kalbe Farma Tbk",
+    "sector": "Healthcare",
+    "rank": 8,
+    "flow_score": 3.6,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1539,
+        "weight": 0.3,
+        "contribution": -4.62
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0269,
+        "weight": 0.25,
+        "contribution": -0.67
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.5912,
+        "weight": 0.15,
+        "contribution": 8.87
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 59
+        },
+        "text_en": "Institutional brokers show net accumulation, 59% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.5
+        },
+        "text_en": "5-day net foreign outflow is 0.5 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 725.0,
+    "change_1d": 0.0069,
+    "return_10d": -0.0461,
+    "volume_ratio": 0.36,
+    "rank_prev": 10,
+    "flow_score_prev": -0.7
+  },
+  {
+    "symbol": "AMMN",
+    "name": "PT Amman Mineral Internasional Tbk.",
+    "sector": "Basic Materials",
+    "rank": 9,
+    "flow_score": 1.5,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0254,
+        "weight": 0.3,
+        "contribution": -0.76
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.119,
+        "weight": 0.25,
+        "contribution": 2.98
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.1785,
+        "weight": 0.15,
+        "contribution": -2.68
+      },
+      {
+        "key": "divergence",
+        "value": 0.0468,
+        "weight": 0.1,
+        "contribution": 0.47
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.12
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 18
+        },
+        "text_en": "Institutional brokers show net distribution, 18% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 4240.0,
+    "change_1d": -0.0297,
+    "return_10d": -0.094,
+    "volume_ratio": 1.08,
+    "rank_prev": 8,
+    "flow_score_prev": 0.3
+  },
+  {
+    "symbol": "ASII",
+    "name": "Astra International Tbk",
+    "sector": "Industrials",
+    "rank": 10,
+    "flow_score": 0.4,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1418,
+        "weight": 0.3,
+        "contribution": -4.25
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.2,
+        "weight": 0.15,
+        "contribution": 3.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0725,
+        "weight": 0.25,
+        "contribution": -1.81
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.1006,
+        "weight": 0.15,
+        "contribution": -1.51
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 1.0,
+        "weight": 0.05,
+        "contribution": 5.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "direction": "accumulation",
+          "ratio": 1.0
+        },
+        "text_en": "Insider filings in the last 30 days lean toward acquisitions"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "in"
+        },
+        "text_en": "Net foreign inflow for 2 trading days in a row"
+      }
+    ],
+    "close": 4630.0,
+    "change_1d": 0.0266,
+    "return_10d": -0.0394,
+    "volume_ratio": 0.9,
+    "rank_prev": 15,
+    "flow_score_prev": -7.4
+  },
+  {
+    "symbol": "ESSA",
+    "name": "ESSA Industries Indonesia Tbk",
+    "sector": "Basic Materials",
+    "rank": 11,
+    "flow_score": -1.1,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0221,
+        "weight": 0.3,
+        "contribution": -0.66
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0517,
+        "weight": 0.25,
+        "contribution": 1.29
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0245,
+        "weight": 0.15,
+        "contribution": -0.37
+      },
+      {
+        "key": "divergence",
+        "value": 0.0148,
+        "weight": 0.1,
+        "contribution": 0.15
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [],
+    "close": 590.0,
+    "change_1d": 0.0351,
+    "return_10d": -0.0248,
+    "volume_ratio": 0.78,
+    "rank_prev": 9,
+    "flow_score_prev": -0.4
+  },
+  {
+    "symbol": "WIFI",
+    "name": "PT Solusi Sinergi Digital Tbk",
+    "sector": "Technology",
+    "rank": 12,
+    "flow_score": -1.6,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.1093,
+        "weight": 0.3,
+        "contribution": 3.28
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.2,
+        "weight": 0.15,
+        "contribution": 3.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.003,
+        "weight": 0.25,
+        "contribution": 0.07
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5687,
+        "weight": 0.15,
+        "contribution": -8.53
+      },
+      {
+        "key": "divergence",
+        "value": 0.0561,
+        "weight": 0.1,
+        "contribution": 0.56
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [
+      "unusual_volume"
+    ],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 57
+        },
+        "text_en": "Institutional brokers show net distribution, 57% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign inflow is 0.3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "in"
+        },
+        "text_en": "Net foreign inflow for 2 trading days in a row"
+      }
+    ],
+    "close": 1435.0,
+    "change_1d": -0.1115,
+    "return_10d": -0.2565,
+    "volume_ratio": 10.25,
+    "rank_prev": 19,
+    "flow_score_prev": -11.5
+  },
+  {
+    "symbol": "INCO",
+    "name": "Vale Indonesia Tbk",
+    "sector": "Basic Materials",
+    "rank": 13,
+    "flow_score": -3.4,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1078,
+        "weight": 0.3,
+        "contribution": -3.23
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.2,
+        "weight": 0.15,
+        "contribution": 3.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0611,
+        "weight": 0.25,
+        "contribution": -1.53
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.1063,
+        "weight": 0.15,
+        "contribution": -1.59
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "in"
+        },
+        "text_en": "Net foreign inflow for 2 trading days in a row"
+      }
+    ],
+    "close": 4170.0,
+    "change_1d": 0.0097,
+    "return_10d": -0.142,
+    "volume_ratio": 0.4,
+    "rank_prev": 13,
+    "flow_score_prev": -5.4
+  },
+  {
+    "symbol": "INKP",
+    "name": "Indah Kiat Pulp & Paper Tbk",
+    "sector": "Basic Materials",
+    "rank": 14,
+    "flow_score": -5.5,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0479,
+        "weight": 0.3,
+        "contribution": -1.44
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0327,
+        "weight": 0.25,
+        "contribution": 0.82
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.3273,
+        "weight": 0.15,
+        "contribution": -4.91
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 33
+        },
+        "text_en": "Institutional brokers show net distribution, 33% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 8050.0,
+    "change_1d": 0.0094,
+    "return_10d": -0.0667,
+    "volume_ratio": 0.22,
+    "rank_prev": 12,
+    "flow_score_prev": -3.0
+  },
+  {
+    "symbol": "BBCA",
+    "name": "PT Bank Central Asia Tbk.",
+    "sector": "Financials",
+    "rank": 15,
+    "flow_score": -6.9,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1889,
+        "weight": 0.3,
+        "contribution": -5.67
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0246,
+        "weight": 0.25,
+        "contribution": -0.62
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.1439,
+        "weight": 0.15,
+        "contribution": -2.16
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.6
+        },
+        "text_en": "5-day net foreign outflow is 0.6 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 14
+        },
+        "text_en": "Institutional brokers show net distribution, 14% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 6100.0,
+    "change_1d": 0.0167,
+    "return_10d": -0.0317,
+    "volume_ratio": 1.29,
+    "rank_prev": 20,
+    "flow_score_prev": -12.0
+  },
+  {
+    "symbol": "PTBA",
+    "name": "Bukit Asam Tbk",
+    "sector": "Energy",
+    "rank": 16,
+    "flow_score": -8.0,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.3481,
+        "weight": 0.3,
+        "contribution": -10.44
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.095,
+        "weight": 0.25,
+        "contribution": 2.37
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.013,
+        "weight": 0.15,
+        "contribution": -0.2
+      },
+      {
+        "key": "divergence",
+        "value": -0.1266,
+        "weight": 0.1,
+        "contribution": -1.27
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.0
+        },
+        "text_en": "5-day net foreign outflow is 1 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.1
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      }
+    ],
+    "close": 3180.0,
+    "change_1d": 0.0426,
+    "return_10d": 0.0291,
+    "volume_ratio": 1.06,
+    "rank_prev": 23,
+    "flow_score_prev": -18.8
+  },
+  {
+    "symbol": "PGAS",
+    "name": "PT Perusahaan Gas Negara Tbk",
+    "sector": "Energy",
+    "rank": 17,
+    "flow_score": -8.1,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.0097,
+        "weight": 0.3,
+        "contribution": 0.29
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0853,
+        "weight": 0.25,
+        "contribution": -2.13
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4195,
+        "weight": 0.15,
+        "contribution": -6.29
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 42
+        },
+        "text_en": "Institutional brokers show net distribution, 42% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.09
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 1375.0,
+    "change_1d": -0.0036,
+    "return_10d": -0.0678,
+    "volume_ratio": 1.19,
+    "rank_prev": 18,
+    "flow_score_prev": -8.7
+  },
+  {
+    "symbol": "CUAN",
+    "name": "PT Petrindo Jaya Kreasi Tbk",
+    "sector": "Energy",
+    "rank": 18,
+    "flow_score": -8.3,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.122,
+        "weight": 0.3,
+        "contribution": -3.66
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0012,
+        "weight": 0.25,
+        "contribution": 0.03
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.2085,
+        "weight": 0.15,
+        "contribution": -3.13
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 21
+        },
+        "text_en": "Institutional brokers show net distribution, 21% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 845.0,
+    "change_1d": -0.0231,
+    "return_10d": -0.0865,
+    "volume_ratio": 0.79,
+    "rank_prev": 11,
+    "flow_score_prev": -2.8
+  },
+  {
+    "symbol": "ISAT",
+    "name": "PT Indosat Tbk",
+    "sector": "Infrastructures",
+    "rank": 19,
+    "flow_score": -8.8,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1475,
+        "weight": 0.3,
+        "contribution": -4.42
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1145,
+        "weight": 0.25,
+        "contribution": -2.86
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0005,
+        "weight": 0.15,
+        "contribution": -0.01
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.11
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 2250.0,
+    "change_1d": -0.0044,
+    "return_10d": -0.0506,
+    "volume_ratio": 0.75,
+    "rank_prev": 17,
+    "flow_score_prev": -7.8
+  },
+  {
+    "symbol": "HRTA",
+    "name": "PT Hartadinata Abadi Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 20,
+    "flow_score": -9.7,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.2937,
+        "weight": 0.3,
+        "contribution": -8.81
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1138,
+        "weight": 0.25,
+        "contribution": 2.85
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.249,
+        "weight": 0.15,
+        "contribution": -3.74
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.9
+        },
+        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 25
+        },
+        "text_en": "Institutional brokers show net distribution, 25% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.11
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      }
+    ],
+    "close": 2190.0,
+    "change_1d": 0.0,
+    "return_10d": -0.0045,
+    "volume_ratio": 0.54,
+    "rank_prev": 16,
+    "flow_score_prev": -7.7
+  },
+  {
+    "symbol": "ICBP",
+    "name": "Indofood CBP Sukses Makmur Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 21,
+    "flow_score": -10.9,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1683,
+        "weight": 0.3,
+        "contribution": -5.05
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0371,
+        "weight": 0.25,
+        "contribution": 0.93
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5533,
+        "weight": 0.15,
+        "contribution": -8.3
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 55
+        },
+        "text_en": "Institutional brokers show net distribution, 55% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.5
+        },
+        "text_en": "5-day net foreign outflow is 0.5 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 6750.0,
+    "change_1d": 0.0189,
+    "return_10d": -0.0217,
+    "volume_ratio": 0.44,
+    "rank_prev": 24,
+    "flow_score_prev": -18.9
+  },
+  {
+    "symbol": "ANTM",
+    "name": "Aneka Tambang Tbk.",
+    "sector": "Basic Materials",
+    "rank": 22,
+    "flow_score": -11.1,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0064,
+        "weight": 0.3,
+        "contribution": -0.19
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0008,
+        "weight": 0.25,
+        "contribution": 0.02
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.8272,
+        "weight": 0.15,
+        "contribution": -12.41
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 83
+        },
+        "text_en": "Institutional brokers show net distribution, 83% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 3140.0,
+    "change_1d": 0.0064,
+    "return_10d": -0.0599,
+    "volume_ratio": 0.3,
+    "rank_prev": 21,
+    "flow_score_prev": -15.1
+  },
+  {
+    "symbol": "MEDC",
+    "name": "PT Medco Energi Internasional Tbk",
+    "sector": "Energy",
+    "rank": 23,
+    "flow_score": -15.7,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.0895,
+        "weight": 0.3,
+        "contribution": -2.68
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2995,
+        "weight": 0.25,
+        "contribution": -7.49
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0356,
+        "weight": 0.15,
+        "contribution": -0.53
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": -1.0,
+        "weight": 0.05,
+        "contribution": -5.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.3
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "direction": "distribution",
+          "ratio": -1.0
+        },
+        "text_en": "Insider filings in the last 30 days lean toward disposals"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 1375.0,
+    "change_1d": -0.0036,
+    "return_10d": -0.0582,
+    "volume_ratio": 0.39,
+    "rank_prev": 27,
+    "flow_score_prev": -20.5
+  },
+  {
+    "symbol": "AADI",
+    "name": "PT Adaro Andalan Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 24,
+    "flow_score": -17.1,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.4001,
+        "weight": 0.3,
+        "contribution": -12.0
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1395,
+        "weight": 0.25,
+        "contribution": -3.49
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.0074,
+        "weight": 0.15,
+        "contribution": -0.11
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.2
+        },
+        "text_en": "5-day net foreign outflow is 1.2 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.14
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 11550.0,
+    "change_1d": 0.0359,
+    "return_10d": -0.0355,
+    "volume_ratio": 0.82,
+    "rank_prev": 14,
+    "flow_score_prev": -6.7
+  },
+  {
+    "symbol": "CPIN",
+    "name": "Charoen Pokphand Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 25,
+    "flow_score": -17.2,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.125,
+        "weight": 0.3,
+        "contribution": -3.75
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2796,
+        "weight": 0.25,
+        "contribution": -6.99
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4778,
+        "weight": 0.15,
+        "contribution": -7.17
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.1429,
+        "weight": 0.05,
+        "contribution": 0.71
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 48
+        },
+        "text_en": "Institutional brokers show net distribution, 48% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.28
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 2910.0,
+    "change_1d": 0.0104,
+    "return_10d": -0.0762,
+    "volume_ratio": 0.58,
+    "rank_prev": 33,
+    "flow_score_prev": -28.0
+  },
+  {
+    "symbol": "INDF",
+    "name": "Indofood Sukses Makmur Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 26,
+    "flow_score": -18.0,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1738,
+        "weight": 0.3,
+        "contribution": -5.21
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2621,
+        "weight": 0.25,
+        "contribution": -6.55
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5172,
+        "weight": 0.15,
+        "contribution": -7.76
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 52
+        },
+        "text_en": "Institutional brokers show net distribution, 52% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.26
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.5
+        },
+        "text_en": "5-day net foreign outflow is 0.5 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 6825.0,
+    "change_1d": 0.0111,
+    "return_10d": -0.0285,
+    "volume_ratio": 0.66,
+    "rank_prev": 30,
+    "flow_score_prev": -24.5
+  },
+  {
+    "symbol": "BRPT",
+    "name": "Barito Pacific Tbk",
+    "sector": "Basic Materials",
+    "rank": 27,
+    "flow_score": -19.4,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1173,
+        "weight": 0.3,
+        "contribution": -3.52
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1243,
+        "weight": 0.25,
+        "contribution": -3.11
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.8545,
+        "weight": 0.15,
+        "contribution": -12.82
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 85
+        },
+        "text_en": "Institutional brokers show net distribution, 85% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.12
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 1420.0,
+    "change_1d": 0.0107,
+    "return_10d": -0.118,
+    "volume_ratio": 0.61,
+    "rank_prev": 37,
+    "flow_score_prev": -35.6
+  },
+  {
+    "symbol": "EMTK",
+    "name": "Elang Mahkota Teknologi Tbk",
+    "sector": "Technology",
+    "rank": 28,
+    "flow_score": -21.4,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1986,
+        "weight": 0.3,
+        "contribution": -5.96
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.3135,
+        "weight": 0.25,
+        "contribution": -7.84
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4039,
+        "weight": 0.15,
+        "contribution": -6.06
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.31
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 40
+        },
+        "text_en": "Institutional brokers show net distribution, 40% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.6
+        },
+        "text_en": "5-day net foreign outflow is 0.6 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 382.0,
+    "change_1d": -0.0052,
+    "return_10d": -0.1838,
+    "volume_ratio": 0.78,
+    "rank_prev": 25,
+    "flow_score_prev": -19.1
+  },
+  {
+    "symbol": "SCMA",
+    "name": "Surya Citra Media Tbk",
+    "sector": "Consumer Cyclicals",
+    "rank": 29,
+    "flow_score": -22.4,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.087,
+        "weight": 0.3,
+        "contribution": -2.61
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.3514,
+        "weight": 0.25,
+        "contribution": -8.79
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.6367,
+        "weight": 0.15,
+        "contribution": -9.55
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 64
+        },
+        "text_en": "Institutional brokers show net distribution, 64% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.35
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
+      }
+    ],
+    "close": 172.0,
+    "change_1d": 0.0058,
+    "return_10d": -0.0652,
+    "volume_ratio": 0.71,
+    "rank_prev": 28,
+    "flow_score_prev": -22.0
+  },
+  {
+    "symbol": "BBRI",
+    "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 30,
+    "flow_score": -24.4,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.1465,
+        "weight": 0.3,
+        "contribution": -4.4
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.3,
+        "weight": 0.15,
+        "contribution": -4.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2448,
+        "weight": 0.25,
+        "contribution": -6.12
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.6257,
+        "weight": 0.15,
+        "contribution": -9.39
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 63
+        },
+        "text_en": "Institutional brokers show net distribution, 63% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.24
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 3,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 3 trading days in a row"
+      }
+    ],
+    "close": 3080.0,
+    "change_1d": -0.0065,
+    "return_10d": -0.0695,
+    "volume_ratio": 1.13,
+    "rank_prev": 22,
+    "flow_score_prev": -18.6
+  },
+  {
+    "symbol": "INDY",
+    "name": "Indika Energy Tbk",
+    "sector": "Energy",
+    "rank": 31,
+    "flow_score": -24.7,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.3015,
+        "weight": 0.3,
+        "contribution": -9.05
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.4,
+        "weight": 0.15,
+        "contribution": -6.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0281,
+        "weight": 0.25,
+        "contribution": -0.7
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5947,
+        "weight": 0.15,
+        "contribution": -8.92
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.9
+        },
+        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 59
+        },
+        "text_en": "Institutional brokers show net distribution, 59% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 4 trading days in a row"
+      }
+    ],
+    "close": 2540.0,
+    "change_1d": -0.0117,
+    "return_10d": -0.0696,
+    "volume_ratio": 0.5,
+    "rank_prev": 26,
+    "flow_score_prev": -20.4
+  },
+  {
+    "symbol": "BBTN",
+    "name": "PT Bank Tabungan Negara (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 32,
+    "flow_score": -26.2,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.3387,
+        "weight": 0.3,
+        "contribution": -10.16
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2318,
+        "weight": 0.25,
+        "contribution": -5.79
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5805,
+        "weight": 0.15,
+        "contribution": -8.71
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.0
+        },
+        "text_en": "5-day net foreign outflow is 1 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 58
+        },
+        "text_en": "Institutional brokers show net distribution, 58% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.23
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 1065.0,
+    "change_1d": 0.0095,
+    "return_10d": -0.0897,
+    "volume_ratio": 0.58,
+    "rank_prev": 29,
+    "flow_score_prev": -23.5
+  },
+  {
+    "symbol": "MDKA",
+    "name": "PT Merdeka Copper Gold Tbk",
+    "sector": "Basic Materials",
+    "rank": 33,
+    "flow_score": -27.5,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.5636,
+        "weight": 0.3,
+        "contribution": -16.91
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.7,
+        "weight": 0.15,
+        "contribution": -10.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.2018,
+        "weight": 0.25,
+        "contribution": 5.05
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.3403,
+        "weight": 0.15,
+        "contribution": -5.1
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.7
+        },
+        "text_en": "5-day net foreign outflow is 1.7 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 7,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 7 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 34
+        },
+        "text_en": "Institutional brokers show net distribution, 34% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 2850.0,
+    "change_1d": 0.0106,
+    "return_10d": -0.0172,
+    "volume_ratio": 0.46,
+    "rank_prev": 32,
+    "flow_score_prev": -27.5
+  },
+  {
+    "symbol": "BBNI",
+    "name": "PT Bank Negara Indonesia (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 34,
+    "flow_score": -28.8,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.4114,
+        "weight": 0.3,
+        "contribution": -12.34
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.3438,
+        "weight": 0.25,
+        "contribution": -8.59
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4215,
+        "weight": 0.15,
+        "contribution": -6.32
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.2
+        },
+        "text_en": "5-day net foreign outflow is 1.2 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.34
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 42
+        },
+        "text_en": "Institutional brokers show net distribution, 42% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 3420.0,
+    "change_1d": 0.0029,
+    "return_10d": -0.063,
+    "volume_ratio": 0.81,
+    "rank_prev": 34,
+    "flow_score_prev": -28.5
+  },
+  {
+    "symbol": "MBMA",
+    "name": "PT Merdeka Battery Materials Tbk",
+    "sector": "Basic Materials",
+    "rank": 35,
+    "flow_score": -29.4,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.6367,
+        "weight": 0.3,
+        "contribution": -19.1
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.0,
+        "weight": 0.15,
+        "contribution": 0.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1064,
+        "weight": 0.25,
+        "contribution": -2.66
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.509,
+        "weight": 0.15,
+        "contribution": -7.64
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.9
+        },
+        "text_en": "5-day net foreign outflow is 1.9 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 51
+        },
+        "text_en": "Institutional brokers show net distribution, 51% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.11
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 470.0,
+    "change_1d": -0.0126,
+    "return_10d": -0.1376,
+    "volume_ratio": 1.3,
+    "rank_prev": 42,
+    "flow_score_prev": -40.9
+  },
+  {
+    "symbol": "ITMG",
+    "name": "Indo Tambangraya Megah Tbk",
+    "sector": "Energy",
+    "rank": 36,
+    "flow_score": -29.5,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.7716,
+        "weight": 0.3,
+        "contribution": -23.15
+      },
+      {
+        "key": "foreign_streak",
+        "value": 0.1,
+        "weight": 0.15,
+        "contribution": 1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.229,
+        "weight": 0.25,
+        "contribution": 5.73
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.9042,
+        "weight": 0.15,
+        "contribution": -13.56
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 2.3
+        },
+        "text_en": "5-day net foreign outflow is 2.3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 90
+        },
+        "text_en": "Institutional brokers show net distribution, 90% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.23
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      }
+    ],
+    "close": 25200.0,
+    "change_1d": 0.0223,
+    "return_10d": -0.0562,
+    "volume_ratio": 0.87,
+    "rank_prev": 38,
+    "flow_score_prev": -36.9
+  },
+  {
+    "symbol": "ADRO",
+    "name": "Alamtri Resources Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 37,
+    "flow_score": -30.8,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.315,
+        "weight": 0.3,
+        "contribution": -9.45
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.4,
+        "weight": 0.15,
+        "contribution": -6.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1422,
+        "weight": 0.25,
+        "contribution": -3.56
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.7854,
+        "weight": 0.15,
+        "contribution": -11.78
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 79
+        },
+        "text_en": "Institutional brokers show net distribution, 79% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.9
+        },
+        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 4 trading days in a row"
+      }
+    ],
+    "close": 2500.0,
+    "change_1d": 0.0373,
+    "return_10d": -0.053,
+    "volume_ratio": 0.9,
+    "rank_prev": 35,
+    "flow_score_prev": -29.1
+  },
+  {
+    "symbol": "ADMR",
+    "name": "PT Alamtri Minerals Indonesia Tbk",
+    "sector": "Energy",
+    "rank": 38,
+    "flow_score": -31.0,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.4395,
+        "weight": 0.3,
+        "contribution": -13.19
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.7,
+        "weight": 0.15,
+        "contribution": -10.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.169,
+        "weight": 0.25,
+        "contribution": 4.23
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.7705,
+        "weight": 0.15,
+        "contribution": -11.56
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.3
+        },
+        "text_en": "5-day net foreign outflow is 1.3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 77
+        },
+        "text_en": "Institutional brokers show net distribution, 77% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 7,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 7 trading days in a row"
+      }
+    ],
+    "close": 1465.0,
+    "change_1d": 0.0174,
+    "return_10d": -0.0786,
+    "volume_ratio": 0.51,
+    "rank_prev": 36,
+    "flow_score_prev": -31.0
+  },
+  {
+    "symbol": "JPFA",
+    "name": "JAPFA Comfeed Indonesia Tbk",
+    "sector": "Consumer Non-Cyclicals",
+    "rank": 39,
+    "flow_score": -33.1,
+    "label": "distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.57,
+        "weight": 0.3,
+        "contribution": -17.1
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.4,
+        "weight": 0.15,
+        "contribution": -6.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1449,
+        "weight": 0.25,
+        "contribution": -3.62
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.427,
+        "weight": 0.15,
+        "contribution": -6.41
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.7
+        },
+        "text_en": "5-day net foreign outflow is 1.7 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 43
+        },
+        "text_en": "Institutional brokers show net distribution, 43% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 4 trading days in a row"
+      }
+    ],
+    "close": 1995.0,
+    "change_1d": -0.0221,
+    "return_10d": -0.125,
+    "volume_ratio": 1.14,
+    "rank_prev": 31,
+    "flow_score_prev": -25.4
+  },
+  {
+    "symbol": "NCKL",
+    "name": "PT Trimegah Bangun Persada Tbk",
+    "sector": "Basic Materials",
+    "rank": 40,
+    "flow_score": -41.8,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.5641,
+        "weight": 0.3,
+        "contribution": -16.92
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.7,
+        "weight": 0.15,
+        "contribution": -10.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2355,
+        "weight": 0.25,
+        "contribution": -5.89
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5636,
+        "weight": 0.15,
+        "contribution": -8.45
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.7
+        },
+        "text_en": "5-day net foreign outflow is 1.7 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 7,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 7 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 56
+        },
+        "text_en": "Institutional brokers show net distribution, 56% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 845.0,
+    "change_1d": -0.0174,
+    "return_10d": -0.0815,
+    "volume_ratio": 1.1,
+    "rank_prev": 40,
+    "flow_score_prev": -38.5
+  },
+  {
+    "symbol": "TLKM",
+    "name": "PT Telkom Indonesia (Persero) Tbk",
+    "sector": "Infrastructures",
+    "rank": 41,
+    "flow_score": -41.9,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -1.0,
+        "weight": 0.3,
+        "contribution": -30.0
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.1304,
+        "weight": 0.25,
+        "contribution": -3.26
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4768,
+        "weight": 0.15,
+        "contribution": -7.15
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 3.0
+        },
+        "text_en": "5-day net foreign outflow is 3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 48
+        },
+        "text_en": "Institutional brokers show net distribution, 48% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.13
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      }
+    ],
+    "close": 2250.0,
+    "change_1d": 0.0,
+    "return_10d": -0.1211,
+    "volume_ratio": 1.16,
+    "rank_prev": 41,
+    "flow_score_prev": -38.6
+  },
+  {
+    "symbol": "GOTO",
+    "name": "PT GoTo Gojek Tokopedia Tbk",
+    "sector": "Technology",
+    "rank": 42,
+    "flow_score": -42.3,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -1.0,
+        "weight": 0.3,
+        "contribution": -30.0
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.2,
+        "weight": 0.15,
+        "contribution": -3.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0878,
+        "weight": 0.25,
+        "contribution": -2.2
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.4742,
+        "weight": 0.15,
+        "contribution": -7.11
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [
+      "unusual_volume"
+    ],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 3.0
+        },
+        "text_en": "5-day net foreign outflow is 3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 47
+        },
+        "text_en": "Institutional brokers show net distribution, 47% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 2 trading days in a row"
+      }
+    ],
+    "close": 30.0,
+    "change_1d": 0.0714,
+    "return_10d": -0.4,
+    "volume_ratio": 10401.76,
+    "rank_prev": 39,
+    "flow_score_prev": -38.3
+  },
+  {
+    "symbol": "BMRI",
+    "name": "PT Bank Mandiri (Persero) Tbk",
+    "sector": "Financials",
+    "rank": 43,
+    "flow_score": -47.1,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.6931,
+        "weight": 0.3,
+        "contribution": -20.79
+      },
+      {
+        "key": "foreign_streak",
+        "value": -1.0,
+        "weight": 0.15,
+        "contribution": -15.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.2579,
+        "weight": 0.25,
+        "contribution": -6.45
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.6551,
+        "weight": 0.15,
+        "contribution": -9.83
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 1.0,
+        "weight": 0.05,
+        "contribution": 5.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 2.1
+        },
+        "text_en": "5-day net foreign outflow is 2.1 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 10,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for at least 10 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 66
+        },
+        "text_en": "Institutional brokers show net distribution, 66% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 4030.0,
+    "change_1d": 0.005,
+    "return_10d": -0.054,
+    "volume_ratio": 0.6,
+    "rank_prev": 43,
+    "flow_score_prev": -47.1
+  },
+  {
+    "symbol": "EXCL",
+    "name": "PT XLSMART Telecom Sejahtera Tbk",
+    "sector": "Infrastructures",
+    "rank": 44,
+    "flow_score": -48.2,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -1.0,
+        "weight": 0.3,
+        "contribution": -30.0
+      },
+      {
+        "key": "foreign_streak",
+        "value": -1.0,
+        "weight": 0.15,
+        "contribution": -15.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.0796,
+        "weight": 0.25,
+        "contribution": 1.99
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.3474,
+        "weight": 0.15,
+        "contribution": -5.21
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 3.0
+        },
+        "text_en": "5-day net foreign outflow is 3 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 10,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for at least 10 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 35
+        },
+        "text_en": "Institutional brokers show net distribution, 35% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 2380.0,
+    "change_1d": -0.0083,
+    "return_10d": -0.048,
+    "volume_ratio": 0.66,
+    "rank_prev": 44,
+    "flow_score_prev": -48.9
+  },
+  {
+    "symbol": "AKRA",
+    "name": "PT AKR Corporindo Tbk.",
+    "sector": "Energy",
+    "rank": 45,
+    "flow_score": -50.2,
+    "label": "strong_distribution",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": -0.68,
+        "weight": 0.3,
+        "contribution": -20.4
+      },
+      {
+        "key": "foreign_streak",
+        "value": -1.0,
+        "weight": 0.15,
+        "contribution": -15.0
+      },
+      {
+        "key": "broker_concentration",
+        "value": -0.0745,
+        "weight": 0.25,
+        "contribution": -1.86
+      },
+      {
+        "key": "institutional_net",
+        "value": -0.5278,
+        "weight": 0.15,
+        "contribution": -7.92
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": -1.0,
+        "weight": 0.05,
+        "contribution": -5.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 2.0
+        },
+        "text_en": "5-day net foreign outflow is 2 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 10,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for at least 10 trading days in a row"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 53
+        },
+        "text_en": "Institutional brokers show net distribution, 53% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 1460.0,
+    "change_1d": 0.0069,
+    "return_10d": -0.0068,
+    "volume_ratio": 1.04,
+    "rank_prev": 45,
+    "flow_score_prev": -50.1
+  }
+]
