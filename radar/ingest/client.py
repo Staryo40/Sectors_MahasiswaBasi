@@ -92,15 +92,19 @@ class SectorsClient:
         self.transport = transport or _urllib_transport
         self.sleep = sleep
 
-    def get(self, path: str, params: Mapping[str, Any] | None = None, cost: int = 1) -> Any:
+    def get(
+        self, path: str, params: Mapping[str, Any] | None = None, cost: int = 1, *, force: bool = False
+    ) -> Any:
         """GET ``path`` and return the decoded JSON body.
 
         ``cost`` is the endpoint's credit price for a successful call, taken
         from docs/sectors-api.md. Cached responses are free and need no key.
+        ``force`` skips the cache, for requests whose answer changes over time
+        while their params stay the same.
         """
         url = build_url(path, params)
 
-        cached = self.cache.get(path, params)
+        cached = None if force else self.cache.get(path, params)
         if cached is not None:
             ledger.record(self.conn, url, cached["status"], 0, from_cache=True)
             if cached["status"] == 404:

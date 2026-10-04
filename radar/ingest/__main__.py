@@ -1,4 +1,4 @@
-"""``python -m radar.ingest <command>``: probe, backfill, ledger."""
+"""``python -m radar.ingest <command>``: probe, backfill, refresh-daily, refresh-weekly, check, ledger."""
 
 from __future__ import annotations
 
@@ -99,6 +99,36 @@ def cmd_backfill(args: argparse.Namespace) -> int:
     return 1 if report.failures else 0
 
 
+def _cmd_refresh(args: argparse.Namespace, refresh, label: str) -> int:
+    planned = refresh(dry_run=True)
+    conn = db.connect()
+    print(f"{label} refresh: about {planned.estimate} credits (plus extra pages of filings).")
+    print(f"Spent so far: {ledger.credits_spent(conn)} of cap {config.credit_cap()}.")
+    if not args.yes:
+        print("Re-run with --yes to spend the credits.")
+        return 0
+    report = refresh()
+    for table, count in sorted(report.rows.items()):
+        print(f"  {table:<18} {count:>6} rows")
+    for failure in report.failures:
+        print(f"  FAILED  {failure}")
+    print(f"Spent {report.credits}; total {ledger.credits_spent(conn)} of cap {config.credit_cap()}.")
+    return 1 if report.failures else 0
+
+
+def cmd_refresh_daily(args: argparse.Namespace) -> int:
+    return _cmd_refresh(args, jobs.refresh_daily, "Daily")
+
+
+def cmd_refresh_weekly(args: argparse.Namespace) -> int:
+    return _cmd_refresh(args, jobs.refresh_weekly, "Weekly")
+
+
+def cmd_check(args: argparse.Namespace) -> int:
+    print("\n".join(jobs.check(db.connect())))
+    return 0
+
+
 def cmd_ledger(args: argparse.Namespace) -> int:
     conn = db.connect()
     db.init_schema(conn)
@@ -119,6 +149,15 @@ def main(argv: list[str] | None = None) -> int:
     backfill.add_argument("--yes", action="store_true", help="actually spend the credits")
     backfill.set_defaults(func=cmd_backfill)
 
+    for name, func, text in (
+        ("refresh-daily", cmd_refresh_daily, "append prices, flow, broker data, filings and events since the last stored day"),
+        ("refresh-weekly", cmd_refresh_weekly, "re-fetch fundamentals and holder mix"),
+    ):
+        refresh = commands.add_parser(name, help=text)
+        refresh.add_argument("--yes", action="store_true", help="actually spend the credits")
+        refresh.set_defaults(func=func)
+
+    commands.add_parser("check", help="data-quality report for the database").set_defaults(func=cmd_check)
     commands.add_parser("ledger", help="show credits spent").set_defaults(func=cmd_ledger)
 
     args = parser.parse_args(argv)
