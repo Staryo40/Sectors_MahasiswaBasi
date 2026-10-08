@@ -3,5 +3,11 @@
   "framework": "vite",
   "installCommand": "cd frontend && npm ci",
   "buildCommand": "cd frontend && npm run build",
-  "outputDirectory": "frontend/dist"
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/telegram.ts": {
+      "includeFiles": "data/out/*.json",
+      "maxDuration": 10
+    }
+  }
 }

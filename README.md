@@ -86,43 +86,53 @@ files. Never commit `.env`, `data/sectors.db`, or `data/cache`.
 If the current calendar day's market data is not available yet, pass the latest
 known trading date explicitly, for example `refresh-daily --as-of 2026-10-07`.
 
-### Railway backend
+### Vercel-only deployment
 
-`Dockerfile` and `railway.json` deploy only the read-only FastAPI service and
-the committed `data/out` snapshot. No Sectors credential is required in the
-hosted backend. Set this Railway variable after the Vercel domain is known:
+The root `vercel.json` deploys both parts of the public product:
 
-```text
-FRONTEND_ORIGINS=https://your-project.vercel.app
-```
+- Vite builds the dashboard and copies the committed `data/out` files it needs
+  to `/snapshots/out`. The browser reads them directly from the same Vercel
+  domain, so no hosted FastAPI process is required.
+- `api/telegram.ts` becomes the serverless Telegram webhook at
+  `/api/telegram`. It reads the same frozen ranking and brief files and sends
+  replies through the Telegram Bot API.
 
-Multiple exact origins can be comma-separated. The image sets
-`RADAR_ROOT=/app`, listens on Railway's `PORT`, runs as a non-root user, and
-uses `/api/health` for its health check.
-
-To keep the interactive Telegram bot online, create an optional second Railway
-service from the same repository, override its start command to
-`python -m radar bot --out data/out`, and set `TELEGRAM_BOT_TOKEN`. This worker
-also reads only the frozen snapshot.
-
-### Vercel frontend
-
-The root `vercel.json` installs and builds the app from `frontend/`. Configure
-these Vercel build variables, then redeploy:
+Import the GitHub repository in Vercel with the repository root as the project
+root. The build and output settings are already in `vercel.json`; do not add
+`VITE_API_BASE_URL`. Production defaults to the `out` snapshot. In **Settings
+→ Environment Variables**, add these server-side secrets for Production:
 
 ```text
-VITE_API_BASE_URL=https://your-service.up.railway.app
-VITE_SNAPSHOT_SOURCE=out
+TELEGRAM_BOT_TOKEN=<token from BotFather>
+TELEGRAM_WEBHOOK_SECRET=<random letters/numbers/_/->
 ```
 
-Do not put `SECTORS_API_KEY`, Telegram credentials, or SMTP credentials in
-Vercel. `VITE_*` values are public browser configuration. Once deployed, check
-the Railway health endpoint, open the Vercel site without `?src=fixtures`, and
-confirm that the displayed **As of** date matches `data/out/meta.json`.
+Generate a valid webhook secret locally if needed:
 
-There is deliberately no cron or GitHub Actions refresh workflow. To publish a
-new snapshot later, repeat the local refresh/export, commit `data/out`, and
-redeploy.
+```powershell
+& .\.venv\Scripts\python.exe -c "import secrets; print(secrets.token_urlsafe(32))"
+```
+
+Use the same values in the local root `.env`, deploy Vercel, then register the
+deployed HTTPS endpoint with Telegram:
+
+```powershell
+.\scripts\set-telegram-webhook.ps1 -SiteUrl https://your-project.vercel.app
+```
+
+The script also prints Telegram's current webhook status. Opening
+`https://your-project.vercel.app/api/telegram` should return a small health JSON.
+Then send `/start`, `/daily`, or a ticker such as `PGEO` to the bot. The bot is
+public, as currently requested; possession of the bot username is enough to
+send it commands. `TELEGRAM_WEBHOOK_SECRET` authenticates Telegram-to-Vercel
+requests and is not an end-user access restriction.
+
+Do not use the old long-polling command while the webhook is active; Telegram
+supports only one update-delivery method at a time. There is deliberately no
+cron or hosted Sectors refresh. To publish a newer snapshot, refresh/export it
+locally, commit `data/out`, and let Vercel redeploy. `Dockerfile`, `railway.json`,
+and FastAPI remain available for local development or an optional future
+backend, but they are not required by the live product.
 
 ## Build and serve from one process
 

@@ -11,12 +11,12 @@ npm run dev
 
 Start FastAPI on port 8000 as described in the [project README](../README.md). Open `http://127.0.0.1:5173/?src=out` or `?src=fixtures`. The Vite development and preview servers proxy `/api` to FastAPI. Build with `npm run build`, then start or restart FastAPI to serve the build on port 8000.
 
-For Vercel, the repository-root `vercel.json` builds this directory. Set
-`VITE_API_BASE_URL` to the public Railway backend URL and set
-`VITE_SNAPSHOT_SOURCE=out`. Production defaults to `out` even when the latter
-is omitted, so a missing market snapshot becomes a visible error instead of a
-silent fallback to illustrative fixtures. `VITE_*` values are embedded in the
-browser bundle and must never contain API keys or bot/email credentials.
+For Vercel, the repository-root `vercel.json` builds this directory and the
+build script copies the frozen `data/out` snapshot into the static output.
+Production reads `/snapshots/out` from the same domain and defaults to `out`,
+so neither Railway nor `VITE_API_BASE_URL` is required. The optional
+`VITE_SNAPSHOT_BASE_URL` and `VITE_SNAPSHOT_SOURCE` values are public browser
+configuration and must never contain API keys or bot/email credentials.
 
 ## Where to read and edit
 

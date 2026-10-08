@@ -25,12 +25,14 @@ The service validates exports against `radar/export/schemas` before returning th
 
 The optional placeholder demo generator moved to `backend/scripts/generate_demo.py`; its output is clearly labelled and ignored by Git. Prefer real pipeline output or contract fixtures for demonstrations.
 
-## Read-only production deployment
+## Optional read-only backend deployment
 
-The production container serves the committed `data/out` snapshot. It does not
+The optional container serves the committed `data/out` snapshot. It does not
 need `SECTORS_API_KEY`, does not contain `data/sectors.db`, and never refreshes
 data through an HTTP request. Railway supplies `PORT`; the included Dockerfile
-sets `RADAR_ROOT=/app` so the installed package resolves `/app/data/out`.
+sets `RADAR_ROOT=/app` so the installed package resolves `/app/data/out`. The
+current live architecture does not require this container because Vercel serves
+the frozen files directly.
 
 When the React frontend is hosted on another origin, set an exact comma-
 separated allowlist, for example:
@@ -42,7 +44,7 @@ FRONTEND_ORIGINS=https://flow-radar.vercel.app
 If it is empty, CORS headers are not enabled. Do not use `*`; the frontend has
 no need to send credentials and only configured origins should be allowed.
 
-## Interactive Telegram bot
+## Local long-polling Telegram alternative
 
 The bot uses long polling, accepts read-only commands from any Telegram chat,
 and answers from an already exported snapshot. It never refreshes Sectors data
@@ -56,6 +58,7 @@ Available commands: `/daily`, `/weekly`, `/brief daily`, `/brief weekly`,
 `/stock PGEO`, `/top daily`, `/top investor`, and `/help`. A bare ticker such
 as `PGEO` also opens the stock summary. Only `TELEGRAM_BOT_TOKEN` is required
 for interactive replies; `TELEGRAM_CHAT_ID` remains the destination for
-outbound briefs. On Railway, run the bot as a separate worker service with the
-same image and override its start command to the command above. Stop a local
-polling process with Ctrl+C.
+outbound briefs. Stop a local polling process with Ctrl+C. Do not run this
+command while the production webhook is registered: Telegram permits webhook
+delivery or `getUpdates` polling, not both. The Vercel webhook setup is
+documented in the repository-root README.

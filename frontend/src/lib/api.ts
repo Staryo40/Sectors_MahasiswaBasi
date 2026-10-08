@@ -12,6 +12,11 @@ const sourceNames: Source[] = ["out", "fixtures", "sample"];
 const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "")
   .trim()
   .replace(/\/+$/, "");
+const staticSnapshotBaseUrl = (
+  import.meta.env.VITE_SNAPSHOT_BASE_URL || (import.meta.env.PROD ? "/snapshots" : "")
+)
+  .trim()
+  .replace(/\/+$/, "");
 
 export const productionSnapshotSource = import.meta.env.PROD
   ? import.meta.env.VITE_SNAPSHOT_SOURCE || "out"
@@ -26,18 +31,32 @@ export class ApiError extends Error {
   }
 }
 
+function snapshotFile(resource: string) {
+  if (resource.startsWith("briefs/"))
+    return "brief_" + resource.slice("briefs/".length) + ".json";
+  return resource + ".json";
+}
+
+export function snapshotRequestUrl(
+  source: Source,
+  resource: string,
+  staticBase = staticSnapshotBaseUrl,
+  apiBase = apiBaseUrl,
+) {
+  return staticBase
+    ? staticBase + "/" + source + "/" + snapshotFile(resource)
+    : apiBase + "/api/snapshots/" + source + "/" + resource;
+}
+
 export async function readSnapshot<T>(
   source: Source,
   resource: string,
   signal?: AbortSignal,
 ): Promise<T> {
-  const response = await fetch(
-    apiBaseUrl + "/api/snapshots/" + source + "/" + resource,
-    {
-      signal,
-      cache: "no-store",
-    },
-  );
+  const response = await fetch(snapshotRequestUrl(source, resource), {
+    signal,
+    cache: "no-store",
+  });
   if (!response.ok) {
     const error = (await response.json().catch(() => ({}))) as {
       detail?: unknown;
