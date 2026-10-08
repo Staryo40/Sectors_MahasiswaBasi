@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { Snapshot } from "./types/contracts";
-import { loadSnapshot } from "./lib/api";
+import { loadSnapshot, productionSnapshotSource } from "./lib/api";
 import { format } from "./lib/format";
 import { useRoute } from "./hooks/useRoute";
 import { useWatchlist } from "./hooks/useWatchlist";
@@ -29,10 +29,10 @@ export function App() {
   useEffect(() => {
     const controller = new AbortController();
     setError("");
-    loadSnapshot(
-      new URLSearchParams(location.search).get("src"),
-      controller.signal,
-    )
+    const requestedSource =
+      new URLSearchParams(location.search).get("src") ||
+      productionSnapshotSource;
+    loadSnapshot(requestedSource, controller.signal)
       .then((data) => {
         if (!controller.signal.aborted) setSnapshot(data);
       })
@@ -56,9 +56,11 @@ export function App() {
           >
             Retry
           </button>
-          <a className="btn" href="?src=fixtures">
-            Open fixture demo
-          </a>
+          {import.meta.env.DEV && (
+            <a className="btn" href="?src=fixtures">
+              Open fixture demo
+            </a>
+          )}
         </EmptyState>
       </main>
     );

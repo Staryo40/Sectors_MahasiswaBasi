@@ -1,0 +1,17 @@
+.git
+.github
+.env
+.venv
+.pytest_cache
+**/__pycache__
+**/*.pyc
+**/*.egg-info
+data/cache
+data/sectors.db
+data/sectors.db-*
+data/demo
+docs
+fixtures
+frontend
+tests
+VIDEO_*.md

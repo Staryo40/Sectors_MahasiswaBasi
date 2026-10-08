@@ -9,6 +9,13 @@ import type {
 } from "../types/contracts";
 
 const sourceNames: Source[] = ["out", "fixtures", "sample"];
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "")
+  .trim()
+  .replace(/\/+$/, "");
+
+export const productionSnapshotSource = import.meta.env.PROD
+  ? import.meta.env.VITE_SNAPSHOT_SOURCE || "out"
+  : null;
 
 export class ApiError extends Error {
   constructor(
@@ -24,10 +31,13 @@ export async function readSnapshot<T>(
   resource: string,
   signal?: AbortSignal,
 ): Promise<T> {
-  const response = await fetch("/api/snapshots/" + source + "/" + resource, {
-    signal,
-    cache: "no-store",
-  });
+  const response = await fetch(
+    apiBaseUrl + "/api/snapshots/" + source + "/" + resource,
+    {
+      signal,
+      cache: "no-store",
+    },
+  );
   if (!response.ok) {
     const error = (await response.json().catch(() => ({}))) as {
       detail?: unknown;
