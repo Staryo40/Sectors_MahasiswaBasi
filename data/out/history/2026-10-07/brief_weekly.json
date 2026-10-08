@@ -1,0 +1,72 @@
+{
+  "as_of": "2026-10-07",
+  "items": [
+    {
+      "kind": "new_top5",
+      "code": "NEW_TOP5",
+      "symbol": "ANTM",
+      "params": {
+        "rank": 5,
+        "rank_prev": 6
+      },
+      "text_en": "ANTM entered the investor top five at rank 5."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "DEWA",
+      "params": {
+        "from": 29,
+        "to": 23,
+        "change": 6
+      },
+      "text_en": "DEWA moved from investor rank 29 to 23."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "CPIN",
+      "params": {
+        "from": 36,
+        "to": 25,
+        "change": 11
+      },
+      "text_en": "CPIN moved from investor rank 36 to 25."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "KLBF",
+      "params": {
+        "from": 42,
+        "to": 37,
+        "change": 5
+      },
+      "text_en": "KLBF moved from investor rank 42 to 37."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "INDY",
+      "params": {
+        "from": 38,
+        "to": 44,
+        "change": -6
+      },
+      "text_en": "INDY moved from investor rank 38 to 44."
+    },
+    {
+      "kind": "rank_mover",
+      "code": "RANK_MOVER",
+      "symbol": "GOTO",
+      "params": {
+        "from": 22,
+        "to": 45,
+        "change": -23
+      },
+      "text_en": "GOTO moved from investor rank 22 to 45."
+    }
+  ],
+  "upcoming": [],
+  "disclaimer": "Information and analysis only. Not investment advice."
+}

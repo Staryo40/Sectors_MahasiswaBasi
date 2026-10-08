@@ -1,0 +1,211 @@
+{
+  "as_of": "2026-10-07",
+  "items": [
+    {
+      "kind": "new_top5",
+      "symbol": "MEDC",
+      "params": {
+        "rank": 1,
+        "flow_score": 14.4
+      },
+      "text_en": "MEDC entered the top 5 of the daily flow list at rank 1",
+      "code": "NEW_TOP5"
+    },
+    {
+      "kind": "new_top5",
+      "symbol": "ASII",
+      "params": {
+        "rank": 3,
+        "flow_score": 4.4
+      },
+      "text_en": "ASII entered the top 5 of the daily flow list at rank 3",
+      "code": "NEW_TOP5"
+    },
+    {
+      "kind": "new_top5",
+      "symbol": "PGEO",
+      "params": {
+        "rank": 5,
+        "flow_score": 3.0
+      },
+      "text_en": "PGEO entered the top 5 of the daily flow list at rank 5",
+      "code": "NEW_TOP5"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "MEDC",
+      "params": {
+        "days": 3,
+        "direction": "in"
+      },
+      "text_en": "MEDC has 3 straight days of net foreign inflow",
+      "code": "STREAK_STARTED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "PTBA",
+      "params": {
+        "days": 3,
+        "direction": "in"
+      },
+      "text_en": "PTBA ended a 3-day net foreign inflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "ANTM",
+      "params": {
+        "days": 3,
+        "direction": "in"
+      },
+      "text_en": "ANTM ended a 3-day net foreign inflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "DEWA",
+      "params": {
+        "days": 4,
+        "direction": "in"
+      },
+      "text_en": "DEWA ended a 4-day net foreign inflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "UNVR",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "UNVR has 3 straight days of net foreign outflow",
+      "code": "STREAK_STARTED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "INDF",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -4.0,
+        "flow_score_prev": -15.3
+      },
+      "text_en": "INDF flow turned from distribution to neutral (score -15.3 to -4)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "ISAT",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -9.1,
+        "flow_score_prev": -15.3
+      },
+      "text_en": "ISAT flow turned from distribution to neutral (score -15.3 to -9.1)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "BBRI",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -9.2,
+        "flow_score_prev": -18.5
+      },
+      "text_en": "BBRI flow turned from distribution to neutral (score -18.5 to -9.2)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "TLKM",
+      "params": {
+        "from": "distribution",
+        "to": "neutral",
+        "flow_score": -11.7,
+        "flow_score_prev": -34.3
+      },
+      "text_en": "TLKM flow turned from distribution to neutral (score -34.3 to -11.7)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_ended",
+      "symbol": "TLKM",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "TLKM ended a 3-day net foreign outflow streak",
+      "code": "STREAK_ENDED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "CPIN",
+      "params": {
+        "from": "neutral",
+        "to": "distribution",
+        "flow_score": -15.2,
+        "flow_score_prev": -13.2
+      },
+      "text_en": "CPIN flow turned from neutral to distribution (score -13.2 to -15.2)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "UNTR",
+      "params": {
+        "from": "neutral",
+        "to": "distribution",
+        "flow_score": -16.3,
+        "flow_score_prev": 12.9
+      },
+      "text_en": "UNTR flow turned from neutral to distribution (score 12.9 to -16.3)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "UNTR",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "UNTR has 3 straight days of net foreign outflow",
+      "code": "STREAK_STARTED"
+    },
+    {
+      "kind": "score_flip",
+      "symbol": "MDKA",
+      "params": {
+        "from": "neutral",
+        "to": "distribution",
+        "flow_score": -17.7,
+        "flow_score_prev": -14.0
+      },
+      "text_en": "MDKA flow turned from neutral to distribution (score -14 to -17.7)",
+      "code": "SCORE_FLIP"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "ITMG",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "ITMG has 3 straight days of net foreign outflow",
+      "code": "STREAK_STARTED"
+    },
+    {
+      "kind": "streak_started",
+      "symbol": "HRTA",
+      "params": {
+        "days": 3,
+        "direction": "out"
+      },
+      "text_en": "HRTA has 3 straight days of net foreign outflow",
+      "code": "STREAK_STARTED"
+    }
+  ],
+  "upcoming": [],
+  "disclaimer": "Information and analysis only. Not investment advice."
+}

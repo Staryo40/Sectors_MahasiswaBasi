@@ -1,0 +1,1204 @@
+{
+  "symbol": "PTBA",
+  "daily": {
+    "symbol": "PTBA",
+    "name": "Bukit Asam Tbk",
+    "sector": "Energy",
+    "rank": 2,
+    "flow_score": 10.1,
+    "label": "neutral",
+    "components": [
+      {
+        "key": "foreign_5d",
+        "value": 0.18,
+        "weight": 0.3,
+        "contribution": 5.4
+      },
+      {
+        "key": "foreign_streak",
+        "value": -0.1,
+        "weight": 0.15,
+        "contribution": -1.5
+      },
+      {
+        "key": "broker_concentration",
+        "value": 0.1544,
+        "weight": 0.25,
+        "contribution": 3.86
+      },
+      {
+        "key": "institutional_net",
+        "value": 0.153,
+        "weight": 0.15,
+        "contribution": 2.3
+      },
+      {
+        "key": "divergence",
+        "value": 0.0,
+        "weight": 0.1,
+        "contribution": 0.0
+      },
+      {
+        "key": "insider",
+        "value": 0.0,
+        "weight": 0.05,
+        "contribution": 0.0
+      }
+    ],
+    "flags": [],
+    "reasons": [
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.5
+        },
+        "text_en": "5-day net foreign inflow is 0.5 standard deviations from this stock's norm"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.15
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 15
+        },
+        "text_en": "Institutional brokers show net accumulation, 15% of net traded value over the last 2 weeks"
+      }
+    ],
+    "close": 3380.0,
+    "change_1d": -0.0059,
+    "return_10d": 0.1082,
+    "volume_ratio": 0.97,
+    "rank_prev": 1,
+    "flow_score_prev": 13.2
+  },
+  "investor": {
+    "symbol": "PTBA",
+    "name": "Bukit Asam Tbk",
+    "sector": "Energy",
+    "rank": 2,
+    "investor_score": 69.42755088903345,
+    "pillars": {
+      "quality": 61.92307692307693,
+      "valuation": 58.12191684284707,
+      "slow_flow": 86.07954545454545
+    },
+    "components": [
+      {
+        "key": "roe_ttm",
+        "pillar": "quality",
+        "raw": 0.187335381935615,
+        "percentile": 0.7272727272727273
+      },
+      {
+        "key": "net_profit_margin",
+        "pillar": "quality",
+        "raw": 0.0686949254384184,
+        "percentile": 0.3181818181818182
+      },
+      {
+        "key": "yoy_quarter_earnings_growth",
+        "pillar": "quality",
+        "raw": 3.18535209991734,
+        "percentile": 0.8409090909090909
+      },
+      {
+        "key": "yoy_quarter_revenue_growth",
+        "pillar": "quality",
+        "raw": 0.152871797559546,
+        "percentile": 0.36363636363636365
+      },
+      {
+        "key": "der_mrq",
+        "pillar": "quality",
+        "raw": 0.117815179597497,
+        "percentile": 0.8461538461538461
+      },
+      {
+        "key": "pe_relative",
+        "pillar": "valuation",
+        "raw": 0.5215674101776642,
+        "percentile": 0.7209302325581395
+      },
+      {
+        "key": "pb_relative",
+        "pillar": "valuation",
+        "raw": 0.9013355852432268,
+        "percentile": 0.5227272727272727
+      },
+      {
+        "key": "yield_ttm",
+        "pillar": "valuation",
+        "raw": 0.0360088060486991,
+        "percentile": 0.5
+      },
+      {
+        "key": "foreign_20d",
+        "pillar": "slow_flow",
+        "raw": 0.002639627871507255,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "foreign_90d",
+        "pillar": "slow_flow",
+        "raw": 0.007150159166219425,
+        "percentile": 0.9772727272727273
+      },
+      {
+        "key": "holder_shift",
+        "pillar": "slow_flow",
+        "raw": 0.01805992178789584,
+        "percentile": 1.0
+      },
+      {
+        "key": "insider",
+        "pillar": "slow_flow",
+        "raw": 0.0,
+        "percentile": 0.48863636363636365
+      }
+    ],
+    "coverage": 1.0,
+    "reasons": [
+      {
+        "code": "HOLDER_SHIFT_INSTITUTIONAL",
+        "params": {
+          "pp": 1.8059921787895838,
+          "months": 3
+        },
+        "text_en": "Institutional share rose by 1.81 percentage points across the last 3 monthly snapshots."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.007150159166219425
+        },
+        "text_en": "Net foreign accumulation equals 0.715% of market cap over available history in the 90-trading-day window."
+      },
+      {
+        "code": "VALUATION_BELOW_PEERS",
+        "params": {
+          "pe_relative": 0.5215674101776642,
+          "pb_relative": 0.9013355852432268
+        },
+        "text_en": "Valuation multiples are below their peer averages (PE 0.52×, PB 0.90×)."
+      }
+    ],
+    "rank_prev": 2
+  },
+  "series": {
+    "price": [
+      {
+        "date": "2026-07-06",
+        "close": 2330.0,
+        "volume": 6111200.0
+      },
+      {
+        "date": "2026-07-07",
+        "close": 2370.0,
+        "volume": 9252000.0
+      },
+      {
+        "date": "2026-07-08",
+        "close": 2350.0,
+        "volume": 7225900.0
+      },
+      {
+        "date": "2026-07-09",
+        "close": 2360.0,
+        "volume": 5477200.0
+      },
+      {
+        "date": "2026-07-10",
+        "close": 2380.0,
+        "volume": 8656000.0
+      },
+      {
+        "date": "2026-07-13",
+        "close": 2410.0,
+        "volume": 10203500.0
+      },
+      {
+        "date": "2026-07-14",
+        "close": 2420.0,
+        "volume": 8463100.0
+      },
+      {
+        "date": "2026-07-15",
+        "close": 2420.0,
+        "volume": 6308500.0
+      },
+      {
+        "date": "2026-07-16",
+        "close": 2420.0,
+        "volume": 4940900.0
+      },
+      {
+        "date": "2026-07-17",
+        "close": 2410.0,
+        "volume": 15088000.0
+      },
+      {
+        "date": "2026-07-20",
+        "close": 2440.0,
+        "volume": 13428700.0
+      },
+      {
+        "date": "2026-07-21",
+        "close": 2420.0,
+        "volume": 12797400.0
+      },
+      {
+        "date": "2026-07-22",
+        "close": 2430.0,
+        "volume": 9281500.0
+      },
+      {
+        "date": "2026-07-23",
+        "close": 2440.0,
+        "volume": 18558900.0
+      },
+      {
+        "date": "2026-07-24",
+        "close": 2390.0,
+        "volume": 12444000.0
+      },
+      {
+        "date": "2026-07-27",
+        "close": 2360.0,
+        "volume": 10881400.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 2330.0,
+        "volume": 9691400.0
+      },
+      {
+        "date": "2026-07-29",
+        "close": 2330.0,
+        "volume": 10043500.0
+      },
+      {
+        "date": "2026-07-30",
+        "close": 2350.0,
+        "volume": 9252500.0
+      },
+      {
+        "date": "2026-07-31",
+        "close": 2320.0,
+        "volume": 27670000.0
+      },
+      {
+        "date": "2026-08-03",
+        "close": 2320.0,
+        "volume": 14504100.0
+      },
+      {
+        "date": "2026-08-04",
+        "close": 2360.0,
+        "volume": 9082700.0
+      },
+      {
+        "date": "2026-08-05",
+        "close": 2360.0,
+        "volume": 13690100.0
+      },
+      {
+        "date": "2026-08-06",
+        "close": 2350.0,
+        "volume": 9337400.0
+      },
+      {
+        "date": "2026-08-07",
+        "close": 2370.0,
+        "volume": 9940400.0
+      },
+      {
+        "date": "2026-08-10",
+        "close": 2390.0,
+        "volume": 10339700.0
+      },
+      {
+        "date": "2026-08-11",
+        "close": 2350.0,
+        "volume": 9427900.0
+      },
+      {
+        "date": "2026-08-12",
+        "close": 2350.0,
+        "volume": 10222900.0
+      },
+      {
+        "date": "2026-08-13",
+        "close": 2340.0,
+        "volume": 5823800.0
+      },
+      {
+        "date": "2026-08-14",
+        "close": 2360.0,
+        "volume": 10351500.0
+      },
+      {
+        "date": "2026-08-18",
+        "close": 2370.0,
+        "volume": 10452300.0
+      },
+      {
+        "date": "2026-08-19",
+        "close": 2370.0,
+        "volume": 9062800.0
+      },
+      {
+        "date": "2026-08-20",
+        "close": 2400.0,
+        "volume": 7825700.0
+      },
+      {
+        "date": "2026-08-21",
+        "close": 2400.0,
+        "volume": 8314400.0
+      },
+      {
+        "date": "2026-08-24",
+        "close": 2480.0,
+        "volume": 33941000.0
+      },
+      {
+        "date": "2026-08-26",
+        "close": 2420.0,
+        "volume": 19885800.0
+      },
+      {
+        "date": "2026-08-27",
+        "close": 2500.0,
+        "volume": 23812700.0
+      },
+      {
+        "date": "2026-08-28",
+        "close": 2530.0,
+        "volume": 37465600.0
+      },
+      {
+        "date": "2026-08-31",
+        "close": 2560.0,
+        "volume": 30232000.0
+      },
+      {
+        "date": "2026-09-01",
+        "close": 2670.0,
+        "volume": 115499100.0
+      },
+      {
+        "date": "2026-09-02",
+        "close": 2720.0,
+        "volume": 93828700.0
+      },
+      {
+        "date": "2026-09-03",
+        "close": 2890.0,
+        "volume": 109723500.0
+      },
+      {
+        "date": "2026-09-04",
+        "close": 2880.0,
+        "volume": 26032000.0
+      },
+      {
+        "date": "2026-09-07",
+        "close": 3010.0,
+        "volume": 92569800.0
+      },
+      {
+        "date": "2026-09-08",
+        "close": 3000.0,
+        "volume": 67132000.0
+      },
+      {
+        "date": "2026-09-09",
+        "close": 3100.0,
+        "volume": 104634100.0
+      },
+      {
+        "date": "2026-09-10",
+        "close": 3100.0,
+        "volume": 81084900.0
+      },
+      {
+        "date": "2026-09-11",
+        "close": 3100.0,
+        "volume": 51290600.0
+      },
+      {
+        "date": "2026-09-14",
+        "close": 3080.0,
+        "volume": 46598300.0
+      },
+      {
+        "date": "2026-09-15",
+        "close": 3020.0,
+        "volume": 22338600.0
+      },
+      {
+        "date": "2026-09-16",
+        "close": 3000.0,
+        "volume": 25481200.0
+      },
+      {
+        "date": "2026-09-17",
+        "close": 3140.0,
+        "volume": 49391500.0
+      },
+      {
+        "date": "2026-09-18",
+        "close": 3090.0,
+        "volume": 35040000.0
+      },
+      {
+        "date": "2026-09-21",
+        "close": 3080.0,
+        "volume": 15402900.0
+      },
+      {
+        "date": "2026-09-22",
+        "close": 3010.0,
+        "volume": 22639100.0
+      },
+      {
+        "date": "2026-09-23",
+        "close": 3050.0,
+        "volume": 23188400.0
+      },
+      {
+        "date": "2026-09-24",
+        "close": 3050.0,
+        "volume": 11206200.0
+      },
+      {
+        "date": "2026-09-25",
+        "close": 3090.0,
+        "volume": 31882000.0
+      },
+      {
+        "date": "2026-09-28",
+        "close": 3180.0,
+        "volume": 60648500.0
+      },
+      {
+        "date": "2026-09-29",
+        "close": 3110.0,
+        "volume": 55456800.0
+      },
+      {
+        "date": "2026-09-30",
+        "close": 3120.0,
+        "volume": 28016200.0
+      },
+      {
+        "date": "2026-10-01",
+        "close": 3050.0,
+        "volume": 21365600.0
+      },
+      {
+        "date": "2026-10-02",
+        "close": 3180.0,
+        "volume": 35493300.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 3270.0,
+        "volume": 54194500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 3400.0,
+        "volume": 79878000.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 3380.0,
+        "volume": 34327600.0
+      }
+    ],
+    "foreign_flow": [
+      {
+        "date": "2026-07-06",
+        "net": 1590691000.0,
+        "cum": 1590691000.0,
+        "share": 0.2913
+      },
+      {
+        "date": "2026-07-07",
+        "net": -5803317000.0,
+        "cum": -4212626000.0,
+        "share": 0.4164
+      },
+      {
+        "date": "2026-07-08",
+        "net": -6476881000.0,
+        "cum": -10689507000.0,
+        "share": 0.4633
+      },
+      {
+        "date": "2026-07-09",
+        "net": 69840000.0,
+        "cum": -10619667000.0,
+        "share": 0.3971
+      },
+      {
+        "date": "2026-07-10",
+        "net": 514890000.0,
+        "cum": -10104777000.0,
+        "share": 0.5016
+      },
+      {
+        "date": "2026-07-13",
+        "net": 4152304000.0,
+        "cum": -5952473000.0,
+        "share": 0.4355
+      },
+      {
+        "date": "2026-07-14",
+        "net": -3383296000.0,
+        "cum": -9335769000.0,
+        "share": 0.3278
+      },
+      {
+        "date": "2026-07-15",
+        "net": 1092176000.0,
+        "cum": -8243593000.0,
+        "share": 0.337
+      },
+      {
+        "date": "2026-07-16",
+        "net": -1772990000.0,
+        "cum": -10016583000.0,
+        "share": 0.2513
+      },
+      {
+        "date": "2026-07-17",
+        "net": -946729000.0,
+        "cum": -10963312000.0,
+        "share": 0.49
+      },
+      {
+        "date": "2026-07-20",
+        "net": -1020945000.0,
+        "cum": -11984257000.0,
+        "share": 0.3238
+      },
+      {
+        "date": "2026-07-21",
+        "net": -3650102000.0,
+        "cum": -15634359000.0,
+        "share": 0.2276
+      },
+      {
+        "date": "2026-07-22",
+        "net": -2877235000.0,
+        "cum": -18511594000.0,
+        "share": 0.2965
+      },
+      {
+        "date": "2026-07-23",
+        "net": 10597008000.0,
+        "cum": -7914586000.0,
+        "share": 0.3413
+      },
+      {
+        "date": "2026-07-24",
+        "net": -9022347000.0,
+        "cum": -16936933000.0,
+        "share": 0.3768
+      },
+      {
+        "date": "2026-07-27",
+        "net": -7722257000.0,
+        "cum": -24659190000.0,
+        "share": 0.2978
+      },
+      {
+        "date": "2026-07-28",
+        "net": -1887141000.0,
+        "cum": -26546331000.0,
+        "share": 0.3281
+      },
+      {
+        "date": "2026-07-29",
+        "net": 3280375000.0,
+        "cum": -23265956000.0,
+        "share": 0.4801
+      },
+      {
+        "date": "2026-07-30",
+        "net": 1731026000.0,
+        "cum": -21534930000.0,
+        "share": 0.4128
+      },
+      {
+        "date": "2026-07-31",
+        "net": 5702530000.0,
+        "cum": -15832400000.0,
+        "share": 0.3296
+      },
+      {
+        "date": "2026-08-03",
+        "net": -12019877000.0,
+        "cum": -27852277000.0,
+        "share": 0.3436
+      },
+      {
+        "date": "2026-08-04",
+        "net": 1813853000.0,
+        "cum": -26038424000.0,
+        "share": 0.2918
+      },
+      {
+        "date": "2026-08-05",
+        "net": -3570068000.0,
+        "cum": -29608492000.0,
+        "share": 0.3364
+      },
+      {
+        "date": "2026-08-06",
+        "net": -4932250000.0,
+        "cum": -34540742000.0,
+        "share": 0.3592
+      },
+      {
+        "date": "2026-08-07",
+        "net": -868772000.0,
+        "cum": -35409514000.0,
+        "share": 0.3149
+      },
+      {
+        "date": "2026-08-10",
+        "net": 350284000.0,
+        "cum": -35059230000.0,
+        "share": 0.2206
+      },
+      {
+        "date": "2026-08-11",
+        "net": -2318099000.0,
+        "cum": -37377329000.0,
+        "share": 0.2731
+      },
+      {
+        "date": "2026-08-12",
+        "net": 2419978000.0,
+        "cum": -34957351000.0,
+        "share": 0.3935
+      },
+      {
+        "date": "2026-08-13",
+        "net": -4652520000.0,
+        "cum": -39609871000.0,
+        "share": 0.4068
+      },
+      {
+        "date": "2026-08-14",
+        "net": 1324265000.0,
+        "cum": -38285606000.0,
+        "share": 0.3987
+      },
+      {
+        "date": "2026-08-18",
+        "net": 10782910000.0,
+        "cum": -27502696000.0,
+        "share": 0.3311
+      },
+      {
+        "date": "2026-08-19",
+        "net": -157312000.0,
+        "cum": -27660008000.0,
+        "share": 0.3866
+      },
+      {
+        "date": "2026-08-20",
+        "net": -607753000.0,
+        "cum": -28267761000.0,
+        "share": 0.3851
+      },
+      {
+        "date": "2026-08-21",
+        "net": 0.0,
+        "cum": -28267761000.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-08-24",
+        "net": 1518019000.0,
+        "cum": -26749742000.0,
+        "share": 0.229
+      },
+      {
+        "date": "2026-08-26",
+        "net": -8875306000.0,
+        "cum": -35625048000.0,
+        "share": 0.3518
+      },
+      {
+        "date": "2026-08-27",
+        "net": 19912226000.0,
+        "cum": -15712822000.0,
+        "share": 0.3447
+      },
+      {
+        "date": "2026-08-28",
+        "net": -7714470000.0,
+        "cum": -23427292000.0,
+        "share": 0.2988
+      },
+      {
+        "date": "2026-08-31",
+        "net": 5423672000.0,
+        "cum": -18003620000.0,
+        "share": 0.4196
+      },
+      {
+        "date": "2026-09-01",
+        "net": 9083428000.0,
+        "cum": -8920192000.0,
+        "share": 0.345
+      },
+      {
+        "date": "2026-09-02",
+        "net": 16263289000.0,
+        "cum": 7343097000.0,
+        "share": 0.4582
+      },
+      {
+        "date": "2026-09-03",
+        "net": 8096900000.0,
+        "cum": 15439997000.0,
+        "share": 0.3795
+      },
+      {
+        "date": "2026-09-04",
+        "net": 19105378000.0,
+        "cum": 34545375000.0,
+        "share": 0.371
+      },
+      {
+        "date": "2026-09-07",
+        "net": 52246341000.0,
+        "cum": 86791716000.0,
+        "share": 0.3144
+      },
+      {
+        "date": "2026-09-08",
+        "net": 3689653000.0,
+        "cum": 90481369000.0,
+        "share": 0.5583
+      },
+      {
+        "date": "2026-09-09",
+        "net": 85157945000.0,
+        "cum": 175639314000.0,
+        "share": 0.5298
+      },
+      {
+        "date": "2026-09-10",
+        "net": 145789486000.0,
+        "cum": 321428800000.0,
+        "share": 0.3833
+      },
+      {
+        "date": "2026-09-11",
+        "net": 35670976000.0,
+        "cum": 357099776000.0,
+        "share": 0.4234
+      },
+      {
+        "date": "2026-09-14",
+        "net": 28195000.0,
+        "cum": 357127971000.0,
+        "share": 0.3754
+      },
+      {
+        "date": "2026-09-15",
+        "net": -5839527000.0,
+        "cum": 351288444000.0,
+        "share": 0.5012
+      },
+      {
+        "date": "2026-09-16",
+        "net": -923112000.0,
+        "cum": 350365332000.0,
+        "share": 0.453
+      },
+      {
+        "date": "2026-09-17",
+        "net": 1403529000.0,
+        "cum": 351768861000.0,
+        "share": 0.3852
+      },
+      {
+        "date": "2026-09-18",
+        "net": -26514670000.0,
+        "cum": 325254191000.0,
+        "share": 0.4869
+      },
+      {
+        "date": "2026-09-21",
+        "net": 4257008000.0,
+        "cum": 329511199000.0,
+        "share": 0.4127
+      },
+      {
+        "date": "2026-09-22",
+        "net": 2501948000.0,
+        "cum": 332013147000.0,
+        "share": 0.3514
+      },
+      {
+        "date": "2026-09-23",
+        "net": -17684341000.0,
+        "cum": 314328806000.0,
+        "share": 0.3932
+      },
+      {
+        "date": "2026-09-24",
+        "net": 1577525000.0,
+        "cum": 315906331000.0,
+        "share": 0.4807
+      },
+      {
+        "date": "2026-09-25",
+        "net": 10031690000.0,
+        "cum": 325938021000.0,
+        "share": 0.4631
+      },
+      {
+        "date": "2026-09-28",
+        "net": 9914555000.0,
+        "cum": 335852576000.0,
+        "share": 0.3166
+      },
+      {
+        "date": "2026-09-29",
+        "net": -57274256000.0,
+        "cum": 278578320000.0,
+        "share": 0.3453
+      },
+      {
+        "date": "2026-09-30",
+        "net": -30428498000.0,
+        "cum": 248149822000.0,
+        "share": 0.4264
+      },
+      {
+        "date": "2026-10-01",
+        "net": -10625142000.0,
+        "cum": 237524680000.0,
+        "share": 0.4552
+      },
+      {
+        "date": "2026-10-02",
+        "net": 29130128000.0,
+        "cum": 266654808000.0,
+        "share": 0.2835
+      },
+      {
+        "date": "2026-10-05",
+        "net": 227526000.0,
+        "cum": 266882334000.0,
+        "share": 0.363
+      },
+      {
+        "date": "2026-10-06",
+        "net": 26906996000.0,
+        "cum": 293789330000.0,
+        "share": 0.3234
+      },
+      {
+        "date": "2026-10-07",
+        "net": -15363360000.0,
+        "cum": 278425970000.0,
+        "share": 0.2748
+      }
+    ],
+    "flow_score": [
+      {
+        "date": "2026-09-10",
+        "score": 43.5
+      },
+      {
+        "date": "2026-09-11",
+        "score": 45.0
+      },
+      {
+        "date": "2026-09-14",
+        "score": 45.0
+      },
+      {
+        "date": "2026-09-15",
+        "score": 28.5
+      },
+      {
+        "date": "2026-09-16",
+        "score": 27.0
+      },
+      {
+        "date": "2026-09-17",
+        "score": 6.9
+      },
+      {
+        "date": "2026-09-18",
+        "score": -8.1
+      },
+      {
+        "date": "2026-09-21",
+        "score": -0.1
+      },
+      {
+        "date": "2026-09-22",
+        "score": 7.3
+      },
+      {
+        "date": "2026-09-23",
+        "score": 4.4
+      },
+      {
+        "date": "2026-09-24",
+        "score": 8.9
+      },
+      {
+        "date": "2026-09-25",
+        "score": 19.7
+      },
+      {
+        "date": "2026-09-28",
+        "score": 10.6
+      },
+      {
+        "date": "2026-09-29",
+        "score": -9.1
+      },
+      {
+        "date": "2026-09-30",
+        "score": -16.4
+      },
+      {
+        "date": "2026-10-01",
+        "score": -18.8
+      },
+      {
+        "date": "2026-10-02",
+        "score": -8.0
+      },
+      {
+        "date": "2026-10-05",
+        "score": -9.5
+      },
+      {
+        "date": "2026-10-06",
+        "score": 13.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": 10.1
+      }
+    ],
+    "holder_mix": [
+      {
+        "date": "2026-01-30",
+        "institutional_pct": 84.37739223126489,
+        "individual_pct": 15.622607768735108,
+        "foreign_pct": 9.883728502776435
+      },
+      {
+        "date": "2026-02-27",
+        "institutional_pct": 84.82837336760916,
+        "individual_pct": 15.171626632390844,
+        "foreign_pct": 10.103748594074597
+      },
+      {
+        "date": "2026-03-31",
+        "institutional_pct": 87.92330129024518,
+        "individual_pct": 12.07669870975483,
+        "foreign_pct": 12.185006582848112
+      },
+      {
+        "date": "2026-04-30",
+        "institutional_pct": 88.38063883366743,
+        "individual_pct": 11.619361166332565,
+        "foreign_pct": 12.52894577191839
+      },
+      {
+        "date": "2026-05-29",
+        "institutional_pct": 88.47862888575581,
+        "individual_pct": 11.521371114244182,
+        "foreign_pct": 12.572099439535112
+      },
+      {
+        "date": "2026-06-30",
+        "institutional_pct": 88.13219124591329,
+        "individual_pct": 11.867808754086706,
+        "foreign_pct": 12.34381967334031
+      },
+      {
+        "date": "2026-07-31",
+        "institutional_pct": 87.80498010997071,
+        "individual_pct": 12.19501989002929,
+        "foreign_pct": 12.245319251153097
+      },
+      {
+        "date": "2026-08-31",
+        "institutional_pct": 87.58586678101776,
+        "individual_pct": 12.414133218982236,
+        "foreign_pct": 12.263037525391614
+      },
+      {
+        "date": "2026-09-30",
+        "institutional_pct": 89.6109722887603,
+        "individual_pct": 10.389027711239706,
+        "foreign_pct": 13.31071894171334
+      }
+    ]
+  },
+  "top_brokers": {
+    "buyers": [
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 91539953000.0,
+        "avg_price": 3256.62
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 71637086000.0,
+        "avg_price": 3309.73
+      },
+      {
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 61668645000.0,
+        "avg_price": 3218.76
+      },
+      {
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 59947095000.0,
+        "avg_price": 3205.0
+      },
+      {
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 35310338000.0,
+        "avg_price": 3152.09
+      }
+    ],
+    "sellers": [
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -82180708000.0,
+        "avg_price": 3195.89
+      },
+      {
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -49319320000.0,
+        "avg_price": 3223.8
+      },
+      {
+        "code": "XC",
+        "name": "Ajaib Sekuritas Asia",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -33191176000.0,
+        "avg_price": 3244.18
+      },
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -31175103000.0,
+        "avg_price": 3212.89
+      },
+      {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -28072660000.0,
+        "avg_price": 3208.43
+      }
+    ]
+  },
+  "filings": [],
+  "events": [],
+  "fundamentals": [
+    {
+      "key": "roe_ttm",
+      "value": 0.187335381935615,
+      "peer_avg": null,
+      "percentile": 0.7272727272727273
+    },
+    {
+      "key": "net_profit_margin",
+      "value": 0.0686949254384184,
+      "peer_avg": null,
+      "percentile": 0.3181818181818182
+    },
+    {
+      "key": "yoy_quarter_earnings_growth",
+      "value": 3.18535209991734,
+      "peer_avg": null,
+      "percentile": 0.8409090909090909
+    },
+    {
+      "key": "yoy_quarter_revenue_growth",
+      "value": 0.152871797559546,
+      "peer_avg": null,
+      "percentile": 0.36363636363636365
+    },
+    {
+      "key": "der_mrq",
+      "value": 0.117815179597497,
+      "peer_avg": null,
+      "percentile": 0.8461538461538461
+    },
+    {
+      "key": "pe_ttm",
+      "value": 7.71795816118271,
+      "peer_avg": 14.797623491379,
+      "percentile": 0.7209302325581395
+    },
+    {
+      "key": "pb_mrq",
+      "value": 1.45229964869565,
+      "peer_avg": 1.61127517039477,
+      "percentile": 0.5227272727272727
+    },
+    {
+      "key": "yield_ttm",
+      "value": 0.0360088060486991,
+      "peer_avg": null,
+      "percentile": 0.5
+    }
+  ]
+}
