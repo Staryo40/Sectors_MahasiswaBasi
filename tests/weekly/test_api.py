@@ -61,3 +61,20 @@ def test_built_frontend_and_unknown_api_are_separate(tmp_path):
     client = TestClient(create_app({}, tmp_path))
     assert client.get("/").status_code == 200
     assert client.get("/api/not-a-route").status_code == 404
+
+
+def test_only_configured_frontend_origin_gets_cors(monkeypatch):
+    allowed = "https://flow-radar.vercel.app"
+    monkeypatch.setenv("FRONTEND_ORIGINS", allowed + ", https://preview.example")
+    client = TestClient(create_app({"fixtures": ROOT / "fixtures/out"}))
+
+    response = client.get(
+        "/api/snapshots/fixtures/meta", headers={"Origin": allowed}
+    )
+    assert response.headers["access-control-allow-origin"] == allowed
+
+    response = client.get(
+        "/api/snapshots/fixtures/meta",
+        headers={"Origin": "https://untrusted.example"},
+    )
+    assert "access-control-allow-origin" not in response.headers

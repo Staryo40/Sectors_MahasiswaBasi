@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Literal
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from jsonschema.exceptions import ValidationError
@@ -37,6 +38,16 @@ def create_app(
         version="0.1.0",
         description="Read-only, end-of-day market snapshots. " + config.DISCLAIMER,
     )
+    origins = config.frontend_origins()
+    if origins:
+        application.add_middleware(
+            CORSMiddleware,
+            allow_origins=list(origins),
+            allow_credentials=False,
+            allow_methods=["GET"],
+            allow_headers=["*"],
+            max_age=600,
+        )
 
     def snapshot(source: Source, name: str, schema: str) -> JSONResponse:
         directory = directories.get(source)

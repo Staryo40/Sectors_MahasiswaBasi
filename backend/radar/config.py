@@ -9,12 +9,15 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "data"
+_DEFAULT_ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(os.environ.get("RADAR_ROOT", _DEFAULT_ROOT)).resolve()
+DATA_DIR = Path(os.environ.get("RADAR_DATA_DIR", ROOT / "data")).resolve()
 CACHE_DIR = DATA_DIR / "cache"
 DB_PATH = DATA_DIR / "sectors.db"
 OUT_DIR = DATA_DIR / "out"
-FIXTURES_DIR = ROOT / "fixtures"
+FIXTURES_DIR = Path(
+    os.environ.get("RADAR_FIXTURES_DIR", ROOT / "fixtures")
+).resolve()
 ENV_PATH = ROOT / ".env"
 
 BASE_URL = "https://api.sectors.app/v2"
@@ -54,3 +57,14 @@ def credit_cap() -> int:
     load_env()
     raw = os.environ.get("CREDIT_CAP", "").strip()
     return int(raw) if raw else DEFAULT_CREDIT_CAP
+
+
+def frontend_origins() -> tuple[str, ...]:
+    """Return exact browser origins allowed to read the public API."""
+    load_env()
+    raw = os.environ.get("FRONTEND_ORIGINS", "")
+    return tuple(
+        origin.rstrip("/")
+        for item in raw.split(",")
+        if (origin := item.strip().rstrip("/"))
+    )
