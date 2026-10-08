@@ -4,39 +4,39 @@
     "symbol": "PGAS",
     "name": "PT Perusahaan Gas Negara Tbk",
     "sector": "Energy",
-    "rank": 17,
-    "flow_score": -8.1,
+    "rank": 16,
+    "flow_score": -6.2,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.0097,
+        "value": -0.0074,
         "weight": 0.3,
-        "contribution": 0.29
+        "contribution": -0.22
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.0853,
+        "value": 0.0436,
         "weight": 0.25,
-        "contribution": -2.13
+        "contribution": 1.09
       },
       {
         "key": "institutional_net",
-        "value": -0.4195,
+        "value": -0.28,
         "weight": 0.15,
-        "contribution": -6.29
+        "contribution": -4.2
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.0181,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 0.18
       },
       {
         "key": "insider",
@@ -51,36 +51,36 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 42
+          "share_pct": 28
         },
-        "text_en": "Institutional brokers show net distribution, 42% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 28% of net traded value over the last 2 weeks"
       },
       {
-        "code": "BROKER_CONCENTRATION",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "distribution",
-          "value": -0.09
+          "days": 2,
+          "direction": "out"
         },
-        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+        "text_en": "Net foreign outflow for 2 trading days in a row"
       }
     ],
-    "close": 1375.0,
-    "change_1d": -0.0036,
-    "return_10d": -0.0678,
-    "volume_ratio": 1.19,
+    "close": 1420.0,
+    "change_1d": 0.0,
+    "return_10d": -0.0139,
+    "volume_ratio": 0.48,
     "rank_prev": 18,
-    "flow_score_prev": -8.7
+    "flow_score_prev": -11.3
   },
   "investor": {
     "symbol": "PGAS",
     "name": "PT Perusahaan Gas Negara Tbk",
     "sector": "Energy",
-    "rank": 37,
-    "investor_score": 41.63880813953488,
+    "rank": 38,
+    "investor_score": 41.83767177589852,
     "pillars": {
       "quality": 35.60606060606061,
       "valuation": 52.71053558844256,
-      "slow_flow": 40.625
+      "slow_flow": 41.19318181818182
     },
     "components": [
       {
@@ -134,14 +134,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.00014689132557003357,
+        "raw": -0.0005440156799136922,
         "percentile": 0.7272727272727273
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.010124750423083632,
-        "percentile": 0.2727272727272727
+        "raw": -0.009823034360421461,
+        "percentile": 0.29545454545454547
       },
       {
         "key": "holder_shift",
@@ -175,7 +175,7 @@
         "text_en": "Institutional share fell by 0.80 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 42
+    "rank_prev": 39
   },
   "series": {
     "price": [
@@ -493,6 +493,21 @@
         "date": "2026-10-02",
         "close": 1375.0,
         "volume": 30251600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1410.0,
+        "volume": 24348000.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1420.0,
+        "volume": 14160100.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1420.0,
+        "volume": 11822100.0
       }
     ],
     "foreign_flow": [
@@ -873,21 +888,27 @@
         "net": 0.0,
         "cum": -337478928000.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": 3158324000.0,
+        "cum": -334320604000.0,
+        "share": 0.558
+      },
+      {
+        "date": "2026-10-06",
+        "net": -394328500.0,
+        "cum": -334714932500.0,
+        "share": 0.5857
+      },
+      {
+        "date": "2026-10-07",
+        "net": -3422806000.0,
+        "cum": -338137738500.0,
+        "share": 0.6807
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -18.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -9.1
-      },
-      {
-        "date": "2026-09-09",
-        "score": -2.7
-      },
       {
         "date": "2026-09-10",
         "score": -7.6
@@ -955,6 +976,18 @@
       {
         "date": "2026-10-02",
         "score": -8.1
+      },
+      {
+        "date": "2026-10-05",
+        "score": -8.6
+      },
+      {
+        "date": "2026-10-06",
+        "score": -11.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -6.2
       }
     ],
     "holder_mix": [
@@ -1021,40 +1054,40 @@
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 35064975500.0,
-        "avg_price": 1447.0
+        "net_value": 33811278500.0,
+        "avg_price": 1425.53
       },
       {
         "code": "DH",
         "name": "Sinarmas Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 12380753500.0,
-        "avg_price": 1417.86
+        "net_value": 9153498500.0,
+        "avg_price": 1405.82
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 11381519500.0,
-        "avg_price": 1441.25
+        "net_value": 8257907500.0,
+        "avg_price": 1421.4
       },
       {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 10747535500.0,
-        "avg_price": 1438.45
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 6103609500.0,
+        "avg_price": 1424.19
       },
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
+        "code": "SQ",
+        "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 6824048500.0,
-        "avg_price": 1444.42
+        "net_value": 3811844000.0,
+        "avg_price": 1420.01
       }
     ],
     "sellers": [
@@ -1063,40 +1096,40 @@
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -37682720000.0,
-        "avg_price": 1455.19
-      },
-      {
-        "code": "CP",
-        "name": "KB Valbury Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -18105286500.0,
-        "avg_price": 1426.99
+        "net_value": -24407942000.0,
+        "avg_price": 1419.65
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -14006977500.0,
-        "avg_price": 1443.82
+        "net_value": -11330656000.0,
+        "avg_price": 1423.07
+      },
+      {
+        "code": "CP",
+        "name": "KB Valbury Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -11205686000.0,
+        "avg_price": 1408.8
       },
       {
         "code": "RX",
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -7896237500.0,
-        "avg_price": 1433.16
+        "net_value": -9692385500.0,
+        "avg_price": 1419.33
       },
       {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
+        "code": "RF",
+        "name": "Buana Capital Sekuritas",
         "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -7595889000.0,
-        "avg_price": 1419.87
+        "is_foreign": false,
+        "net_value": -3582020000.0,
+        "avg_price": 1449.86
       }
     ]
   },

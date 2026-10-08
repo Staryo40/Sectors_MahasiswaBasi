@@ -4,33 +4,33 @@
     "symbol": "ISAT",
     "name": "PT Indosat Tbk",
     "sector": "Infrastructures",
-    "rank": 19,
-    "flow_score": -8.8,
+    "rank": 18,
+    "flow_score": -9.1,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1475,
+        "value": -0.0826,
         "weight": 0.3,
-        "contribution": -4.42
+        "contribution": -2.48
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": 0.1,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": 1.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.1145,
+        "value": -0.1157,
         "weight": 0.25,
-        "contribution": -2.86
+        "contribution": -2.89
       },
       {
         "key": "institutional_net",
-        "value": -0.0005,
+        "value": -0.3508,
         "weight": 0.15,
-        "contribution": -0.01
+        "contribution": -5.26
       },
       {
         "key": "divergence",
@@ -48,39 +48,47 @@
     "flags": [],
     "reasons": [
       {
-        "code": "FOREIGN_INFLOW_5D",
+        "code": "INSTITUTIONAL_NET",
         "params": {
-          "direction": "out",
-          "sigma": 0.4
+          "direction": "distribution",
+          "share_pct": 35
         },
-        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+        "text_en": "Institutional brokers show net distribution, 35% of net traded value over the last 2 weeks"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "distribution",
-          "value": -0.11
+          "value": -0.12
         },
         "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.2
+        },
+        "text_en": "5-day net foreign outflow is 0.2 standard deviations from this stock's norm"
       }
     ],
-    "close": 2250.0,
-    "change_1d": -0.0044,
-    "return_10d": -0.0506,
-    "volume_ratio": 0.75,
-    "rank_prev": 17,
-    "flow_score_prev": -7.8
+    "close": 2220.0,
+    "change_1d": 0.0,
+    "return_10d": -0.0826,
+    "volume_ratio": 0.57,
+    "rank_prev": 26,
+    "flow_score_prev": -15.3
   },
   "investor": {
     "symbol": "ISAT",
     "name": "PT Indosat Tbk",
     "sector": "Infrastructures",
-    "rank": 32,
-    "investor_score": 45.33118359353825,
+    "rank": 30,
+    "investor_score": 46.32550177535643,
     "pillars": {
       "quality": 52.2960372960373,
       "valuation": 62.25334742776604,
-      "slow_flow": 25.28409090909091
+      "slow_flow": 28.125
     },
     "components": [
       {
@@ -134,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.005648364605590563,
-        "percentile": 0.18181818181818182
+        "raw": -0.003951725687705413,
+        "percentile": 0.2727272727272727
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.01745146914205151,
-        "percentile": 0.13636363636363635
+        "raw": -0.01775610279701655,
+        "percentile": 0.1590909090909091
       },
       {
         "key": "holder_shift",
@@ -182,7 +190,7 @@
         "text_en": "Trailing dividend yield is 4.93%."
       }
     ],
-    "rank_prev": 32
+    "rank_prev": 34
   },
   "series": {
     "price": [
@@ -500,6 +508,21 @@
         "date": "2026-10-02",
         "close": 2250.0,
         "volume": 33635000.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2220.0,
+        "volume": 20079300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2220.0,
+        "volume": 18240300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2220.0,
+        "volume": 23538200.0
       }
     ],
     "foreign_flow": [
@@ -880,21 +903,27 @@
         "net": -15461251000.0,
         "cum": -1266354072500.0,
         "share": 0.535
+      },
+      {
+        "date": "2026-10-05",
+        "net": -7069138000.0,
+        "cum": -1273423210500.0,
+        "share": 0.3976
+      },
+      {
+        "date": "2026-10-06",
+        "net": 0.0,
+        "cum": -1273423210500.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-07",
+        "net": 2143064000.0,
+        "cum": -1271280146500.0,
+        "share": 0.4863
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -43.5
-      },
-      {
-        "date": "2026-09-08",
-        "score": -38.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": -42.6
-      },
       {
         "date": "2026-09-10",
         "score": -45.0
@@ -962,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -8.8
+      },
+      {
+        "date": "2026-10-05",
+        "score": -14.4
+      },
+      {
+        "date": "2026-10-06",
+        "score": -15.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -9.1
       }
     ],
     "holder_mix": [
@@ -1024,86 +1065,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "KZ",
-        "name": "CLSA Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 66855717000.0,
-        "avg_price": 2355.26
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 41696944000.0,
+        "avg_price": 2349.38
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 58176510000.0,
-        "avg_price": 2389.15
+        "net_value": 21046146000.0,
+        "avg_price": 2354.57
       },
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 41450879000.0,
-        "avg_price": 2365.97
-      },
-      {
-        "code": "NI",
-        "name": "BNI Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 17556825000.0,
-        "avg_price": 2376.66
-      },
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 12630156000.0,
-        "avg_price": 2363.32
+        "net_value": 14579153000.0,
+        "avg_price": 2325.88
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 13123500000.0,
+        "avg_price": 2391.74
+      },
+      {
+        "code": "MG",
+        "name": "Semesta Indovest Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": 12481694000.0,
+        "avg_price": 2291.02
       }
     ],
     "sellers": [
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -132557898000.0,
-        "avg_price": 2369.79
-      },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -39241972000.0,
-        "avg_price": 2321.48
+        "net_value": -53582043000.0,
+        "avg_price": 2277.23
       },
       {
-        "code": "SS",
-        "name": "Supra Sekuritas Indonesia",
-        "cohort": "institutional",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -37749326000.0,
-        "avg_price": 2359.46
-      },
-      {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": -9621847000.0,
-        "avg_price": 2354.25
+        "net_value": -23257946000.0,
+        "avg_price": 2324.14
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -5660177000.0,
-        "avg_price": 2324.65
+        "net_value": -20708626000.0,
+        "avg_price": 2306.0
+      },
+      {
+        "code": "SS",
+        "name": "Supra Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": -19325480000.0,
+        "avg_price": 2274.12
+      },
+      {
+        "code": "AZ",
+        "name": "Sucor Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -13548310000.0,
+        "avg_price": 2265.66
       }
     ]
   },

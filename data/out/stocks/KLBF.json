@@ -4,39 +4,39 @@
     "symbol": "KLBF",
     "name": "Kalbe Farma Tbk",
     "sector": "Healthcare",
-    "rank": 8,
-    "flow_score": 3.6,
+    "rank": 4,
+    "flow_score": 4.4,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1539,
+        "value": -0.0908,
         "weight": 0.3,
-        "contribution": -4.62
+        "contribution": -2.72
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.0269,
+        "value": 0.1258,
         "weight": 0.25,
-        "contribution": -0.67
+        "contribution": 3.15
       },
       {
         "key": "institutional_net",
-        "value": 0.5912,
+        "value": 0.3562,
         "weight": 0.15,
-        "contribution": 8.87
+        "contribution": 5.34
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.0175,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 0.18
       },
       {
         "key": "insider",
@@ -51,36 +51,44 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "accumulation",
-          "share_pct": 59
+          "share_pct": 36
         },
-        "text_en": "Institutional brokers show net accumulation, 59% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net accumulation, 36% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.13
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
       },
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 0.5
+          "sigma": 0.3
         },
-        "text_en": "5-day net foreign outflow is 0.5 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       }
     ],
-    "close": 725.0,
-    "change_1d": 0.0069,
-    "return_10d": -0.0461,
-    "volume_ratio": 0.36,
-    "rank_prev": 10,
-    "flow_score_prev": -0.7
+    "close": 755.0,
+    "change_1d": 0.0,
+    "return_10d": 0.0,
+    "volume_ratio": 0.69,
+    "rank_prev": 5,
+    "flow_score_prev": 8.9
   },
   "investor": {
     "symbol": "KLBF",
     "name": "Kalbe Farma Tbk",
     "sector": "Healthcare",
-    "rank": 42,
-    "investor_score": 38.46991888925029,
+    "rank": 37,
+    "investor_score": 42.04946434379575,
     "pillars": {
       "quality": 53.974358974358985,
       "valuation": 29.736610288935875,
-      "slow_flow": 26.988636363636363
+      "slow_flow": 37.21590909090909
     },
     "components": [
       {
@@ -134,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.006593938957469872,
-        "percentile": 0.11363636363636363
+        "raw": -0.0021790494559035833,
+        "percentile": 0.5
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.018546094693266336,
-        "percentile": 0.11363636363636363
+        "raw": -0.017765145539533896,
+        "percentile": 0.13636363636363635
       },
       {
         "key": "holder_shift",
@@ -174,7 +182,7 @@
         "text_en": "Valuation multiples are below their peer averages (PB 0.91×)."
       }
     ],
-    "rank_prev": 44
+    "rank_prev": 42
   },
   "series": {
     "price": [
@@ -492,6 +500,21 @@
         "date": "2026-10-02",
         "close": 725.0,
         "volume": 22715400.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 750.0,
+        "volume": 33122700.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 755.0,
+        "volume": 44115100.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 755.0,
+        "volume": 38455900.0
       }
     ],
     "foreign_flow": [
@@ -872,21 +895,27 @@
         "net": 0.0,
         "cum": -629449054500.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": 5062622000.0,
+        "cum": -624386432500.0,
+        "share": 0.5768
+      },
+      {
+        "date": "2026-10-06",
+        "net": 1426551000.0,
+        "cum": -622959881500.0,
+        "share": 0.5949
+      },
+      {
+        "date": "2026-10-07",
+        "net": -4933387500.0,
+        "cum": -627893269000.0,
+        "share": 0.6252
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -30.8
-      },
-      {
-        "date": "2026-09-08",
-        "score": -33.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": -34.5
-      },
       {
         "date": "2026-09-10",
         "score": -36.0
@@ -954,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": 3.6
+      },
+      {
+        "date": "2026-10-05",
+        "score": 8.4
+      },
+      {
+        "date": "2026-10-06",
+        "score": 8.9
+      },
+      {
+        "date": "2026-10-07",
+        "score": 4.4
       }
     ],
     "holder_mix": [
@@ -1020,24 +1061,32 @@
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 45671945500.0,
-        "avg_price": 735.4
+        "net_value": 51561330500.0,
+        "avg_price": 737.99
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 30120537500.0,
-        "avg_price": 729.3
+        "net_value": 25511187500.0,
+        "avg_price": 726.58
       },
       {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 15601895000.0,
-        "avg_price": 738.1
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 10954042500.0,
+        "avg_price": 740.19
+      },
+      {
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 5789844000.0,
+        "avg_price": 725.93
       },
       {
         "code": "DP",
@@ -1046,14 +1095,6 @@
         "is_foreign": true,
         "net_value": 4378024500.0,
         "avg_price": 729.74
-      },
-      {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 4059443000.0,
-        "avg_price": 727.84
       }
     ],
     "sellers": [
@@ -1062,40 +1103,40 @@
         "name": "Bahana Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -73697361500.0,
-        "avg_price": 735.96
+        "net_value": -41181178000.0,
+        "avg_price": 726.35
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -12976572500.0,
-        "avg_price": 732.63
+        "net_value": -14759663000.0,
+        "avg_price": 733.8
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -9781473000.0,
-        "avg_price": 734.88
+        "net_value": -12407928500.0,
+        "avg_price": 735.63
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -10033314000.0,
+        "avg_price": 740.77
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -5333205000.0,
-        "avg_price": 735.36
-      },
-      {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -3112527000.0,
-        "avg_price": 732.32
+        "net_value": -6755988500.0,
+        "avg_price": 741.5
       }
     ]
   },

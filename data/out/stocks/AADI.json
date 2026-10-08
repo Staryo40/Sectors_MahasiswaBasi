@@ -4,39 +4,39 @@
     "symbol": "AADI",
     "name": "PT Adaro Andalan Indonesia Tbk",
     "sector": "Energy",
-    "rank": 24,
-    "flow_score": -17.1,
+    "rank": 32,
+    "flow_score": -22.3,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.4001,
+        "value": -0.3643,
         "weight": 0.3,
-        "contribution": -12.0
+        "contribution": -10.93
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.1395,
+        "value": -0.1777,
         "weight": 0.25,
-        "contribution": -3.49
+        "contribution": -4.44
       },
       {
         "key": "institutional_net",
-        "value": -0.0074,
+        "value": -0.0844,
         "weight": 0.15,
-        "contribution": -0.11
+        "contribution": -1.27
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.271,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -2.71
       },
       {
         "key": "insider",
@@ -51,36 +51,44 @@
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 1.2
+          "sigma": 1.1
         },
-        "text_en": "5-day net foreign outflow is 1.2 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 1.1 standard deviations from this stock's norm"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "distribution",
-          "value": -0.14
+          "value": -0.18
         },
         "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 2 trading days in a row"
       }
     ],
-    "close": 11550.0,
-    "change_1d": 0.0359,
-    "return_10d": -0.0355,
-    "volume_ratio": 0.82,
-    "rank_prev": 14,
-    "flow_score_prev": -6.7
+    "close": 12100.0,
+    "change_1d": -0.0021,
+    "return_10d": 0.0732,
+    "volume_ratio": 0.58,
+    "rank_prev": 28,
+    "flow_score_prev": -18.3
   },
   "investor": {
     "symbol": "AADI",
     "name": "PT Adaro Andalan Indonesia Tbk",
     "sector": "Energy",
     "rank": 1,
-    "investor_score": 73.20671213476446,
+    "investor_score": 72.01353031658265,
     "pillars": {
       "quality": 69.87179487179488,
       "valuation": 66.08879492600423,
-      "slow_flow": 82.10227272727273
+      "slow_flow": 78.69318181818183
     },
     "components": [
       {
@@ -134,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0027919715281338503,
-        "percentile": 0.9545454545454546
+        "raw": 0.00016094028598348715,
+        "percentile": 0.8181818181818182
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.0022229526908618532,
+        "raw": 0.0016332938785613863,
         "percentile": 0.8636363636363636
       },
       {
@@ -167,20 +175,20 @@
         "text_en": "Institutional share rose by 1.02 percentage points across the last 3 monthly snapshots."
       },
       {
-        "code": "FOREIGN_INFLOW_LONG",
-        "params": {
-          "days": 20,
-          "net_to_market_cap": 0.0027919715281338503
-        },
-        "text_en": "Net foreign accumulation equals 0.279% of market cap over available history in the 20-trading-day window."
-      },
-      {
         "code": "VALUATION_BELOW_PEERS",
         "params": {
           "pe_relative": 0.43774529493475434,
           "pb_relative": 0.8691247807115812
         },
         "text_en": "Valuation multiples are below their peer averages (PE 0.44×, PB 0.87×)."
+      },
+      {
+        "code": "FOREIGN_INFLOW_LONG",
+        "params": {
+          "days": 90,
+          "net_to_market_cap": 0.0016332938785613863
+        },
+        "text_en": "Net foreign accumulation equals 0.163% of market cap over available history in the 90-trading-day window."
       }
     ],
     "rank_prev": 1
@@ -501,6 +509,21 @@
         "date": "2026-10-02",
         "close": 11550.0,
         "volume": 8320600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 11950.0,
+        "volume": 7807300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 12125.0,
+        "volume": 8126300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 12100.0,
+        "volume": 4806600.0
       }
     ],
     "foreign_flow": [
@@ -881,21 +904,27 @@
         "net": -21949512500.0,
         "cum": 199929252500.0,
         "share": 0.4594
+      },
+      {
+        "date": "2026-10-05",
+        "net": 4047295000.0,
+        "cum": 203976547500.0,
+        "share": 0.4866
+      },
+      {
+        "date": "2026-10-06",
+        "net": -31651627500.0,
+        "cum": 172324920000.0,
+        "share": 0.3188
+      },
+      {
+        "date": "2026-10-07",
+        "net": -18433700000.0,
+        "cum": 153891220000.0,
+        "share": 0.4397
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 34.5
-      },
-      {
-        "date": "2026-09-08",
-        "score": 34.8
-      },
-      {
-        "date": "2026-09-09",
-        "score": 37.5
-      },
       {
         "date": "2026-09-10",
         "score": 30.0
@@ -963,6 +992,18 @@
       {
         "date": "2026-10-02",
         "score": -17.1
+      },
+      {
+        "date": "2026-10-05",
+        "score": -12.0
+      },
+      {
+        "date": "2026-10-06",
+        "score": -18.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -22.3
       }
     ],
     "holder_mix": [
@@ -1025,86 +1066,86 @@
   "top_brokers": {
     "buyers": [
       {
+        "code": "NI",
+        "name": "BNI Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 39062332500.0,
+        "avg_price": 11736.58
+      },
+      {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 33298285000.0,
-        "avg_price": 11164.76
+        "net_value": 33912680000.0,
+        "avg_price": 11220.18
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 30308912500.0,
+        "avg_price": 11554.75
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 31703865000.0,
-        "avg_price": 11288.48
-      },
-      {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 16712665000.0,
-        "avg_price": 11298.0
+        "net_value": 19909125000.0,
+        "avg_price": 11377.84
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 14445157500.0,
-        "avg_price": 11262.53
-      },
-      {
-        "code": "TP",
-        "name": "OCBC Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 9625982500.0,
-        "avg_price": 11595.42
+        "net_value": 17430490000.0,
+        "avg_price": 11552.6
       }
     ],
     "sellers": [
       {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -49614522500.0,
-        "avg_price": 11253.06
+        "net_value": -72889285000.0,
+        "avg_price": 11547.05
       },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -39962335000.0,
-        "avg_price": 11273.65
+        "net_value": -39464080000.0,
+        "avg_price": 11411.33
       },
       {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
+        "code": "RX",
+        "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -18635497500.0,
-        "avg_price": 11285.61
+        "net_value": -35570420000.0,
+        "avg_price": 11517.61
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -14868182500.0,
-        "avg_price": 11076.92
+        "net_value": -15087932500.0,
+        "avg_price": 11075.41
       },
       {
         "code": "OD",
         "name": "BRI Danareksa Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -12442405000.0,
-        "avg_price": 11079.17
+        "net_value": -13186265000.0,
+        "avg_price": 11156.28
       }
     ]
   },

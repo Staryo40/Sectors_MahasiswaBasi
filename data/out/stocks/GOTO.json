@@ -4,8 +4,8 @@
     "symbol": "GOTO",
     "name": "PT GoTo Gojek Tokopedia Tbk",
     "sector": "Technology",
-    "rank": 42,
-    "flow_score": -42.3,
+    "rank": 44,
+    "flow_score": -48.9,
     "label": "strong_distribution",
     "components": [
       {
@@ -16,21 +16,21 @@
       },
       {
         "key": "foreign_streak",
-        "value": -0.2,
+        "value": -0.5,
         "weight": 0.15,
-        "contribution": -3.0
+        "contribution": -7.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.0878,
+        "value": -0.1314,
         "weight": 0.25,
-        "contribution": -2.2
+        "contribution": -3.28
       },
       {
         "key": "institutional_net",
-        "value": -0.4742,
+        "value": -0.5407,
         "weight": 0.15,
-        "contribution": -7.11
+        "contribution": -8.11
       },
       {
         "key": "divergence",
@@ -61,36 +61,36 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 47
+          "share_pct": 54
         },
-        "text_en": "Institutional brokers show net distribution, 47% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 54% of net traded value over the last 2 weeks"
       },
       {
         "code": "FOREIGN_STREAK",
         "params": {
-          "days": 2,
+          "days": 5,
           "direction": "out"
         },
-        "text_en": "Net foreign outflow for 2 trading days in a row"
+        "text_en": "Net foreign outflow for 5 trading days in a row"
       }
     ],
     "close": 30.0,
-    "change_1d": 0.0714,
+    "change_1d": -0.0323,
     "return_10d": -0.4,
-    "volume_ratio": 10401.76,
-    "rank_prev": 39,
-    "flow_score_prev": -38.3
+    "volume_ratio": 941.01,
+    "rank_prev": 44,
+    "flow_score_prev": -46.3
   },
   "investor": {
     "symbol": "GOTO",
     "name": "PT GoTo Gojek Tokopedia Tbk",
     "sector": "Technology",
     "rank": 45,
-    "investor_score": 33.985991963462894,
+    "investor_score": 33.58826469073562,
     "pillars": {
       "quality": 44.35897435897436,
       "valuation": 45.48097251585624,
-      "slow_flow": 13.920454545454547
+      "slow_flow": 12.784090909090908
     },
     "components": [
       {
@@ -144,14 +144,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.028582147118695587,
+        "raw": -0.04377671993695412,
         "percentile": 0.0
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.026461936399956882,
-        "percentile": 0.045454545454545456
+        "raw": -0.04162720962449901,
+        "percentile": 0.0
       },
       {
         "key": "holder_shift",
@@ -184,7 +184,7 @@
         "text_en": "Institutional share fell by 2.65 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 28
+    "rank_prev": 22
   },
   "series": {
     "price": [
@@ -502,6 +502,21 @@
         "date": "2026-10-02",
         "close": 30.0,
         "volume": 97541478600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 29.0,
+        "volume": 18949409600.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 31.0,
+        "volume": 18443953300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 30.0,
+        "volume": 12843222300.0
       }
     ],
     "foreign_flow": [
@@ -882,21 +897,27 @@
         "net": -927644318000.0,
         "cum": -905453317700.0,
         "share": 0.4634
+      },
+      {
+        "date": "2026-10-05",
+        "net": -115730062300.0,
+        "cum": -1021183380000.0,
+        "share": 0.3377
+      },
+      {
+        "date": "2026-10-06",
+        "net": -255812929000.0,
+        "cum": -1276996309000.0,
+        "share": 0.4208
+      },
+      {
+        "date": "2026-10-07",
+        "net": -147370165600.0,
+        "cum": -1424366474600.0,
+        "share": 0.4403
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 7.0
-      },
-      {
-        "date": "2026-09-08",
-        "score": 9.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": 10.5
-      },
       {
         "date": "2026-09-10",
         "score": 11.9
@@ -964,6 +985,18 @@
       {
         "date": "2026-10-02",
         "score": -42.3
+      },
+      {
+        "date": "2026-10-05",
+        "score": -43.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": -46.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -48.9
       }
     ],
     "holder_mix": [
@@ -1030,82 +1063,82 @@
         "name": "Ciptadana Sekuritas Asia",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 249152301600.0,
-        "avg_price": 27.18
-      },
-      {
-        "code": "MG",
-        "name": "Semesta Indovest Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": false,
-        "net_value": 181205879000.0,
-        "avg_price": 27.06
-      },
-      {
-        "code": "IF",
-        "name": "Samuel Sekuritas Indonesia",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 86963221900.0,
-        "avg_price": 28.52
+        "net_value": 398554755000.0,
+        "avg_price": 28.12
       },
       {
         "code": "SS",
         "name": "Supra Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": false,
-        "net_value": 70743380000.0,
-        "avg_price": 26.36
+        "net_value": 326034480000.0,
+        "avg_price": 29.06
       },
       {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 47745389400.0,
-        "avg_price": 28.02
+        "code": "IF",
+        "name": "Samuel Sekuritas Indonesia",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 87173044300.0,
+        "avg_price": 28.54
+      },
+      {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 74803280400.0,
+        "avg_price": 29.06
+      },
+      {
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 74246310400.0,
+        "avg_price": 29.67
       }
     ],
     "sellers": [
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -278322329800.0,
-        "avg_price": 27.48
-      },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -239258503800.0,
-        "avg_price": 26.72
+        "net_value": -507950827600.0,
+        "avg_price": 27.93
       },
       {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -99362516200.0,
-        "avg_price": 27.62
+        "net_value": -364419942000.0,
+        "avg_price": 28.3
       },
       {
         "code": "TP",
         "name": "OCBC Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -63967944100.0,
-        "avg_price": 28.82
+        "net_value": -184975300300.0,
+        "avg_price": 29.77
+      },
+      {
+        "code": "RX",
+        "name": "Macquarie Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -91015733200.0,
+        "avg_price": 27.7
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -62962718500.0,
-        "avg_price": 27.54
+        "net_value": -86351495300.0,
+        "avg_price": 28.31
       }
     ]
   },

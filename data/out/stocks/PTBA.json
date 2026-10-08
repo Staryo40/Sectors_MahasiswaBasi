@@ -4,39 +4,39 @@
     "symbol": "PTBA",
     "name": "Bukit Asam Tbk",
     "sector": "Energy",
-    "rank": 16,
-    "flow_score": -8.0,
+    "rank": 2,
+    "flow_score": 10.1,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.3481,
+        "value": 0.18,
         "weight": 0.3,
-        "contribution": -10.44
+        "contribution": 5.4
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.095,
+        "value": 0.1544,
         "weight": 0.25,
-        "contribution": 2.37
+        "contribution": 3.86
       },
       {
         "key": "institutional_net",
-        "value": -0.013,
+        "value": 0.153,
         "weight": 0.15,
-        "contribution": -0.2
+        "contribution": 2.3
       },
       {
         "key": "divergence",
-        "value": -0.1266,
+        "value": 0.0,
         "weight": 0.1,
-        "contribution": -1.27
+        "contribution": 0.0
       },
       {
         "key": "insider",
@@ -50,26 +50,34 @@
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
-          "direction": "out",
-          "sigma": 1.0
+          "direction": "in",
+          "sigma": 0.5
         },
-        "text_en": "5-day net foreign outflow is 1 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign inflow is 0.5 standard deviations from this stock's norm"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "accumulation",
-          "value": 0.1
+          "value": 0.15
         },
         "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "accumulation",
+          "share_pct": 15
+        },
+        "text_en": "Institutional brokers show net accumulation, 15% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 3180.0,
-    "change_1d": 0.0426,
-    "return_10d": 0.0291,
-    "volume_ratio": 1.06,
-    "rank_prev": 23,
-    "flow_score_prev": -18.8
+    "close": 3380.0,
+    "change_1d": -0.0059,
+    "return_10d": 0.1082,
+    "volume_ratio": 0.97,
+    "rank_prev": 1,
+    "flow_score_prev": 13.2
   },
   "investor": {
     "symbol": "PTBA",
@@ -134,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.00633560859252469,
+        "raw": 0.002639627871507255,
         "percentile": 0.9772727272727273
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.007278551633887373,
+        "raw": 0.007150159166219425,
         "percentile": 0.9772727272727273
       },
       {
@@ -170,9 +178,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 90,
-          "net_to_market_cap": 0.007278551633887373
+          "net_to_market_cap": 0.007150159166219425
         },
-        "text_en": "Net foreign accumulation equals 0.728% of market cap over available history in the 90-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.715% of market cap over available history in the 90-trading-day window."
       },
       {
         "code": "VALUATION_BELOW_PEERS",
@@ -183,7 +191,7 @@
         "text_en": "Valuation multiples are below their peer averages (PE 0.52×, PB 0.90×)."
       }
     ],
-    "rank_prev": 6
+    "rank_prev": 2
   },
   "series": {
     "price": [
@@ -501,6 +509,21 @@
         "date": "2026-10-02",
         "close": 3180.0,
         "volume": 35493300.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 3270.0,
+        "volume": 54194500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 3400.0,
+        "volume": 79878000.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 3380.0,
+        "volume": 34327600.0
       }
     ],
     "foreign_flow": [
@@ -881,21 +904,27 @@
         "net": 29130128000.0,
         "cum": 266654808000.0,
         "share": 0.2835
+      },
+      {
+        "date": "2026-10-05",
+        "net": 227526000.0,
+        "cum": 266882334000.0,
+        "share": 0.363
+      },
+      {
+        "date": "2026-10-06",
+        "net": 26906996000.0,
+        "cum": 293789330000.0,
+        "share": 0.3234
+      },
+      {
+        "date": "2026-10-07",
+        "net": -15363360000.0,
+        "cum": 278425970000.0,
+        "share": 0.2748
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 39.0
-      },
-      {
-        "date": "2026-09-08",
-        "score": 40.5
-      },
-      {
-        "date": "2026-09-09",
-        "score": 42.0
-      },
       {
         "date": "2026-09-10",
         "score": 43.5
@@ -963,6 +992,18 @@
       {
         "date": "2026-10-02",
         "score": -8.0
+      },
+      {
+        "date": "2026-10-05",
+        "score": -9.5
+      },
+      {
+        "date": "2026-10-06",
+        "score": 13.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": 10.1
       }
     ],
     "holder_mix": [
@@ -1025,44 +1066,44 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 53218451000.0,
-        "avg_price": 3118.66
-      },
-      {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 42698480000.0,
-        "avg_price": 3121.88
+        "net_value": 91539953000.0,
+        "avg_price": 3256.62
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 71637086000.0,
+        "avg_price": 3309.73
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 37069128000.0,
-        "avg_price": 3116.3
+        "net_value": 61668645000.0,
+        "avg_price": 3218.76
       },
       {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 33538098000.0,
-        "avg_price": 3108.28
+        "net_value": 59947095000.0,
+        "avg_price": 3205.0
       },
       {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 21858855000.0,
-        "avg_price": 3142.86
+        "net_value": 35310338000.0,
+        "avg_price": 3152.09
       }
     ],
     "sellers": [
@@ -1071,40 +1112,40 @@
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -46509411000.0,
-        "avg_price": 3094.6
+        "net_value": -82180708000.0,
+        "avg_price": 3195.89
       },
       {
         "code": "YP",
         "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -36780033000.0,
-        "avg_price": 3123.51
-      },
-      {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": -26628042000.0,
-        "avg_price": 3106.87
-      },
-      {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -25557817000.0,
-        "avg_price": 3109.73
+        "net_value": -49319320000.0,
+        "avg_price": 3223.8
       },
       {
         "code": "XC",
         "name": "Ajaib Sekuritas Asia",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": -18025644000.0,
-        "avg_price": 3109.06
+        "net_value": -33191176000.0,
+        "avg_price": 3244.18
+      },
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -31175103000.0,
+        "avg_price": 3212.89
+      },
+      {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": -28072660000.0,
+        "avg_price": 3208.43
       }
     ]
   },

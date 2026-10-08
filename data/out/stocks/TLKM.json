@@ -4,33 +4,33 @@
     "symbol": "TLKM",
     "name": "PT Telkom Indonesia (Persero) Tbk",
     "sector": "Infrastructures",
-    "rank": 41,
-    "flow_score": -41.9,
-    "label": "strong_distribution",
+    "rank": 21,
+    "flow_score": -11.7,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -1.0,
+        "value": -0.1026,
         "weight": 0.3,
-        "contribution": -30.0
+        "contribution": -3.08
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": 0.1,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": 1.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.1304,
+        "value": -0.1081,
         "weight": 0.25,
-        "contribution": -3.26
+        "contribution": -2.7
       },
       {
         "key": "institutional_net",
-        "value": -0.4768,
+        "value": -0.4914,
         "weight": 0.15,
-        "contribution": -7.15
+        "contribution": -7.37
       },
       {
         "key": "divergence",
@@ -48,47 +48,47 @@
     "flags": [],
     "reasons": [
       {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "out",
-          "sigma": 3.0
-        },
-        "text_en": "5-day net foreign outflow is 3 standard deviations from this stock's norm"
-      },
-      {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 48
+          "share_pct": 49
         },
-        "text_en": "Institutional brokers show net distribution, 48% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 49% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "distribution",
-          "value": -0.13
+          "value": -0.11
         },
         "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
       }
     ],
-    "close": 2250.0,
-    "change_1d": 0.0,
-    "return_10d": -0.1211,
-    "volume_ratio": 1.16,
-    "rank_prev": 41,
-    "flow_score_prev": -38.6
+    "close": 2310.0,
+    "change_1d": 0.0132,
+    "return_10d": -0.0533,
+    "volume_ratio": 1.28,
+    "rank_prev": 38,
+    "flow_score_prev": -34.3
   },
   "investor": {
     "symbol": "TLKM",
     "name": "PT Telkom Indonesia (Persero) Tbk",
     "sector": "Infrastructures",
-    "rank": 25,
-    "investor_score": 47.771170447769286,
+    "rank": 26,
+    "investor_score": 47.37344317504201,
     "pillars": {
       "quality": 44.68531468531468,
       "valuation": 70.6677237491191,
-      "slow_flow": 34.94318181818182
+      "slow_flow": 33.80681818181818
     },
     "components": [
       {
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.004403994605906643,
-        "percentile": 0.25
+        "raw": -0.004943137992467519,
+        "percentile": 0.20454545454545456
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.006934788010790382,
+        "raw": -0.007071527974781213,
         "percentile": 0.36363636363636365
       },
       {
@@ -190,7 +190,7 @@
         "text_en": "Valuation multiples are below their peer averages (PE 0.70×, PB 0.77×)."
       }
     ],
-    "rank_prev": 22
+    "rank_prev": 25
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 2250.0,
         "volume": 145636900.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2290.0,
+        "volume": 108272300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2280.0,
+        "volume": 162461500.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2310.0,
+        "volume": 173346600.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -30468998000.0,
         "cum": -1545694812000.0,
         "share": 0.6936
+      },
+      {
+        "date": "2026-10-05",
+        "net": -21694890000.0,
+        "cum": -1567389702000.0,
+        "share": 0.7161
+      },
+      {
+        "date": "2026-10-06",
+        "net": -73070018000.0,
+        "cum": -1640459720000.0,
+        "share": 0.7821
+      },
+      {
+        "date": "2026-10-07",
+        "net": 22255665000.0,
+        "cum": -1618204055000.0,
+        "share": 0.7785
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 5.7
-      },
-      {
-        "date": "2026-09-08",
-        "score": 9.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": 15.3
-      },
       {
         "date": "2026-09-10",
         "score": 4.1
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -41.9
+      },
+      {
+        "date": "2026-10-05",
+        "score": -37.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": -34.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -11.7
       }
     ],
     "holder_mix": [
@@ -1036,40 +1069,40 @@
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 403548954000.0,
-        "avg_price": 2364.3
-      },
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 370613807000.0,
-        "avg_price": 2356.39
+        "net_value": 445134621000.0,
+        "avg_price": 2337.03
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 342412234000.0,
-        "avg_price": 2318.33
+        "net_value": 377103688000.0,
+        "avg_price": 2299.18
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 329806043000.0,
+        "avg_price": 2328.3
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 143174121000.0,
-        "avg_price": 2366.28
+        "net_value": 102614192000.0,
+        "avg_price": 2315.28
       },
       {
         "code": "YP",
         "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 81604087000.0,
-        "avg_price": 2359.0
+        "net_value": 55597101000.0,
+        "avg_price": 2316.47
       }
     ],
     "sellers": [
@@ -1078,40 +1111,40 @@
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -595676678000.0,
-        "avg_price": 2344.07
+        "net_value": -771583700000.0,
+        "avg_price": 2309.68
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -494604695000.0,
-        "avg_price": 2384.52
+        "net_value": -505063182000.0,
+        "avg_price": 2330.91
       },
       {
         "code": "RX",
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -361219580000.0,
-        "avg_price": 2353.8
+        "net_value": -154719910000.0,
+        "avg_price": 2323.12
       },
       {
         "code": "AG",
         "name": "Kiwoom Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -137766650000.0,
-        "avg_price": 2394.17
+        "net_value": -126922110000.0,
+        "avg_price": 2384.56
       },
       {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
+        "code": "AI",
+        "name": "Kay Hian Sekuritas",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -71525775000.0,
-        "avg_price": 2328.12
+        "net_value": -41847503000.0,
+        "avg_price": 2238.61
       }
     ]
   },

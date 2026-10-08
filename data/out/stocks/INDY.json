@@ -4,33 +4,33 @@
     "symbol": "INDY",
     "name": "Indika Energy Tbk",
     "sector": "Energy",
-    "rank": 31,
-    "flow_score": -24.7,
-    "label": "distribution",
+    "rank": 25,
+    "flow_score": -12.9,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.3015,
+        "value": -0.1188,
         "weight": 0.3,
-        "contribution": -9.05
+        "contribution": -3.56
       },
       {
         "key": "foreign_streak",
-        "value": -0.4,
+        "value": 0.2,
         "weight": 0.15,
-        "contribution": -6.0
+        "contribution": 3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.0281,
+        "value": -0.2268,
         "weight": 0.25,
-        "contribution": -0.7
+        "contribution": -5.67
       },
       {
         "key": "institutional_net",
-        "value": -0.5947,
+        "value": -0.4456,
         "weight": 0.15,
-        "contribution": -8.92
+        "contribution": -6.68
       },
       {
         "key": "divergence",
@@ -48,47 +48,47 @@
     "flags": [],
     "reasons": [
       {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "out",
-          "sigma": 0.9
-        },
-        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
-      },
-      {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 59
+          "share_pct": 45
         },
-        "text_en": "Institutional brokers show net distribution, 59% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 45% of net traded value over the last 2 weeks"
       },
       {
-        "code": "FOREIGN_STREAK",
+        "code": "BROKER_CONCENTRATION",
         "params": {
-          "days": 4,
-          "direction": "out"
+          "direction": "distribution",
+          "value": -0.23
         },
-        "text_en": "Net foreign outflow for 4 trading days in a row"
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
       }
     ],
-    "close": 2540.0,
-    "change_1d": -0.0117,
-    "return_10d": -0.0696,
-    "volume_ratio": 0.5,
-    "rank_prev": 26,
-    "flow_score_prev": -20.4
+    "close": 2730.0,
+    "change_1d": 0.0074,
+    "return_10d": -0.0421,
+    "volume_ratio": 0.99,
+    "rank_prev": 24,
+    "flow_score_prev": -14.6
   },
   "investor": {
     "symbol": "INDY",
     "name": "Indika Energy Tbk",
     "sector": "Energy",
-    "rank": 40,
-    "investor_score": 39.02515483547461,
+    "rank": 44,
+    "investor_score": 35.84333665365642,
     "pillars": {
       "quality": 41.317016317016325,
       "valuation": 38.68657505285412,
-      "slow_flow": 36.64772727272727
+      "slow_flow": 27.556818181818183
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.00326866027927479,
-        "percentile": 0.4090909090909091
+        "raw": -0.010194973473294119,
+        "percentile": 0.022727272727272728
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.008254145277738975,
-        "percentile": 0.3181818181818182
+        "raw": -0.007335674381677677,
+        "percentile": 0.3409090909090909
       },
       {
         "key": "holder_shift",
@@ -182,7 +182,7 @@
         "text_en": "Institutional share fell by 0.55 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 35
+    "rank_prev": 38
   },
   "series": {
     "price": [
@@ -500,6 +500,21 @@
         "date": "2026-10-02",
         "close": 2540.0,
         "volume": 8282000.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2570.0,
+        "volume": 8058600.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2710.0,
+        "volume": 14193300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2730.0,
+        "volume": 14500900.0
       }
     ],
     "foreign_flow": [
@@ -880,21 +895,27 @@
         "net": -6724358000.0,
         "cum": -109234431500.0,
         "share": 0.3385
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": -109234431500.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": 4351364000.0,
+        "cum": -104883067500.0,
+        "share": 0.2337
+      },
+      {
+        "date": "2026-10-07",
+        "net": 541725000.0,
+        "cum": -104341342500.0,
+        "share": 0.1957
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 1.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": 13.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": 33.0
-      },
       {
         "date": "2026-09-10",
         "score": 7.8
@@ -962,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": -24.7
+      },
+      {
+        "date": "2026-10-05",
+        "score": -19.6
+      },
+      {
+        "date": "2026-10-06",
+        "score": -14.6
+      },
+      {
+        "date": "2026-10-07",
+        "score": -12.9
       }
     ],
     "holder_mix": [
@@ -1024,44 +1057,44 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 17401218000.0,
-        "avg_price": 2811.08
-      },
-      {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 15197075000.0,
-        "avg_price": 2661.09
+        "net_value": 13107963000.0,
+        "avg_price": 2658.79
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 9431668000.0,
+        "avg_price": 2781.69
+      },
+      {
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 7371022000.0,
+        "avg_price": 2698.09
+      },
+      {
+        "code": "AZ",
+        "name": "Sucor Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 5899009000.0,
+        "avg_price": 2662.63
       },
       {
         "code": "GR",
         "name": "Panin Sekuritas TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 9033884000.0,
-        "avg_price": 2638.12
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 6471739000.0,
-        "avg_price": 2705.02
-      },
-      {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 4201890000.0,
-        "avg_price": 2640.58
+        "net_value": 5249629000.0,
+        "avg_price": 2602.67
       }
     ],
     "sellers": [
@@ -1070,40 +1103,40 @@
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -28348852000.0,
-        "avg_price": 2635.41
+        "net_value": -20163806000.0,
+        "avg_price": 2620.86
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -15333971000.0,
+        "avg_price": 2668.85
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -11284286000.0,
-        "avg_price": 2644.65
+        "net_value": -11961677000.0,
+        "avg_price": 2628.67
       },
       {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -4405939000.0,
-        "avg_price": 2702.31
-      },
-      {
-        "code": "YB",
-        "name": "Yakin Bertumbuh Sekuritas",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -2801395000.0,
-        "avg_price": 2681.95
+        "net_value": -5468938000.0,
+        "avg_price": 2688.7
       },
       {
         "code": "DR",
         "name": "RHB Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -2656252000.0,
-        "avg_price": 2704.56
+        "net_value": -2101209000.0,
+        "avg_price": 2683.92
       }
     ]
   },

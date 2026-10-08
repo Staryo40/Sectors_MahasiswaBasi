@@ -4,39 +4,39 @@
     "symbol": "MAPI",
     "name": "Mitra Adiperkasa Tbk",
     "sector": "Consumer Cyclicals",
-    "rank": 7,
-    "flow_score": 9.9,
+    "rank": 23,
+    "flow_score": -12.1,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.0327,
+        "value": 0.0412,
         "weight": 0.3,
-        "contribution": 0.98
+        "contribution": 1.24
       },
       {
         "key": "foreign_streak",
-        "value": 1.0,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 15.0
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.1986,
+        "value": 0.06,
         "weight": 0.25,
-        "contribution": 4.96
+        "contribution": 1.5
       },
       {
         "key": "institutional_net",
-        "value": -0.8109,
+        "value": -0.8885,
         "weight": 0.15,
-        "contribution": -12.16
+        "contribution": -13.33
       },
       {
         "key": "divergence",
-        "value": 0.1156,
+        "value": 0.0,
         "weight": 0.1,
-        "contribution": 1.16
+        "contribution": 0.0
       },
       {
         "key": "insider",
@@ -45,50 +45,43 @@
         "contribution": 0.0
       }
     ],
-    "flags": [],
+    "flags": [
+      "unusual_volume"
+    ],
     "reasons": [
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 10,
-          "direction": "in"
-        },
-        "text_en": "Net foreign inflow for at least 10 trading days in a row"
-      },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 81
+          "share_pct": 89
         },
-        "text_en": "Institutional brokers show net distribution, 81% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 89% of net traded value over the last 2 weeks"
       },
       {
-        "code": "BROKER_CONCENTRATION",
+        "code": "UNUSUAL_VOLUME",
         "params": {
-          "direction": "accumulation",
-          "value": 0.2
+          "ratio": 3.2
         },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+        "text_en": "Volume was 3.2x its 20-day median"
       }
     ],
-    "close": 1485.0,
-    "change_1d": 0.0034,
-    "return_10d": -0.01,
-    "volume_ratio": 0.95,
-    "rank_prev": 5,
-    "flow_score_prev": 7.7
+    "close": 1550.0,
+    "change_1d": 0.0,
+    "return_10d": 0.0265,
+    "volume_ratio": 3.18,
+    "rank_prev": 17,
+    "flow_score_prev": -8.7
   },
   "investor": {
     "symbol": "MAPI",
     "name": "Mitra Adiperkasa Tbk",
     "sector": "Consumer Cyclicals",
-    "rank": 39,
-    "investor_score": 39.39521500786036,
+    "rank": 40,
+    "investor_score": 40.38953318967854,
     "pillars": {
       "quality": 37.69230769230769,
       "valuation": 30.852713178294575,
-      "slow_flow": 47.44318181818182
+      "slow_flow": 50.28409090909091
     },
     "components": [
       {
@@ -142,14 +135,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0009004339986207456,
-        "percentile": 0.8636363636363636
+        "raw": 0.0014664498251068792,
+        "percentile": 0.9545454545454546
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.03406745493083445,
-        "percentile": 0.0
+        "raw": -0.03226207279440342,
+        "percentile": 0.022727272727272728
       },
       {
         "key": "holder_shift",
@@ -170,9 +163,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 20,
-          "net_to_market_cap": 0.0009004339986207456
+          "net_to_market_cap": 0.0014664498251068792
         },
-        "text_en": "Net foreign accumulation equals 0.090% of market cap over available history in the 20-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.147% of market cap over available history in the 20-trading-day window."
       },
       {
         "code": "VALUATION_BELOW_PEERS",
@@ -189,7 +182,7 @@
         "text_en": "Trailing dividend yield is 0.67%."
       }
     ],
-    "rank_prev": 39
+    "rank_prev": 41
   },
   "series": {
     "price": [
@@ -507,6 +500,21 @@
         "date": "2026-10-02",
         "close": 1485.0,
         "volume": 5667900.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1490.0,
+        "volume": 1274200.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1550.0,
+        "volume": 62426200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1550.0,
+        "volume": 18971900.0
       }
     ],
     "foreign_flow": [
@@ -887,21 +895,27 @@
         "net": 3189900500.0,
         "cum": -839796831500.0,
         "share": 0.6357
+      },
+      {
+        "date": "2026-10-05",
+        "net": -143346000.0,
+        "cum": -839940177500.0,
+        "share": 0.2308
+      },
+      {
+        "date": "2026-10-06",
+        "net": 10366381500.0,
+        "cum": -829573796000.0,
+        "share": 0.8824
+      },
+      {
+        "date": "2026-10-07",
+        "net": -529337000.0,
+        "cum": -830103133000.0,
+        "share": 0.9044
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -6.3
-      },
-      {
-        "date": "2026-09-08",
-        "score": -8.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": -9.6
-      },
       {
         "date": "2026-09-10",
         "score": -11.2
@@ -969,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": 9.9
+      },
+      {
+        "date": "2026-10-05",
+        "score": -7.2
+      },
+      {
+        "date": "2026-10-06",
+        "score": -8.7
+      },
+      {
+        "date": "2026-10-07",
+        "score": -12.1
       }
     ],
     "holder_mix": [
@@ -1035,40 +1061,40 @@
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 58379579500.0,
-        "avg_price": 1517.8
+        "net_value": 149292641000.0,
+        "avg_price": 1538.8
       },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 1787358500.0,
-        "avg_price": 1497.33
+        "net_value": 4267485000.0,
+        "avg_price": 1521.3
+      },
+      {
+        "code": "AI",
+        "name": "Kay Hian Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 892222000.0,
+        "avg_price": 1551.49
       },
       {
         "code": "ES",
         "name": "Ekokapital Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 470400000.0,
-        "avg_price": 1470.0
+        "net_value": 500000000.0,
+        "avg_price": 1470.59
       },
       {
-        "code": "YB",
-        "name": "Yakin Bertumbuh Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 451471500.0,
-        "avg_price": 1498.08
-      },
-      {
-        "code": "BS",
-        "name": "Equity Sekuritas Indonesia",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 425999500.0,
-        "avg_price": 1472.01
+        "code": "DR",
+        "name": "RHB Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 416069000.0,
+        "avg_price": 1534.2
       }
     ],
     "sellers": [
@@ -1077,40 +1103,40 @@
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -20895031500.0,
-        "avg_price": 1540.08
+        "net_value": -92752606500.0,
+        "avg_price": 1547.9
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -14631365500.0,
-        "avg_price": 1496.03
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -5019716500.0,
-        "avg_price": 1497.22
+        "net_value": -31945553000.0,
+        "avg_price": 1532.08
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -4347267000.0,
-        "avg_price": 1497.36
+        "net_value": -12276831000.0,
+        "avg_price": 1500.86
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -4082681500.0,
-        "avg_price": 1494.01
+        "net_value": -6935444500.0,
+        "avg_price": 1514.38
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -5015186500.0,
+        "avg_price": 1497.2
       }
     ]
   },

@@ -4,39 +4,39 @@
     "symbol": "ANTM",
     "name": "Aneka Tambang Tbk.",
     "sector": "Basic Materials",
-    "rank": 22,
-    "flow_score": -11.1,
+    "rank": 7,
+    "flow_score": -0.7,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.0064,
+        "value": 0.0299,
         "weight": 0.3,
-        "contribution": -0.19
+        "contribution": 0.9
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.0008,
+        "value": 0.241,
         "weight": 0.25,
-        "contribution": 0.02
+        "contribution": 6.02
       },
       {
         "key": "institutional_net",
-        "value": -0.8272,
+        "value": -0.5009,
         "weight": 0.15,
-        "contribution": -12.41
+        "contribution": -7.51
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.1354,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 1.35
       },
       {
         "key": "insider",
@@ -51,23 +51,31 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 83
+          "share_pct": 50
         },
-        "text_en": "Institutional brokers show net distribution, 83% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 50% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "accumulation",
+          "value": 0.24
+        },
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
       }
     ],
-    "close": 3140.0,
-    "change_1d": 0.0064,
-    "return_10d": -0.0599,
-    "volume_ratio": 0.3,
-    "rank_prev": 21,
-    "flow_score_prev": -15.1
+    "close": 3230.0,
+    "change_1d": -0.0062,
+    "return_10d": -0.0152,
+    "volume_ratio": 0.42,
+    "rank_prev": 4,
+    "flow_score_prev": 9.2
   },
   "investor": {
     "symbol": "ANTM",
     "name": "Aneka Tambang Tbk.",
     "sector": "Basic Materials",
-    "rank": 6,
+    "rank": 5,
     "investor_score": 62.5420478262048,
     "pillars": {
       "quality": 50.442890442890445,
@@ -126,13 +134,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.008536128190841855,
+        "raw": 0.003367898216540952,
         "percentile": 1.0
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.01650517702349892,
+        "raw": 0.01628768419524966,
         "percentile": 1.0
       },
       {
@@ -154,9 +162,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 90,
-          "net_to_market_cap": 0.01650517702349892
+          "net_to_market_cap": 0.01628768419524966
         },
-        "text_en": "Net foreign accumulation equals 1.651% of market cap over available history in the 90-trading-day window."
+        "text_en": "Net foreign accumulation equals 1.629% of market cap over available history in the 90-trading-day window."
       },
       {
         "code": "HOLDER_SHIFT_INSTITUTIONAL",
@@ -174,7 +182,7 @@
         "text_en": "Trailing dividend yield is 6.69%."
       }
     ],
-    "rank_prev": 5
+    "rank_prev": 6
   },
   "series": {
     "price": [
@@ -492,6 +500,21 @@
         "date": "2026-10-02",
         "close": 3140.0,
         "volume": 27387000.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 3200.0,
+        "volume": 38818600.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 3250.0,
+        "volume": 47928200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 3230.0,
+        "volume": 33765100.0
       }
     ],
     "foreign_flow": [
@@ -872,21 +895,27 @@
         "net": 4542544000.0,
         "cum": 1245424561000.0,
         "share": 0.3383
+      },
+      {
+        "date": "2026-10-05",
+        "net": 10722132000.0,
+        "cum": 1256146693000.0,
+        "share": 0.2702
+      },
+      {
+        "date": "2026-10-06",
+        "net": 35761042000.0,
+        "cum": 1291907735000.0,
+        "share": 0.3113
+      },
+      {
+        "date": "2026-10-07",
+        "net": -27667948000.0,
+        "cum": 1264239787000.0,
+        "share": 0.3021
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 6.6
-      },
-      {
-        "date": "2026-09-08",
-        "score": 10.2
-      },
-      {
-        "date": "2026-09-09",
-        "score": 30.0
-      },
       {
         "date": "2026-09-10",
         "score": 36.0
@@ -954,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": -11.1
+      },
+      {
+        "date": "2026-10-05",
+        "score": 2.3
+      },
+      {
+        "date": "2026-10-06",
+        "score": 9.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -0.7
       }
     ],
     "holder_mix": [
@@ -1020,82 +1061,82 @@
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 84411816000.0,
-        "avg_price": 3225.49
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 49371748000.0,
-        "avg_price": 3259.34
+        "net_value": 82015346000.0,
+        "avg_price": 3221.04
       },
       {
         "code": "DD",
         "name": "Makindo Sekuritas",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 45015240000.0,
-        "avg_price": 3181.55
+        "net_value": 45096251000.0,
+        "avg_price": 3181.41
       },
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 29584250000.0,
-        "avg_price": 3190.96
-      },
-      {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
+        "code": "GR",
+        "name": "Panin Sekuritas TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 28871449000.0,
-        "avg_price": 3197.46
-      }
-    ],
-    "sellers": [
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -64431701000.0,
-        "avg_price": 3230.5
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -57648654000.0,
-        "avg_price": 3201.33
-      },
-      {
-        "code": "BK",
-        "name": "J.P. Morgan Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -56436153000.0,
-        "avg_price": 3212.49
+        "net_value": 31470998000.0,
+        "avg_price": 3243.2
       },
       {
         "code": "SS",
         "name": "Supra Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": false,
-        "net_value": -56059132000.0,
-        "avg_price": 3202.2
+        "net_value": 30257347000.0,
+        "avg_price": 3211.47
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 13207060000.0,
+        "avg_price": 3219.48
+      }
+    ],
+    "sellers": [
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -33633975000.0,
+        "avg_price": 3182.71
+      },
+      {
+        "code": "KK",
+        "name": "Phillip Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -31920225000.0,
+        "avg_price": 3176.84
       },
       {
         "code": "RF",
         "name": "Buana Capital Sekuritas",
         "cohort": "institutional",
         "is_foreign": false,
-        "net_value": -29136325000.0,
-        "avg_price": 3142.12
+        "net_value": -31442480000.0,
+        "avg_price": 3142.13
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -17625501000.0,
+        "avg_price": 3197.21
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -16000244000.0,
+        "avg_price": 3191.96
       }
     ]
   },

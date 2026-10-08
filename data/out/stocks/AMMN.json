@@ -4,39 +4,39 @@
     "symbol": "AMMN",
     "name": "PT Amman Mineral Internasional Tbk.",
     "sector": "Basic Materials",
-    "rank": 9,
-    "flow_score": 1.5,
+    "rank": 14,
+    "flow_score": -5.9,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.0254,
+        "value": -0.0509,
         "weight": 0.3,
-        "contribution": -0.76
+        "contribution": -1.53
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.119,
+        "value": -0.0916,
         "weight": 0.25,
-        "contribution": 2.98
+        "contribution": -2.29
       },
       {
         "key": "institutional_net",
-        "value": -0.1785,
+        "value": -0.0405,
         "weight": 0.15,
-        "contribution": -2.68
+        "contribution": -0.61
       },
       {
         "key": "divergence",
-        "value": 0.0468,
+        "value": 0.0,
         "weight": 0.1,
-        "contribution": 0.47
+        "contribution": 0.0
       },
       {
         "key": "insider",
@@ -50,37 +50,29 @@
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
-          "direction": "accumulation",
-          "value": 0.12
-        },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
-      },
-      {
-        "code": "INSTITUTIONAL_NET",
-        "params": {
           "direction": "distribution",
-          "share_pct": 18
+          "value": -0.09
         },
-        "text_en": "Institutional brokers show net distribution, 18% of net traded value over the last 2 weeks"
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
       }
     ],
-    "close": 4240.0,
-    "change_1d": -0.0297,
-    "return_10d": -0.094,
-    "volume_ratio": 1.08,
-    "rank_prev": 8,
-    "flow_score_prev": 0.3
+    "close": 4530.0,
+    "change_1d": 0.0067,
+    "return_10d": -0.0698,
+    "volume_ratio": 0.66,
+    "rank_prev": 15,
+    "flow_score_prev": -5.1
   },
   "investor": {
     "symbol": "AMMN",
     "name": "PT Amman Mineral Internasional Tbk.",
     "sector": "Basic Materials",
     "rank": 24,
-    "investor_score": 47.78854793462351,
+    "investor_score": 48.18627520735079,
     "pillars": {
       "quality": 57.9020979020979,
       "valuation": 13.79492600422833,
-      "slow_flow": 60.51136363636363
+      "slow_flow": 61.64772727272727
     },
     "components": [
       {
@@ -134,14 +126,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -8.433779117658422e-05,
+        "raw": -0.0005215887854866239,
         "percentile": 0.7727272727272727
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.001937786129975478,
-        "percentile": 0.6590909090909091
+        "raw": -0.0018348192380031314,
+        "percentile": 0.7045454545454546
       },
       {
         "key": "holder_shift",
@@ -485,6 +477,21 @@
         "date": "2026-10-02",
         "close": 4240.0,
         "volume": 83891000.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 4210.0,
+        "volume": 68001000.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 4500.0,
+        "volume": 88681000.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 4530.0,
+        "volume": 53426900.0
       }
     ],
     "foreign_flow": [
@@ -865,21 +872,27 @@
         "net": 8100406000.0,
         "cum": -595825136500.0,
         "share": 0.1628
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": -595825136500.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": 19348441000.0,
+        "cum": -576476695500.0,
+        "share": 0.2256
+      },
+      {
+        "date": "2026-10-07",
+        "net": -26275233000.0,
+        "cum": -602751928500.0,
+        "share": 0.3375
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 2.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": 11.1
-      },
-      {
-        "date": "2026-09-09",
-        "score": 13.2
-      },
       {
         "date": "2026-09-10",
         "score": 2.8
@@ -947,6 +960,18 @@
       {
         "date": "2026-10-02",
         "score": 1.5
+      },
+      {
+        "date": "2026-10-05",
+        "score": -6.6
+      },
+      {
+        "date": "2026-10-06",
+        "score": -5.1
+      },
+      {
+        "date": "2026-10-07",
+        "score": -5.9
       }
     ],
     "holder_mix": [
@@ -1009,44 +1034,44 @@
   "top_brokers": {
     "buyers": [
       {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 54887519000.0,
+        "avg_price": 4533.94
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 53026345000.0,
+        "avg_price": 4499.03
+      },
+      {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 66239484000.0,
-        "avg_price": 4590.39
+        "net_value": 52265251000.0,
+        "avg_price": 4463.87
       },
       {
         "code": "SQ",
         "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 54493306000.0,
-        "avg_price": 4508.68
+        "net_value": 43287589000.0,
+        "avg_price": 4446.38
       },
       {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 53679461000.0,
-        "avg_price": 4645.19
-      },
-      {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 38625464000.0,
-        "avg_price": 4598.25
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 21770290000.0,
-        "avg_price": 4647.5
+        "net_value": 29983022000.0,
+        "avg_price": 4489.01
       }
     ],
     "sellers": [
@@ -1055,40 +1080,40 @@
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -71783863000.0,
-        "avg_price": 4601.61
-      },
-      {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -36808167000.0,
-        "avg_price": 4616.05
-      },
-      {
-        "code": "RF",
-        "name": "Buana Capital Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": false,
-        "net_value": -28723294000.0,
-        "avg_price": 4483.01
+        "net_value": -90938404000.0,
+        "avg_price": 4497.61
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -23075206000.0,
-        "avg_price": 4503.14
+        "net_value": -70218188000.0,
+        "avg_price": 4462.47
       },
       {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -21076911000.0,
-        "avg_price": 4623.22
+        "net_value": -31309340000.0,
+        "avg_price": 4576.37
+      },
+      {
+        "code": "RF",
+        "name": "Buana Capital Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": -30903620000.0,
+        "avg_price": 4341.2
+      },
+      {
+        "code": "TP",
+        "name": "OCBC Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -24508105000.0,
+        "avg_price": 4507.24
       }
     ]
   },

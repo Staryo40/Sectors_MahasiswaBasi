@@ -4,39 +4,39 @@
     "symbol": "AMRT",
     "name": "PT Sumber Alfaria Trijaya Tbk.",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 2,
-    "flow_score": 25.0,
-    "label": "accumulation",
+    "rank": 22,
+    "flow_score": -11.8,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.2302,
+        "value": -0.4659,
         "weight": 0.3,
-        "contribution": 6.9
+        "contribution": -13.98
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": -0.4,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": -6.0
       },
       {
         "key": "broker_concentration",
-        "value": 0.338,
+        "value": 0.2109,
         "weight": 0.25,
-        "contribution": 8.45
+        "contribution": 5.27
       },
       {
         "key": "institutional_net",
-        "value": 0.5535,
+        "value": 0.1913,
         "weight": 0.15,
-        "contribution": 8.3
+        "contribution": 2.87
       },
       {
         "key": "divergence",
-        "value": 0.2841,
+        "value": 0.0,
         "weight": 0.1,
-        "contribution": 2.84
+        "contribution": 0.0
       },
       {
         "key": "insider",
@@ -48,47 +48,47 @@
     "flags": [],
     "reasons": [
       {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 1.4
+        },
+        "text_en": "5-day net foreign outflow is 1.4 standard deviations from this stock's norm"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 4,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 4 trading days in a row"
+      },
+      {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "accumulation",
-          "value": 0.34
+          "value": 0.21
         },
         "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
-      },
-      {
-        "code": "INSTITUTIONAL_NET",
-        "params": {
-          "direction": "accumulation",
-          "share_pct": 55
-        },
-        "text_en": "Institutional brokers show net accumulation, 55% of net traded value over the last 2 weeks"
-      },
-      {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "in",
-          "sigma": 0.7
-        },
-        "text_en": "5-day net foreign inflow is 0.7 standard deviations from this stock's norm"
       }
     ],
-    "close": 1265.0,
-    "change_1d": -0.0232,
-    "return_10d": -0.0269,
-    "volume_ratio": 1.24,
-    "rank_prev": 1,
-    "flow_score_prev": 40.8
+    "close": 1225.0,
+    "change_1d": -0.0239,
+    "return_10d": -0.0649,
+    "volume_ratio": 0.57,
+    "rank_prev": 14,
+    "flow_score_prev": -4.2
   },
   "investor": {
     "symbol": "AMRT",
     "name": "PT Sumber Alfaria Trijaya Tbk.",
     "sector": "Consumer Non-Cyclicals",
     "rank": 33,
-    "investor_score": 44.802276454165984,
+    "investor_score": 44.60341281780235,
     "pillars": {
       "quality": 40.955710955710956,
       "valuation": 27.373150105708245,
-      "slow_flow": 61.64772727272727
+      "slow_flow": 61.07954545454546
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0006790550773885631,
-        "percentile": 0.8181818181818182
+        "raw": 0.0004175089283270468,
+        "percentile": 0.8863636363636364
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.0028153513342418298,
-        "percentile": 0.5909090909090909
+        "raw": -0.0036000307269386527,
+        "percentile": 0.5
       },
       {
         "key": "holder_shift",
@@ -170,9 +170,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 20,
-          "net_to_market_cap": 0.0006790550773885631
+          "net_to_market_cap": 0.0004175089283270468
         },
-        "text_en": "Net foreign accumulation equals 0.068% of market cap over available history in the 20-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.042% of market cap over available history in the 20-trading-day window."
       },
       {
         "code": "HOLDER_SHIFT_RETAIL",
@@ -190,7 +190,7 @@
         "text_en": "Trailing dividend yield is 3.28%."
       }
     ],
-    "rank_prev": 37
+    "rank_prev": 33
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 1265.0,
         "volume": 37296300.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1260.0,
+        "volume": 19710400.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1255.0,
+        "volume": 36460300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1225.0,
+        "volume": 17657600.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -5092636000.0,
         "cum": -147886167500.0,
         "share": 0.7303
+      },
+      {
+        "date": "2026-10-05",
+        "net": -4824143000.0,
+        "cum": -152710310500.0,
+        "share": 0.7689
+      },
+      {
+        "date": "2026-10-06",
+        "net": -18799829000.0,
+        "cum": -171510139500.0,
+        "share": 0.6662
+      },
+      {
+        "date": "2026-10-07",
+        "net": -11614476000.0,
+        "cum": -183124615500.0,
+        "share": 0.495
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -9.6
-      },
-      {
-        "date": "2026-09-08",
-        "score": -12.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": -19.9
-      },
       {
         "date": "2026-09-10",
         "score": -22.3
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": 25.0
+      },
+      {
+        "date": "2026-10-05",
+        "score": 17.4
+      },
+      {
+        "date": "2026-10-06",
+        "score": -4.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -11.8
       }
     ],
     "holder_mix": [
@@ -1036,82 +1069,82 @@
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 57281896000.0,
-        "avg_price": 1298.68
+        "net_value": 60091874000.0,
+        "avg_price": 1291.58
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 51622248500.0,
-        "avg_price": 1313.03
-      },
-      {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 5691308500.0,
-        "avg_price": 1302.83
-      },
-      {
-        "code": "DX",
-        "name": "Bahana Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 3971937500.0,
-        "avg_price": 1306.27
+        "net_value": 34729381500.0,
+        "avg_price": 1308.39
       },
       {
         "code": "AG",
         "name": "Kiwoom Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 3199313500.0,
-        "avg_price": 1303.75
+        "net_value": 4779147500.0,
+        "avg_price": 1282.74
+      },
+      {
+        "code": "DX",
+        "name": "Bahana Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 4514374500.0,
+        "avg_price": 1298.61
+      },
+      {
+        "code": "NI",
+        "name": "BNI Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 3921107500.0,
+        "avg_price": 1258.39
       }
     ],
     "sellers": [
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -30643652000.0,
+        "avg_price": 1290.67
+      },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -22711143000.0,
-        "avg_price": 1306.9
+        "net_value": -18799903500.0,
+        "avg_price": 1305.59
       },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -18560089000.0,
-        "avg_price": 1304.07
+        "net_value": -15460009000.0,
+        "avg_price": 1293.14
       },
       {
-        "code": "BK",
-        "name": "J.P. Morgan Sekuritas Indonesia",
+        "code": "TP",
+        "name": "OCBC Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -15431831000.0,
-        "avg_price": 1312.26
+        "net_value": -13409761000.0,
+        "avg_price": 1257.72
       },
       {
         "code": "BB",
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -11448779000.0,
-        "avg_price": 1302.31
-      },
-      {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -7966940000.0,
-        "avg_price": 1315.93
+        "net_value": -10902435000.0,
+        "avg_price": 1296.87
       }
     ]
   },

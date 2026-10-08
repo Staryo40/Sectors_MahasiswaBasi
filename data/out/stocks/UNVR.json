@@ -4,39 +4,39 @@
     "symbol": "UNVR",
     "name": "Unilever Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 5,
-    "flow_score": 11.2,
+    "rank": 9,
+    "flow_score": -2.9,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.1798,
+        "value": -0.0142,
         "weight": 0.3,
-        "contribution": 5.39
+        "contribution": -0.43
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.3,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -4.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.1806,
+        "value": 0.0564,
         "weight": 0.25,
-        "contribution": 4.52
+        "contribution": 1.41
       },
       {
         "key": "institutional_net",
-        "value": -0.0368,
+        "value": 0.0237,
         "weight": 0.15,
-        "contribution": -0.55
+        "contribution": 0.36
       },
       {
         "key": "divergence",
-        "value": 0.1802,
+        "value": 0.0211,
         "weight": 0.1,
-        "contribution": 1.8
+        "contribution": 0.21
       },
       {
         "key": "insider",
@@ -48,39 +48,31 @@
     "flags": [],
     "reasons": [
       {
-        "code": "FOREIGN_INFLOW_5D",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "in",
-          "sigma": 0.5
+          "days": 3,
+          "direction": "out"
         },
-        "text_en": "5-day net foreign inflow is 0.5 standard deviations from this stock's norm"
-      },
-      {
-        "code": "BROKER_CONCENTRATION",
-        "params": {
-          "direction": "accumulation",
-          "value": 0.18
-        },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+        "text_en": "Net foreign outflow for 3 trading days in a row"
       }
     ],
-    "close": 1580.0,
-    "change_1d": -0.0277,
-    "return_10d": -0.0424,
-    "volume_ratio": 1.44,
-    "rank_prev": 3,
-    "flow_score_prev": 20.2
+    "close": 1590.0,
+    "change_1d": -0.0031,
+    "return_10d": -0.0245,
+    "volume_ratio": 0.55,
+    "rank_prev": 9,
+    "flow_score_prev": 1.3
   },
   "investor": {
     "symbol": "UNVR",
     "name": "Unilever Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
     "rank": 11,
-    "investor_score": 55.026811608933706,
+    "investor_score": 55.42453888166098,
     "pillars": {
       "quality": 53.39160839160839,
       "valuation": 64.28294573643412,
-      "slow_flow": 50.28409090909091
+      "slow_flow": 51.42045454545454
     },
     "components": [
       {
@@ -134,13 +126,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0005453988171275943,
-        "percentile": 0.6590909090909091
+        "raw": -0.0005755451255800918,
+        "percentile": 0.7045454545454546
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.0035686561706787,
+        "raw": -0.003724364540831046,
         "percentile": 0.4772727272727273
       },
       {
@@ -181,7 +173,7 @@
         "text_en": "Institutional share fell by 0.23 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 16
+    "rank_prev": 13
   },
   "series": {
     "price": [
@@ -499,6 +491,21 @@
         "date": "2026-10-02",
         "close": 1580.0,
         "volume": 17951900.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1575.0,
+        "volume": 12006900.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1595.0,
+        "volume": 14740300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1590.0,
+        "volume": 7327500.0
       }
     ],
     "foreign_flow": [
@@ -879,21 +886,27 @@
         "net": 0.0,
         "cum": -215107888000.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": -1731151500.0,
+        "cum": -216839039500.0,
+        "share": 0.6542
+      },
+      {
+        "date": "2026-10-06",
+        "net": -4779554500.0,
+        "cum": -221618594000.0,
+        "share": 0.6377
+      },
+      {
+        "date": "2026-10-07",
+        "net": -4295772500.0,
+        "cum": -225914366500.0,
+        "share": 0.611
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -19.0
-      },
-      {
-        "date": "2026-09-08",
-        "score": -20.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": -20.0
-      },
       {
         "date": "2026-09-10",
         "score": -24.3
@@ -961,6 +974,18 @@
       {
         "date": "2026-10-02",
         "score": 11.2
+      },
+      {
+        "date": "2026-10-05",
+        "score": 7.6
+      },
+      {
+        "date": "2026-10-06",
+        "score": 1.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -2.9
       }
     ],
     "holder_mix": [
@@ -1027,40 +1052,40 @@
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 71439580000.0,
-        "avg_price": 1619.23
+        "net_value": 68526025500.0,
+        "avg_price": 1611.9
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 5849462000.0,
+        "avg_price": 1607.28
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 5818202000.0,
+        "avg_price": 1615.92
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 8328620000.0,
-        "avg_price": 1622.46
+        "net_value": 2535138000.0,
+        "avg_price": 1616.6
       },
       {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 1358398500.0,
-        "avg_price": 1624.57
-      },
-      {
-        "code": "AG",
-        "name": "Kiwoom Sekuritas Indonesia",
+        "code": "AI",
+        "name": "Kay Hian Sekuritas",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 854841000.0,
-        "avg_price": 1625.41
-      },
-      {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 687169000.0,
-        "avg_price": 1624.47
+        "net_value": 967030000.0,
+        "avg_price": 1595.71
       }
     ],
     "sellers": [
@@ -1069,40 +1094,40 @@
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -37280590000.0,
-        "avg_price": 1620.21
+        "net_value": -58448880000.0,
+        "avg_price": 1606.38
       },
       {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
+        "code": "TP",
+        "name": "OCBC Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -11285090500.0,
-        "avg_price": 1624.37
+        "net_value": -6839195500.0,
+        "avg_price": 1604.15
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -7739213000.0,
-        "avg_price": 1623.54
+        "net_value": -6336050500.0,
+        "avg_price": 1621.55
       },
       {
         "code": "YP",
         "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -4804999500.0,
-        "avg_price": 1624.08
+        "net_value": -5789983000.0,
+        "avg_price": 1619.05
       },
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -3780530500.0,
-        "avg_price": 1620.9
+        "net_value": -2101793500.0,
+        "avg_price": 1617.35
       }
     ]
   },

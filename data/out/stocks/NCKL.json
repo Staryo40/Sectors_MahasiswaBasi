@@ -4,33 +4,33 @@
     "symbol": "NCKL",
     "name": "PT Trimegah Bangun Persada Tbk",
     "sector": "Basic Materials",
-    "rank": 40,
-    "flow_score": -41.8,
-    "label": "strong_distribution",
+    "rank": 39,
+    "flow_score": -35.4,
+    "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.5641,
+        "value": -0.3238,
         "weight": 0.3,
-        "contribution": -16.92
+        "contribution": -9.71
       },
       {
         "key": "foreign_streak",
-        "value": -0.7,
+        "value": -1.0,
         "weight": 0.15,
-        "contribution": -10.5
+        "contribution": -15.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.2355,
+        "value": -0.1789,
         "weight": 0.25,
-        "contribution": -5.89
+        "contribution": -4.47
       },
       {
         "key": "institutional_net",
-        "value": -0.5636,
+        "value": -0.4149,
         "weight": 0.15,
-        "contribution": -8.45
+        "contribution": -6.22
       },
       {
         "key": "divergence",
@@ -48,47 +48,47 @@
     "flags": [],
     "reasons": [
       {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 10,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for at least 10 trading days in a row"
+      },
+      {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 1.7
+          "sigma": 1.0
         },
-        "text_en": "5-day net foreign outflow is 1.7 standard deviations from this stock's norm"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 7,
-          "direction": "out"
-        },
-        "text_en": "Net foreign outflow for 7 trading days in a row"
+        "text_en": "5-day net foreign outflow is 1 standard deviations from this stock's norm"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 56
+          "share_pct": 41
         },
-        "text_en": "Institutional brokers show net distribution, 56% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 41% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 845.0,
-    "change_1d": -0.0174,
-    "return_10d": -0.0815,
-    "volume_ratio": 1.1,
-    "rank_prev": 40,
-    "flow_score_prev": -38.5
+    "close": 865.0,
+    "change_1d": -0.0057,
+    "return_10d": -0.0895,
+    "volume_ratio": 0.45,
+    "rank_prev": 39,
+    "flow_score_prev": -35.6
   },
   "investor": {
     "symbol": "NCKL",
     "name": "PT Trimegah Bangun Persada Tbk",
     "sector": "Basic Materials",
     "rank": 4,
-    "investor_score": 63.808950981189355,
+    "investor_score": 63.01349643573481,
     "pillars": {
       "quality": 73.56643356643357,
       "valuation": 63.94996476391825,
-      "slow_flow": 52.55681818181818
+      "slow_flow": 50.28409090909091
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0005113345475627072,
-        "percentile": 0.6818181818181818
+        "raw": -0.0014354785937465446,
+        "percentile": 0.5681818181818182
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.003516117828700407,
-        "percentile": 0.5
+        "raw": -0.0035932471702375926,
+        "percentile": 0.5227272727272727
       },
       {
         "key": "holder_shift",
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 845.0,
         "volume": 36536600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 845.0,
+        "volume": 26807500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 870.0,
+        "volume": 27699200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 865.0,
+        "volume": 14473600.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -5612537000.0,
         "cum": -187473485000.0,
         "share": 0.3489
+      },
+      {
+        "date": "2026-10-05",
+        "net": -1252618500.0,
+        "cum": -188726103500.0,
+        "share": 0.3382
+      },
+      {
+        "date": "2026-10-06",
+        "net": -6292939000.0,
+        "cum": -195019042500.0,
+        "share": 0.2417
+      },
+      {
+        "date": "2026-10-07",
+        "net": -1101426500.0,
+        "cum": -196120469000.0,
+        "share": 0.1828
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -18.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": 2.3
-      },
-      {
-        "date": "2026-09-09",
-        "score": 20.5
-      },
       {
         "date": "2026-09-10",
         "score": -2.2
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -41.8
+      },
+      {
+        "date": "2026-10-05",
+        "score": -36.3
+      },
+      {
+        "date": "2026-10-06",
+        "score": -35.6
+      },
+      {
+        "date": "2026-10-07",
+        "score": -35.4
       }
     ],
     "holder_mix": [
@@ -1032,44 +1065,44 @@
   "top_brokers": {
     "buyers": [
       {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 14748126500.0,
+        "avg_price": 876.81
+      },
+      {
         "code": "YP",
         "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 10133093000.0,
-        "avg_price": 887.84
+        "net_value": 14699627000.0,
+        "avg_price": 874.91
       },
       {
         "code": "SQ",
         "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 9532896500.0,
-        "avg_price": 888.07
+        "net_value": 10142271000.0,
+        "avg_price": 883.1
       },
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 8143124000.0,
-        "avg_price": 897.89
-      },
-      {
-        "code": "TP",
-        "name": "OCBC Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 5837200000.0,
-        "avg_price": 918.25
-      },
-      {
-        "code": "NI",
-        "name": "BNI Sekuritas",
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 5144872000.0,
-        "avg_price": 877.78
+        "net_value": 4721505500.0,
+        "avg_price": 874.77
+      },
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 3589987000.0,
+        "avg_price": 869.57
       }
     ],
     "sellers": [
@@ -1078,39 +1111,39 @@
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -20545930000.0,
-        "avg_price": 889.36
+        "net_value": -21374620000.0,
+        "avg_price": 887.03
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -17074711500.0,
-        "avg_price": 893.38
+        "net_value": -19421428500.0,
+        "avg_price": 874.86
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -7318957000.0,
-        "avg_price": 875.8
+        "net_value": -16040435000.0,
+        "avg_price": 863.61
       },
       {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -3224987500.0,
-        "avg_price": 929.95
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -10747675000.0,
+        "avg_price": 877.05
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -3069750500.0,
+        "net_value": -3175279500.0,
         "avg_price": 894.35
       }
     ]

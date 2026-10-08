@@ -4,33 +4,33 @@
     "symbol": "HRTA",
     "name": "PT Hartadinata Abadi Tbk",
     "sector": "Consumer Cyclicals",
-    "rank": 20,
-    "flow_score": -9.7,
-    "label": "neutral",
+    "rank": 43,
+    "flow_score": -46.2,
+    "label": "strong_distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.2937,
+        "value": -0.9402,
         "weight": 0.3,
-        "contribution": -8.81
+        "contribution": -28.21
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.3,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -4.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.1138,
+        "value": -0.1919,
         "weight": 0.25,
-        "contribution": 2.85
+        "contribution": -4.8
       },
       {
         "key": "institutional_net",
-        "value": -0.249,
+        "value": -0.5795,
         "weight": 0.15,
-        "contribution": -3.74
+        "contribution": -8.69
       },
       {
         "key": "divergence",
@@ -51,44 +51,44 @@
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 0.9
+          "sigma": 2.8
         },
-        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 2.8 standard deviations from this stock's norm"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 25
+          "share_pct": 58
         },
-        "text_en": "Institutional brokers show net distribution, 25% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 58% of net traded value over the last 2 weeks"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
-          "direction": "accumulation",
-          "value": 0.11
+          "direction": "distribution",
+          "value": -0.19
         },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
       }
     ],
-    "close": 2190.0,
-    "change_1d": 0.0,
-    "return_10d": -0.0045,
-    "volume_ratio": 0.54,
-    "rank_prev": 16,
-    "flow_score_prev": -7.7
+    "close": 2150.0,
+    "change_1d": -0.0183,
+    "return_10d": -0.0652,
+    "volume_ratio": 0.48,
+    "rank_prev": 41,
+    "flow_score_prev": -39.2
   },
   "investor": {
     "symbol": "HRTA",
     "name": "PT Hartadinata Abadi Tbk",
     "sector": "Consumer Cyclicals",
-    "rank": 34,
-    "investor_score": 44.6445306147341,
+    "rank": 36,
+    "investor_score": 42.059303342006835,
     "pillars": {
       "quality": 52.505827505827504,
       "valuation": 24.96652572233968,
-      "slow_flow": 49.71590909090909
+      "slow_flow": 42.32954545454545
     },
     "components": [
       {
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0025499921796036705,
-        "percentile": 0.45454545454545453
+        "raw": -0.005135675242527604,
+        "percentile": 0.1590909090909091
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.013743949098130091,
+        "raw": -0.01715461500920601,
         "percentile": 0.18181818181818182
       },
       {
@@ -182,7 +182,7 @@
         "text_en": "Trailing dividend yield is 1.83%."
       }
     ],
-    "rank_prev": 33
+    "rank_prev": 32
   },
   "series": {
     "price": [
@@ -500,6 +500,21 @@
         "date": "2026-10-02",
         "close": 2190.0,
         "volume": 4309100.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2200.0,
+        "volume": 12802300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2190.0,
+        "volume": 4677100.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2150.0,
+        "volume": 3891900.0
       }
     ],
     "foreign_flow": [
@@ -880,21 +895,27 @@
         "net": 0.0,
         "cum": -138614937500.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": -23047568000.0,
+        "cum": -161662505500.0,
+        "share": 0.4961
+      },
+      {
+        "date": "2026-10-06",
+        "net": -5543175000.0,
+        "cum": -167205680500.0,
+        "share": 0.3704
+      },
+      {
+        "date": "2026-10-07",
+        "net": -2647552000.0,
+        "cum": -169853232500.0,
+        "share": 0.2869
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -4.7
-      },
-      {
-        "date": "2026-09-08",
-        "score": -11.6
-      },
-      {
-        "date": "2026-09-09",
-        "score": -11.9
-      },
       {
         "date": "2026-09-10",
         "score": -17.1
@@ -962,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": -9.7
+      },
+      {
+        "date": "2026-10-05",
+        "score": -34.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": -39.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -46.2
       }
     ],
     "holder_mix": [
@@ -1024,86 +1057,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 13536134000.0,
-        "avg_price": 2232.13
+        "net_value": 17636374000.0,
+        "avg_price": 2200.47
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 5452819000.0,
-        "avg_price": 2253.6
+        "net_value": 8443498000.0,
+        "avg_price": 2242.2
+      },
+      {
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 7557149000.0,
+        "avg_price": 2220.44
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 4635830000.0,
-        "avg_price": 2298.18
+        "net_value": 6656599000.0,
+        "avg_price": 2297.67
       },
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
+        "code": "DX",
+        "name": "Bahana Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 3876760000.0,
-        "avg_price": 2192.06
-      },
-      {
-        "code": "KZ",
-        "name": "CLSA Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 3797101000.0,
-        "avg_price": 2291.52
+        "net_value": 3967633000.0,
+        "avg_price": 2200.0
       }
     ],
     "sellers": [
+      {
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -27065981000.0,
+        "avg_price": 2196.42
+      },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -9363719000.0,
-        "avg_price": 2217.69
+        "net_value": -15051938000.0,
+        "avg_price": 2221.06
       },
       {
         "code": "EP",
         "name": "MNC Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -5610283000.0,
-        "avg_price": 2212.85
-      },
-      {
-        "code": "CP",
-        "name": "KB Valbury Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -3822105000.0,
-        "avg_price": 2284.64
+        "net_value": -7492192000.0,
+        "avg_price": 2203.08
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -2757423000.0,
-        "avg_price": 2212.98
+        "net_value": -2967480000.0,
+        "avg_price": 2211.06
       },
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": -2627086000.0,
-        "avg_price": 2246.48
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -2318965000.0,
+        "avg_price": 2219.06
       }
     ]
   },

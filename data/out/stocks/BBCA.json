@@ -4,33 +4,33 @@
     "symbol": "BBCA",
     "name": "PT Bank Central Asia Tbk.",
     "sector": "Financials",
-    "rank": 15,
-    "flow_score": -6.9,
+    "rank": 17,
+    "flow_score": -6.7,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1889,
+        "value": -0.1864,
         "weight": 0.3,
-        "contribution": -5.67
+        "contribution": -5.59
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.0246,
+        "value": 0.0477,
         "weight": 0.25,
-        "contribution": -0.62
+        "contribution": 1.19
       },
       {
         "key": "institutional_net",
-        "value": -0.1439,
+        "value": 0.0456,
         "weight": 0.15,
-        "contribution": -2.16
+        "contribution": 0.68
       },
       {
         "key": "divergence",
@@ -56,31 +56,31 @@
         "text_en": "5-day net foreign outflow is 0.6 standard deviations from this stock's norm"
       },
       {
-        "code": "INSTITUTIONAL_NET",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "distribution",
-          "share_pct": 14
+          "days": 2,
+          "direction": "out"
         },
-        "text_en": "Institutional brokers show net distribution, 14% of net traded value over the last 2 weeks"
+        "text_en": "Net foreign outflow for 2 trading days in a row"
       }
     ],
-    "close": 6100.0,
-    "change_1d": 0.0167,
-    "return_10d": -0.0317,
-    "volume_ratio": 1.29,
-    "rank_prev": 20,
-    "flow_score_prev": -12.0
+    "close": 6050.0,
+    "change_1d": -0.0082,
+    "return_10d": -0.0397,
+    "volume_ratio": 1.41,
+    "rank_prev": 6,
+    "flow_score_prev": 4.5
   },
   "investor": {
     "symbol": "BBCA",
     "name": "PT Bank Central Asia Tbk.",
     "sector": "Financials",
-    "rank": 16,
-    "investor_score": 52.228572057787176,
+    "rank": 17,
+    "investor_score": 52.029708421423535,
     "pillars": {
       "quality": 53.40909090909091,
       "valuation": 41.92565186751233,
-      "slow_flow": 58.23863636363637
+      "slow_flow": 57.67045454545454
     },
     "components": [
       {
@@ -128,14 +128,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0034145366299754153,
+        "raw": -0.0032832491494726207,
         "percentile": 0.3409090909090909
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.00012730403067621863,
-        "percentile": 0.7727272727272727
+        "raw": -0.0005216800783373995,
+        "percentile": 0.75
       },
       {
         "key": "holder_shift",
@@ -175,7 +175,7 @@
         "text_en": "Valuation multiples are below their peer averages (PE 0.87×)."
       }
     ],
-    "rank_prev": 19
+    "rank_prev": 17
   },
   "series": {
     "price": [
@@ -493,6 +493,21 @@
         "date": "2026-10-02",
         "close": 6100.0,
         "volume": 131920300.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 6175.0,
+        "volume": 89905700.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 6100.0,
+        "volume": 152173400.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 6050.0,
+        "volume": 162690800.0
       }
     ],
     "foreign_flow": [
@@ -873,21 +888,27 @@
         "net": 44194870000.0,
         "cum": -94772507500.0,
         "share": 0.7377
+      },
+      {
+        "date": "2026-10-05",
+        "net": 24495150000.0,
+        "cum": -70277357500.0,
+        "share": 0.7699
+      },
+      {
+        "date": "2026-10-06",
+        "net": -15215070000.0,
+        "cum": -85492427500.0,
+        "share": 0.7696
+      },
+      {
+        "date": "2026-10-07",
+        "net": -299693142500.0,
+        "cum": -385185570000.0,
+        "share": 0.7247
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 8.6
-      },
-      {
-        "date": "2026-09-08",
-        "score": 9.6
-      },
-      {
-        "date": "2026-09-09",
-        "score": -7.5
-      },
       {
         "date": "2026-09-10",
         "score": -24.9
@@ -955,6 +976,18 @@
       {
         "date": "2026-10-02",
         "score": -6.9
+      },
+      {
+        "date": "2026-10-05",
+        "score": -2.0
+      },
+      {
+        "date": "2026-10-06",
+        "score": 4.5
+      },
+      {
+        "date": "2026-10-07",
+        "score": -6.7
       }
     ],
     "holder_mix": [
@@ -1021,82 +1054,82 @@
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 713987817500.0,
-        "avg_price": 6120.63
+        "net_value": 1085561902500.0,
+        "avg_price": 6109.62
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 293672972500.0,
-        "avg_price": 6214.69
-      },
-      {
-        "code": "KZ",
-        "name": "CLSA Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 288324560000.0,
-        "avg_price": 6169.4
+        "net_value": 160769830000.0,
+        "avg_price": 6189.72
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 80972617500.0,
-        "avg_price": 6152.26
+        "net_value": 115003112500.0,
+        "avg_price": 6105.82
       },
       {
-        "code": "CP",
-        "name": "KB Valbury Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 58445527500.0,
-        "avg_price": 6169.75
-      }
-    ],
-    "sellers": [
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 97612602500.0,
+        "avg_price": 6102.11
+      },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -905252360000.0,
-        "avg_price": 6165.58
-      },
+        "net_value": 46741102500.0,
+        "avg_price": 6127.58
+      }
+    ],
+    "sellers": [
       {
         "code": "RX",
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -271291462500.0,
-        "avg_price": 6148.09
+        "net_value": -532758287500.0,
+        "avg_price": 6083.72
       },
       {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
+        "code": "DX",
+        "name": "Bahana Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -399067370000.0,
+        "avg_price": 6115.26
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -184837307500.0,
-        "avg_price": 6197.3
+        "net_value": -305601157500.0,
+        "avg_price": 6113.65
       },
       {
         "code": "AG",
         "name": "Kiwoom Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -144249335000.0,
-        "avg_price": 6100.6
+        "net_value": -190714710000.0,
+        "avg_price": 6105.59
       },
       {
-        "code": "BK",
-        "name": "J.P. Morgan Sekuritas Indonesia",
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -131983110000.0,
-        "avg_price": 6156.31
+        "net_value": -145350980000.0,
+        "avg_price": 6190.87
       }
     ]
   },

@@ -4,39 +4,39 @@
     "symbol": "BUMI",
     "name": "Bumi Resources Tbk",
     "sector": "Energy",
-    "rank": 6,
-    "flow_score": 10.9,
+    "rank": 11,
+    "flow_score": -4.3,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.0484,
+        "value": -0.1066,
         "weight": 0.3,
-        "contribution": -1.45
+        "contribution": -3.2
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.2058,
+        "value": -0.0616,
         "weight": 0.25,
-        "contribution": 5.15
+        "contribution": -1.54
       },
       {
         "key": "institutional_net",
-        "value": 0.3295,
+        "value": 0.1283,
         "weight": 0.15,
-        "contribution": 4.94
+        "contribution": 1.92
       },
       {
         "key": "divergence",
-        "value": 0.0787,
+        "value": 0.0,
         "weight": 0.1,
-        "contribution": 0.79
+        "contribution": 0.0
       },
       {
         "key": "insider",
@@ -48,39 +48,31 @@
     "flags": [],
     "reasons": [
       {
-        "code": "BROKER_CONCENTRATION",
+        "code": "FOREIGN_INFLOW_5D",
         "params": {
-          "direction": "accumulation",
-          "value": 0.21
+          "direction": "out",
+          "sigma": 0.3
         },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
-      },
-      {
-        "code": "INSTITUTIONAL_NET",
-        "params": {
-          "direction": "accumulation",
-          "share_pct": 33
-        },
-        "text_en": "Institutional brokers show net accumulation, 33% of net traded value over the last 2 weeks"
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       }
     ],
-    "close": 175.0,
-    "change_1d": 0.0294,
-    "return_10d": -0.0933,
-    "volume_ratio": 0.69,
-    "rank_prev": 7,
-    "flow_score_prev": 2.5
+    "close": 180.0,
+    "change_1d": -0.0217,
+    "return_10d": -0.0674,
+    "volume_ratio": 0.55,
+    "rank_prev": 13,
+    "flow_score_prev": -4.1
   },
   "investor": {
     "symbol": "BUMI",
     "name": "Bumi Resources Tbk",
     "sector": "Energy",
-    "rank": 36,
-    "investor_score": 43.28617288719033,
+    "rank": 35,
+    "investor_score": 42.29185470537215,
     "pillars": {
       "quality": 56.91142191142192,
       "valuation": 25.21141649048626,
-      "slow_flow": 40.625
+      "slow_flow": 37.784090909090914
     },
     "components": [
       {
@@ -134,14 +126,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.003334881602672011,
-        "percentile": 0.36363636363636365
+        "raw": -0.0037771772738323874,
+        "percentile": 0.29545454545454547
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.010041208680703703,
-        "percentile": 0.29545454545454547
+        "raw": -0.010456504789192066,
+        "percentile": 0.25
       },
       {
         "key": "holder_shift",
@@ -167,7 +159,7 @@
         "text_en": "Institutional share fell by 0.09 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 34
+    "rank_prev": 37
   },
   "series": {
     "price": [
@@ -485,6 +477,21 @@
         "date": "2026-10-02",
         "close": 175.0,
         "volume": 1797086800.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 178.0,
+        "volume": 1515895700.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 184.0,
+        "volume": 2396377200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 180.0,
+        "volume": 1318919700.0
       }
     ],
     "foreign_flow": [
@@ -865,21 +872,27 @@
         "net": 13250348300.0,
         "cum": -652514828400.0,
         "share": 0.1922
+      },
+      {
+        "date": "2026-10-05",
+        "net": -25228489900.0,
+        "cum": -677743318300.0,
+        "share": 0.1762
+      },
+      {
+        "date": "2026-10-06",
+        "net": 20306437700.0,
+        "cum": -657436880600.0,
+        "share": 0.1857
+      },
+      {
+        "date": "2026-10-07",
+        "net": -41479774400.0,
+        "cum": -698916655000.0,
+        "share": 0.1169
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 24.5
-      },
-      {
-        "date": "2026-09-08",
-        "score": -5.2
-      },
-      {
-        "date": "2026-09-09",
-        "score": -7.8
-      },
       {
         "date": "2026-09-10",
         "score": 5.8
@@ -947,6 +960,18 @@
       {
         "date": "2026-10-02",
         "score": 10.9
+      },
+      {
+        "date": "2026-10-05",
+        "score": -1.8
+      },
+      {
+        "date": "2026-10-06",
+        "score": -4.1
+      },
+      {
+        "date": "2026-10-07",
+        "score": -4.3
       }
     ],
     "holder_mix": [
@@ -1009,86 +1034,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "SS",
-        "name": "Supra Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": false,
-        "net_value": 141827376700.0,
-        "avg_price": 183.4
-      },
-      {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 98219924600.0,
-        "avg_price": 182.27
+        "net_value": 84821476400.0,
+        "avg_price": 179.35
       },
       {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 87795404600.0,
-        "avg_price": 183.28
+        "net_value": 37381855700.0,
+        "avg_price": 181.2
       },
       {
         "code": "CP",
         "name": "KB Valbury Sekuritas",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 25428150600.0,
-        "avg_price": 182.75
+        "net_value": 35113221100.0,
+        "avg_price": 178.82
       },
       {
-        "code": "KI",
-        "name": "Ciptadana Sekuritas Asia",
+        "code": "AI",
+        "name": "Kay Hian Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 27109328800.0,
+        "avg_price": 180.7
+      },
+      {
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 13520859500.0,
-        "avg_price": 181.94
+        "net_value": 25169160400.0,
+        "avg_price": 179.08
       }
     ],
     "sellers": [
-      {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -81142174900.0,
-        "avg_price": 183.0
-      },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -80440521300.0,
-        "avg_price": 181.36
+        "net_value": -87367727200.0,
+        "avg_price": 178.93
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -54347052500.0,
+        "avg_price": 179.17
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -36238163600.0,
+        "avg_price": 179.85
+      },
+      {
+        "code": "NI",
+        "name": "BNI Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -34536329300.0,
+        "avg_price": 180.74
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -54341797800.0,
-        "avg_price": 182.76
-      },
-      {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -48863054900.0,
-        "avg_price": 180.2
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -45431525400.0,
-        "avg_price": 182.58
+        "net_value": -29518737800.0,
+        "avg_price": 181.94
       }
     ]
   },

@@ -4,39 +4,39 @@
     "symbol": "ASII",
     "name": "Astra International Tbk",
     "sector": "Industrials",
-    "rank": 10,
-    "flow_score": 0.4,
+    "rank": 3,
+    "flow_score": 4.4,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1418,
+        "value": 0.0291,
         "weight": 0.3,
-        "contribution": -4.25
+        "contribution": 0.87
       },
       {
         "key": "foreign_streak",
-        "value": 0.2,
+        "value": 0.1,
         "weight": 0.15,
-        "contribution": 3.0
+        "contribution": 1.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.0725,
+        "value": -0.0583,
         "weight": 0.25,
-        "contribution": -1.81
+        "contribution": -1.46
       },
       {
         "key": "institutional_net",
-        "value": -0.1006,
+        "value": -0.0944,
         "weight": 0.15,
-        "contribution": -1.51
+        "contribution": -1.42
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.0146,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -0.15
       },
       {
         "key": "insider",
@@ -54,41 +54,25 @@
           "ratio": 1.0
         },
         "text_en": "Insider filings in the last 30 days lean toward acquisitions"
-      },
-      {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "out",
-          "sigma": 0.4
-        },
-        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 2,
-          "direction": "in"
-        },
-        "text_en": "Net foreign inflow for 2 trading days in a row"
       }
     ],
-    "close": 4630.0,
-    "change_1d": 0.0266,
-    "return_10d": -0.0394,
-    "volume_ratio": 0.9,
-    "rank_prev": 15,
-    "flow_score_prev": -7.4
+    "close": 4780.0,
+    "change_1d": -0.0083,
+    "return_10d": 0.0063,
+    "volume_ratio": 0.52,
+    "rank_prev": 19,
+    "flow_score_prev": -12.2
   },
   "investor": {
     "symbol": "ASII",
     "name": "Astra International Tbk",
     "sector": "Industrials",
     "rank": 19,
-    "investor_score": 50.32359428362335,
+    "investor_score": 51.1190488290779,
     "pillars": {
       "quality": 32.01631701631702,
       "valuation": 76.48872445384073,
-      "slow_flow": 52.55681818181819
+      "slow_flow": 54.82954545454546
     },
     "components": [
       {
@@ -142,14 +126,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0013720870170484895,
-        "percentile": 0.5909090909090909
+        "raw": -0.0009372216571577906,
+        "percentile": 0.6590909090909091
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.012427267005202023,
-        "percentile": 0.20454545454545456
+        "raw": -0.012312523721533224,
+        "percentile": 0.22727272727272727
       },
       {
         "key": "holder_shift",
@@ -191,7 +175,7 @@
         "text_en": "Trailing dividend yield is 8.42%."
       }
     ],
-    "rank_prev": 23
+    "rank_prev": 21
   },
   "series": {
     "price": [
@@ -509,6 +493,21 @@
         "date": "2026-10-02",
         "close": 4630.0,
         "volume": 34548100.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 4750.0,
+        "volume": 59764300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 4820.0,
+        "volume": 35508900.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 4780.0,
+        "volume": 18474300.0
       }
     ],
     "foreign_flow": [
@@ -889,21 +888,27 @@
         "net": 18056348000.0,
         "cum": -2329352649000.0,
         "share": 0.7496
+      },
+      {
+        "date": "2026-10-05",
+        "net": -55870321000.0,
+        "cum": -2385222970000.0,
+        "share": 0.7249
+      },
+      {
+        "date": "2026-10-06",
+        "net": -1220195000.0,
+        "cum": -2386443165000.0,
+        "share": 0.659
+      },
+      {
+        "date": "2026-10-07",
+        "net": 3829659000.0,
+        "cum": -2382613506000.0,
+        "share": 0.7167
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -1.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -11.1
-      },
-      {
-        "date": "2026-09-09",
-        "score": -19.7
-      },
       {
         "date": "2026-09-10",
         "score": -18.0
@@ -971,6 +976,18 @@
       {
         "date": "2026-10-02",
         "score": 0.4
+      },
+      {
+        "date": "2026-10-05",
+        "score": -8.4
+      },
+      {
+        "date": "2026-10-06",
+        "score": -12.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": 4.4
       }
     ],
     "holder_mix": [
@@ -1037,40 +1054,40 @@
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 245544651000.0,
-        "avg_price": 4671.72
+        "net_value": 308101264000.0,
+        "avg_price": 4683.17
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 125024627000.0,
-        "avg_price": 4675.82
+        "net_value": 68858043000.0,
+        "avg_price": 4663.35
       },
       {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 44039225000.0,
-        "avg_price": 4656.48
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 41008790000.0,
-        "avg_price": 4686.29
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 31559280000.0,
+        "avg_price": 4704.69
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 38787479000.0,
-        "avg_price": 4690.99
+        "net_value": 29215532000.0,
+        "avg_price": 4670.43
+      },
+      {
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 26898957000.0,
+        "avg_price": 4629.26
       }
     ],
     "sellers": [
@@ -1079,40 +1096,40 @@
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -272340228000.0,
-        "avg_price": 4705.26
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -109431182000.0,
-        "avg_price": 4735.25
+        "net_value": -269616470000.0,
+        "avg_price": 4675.07
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -97696259000.0,
-        "avg_price": 4657.56
+        "net_value": -141242241000.0,
+        "avg_price": 4669.61
+      },
+      {
+        "code": "AZ",
+        "name": "Sucor Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -48217511000.0,
+        "avg_price": 4703.79
       },
       {
         "code": "BB",
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -88941635000.0,
-        "avg_price": 4670.98
+        "net_value": -40894158000.0,
+        "avg_price": 4659.93
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -18752704000.0,
-        "avg_price": 4590.49
+        "net_value": -25076862000.0,
+        "avg_price": 4607.03
       }
     ]
   },

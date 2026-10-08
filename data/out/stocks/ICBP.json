@@ -4,33 +4,33 @@
     "symbol": "ICBP",
     "name": "Indofood CBP Sukses Makmur Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 21,
-    "flow_score": -10.9,
-    "label": "neutral",
+    "rank": 29,
+    "flow_score": -16.6,
+    "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1683,
+        "value": -0.0894,
         "weight": 0.3,
-        "contribution": -5.05
+        "contribution": -2.68
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": 0.0371,
+        "value": -0.0258,
         "weight": 0.25,
-        "contribution": 0.93
+        "contribution": -0.65
       },
       {
         "key": "institutional_net",
-        "value": -0.5533,
+        "value": -0.6848,
         "weight": 0.15,
-        "contribution": -8.3
+        "contribution": -10.27
       },
       {
         "key": "divergence",
@@ -51,36 +51,44 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 55
+          "share_pct": 68
         },
-        "text_en": "Institutional brokers show net distribution, 55% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 68% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 2,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 2 trading days in a row"
       },
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 0.5
+          "sigma": 0.3
         },
-        "text_en": "5-day net foreign outflow is 0.5 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       }
     ],
-    "close": 6750.0,
-    "change_1d": 0.0189,
-    "return_10d": -0.0217,
-    "volume_ratio": 0.44,
-    "rank_prev": 24,
-    "flow_score_prev": -18.9
+    "close": 6775.0,
+    "change_1d": -0.0037,
+    "return_10d": -0.0145,
+    "volume_ratio": 0.25,
+    "rank_prev": 27,
+    "flow_score_prev": -17.9
   },
   "investor": {
     "symbol": "ICBP",
     "name": "Indofood CBP Sukses Makmur Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 17,
-    "investor_score": 51.815076638477805,
+    "rank": 18,
+    "investor_score": 51.21848572938689,
     "pillars": {
       "quality": 36.66666666666667,
       "valuation": 51.15045806906272,
-      "slow_flow": 69.60227272727273
+      "slow_flow": 67.89772727272727
     },
     "components": [
       {
@@ -134,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.00012127146489808243,
-        "percentile": 0.75
+        "raw": -0.000790756180743177,
+        "percentile": 0.6818181818181818
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.004281160700480764,
+        "raw": 0.004199957667836109,
         "percentile": 0.9318181818181818
       },
       {
@@ -162,9 +170,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 90,
-          "net_to_market_cap": 0.004281160700480764
+          "net_to_market_cap": 0.004199957667836109
         },
-        "text_en": "Net foreign accumulation equals 0.428% of market cap over available history in the 90-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.420% of market cap over available history in the 90-trading-day window."
       },
       {
         "code": "VALUATION_BELOW_PEERS",
@@ -183,7 +191,7 @@
         "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 15
+    "rank_prev": 18
   },
   "series": {
     "price": [
@@ -501,6 +509,21 @@
         "date": "2026-10-02",
         "close": 6750.0,
         "volume": 1857600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 6825.0,
+        "volume": 1958500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 6800.0,
+        "volume": 2531100.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 6775.0,
+        "volume": 924900.0
       }
     ],
     "foreign_flow": [
@@ -881,21 +904,27 @@
         "net": 1010425000.0,
         "cum": 337003890000.0,
         "share": 0.3646
+      },
+      {
+        "date": "2026-10-05",
+        "net": 46500000.0,
+        "cum": 337050390000.0,
+        "share": 0.65
+      },
+      {
+        "date": "2026-10-06",
+        "net": -3499430000.0,
+        "cum": 333550960000.0,
+        "share": 0.5732
+      },
+      {
+        "date": "2026-10-07",
+        "net": -1714712500.0,
+        "cum": 331836247500.0,
+        "share": 0.5341
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 31.5
-      },
-      {
-        "date": "2026-09-08",
-        "score": 44.7
-      },
-      {
-        "date": "2026-09-09",
-        "score": 44.9
-      },
       {
         "date": "2026-09-10",
         "score": 23.6
@@ -963,6 +992,18 @@
       {
         "date": "2026-10-02",
         "score": -10.9
+      },
+      {
+        "date": "2026-10-05",
+        "score": -12.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": -17.9
+      },
+      {
+        "date": "2026-10-07",
+        "score": -16.6
       }
     ],
     "holder_mix": [
@@ -1025,44 +1066,44 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 22863652500.0,
-        "avg_price": 6802.62
+        "net_value": 16756312500.0,
+        "avg_price": 6712.93
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 14225917500.0,
-        "avg_price": 6700.52
+        "net_value": 13183422500.0,
+        "avg_price": 6696.1
       },
       {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 11631395000.0,
-        "avg_price": 6709.47
+        "net_value": 7133640000.0,
+        "avg_price": 6671.02
       },
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 4664890000.0,
-        "avg_price": 6719.19
+        "net_value": 3563267500.0,
+        "avg_price": 6727.68
       },
       {
-        "code": "DR",
-        "name": "RHB Sekuritas Indonesia",
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 3247187500.0,
-        "avg_price": 6762.26
+        "net_value": 3515110000.0,
+        "avg_price": 6701.49
       }
     ],
     "sellers": [
@@ -1071,40 +1112,40 @@
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -23194695000.0,
-        "avg_price": 6674.46
+        "net_value": -25391900000.0,
+        "avg_price": 6694.15
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -14396932500.0,
-        "avg_price": 6656.01
+        "net_value": -7359115000.0,
+        "avg_price": 6642.94
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -7641947500.0,
-        "avg_price": 6768.94
+        "net_value": -6289730000.0,
+        "avg_price": 6719.57
       },
       {
-        "code": "DX",
-        "name": "Bahana Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -7168925000.0,
-        "avg_price": 6835.92
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -5927840000.0,
+        "avg_price": 6721.9
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -5652125000.0,
-        "avg_price": 6726.18
+        "net_value": -5595890000.0,
+        "avg_price": 6711.03
       }
     ]
   },

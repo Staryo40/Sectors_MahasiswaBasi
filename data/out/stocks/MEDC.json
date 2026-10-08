@@ -4,39 +4,39 @@
     "symbol": "MEDC",
     "name": "PT Medco Energi Internasional Tbk",
     "sector": "Energy",
-    "rank": 23,
-    "flow_score": -15.7,
-    "label": "distribution",
+    "rank": 1,
+    "flow_score": 14.4,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.0895,
+        "value": 0.3834,
         "weight": 0.3,
-        "contribution": -2.68
+        "contribution": 11.5
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": 0.3,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": 4.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.2995,
+        "value": -0.0827,
         "weight": 0.25,
-        "contribution": -7.49
+        "contribution": -2.07
       },
       {
         "key": "institutional_net",
-        "value": -0.0356,
+        "value": 0.2635,
         "weight": 0.15,
-        "contribution": -0.53
+        "contribution": 3.95
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.1503,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 1.5
       },
       {
         "key": "insider",
@@ -48,12 +48,12 @@
     "flags": [],
     "reasons": [
       {
-        "code": "BROKER_CONCENTRATION",
+        "code": "FOREIGN_INFLOW_5D",
         "params": {
-          "direction": "distribution",
-          "value": -0.3
+          "direction": "in",
+          "sigma": 1.2
         },
-        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+        "text_en": "5-day net foreign inflow is 1.2 standard deviations from this stock's norm"
       },
       {
         "code": "INSIDER_ACTIVITY",
@@ -64,31 +64,31 @@
         "text_en": "Insider filings in the last 30 days lean toward disposals"
       },
       {
-        "code": "FOREIGN_INFLOW_5D",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "out",
-          "sigma": 0.3
+          "days": 3,
+          "direction": "in"
         },
-        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
+        "text_en": "Net foreign inflow for 3 trading days in a row"
       }
     ],
-    "close": 1375.0,
-    "change_1d": -0.0036,
-    "return_10d": -0.0582,
-    "volume_ratio": 0.39,
-    "rank_prev": 27,
-    "flow_score_prev": -20.5
+    "close": 1460.0,
+    "change_1d": 0.0139,
+    "return_10d": -0.0034,
+    "volume_ratio": 0.54,
+    "rank_prev": 7,
+    "flow_score_prev": 3.2
   },
   "investor": {
     "symbol": "MEDC",
     "name": "PT Medco Energi Internasional Tbk",
     "sector": "Energy",
-    "rank": 41,
-    "investor_score": 39.015800333387546,
+    "rank": 39,
+    "investor_score": 40.407845787933,
     "pillars": {
       "quality": 34.603729603729604,
       "valuation": 57.34496124031008,
-      "slow_flow": 30.965909090909093
+      "slow_flow": 34.94318181818182
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.003305256452828187,
-        "percentile": 0.38636363636363635
+        "raw": -0.0019395760663352198,
+        "percentile": 0.5227272727272727
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.011797348425421711,
-        "percentile": 0.25
+        "raw": -0.010298192573296111,
+        "percentile": 0.2727272727272727
       },
       {
         "key": "holder_shift",
@@ -192,7 +192,7 @@
         "text_en": "Institutional share fell by 0.03 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 45
+    "rank_prev": 43
   },
   "series": {
     "price": [
@@ -510,6 +510,21 @@
         "date": "2026-10-02",
         "close": 1375.0,
         "volume": 21505200.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1405.0,
+        "volume": 17635500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1440.0,
+        "volume": 26035200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1460.0,
+        "volume": 27624300.0
       }
     ],
     "foreign_flow": [
@@ -890,21 +905,27 @@
         "net": 0.0,
         "cum": -407743707500.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": 8455560000.0,
+        "cum": -399288147500.0,
+        "share": 0.321
+      },
+      {
+        "date": "2026-10-06",
+        "net": 14335385000.0,
+        "cum": -384952762500.0,
+        "share": 0.3217
+      },
+      {
+        "date": "2026-10-07",
+        "net": 7020447500.0,
+        "cum": -377932315000.0,
+        "share": 0.3979
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -32.7
-      },
-      {
-        "date": "2026-09-08",
-        "score": -11.2
-      },
-      {
-        "date": "2026-09-09",
-        "score": -10.5
-      },
       {
         "date": "2026-09-10",
         "score": -11.5
@@ -972,6 +993,18 @@
       {
         "date": "2026-10-02",
         "score": -15.7
+      },
+      {
+        "date": "2026-10-05",
+        "score": -12.5
+      },
+      {
+        "date": "2026-10-06",
+        "score": 3.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": 14.4
       }
     ],
     "holder_mix": [
@@ -1038,40 +1071,40 @@
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 27932134500.0,
-        "avg_price": 1470.94
+        "net_value": 25752021000.0,
+        "avg_price": 1468.41
       },
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 24013715500.0,
-        "avg_price": 1469.84
-      },
-      {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 17431621500.0,
-        "avg_price": 1466.57
+        "net_value": 22459758000.0,
+        "avg_price": 1450.51
       },
       {
-        "code": "GR",
-        "name": "Panin Sekuritas TBK.",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 16029159500.0,
-        "avg_price": 1479.48
+        "code": "CP",
+        "name": "KB Valbury Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 13957174500.0,
+        "avg_price": 1446.14
       },
       {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 12066890500.0,
-        "avg_price": 1481.28
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 8605752500.0,
+        "avg_price": 1449.5
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 8334459000.0,
+        "avg_price": 1435.27
       }
     ],
     "sellers": [
@@ -1080,40 +1113,40 @@
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -58384077500.0,
-        "avg_price": 1460.17
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -36277399000.0,
-        "avg_price": 1485.75
+        "net_value": -45458636000.0,
+        "avg_price": 1445.5
       },
       {
         "code": "BB",
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -34029743000.0,
-        "avg_price": 1449.18
+        "net_value": -15557119500.0,
+        "avg_price": 1433.99
+      },
+      {
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -12359891500.0,
+        "avg_price": 1426.59
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -10681173500.0,
-        "avg_price": 1465.72
+        "net_value": -7214097000.0,
+        "avg_price": 1442.17
       },
       {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -10240550000.0,
-        "avg_price": 1469.59
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -7111430500.0,
+        "avg_price": 1453.39
       }
     ]
   },

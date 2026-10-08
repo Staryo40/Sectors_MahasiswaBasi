@@ -4,39 +4,39 @@
     "symbol": "ADRO",
     "name": "Alamtri Resources Indonesia Tbk",
     "sector": "Energy",
-    "rank": 37,
-    "flow_score": -30.8,
+    "rank": 35,
+    "flow_score": -28.5,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.315,
+        "value": -0.1601,
         "weight": 0.3,
-        "contribution": -9.45
+        "contribution": -4.8
       },
       {
         "key": "foreign_streak",
-        "value": -0.4,
+        "value": -0.7,
         "weight": 0.15,
-        "contribution": -6.0
+        "contribution": -10.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.1422,
+        "value": -0.2403,
         "weight": 0.25,
-        "contribution": -3.56
+        "contribution": -6.01
       },
       {
         "key": "institutional_net",
-        "value": -0.7854,
+        "value": -0.3482,
         "weight": 0.15,
-        "contribution": -11.78
+        "contribution": -5.22
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.2002,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -2.0
       },
       {
         "key": "insider",
@@ -48,47 +48,47 @@
     "flags": [],
     "reasons": [
       {
+        "code": "FOREIGN_STREAK",
+        "params": {
+          "days": 7,
+          "direction": "out"
+        },
+        "text_en": "Net foreign outflow for 7 trading days in a row"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.24
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+      },
+      {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 79
+          "share_pct": 35
         },
-        "text_en": "Institutional brokers show net distribution, 79% of net traded value over the last 2 weeks"
-      },
-      {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "out",
-          "sigma": 0.9
-        },
-        "text_en": "5-day net foreign outflow is 0.9 standard deviations from this stock's norm"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 4,
-          "direction": "out"
-        },
-        "text_en": "Net foreign outflow for 4 trading days in a row"
+        "text_en": "Institutional brokers show net distribution, 35% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 2500.0,
-    "change_1d": 0.0373,
-    "return_10d": -0.053,
-    "volume_ratio": 0.9,
-    "rank_prev": 35,
-    "flow_score_prev": -29.1
+    "close": 2600.0,
+    "change_1d": 0.0,
+    "return_10d": 0.0,
+    "volume_ratio": 0.81,
+    "rank_prev": 34,
+    "flow_score_prev": -25.2
   },
   "investor": {
     "symbol": "ADRO",
     "name": "Alamtri Resources Indonesia Tbk",
     "sector": "Energy",
     "rank": 7,
-    "investor_score": 59.04114320756763,
+    "investor_score": 60.43318866211308,
     "pillars": {
       "quality": 58.43822843822844,
       "valuation": 75.4474982381959,
-      "slow_flow": 48.01136363636363
+      "slow_flow": 51.98863636363637
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.005911617891612429,
-        "percentile": 0.1590909090909091
+        "raw": -0.004793919780937434,
+        "percentile": 0.25
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.002365301592637254,
-        "percentile": 0.6136363636363636
+        "raw": -0.002500134475523634,
+        "percentile": 0.6818181818181818
       },
       {
         "key": "holder_shift",
@@ -190,7 +190,7 @@
         "text_en": "Institutional share fell by 0.02 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 8
+    "rank_prev": 7
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 2500.0,
         "volume": 29874800.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2590.0,
+        "volume": 34216500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2600.0,
+        "volume": 31806100.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2600.0,
+        "volume": 26192100.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -2194923000.0,
         "cum": -170304637000.0,
         "share": 0.3594
+      },
+      {
+        "date": "2026-10-05",
+        "net": -1102874000.0,
+        "cum": -171407511000.0,
+        "share": 0.4545
+      },
+      {
+        "date": "2026-10-06",
+        "net": -9931634000.0,
+        "cum": -181339145000.0,
+        "share": 0.3909
+      },
+      {
+        "date": "2026-10-07",
+        "net": -5874137000.0,
+        "cum": -187213282000.0,
+        "share": 0.4411
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 7.6
-      },
-      {
-        "date": "2026-09-08",
-        "score": 2.3
-      },
-      {
-        "date": "2026-09-09",
-        "score": -6.3
-      },
       {
         "date": "2026-09-10",
         "score": -16.4
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -30.8
+      },
+      {
+        "date": "2026-10-05",
+        "score": -29.5
+      },
+      {
+        "date": "2026-10-06",
+        "score": -25.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -28.5
       }
     ],
     "holder_mix": [
@@ -1036,40 +1069,40 @@
         "name": "Bahana Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 48983680000.0,
-        "avg_price": 2503.79
+        "net_value": 27989305000.0,
+        "avg_price": 2466.73
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 42398921000.0,
-        "avg_price": 2515.64
+        "net_value": 26848842000.0,
+        "avg_price": 2503.21
+      },
+      {
+        "code": "NI",
+        "name": "BNI Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 24783052000.0,
+        "avg_price": 2529.16
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 19363750000.0,
+        "avg_price": 2534.32
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 20397327000.0,
-        "avg_price": 2511.89
-      },
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 11898261000.0,
-        "avg_price": 2532.29
-      },
-      {
-        "code": "XC",
-        "name": "Ajaib Sekuritas Asia",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 6333547000.0,
-        "avg_price": 2517.77
+        "net_value": 16566735000.0,
+        "avg_price": 2500.23
       }
     ],
     "sellers": [
@@ -1078,40 +1111,40 @@
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -88877696000.0,
-        "avg_price": 2511.75
+        "net_value": -69989514000.0,
+        "avg_price": 2494.82
       },
       {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -51367304000.0,
-        "avg_price": 2549.47
-      },
-      {
-        "code": "KK",
-        "name": "Phillip Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -8600106000.0,
-        "avg_price": 2553.61
-      },
-      {
-        "code": "DH",
-        "name": "Sinarmas Sekuritas",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -5649753000.0,
-        "avg_price": 2556.42
+        "net_value": -44326511000.0,
+        "avg_price": 2523.81
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -5498211000.0,
-        "avg_price": 2535.7
+        "net_value": -15687765000.0,
+        "avg_price": 2539.84
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -11890450000.0,
+        "avg_price": 2584.2
+      },
+      {
+        "code": "DH",
+        "name": "Sinarmas Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -6233186000.0,
+        "avg_price": 2554.4
       }
     ]
   },

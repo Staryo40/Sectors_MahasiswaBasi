@@ -4,39 +4,39 @@
     "symbol": "ITMG",
     "name": "Indo Tambangraya Megah Tbk",
     "sector": "Energy",
-    "rank": 36,
-    "flow_score": -29.5,
+    "rank": 40,
+    "flow_score": -36.0,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.7716,
+        "value": -0.7041,
         "weight": 0.3,
-        "contribution": -23.15
+        "contribution": -21.12
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.3,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -4.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.229,
+        "value": 0.2383,
         "weight": 0.25,
-        "contribution": 5.73
+        "contribution": 5.96
       },
       {
         "key": "institutional_net",
-        "value": -0.9042,
+        "value": -0.9331,
         "weight": 0.15,
-        "contribution": -13.56
+        "contribution": -14.0
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.2329,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -2.33
       },
       {
         "key": "insider",
@@ -51,44 +51,44 @@
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 2.3
+          "sigma": 2.1
         },
-        "text_en": "5-day net foreign outflow is 2.3 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 2.1 standard deviations from this stock's norm"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 90
+          "share_pct": 93
         },
-        "text_en": "Institutional brokers show net distribution, 90% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 93% of net traded value over the last 2 weeks"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "accumulation",
-          "value": 0.23
+          "value": 0.24
         },
         "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
       }
     ],
-    "close": 25200.0,
-    "change_1d": 0.0223,
-    "return_10d": -0.0562,
-    "volume_ratio": 0.87,
-    "rank_prev": 38,
-    "flow_score_prev": -36.9
+    "close": 25925.0,
+    "change_1d": -0.0067,
+    "return_10d": 0.0288,
+    "volume_ratio": 1.04,
+    "rank_prev": 36,
+    "flow_score_prev": -31.1
   },
   "investor": {
     "symbol": "ITMG",
     "name": "Indo Tambangraya Megah Tbk",
     "sector": "Energy",
     "rank": 12,
-    "investor_score": 55.01078257982328,
+    "investor_score": 55.20964621618691,
     "pillars": {
       "quality": 63.46153846153845,
       "valuation": 63.22057787174066,
-      "slow_flow": 39.48863636363637
+      "slow_flow": 40.05681818181818
     },
     "components": [
       {
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.00749979586719304,
-        "percentile": 0.045454545454545456
+        "raw": -0.007743882694700148,
+        "percentile": 0.06818181818181818
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.02077768479857667,
+        "raw": -0.02096465564049841,
         "percentile": 0.09090909090909091
       },
       {
@@ -190,7 +190,7 @@
         "text_en": "Trailing dividend yield is 2.93%."
       }
     ],
-    "rank_prev": 13
+    "rank_prev": 11
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 25200.0,
         "volume": 1134800.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 25500.0,
+        "volume": 1027700.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 26100.0,
+        "volume": 1017300.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 25925.0,
+        "volume": 1223200.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": 725962500.0,
         "cum": -591626082500.0,
         "share": 0.5754
+      },
+      {
+        "date": "2026-10-05",
+        "net": -5015085000.0,
+        "cum": -596641167500.0,
+        "share": 0.6369
+      },
+      {
+        "date": "2026-10-06",
+        "net": -4717732500.0,
+        "cum": -601358900000.0,
+        "share": 0.4398
+      },
+      {
+        "date": "2026-10-07",
+        "net": -12765165000.0,
+        "cum": -614124065000.0,
+        "share": 0.5057
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -33.5
-      },
-      {
-        "date": "2026-09-08",
-        "score": -17.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": -19.5
-      },
       {
         "date": "2026-09-10",
         "score": -17.9
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -29.5
+      },
+      {
+        "date": "2026-10-05",
+        "score": -34.2
+      },
+      {
+        "date": "2026-10-06",
+        "score": -31.1
+      },
+      {
+        "date": "2026-10-07",
+        "score": -36.0
       }
     ],
     "holder_mix": [
@@ -1036,82 +1069,82 @@
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 110824415000.0,
-        "avg_price": 25403.15
+        "net_value": 105673250000.0,
+        "avg_price": 25284.38
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 3353500000.0,
-        "avg_price": 25248.21
+        "net_value": 2108337500.0,
+        "avg_price": 25240.57
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 1800657500.0,
-        "avg_price": 25232.64
+        "net_value": 1557500000.0,
+        "avg_price": 25020.21
       },
       {
-        "code": "KK",
-        "name": "Phillip Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 1196695000.0,
-        "avg_price": 25378.49
-      },
-      {
-        "code": "XC",
-        "name": "Ajaib Sekuritas Asia",
+        "code": "PP",
+        "name": "Aldiracita Sekuritas Indonesia",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 883225000.0,
-        "avg_price": 25465.33
+        "net_value": 1539900000.0,
+        "avg_price": 26100.0
+      },
+      {
+        "code": "AG",
+        "name": "Kiwoom Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 1426530000.0,
+        "avg_price": 25018.22
       }
     ],
     "sellers": [
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -26347062500.0,
-        "avg_price": 25265.6
-      },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -24201225000.0,
-        "avg_price": 25185.37
+        "net_value": -34112652500.0,
+        "avg_price": 25287.43
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -18554342500.0,
+        "avg_price": 25110.76
+      },
+      {
+        "code": "TP",
+        "name": "OCBC Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -14583952500.0,
+        "avg_price": 25537.18
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -22203990000.0,
-        "avg_price": 25246.38
+        "net_value": -12683810000.0,
+        "avg_price": 25092.0
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -20960302500.0,
-        "avg_price": 25340.13
-      },
-      {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -4677175000.0,
-        "avg_price": 25745.94
+        "net_value": -10530485000.0,
+        "avg_price": 25218.23
       }
     ]
   },

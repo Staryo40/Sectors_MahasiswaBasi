@@ -4,39 +4,39 @@
     "symbol": "WIFI",
     "name": "PT Solusi Sinergi Digital Tbk",
     "sector": "Technology",
-    "rank": 12,
-    "flow_score": -1.6,
+    "rank": 6,
+    "flow_score": -0.5,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.1093,
+        "value": 0.1295,
         "weight": 0.3,
-        "contribution": 3.28
+        "contribution": 3.89
       },
       {
         "key": "foreign_streak",
-        "value": 0.2,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": 3.0
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": 0.003,
+        "value": 0.1195,
         "weight": 0.25,
-        "contribution": 0.07
+        "contribution": 2.99
       },
       {
         "key": "institutional_net",
-        "value": -0.5687,
+        "value": -0.3759,
         "weight": 0.15,
-        "contribution": -8.53
+        "contribution": -5.64
       },
       {
         "key": "divergence",
-        "value": 0.0561,
+        "value": 0.1245,
         "weight": 0.1,
-        "contribution": 0.56
+        "contribution": 1.25
       },
       {
         "key": "insider",
@@ -45,41 +45,39 @@
         "contribution": 0.0
       }
     ],
-    "flags": [
-      "unusual_volume"
-    ],
+    "flags": [],
     "reasons": [
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 57
+          "share_pct": 38
         },
-        "text_en": "Institutional brokers show net distribution, 57% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 38% of net traded value over the last 2 weeks"
       },
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "in",
-          "sigma": 0.3
+          "sigma": 0.4
         },
-        "text_en": "5-day net foreign inflow is 0.3 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign inflow is 0.4 standard deviations from this stock's norm"
       },
       {
         "code": "FOREIGN_STREAK",
         "params": {
           "days": 2,
-          "direction": "in"
+          "direction": "out"
         },
-        "text_en": "Net foreign inflow for 2 trading days in a row"
+        "text_en": "Net foreign outflow for 2 trading days in a row"
       }
     ],
-    "close": 1435.0,
-    "change_1d": -0.1115,
-    "return_10d": -0.2565,
-    "volume_ratio": 10.25,
-    "rank_prev": 19,
-    "flow_score_prev": -11.5
+    "close": 1400.0,
+    "change_1d": -0.0345,
+    "return_10d": -0.2391,
+    "volume_ratio": 1.52,
+    "rank_prev": 8,
+    "flow_score_prev": 2.3
   },
   "investor": {
     "symbol": "WIFI",
@@ -144,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0011270058610655094,
-        "percentile": 0.6136363636363636
+        "raw": -0.0012987266890130214,
+        "percentile": 0.5909090909090909
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.00047795208230720816,
-        "percentile": 0.75
+        "raw": -0.0004648552996090482,
+        "percentile": 0.7727272727272727
       },
       {
         "key": "holder_shift",
@@ -192,7 +190,7 @@
         "text_en": "Trailing dividend yield is 0.14%."
       }
     ],
-    "rank_prev": 9
+    "rank_prev": 14
   },
   "series": {
     "price": [
@@ -510,6 +508,21 @@
         "date": "2026-10-02",
         "close": 1435.0,
         "volume": 140659500.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1455.0,
+        "volume": 41040300.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1450.0,
+        "volume": 20989600.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1400.0,
+        "volume": 22116000.0
       }
     ],
     "foreign_flow": [
@@ -890,21 +903,27 @@
         "net": 5151141500.0,
         "cum": -3640928000.0,
         "share": 0.0926
+      },
+      {
+        "date": "2026-10-05",
+        "net": 15592933000.0,
+        "cum": 11952005000.0,
+        "share": 0.2471
+      },
+      {
+        "date": "2026-10-06",
+        "net": -7558974500.0,
+        "cum": 4393030500.0,
+        "share": 0.1837
+      },
+      {
+        "date": "2026-10-07",
+        "net": -7847820500.0,
+        "cum": -3454790000.0,
+        "share": 0.149
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -7.3
-      },
-      {
-        "date": "2026-09-08",
-        "score": -5.6
-      },
-      {
-        "date": "2026-09-09",
-        "score": 2.5
-      },
       {
         "date": "2026-09-10",
         "score": -6.2
@@ -972,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -1.6
+      },
+      {
+        "date": "2026-10-05",
+        "score": 15.0
+      },
+      {
+        "date": "2026-10-06",
+        "score": 2.3
+      },
+      {
+        "date": "2026-10-07",
+        "score": -0.5
       }
     ],
     "holder_mix": [
@@ -1038,82 +1069,82 @@
         "name": "BRI Danareksa Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 16815445500.0,
-        "avg_price": 1533.82
+        "net_value": 13447589000.0,
+        "avg_price": 1482.94
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 15458242500.0,
-        "avg_price": 1590.84
+        "net_value": 12409259500.0,
+        "avg_price": 1485.7
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 10364394000.0,
-        "avg_price": 1604.95
+        "net_value": 7414118500.0,
+        "avg_price": 1507.79
       },
       {
         "code": "XA",
         "name": "NH Korindo Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 6164590500.0,
-        "avg_price": 1502.94
+        "net_value": 2909929000.0,
+        "avg_price": 1474.84
       },
       {
         "code": "AZ",
         "name": "Sucor Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 3482761000.0,
-        "avg_price": 1668.58
+        "net_value": 2146995500.0,
+        "avg_price": 1599.33
       }
     ],
     "sellers": [
-      {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -18462753500.0,
-        "avg_price": 1591.35
-      },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -14441431500.0,
-        "avg_price": 1533.81
+        "net_value": -14537989500.0,
+        "avg_price": 1487.26
+      },
+      {
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -6696446500.0,
+        "avg_price": 1480.07
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -9479528000.0,
-        "avg_price": 1766.1
+        "net_value": -4930973000.0,
+        "avg_price": 1720.13
       },
       {
-        "code": "MG",
-        "name": "Semesta Indovest Sekuritas",
-        "cohort": "institutional",
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -3891021000.0,
-        "avg_price": 1430.58
+        "net_value": -4831571000.0,
+        "avg_price": 1473.15
       },
       {
         "code": "CP",
         "name": "KB Valbury Sekuritas",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -2436733500.0,
-        "avg_price": 1626.22
+        "net_value": -3913147000.0,
+        "avg_price": 1531.92
       }
     ]
   },

@@ -4,39 +4,39 @@
     "symbol": "CUAN",
     "name": "PT Petrindo Jaya Kreasi Tbk",
     "sector": "Energy",
-    "rank": 18,
-    "flow_score": -8.3,
+    "rank": 12,
+    "flow_score": -5.0,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.122,
+        "value": -0.0999,
         "weight": 0.3,
-        "contribution": -3.66
+        "contribution": -3.0
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": 0.0012,
+        "value": 0.1767,
         "weight": 0.25,
-        "contribution": 0.03
+        "contribution": 4.42
       },
       {
         "key": "institutional_net",
-        "value": -0.2085,
+        "value": -0.2527,
         "weight": 0.15,
-        "contribution": -3.13
+        "contribution": -3.79
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.0384,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 0.38
       },
       {
         "key": "insider",
@@ -48,39 +48,47 @@
     "flags": [],
     "reasons": [
       {
-        "code": "FOREIGN_INFLOW_5D",
+        "code": "BROKER_CONCENTRATION",
         "params": {
-          "direction": "out",
-          "sigma": 0.4
+          "direction": "accumulation",
+          "value": 0.18
         },
-        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
+        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 21
+          "share_pct": 25
         },
-        "text_en": "Institutional brokers show net distribution, 21% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 25% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       }
     ],
-    "close": 845.0,
-    "change_1d": -0.0231,
-    "return_10d": -0.0865,
-    "volume_ratio": 0.79,
-    "rank_prev": 11,
-    "flow_score_prev": -2.8
+    "close": 840.0,
+    "change_1d": -0.0118,
+    "return_10d": -0.125,
+    "volume_ratio": 0.77,
+    "rank_prev": 16,
+    "flow_score_prev": -7.5
   },
   "investor": {
     "symbol": "CUAN",
     "name": "PT Petrindo Jaya Kreasi Tbk",
     "sector": "Energy",
-    "rank": 31,
-    "investor_score": 45.63405126849894,
+    "rank": 28,
+    "investor_score": 46.62836945031712,
     "pillars": {
       "quality": 66.36363636363636,
       "valuation": 9.933932346723045,
-      "slow_flow": 47.44318181818182
+      "slow_flow": 50.28409090909091
     },
     "components": [
       {
@@ -134,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0020490125370641286,
-        "percentile": 0.5227272727272727
+        "raw": -0.0012664365261577564,
+        "percentile": 0.6136363636363636
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.0031518680493516165,
-        "percentile": 0.5454545454545454
+        "raw": -0.0033177331508271635,
+        "percentile": 0.5681818181818182
       },
       {
         "key": "holder_shift",
@@ -167,7 +175,7 @@
         "text_en": "Institutional share fell by 0.30 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 25
+    "rank_prev": 31
   },
   "series": {
     "price": [
@@ -485,6 +493,21 @@
         "date": "2026-10-02",
         "close": 845.0,
         "volume": 258896400.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 850.0,
+        "volume": 253110500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 850.0,
+        "volume": 291319800.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 840.0,
+        "volume": 237979200.0
       }
     ],
     "foreign_flow": [
@@ -865,21 +888,27 @@
         "net": -20811350000.0,
         "cum": -299408460500.0,
         "share": 0.31
+      },
+      {
+        "date": "2026-10-05",
+        "net": 6475169500.0,
+        "cum": -292933291000.0,
+        "share": 0.3293
+      },
+      {
+        "date": "2026-10-06",
+        "net": -17620102500.0,
+        "cum": -310553393500.0,
+        "share": 0.2894
+      },
+      {
+        "date": "2026-10-07",
+        "net": -2746372000.0,
+        "cum": -313299765500.0,
+        "share": 0.3099
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 4.8
-      },
-      {
-        "date": "2026-09-08",
-        "score": -3.6
-      },
-      {
-        "date": "2026-09-09",
-        "score": -9.0
-      },
       {
         "date": "2026-09-10",
         "score": 12.3
@@ -947,6 +976,18 @@
       {
         "date": "2026-10-02",
         "score": -8.3
+      },
+      {
+        "date": "2026-10-05",
+        "score": -4.4
+      },
+      {
+        "date": "2026-10-06",
+        "score": -7.5
+      },
+      {
+        "date": "2026-10-07",
+        "score": -5.0
       }
     ],
     "holder_mix": [
@@ -1013,82 +1054,82 @@
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 111385148500.0,
-        "avg_price": 901.89
+        "net_value": 128701134500.0,
+        "avg_price": 879.85
       },
       {
         "code": "HD",
         "name": "KGI Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 60137015000.0,
-        "avg_price": 884.2
-      },
-      {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 25410539000.0,
-        "avg_price": 904.37
-      },
-      {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 24696273000.0,
-        "avg_price": 923.81
+        "net_value": 61365972500.0,
+        "avg_price": 866.75
       },
       {
         "code": "XC",
         "name": "Ajaib Sekuritas Asia",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 18884605500.0,
-        "avg_price": 900.03
+        "net_value": 28397285500.0,
+        "avg_price": 877.76
+      },
+      {
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 22029777000.0,
+        "avg_price": 881.7
+      },
+      {
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 19486846500.0,
+        "avg_price": 878.09
       }
     ],
     "sellers": [
-      {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -88467910500.0,
-        "avg_price": 911.67
-      },
       {
         "code": "TP",
         "name": "OCBC Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -73111638500.0,
-        "avg_price": 886.72
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -34874082000.0,
-        "avg_price": 907.01
+        "net_value": -74475522500.0,
+        "avg_price": 883.7
       },
       {
         "code": "AZ",
         "name": "Sucor Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -30593657500.0,
-        "avg_price": 885.28
+        "net_value": -43231747000.0,
+        "avg_price": 865.72
+      },
+      {
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -35135244500.0,
+        "avg_price": 901.95
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -33259845000.0,
+        "avg_price": 885.09
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -22515764000.0,
-        "avg_price": 903.83
+        "net_value": -28721655000.0,
+        "avg_price": 881.48
       }
     ]
   },

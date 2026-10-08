@@ -4,33 +4,33 @@
     "symbol": "BBRI",
     "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
     "sector": "Financials",
-    "rank": 30,
-    "flow_score": -24.4,
-    "label": "distribution",
+    "rank": 19,
+    "flow_score": -9.2,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1465,
+        "value": -0.0881,
         "weight": 0.3,
-        "contribution": -4.4
+        "contribution": -2.64
       },
       {
         "key": "foreign_streak",
-        "value": -0.3,
+        "value": 0.2,
         "weight": 0.15,
-        "contribution": -4.5
+        "contribution": 3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.2448,
+        "value": -0.0981,
         "weight": 0.25,
-        "contribution": -6.12
+        "contribution": -2.45
       },
       {
         "key": "institutional_net",
-        "value": -0.6257,
+        "value": -0.4746,
         "weight": 0.15,
-        "contribution": -9.39
+        "contribution": -7.12
       },
       {
         "key": "divergence",
@@ -51,44 +51,44 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 63
+          "share_pct": 47
         },
-        "text_en": "Institutional brokers show net distribution, 63% of net traded value over the last 2 weeks"
-      },
-      {
-        "code": "BROKER_CONCENTRATION",
-        "params": {
-          "direction": "distribution",
-          "value": -0.24
-        },
-        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 47% of net traded value over the last 2 weeks"
       },
       {
         "code": "FOREIGN_STREAK",
         "params": {
-          "days": 3,
-          "direction": "out"
+          "days": 2,
+          "direction": "in"
         },
-        "text_en": "Net foreign outflow for 3 trading days in a row"
+        "text_en": "Net foreign inflow for 2 trading days in a row"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "out",
+          "sigma": 0.3
+        },
+        "text_en": "5-day net foreign outflow is 0.3 standard deviations from this stock's norm"
       }
     ],
-    "close": 3080.0,
-    "change_1d": -0.0065,
-    "return_10d": -0.0695,
-    "volume_ratio": 1.13,
-    "rank_prev": 22,
-    "flow_score_prev": -18.6
+    "close": 3140.0,
+    "change_1d": 0.0096,
+    "return_10d": -0.0157,
+    "volume_ratio": 0.6,
+    "rank_prev": 29,
+    "flow_score_prev": -18.5
   },
   "investor": {
     "symbol": "BBRI",
     "name": "PT Bank Rakyat Indonesia (Persero) Tbk",
     "sector": "Financials",
-    "rank": 5,
-    "investor_score": 62.94364429175475,
+    "rank": 6,
+    "investor_score": 62.14818974630021,
     "pillars": {
       "quality": 57.38636363636363,
       "valuation": 63.30866807610994,
-      "slow_flow": 69.0340909090909
+      "slow_flow": 66.76136363636364
     },
     "components": [
       {
@@ -136,13 +136,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0019571767974361164,
-        "percentile": 0.5454545454545454
+        "raw": -0.002220807625095624,
+        "percentile": 0.45454545454545453
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.001140328331894431,
+        "raw": 0.0013395909557629164,
         "percentile": 0.7954545454545454
       },
       {
@@ -179,12 +179,12 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 90,
-          "net_to_market_cap": 0.001140328331894431
+          "net_to_market_cap": 0.0013395909557629164
         },
-        "text_en": "Net foreign accumulation equals 0.114% of market cap over available history in the 90-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.134% of market cap over available history in the 90-trading-day window."
       }
     ],
-    "rank_prev": 3
+    "rank_prev": 5
   },
   "series": {
     "price": [
@@ -502,6 +502,21 @@
         "date": "2026-10-02",
         "close": 3080.0,
         "volume": 170339200.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 3120.0,
+        "volume": 135379500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 3110.0,
+        "volume": 139170200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 3140.0,
+        "volume": 88629800.0
       }
     ],
     "foreign_flow": [
@@ -882,21 +897,27 @@
         "net": -171396316000.0,
         "cum": 526984160000.0,
         "share": 0.5622
+      },
+      {
+        "date": "2026-10-05",
+        "net": -71233192000.0,
+        "cum": 455750968000.0,
+        "share": 0.5599
+      },
+      {
+        "date": "2026-10-06",
+        "net": 45795575000.0,
+        "cum": 501546543000.0,
+        "share": 0.5019
+      },
+      {
+        "date": "2026-10-07",
+        "net": 129583400000.0,
+        "cum": 631129943000.0,
+        "share": 0.5858
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 17.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": 5.5
-      },
-      {
-        "date": "2026-09-09",
-        "score": 10.0
-      },
       {
         "date": "2026-09-10",
         "score": -0.2
@@ -964,6 +985,18 @@
       {
         "date": "2026-10-02",
         "score": -24.4
+      },
+      {
+        "date": "2026-10-05",
+        "score": -28.8
+      },
+      {
+        "date": "2026-10-06",
+        "score": -18.5
+      },
+      {
+        "date": "2026-10-07",
+        "score": -9.2
       }
     ],
     "holder_mix": [
@@ -1026,86 +1059,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": 176201849000.0,
-        "avg_price": 3160.41
-      },
-      {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 156515732000.0,
-        "avg_price": 3154.05
+        "net_value": 135136700000.0,
+        "avg_price": 3131.34
+      },
+      {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 116362399000.0,
+        "avg_price": 3121.56
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 96913126000.0,
+        "avg_price": 3129.02
+      },
+      {
+        "code": "AG",
+        "name": "Kiwoom Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 45056467000.0,
+        "avg_price": 3167.34
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 151963049000.0,
-        "avg_price": 3184.3
-      },
-      {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 84559206000.0,
-        "avg_price": 3156.27
-      },
-      {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 75823885000.0,
-        "avg_price": 3154.93
+        "net_value": 41462041000.0,
+        "avg_price": 3151.91
       }
     ],
     "sellers": [
       {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -301005348000.0,
-        "avg_price": 3170.07
+        "net_value": -173742374000.0,
+        "avg_price": 3127.02
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -262526042000.0,
-        "avg_price": 3157.75
+        "net_value": -148004377000.0,
+        "avg_price": 3122.41
       },
       {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -235316930000.0,
-        "avg_price": 3167.21
+        "net_value": -102496263000.0,
+        "avg_price": 3150.15
       },
       {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
+        "code": "YU",
+        "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -134889272000.0,
-        "avg_price": 3184.64
+        "net_value": -66514328000.0,
+        "avg_price": 3136.18
       },
       {
-        "code": "AI",
-        "name": "Kay Hian Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -43738079000.0,
-        "avg_price": 3168.83
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -53778765000.0,
+        "avg_price": 3149.67
       }
     ]
   },

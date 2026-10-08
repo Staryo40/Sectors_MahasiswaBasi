@@ -4,8 +4,8 @@
     "symbol": "EXCL",
     "name": "PT XLSMART Telecom Sejahtera Tbk",
     "sector": "Infrastructures",
-    "rank": 44,
-    "flow_score": -48.2,
+    "rank": 45,
+    "flow_score": -49.1,
     "label": "strong_distribution",
     "components": [
       {
@@ -22,15 +22,15 @@
       },
       {
         "key": "broker_concentration",
-        "value": 0.0796,
+        "value": 0.0181,
         "weight": 0.25,
-        "contribution": 1.99
+        "contribution": 0.45
       },
       {
         "key": "institutional_net",
-        "value": -0.3474,
+        "value": -0.3068,
         "weight": 0.15,
-        "contribution": -5.21
+        "contribution": -4.6
       },
       {
         "key": "divergence",
@@ -67,28 +67,28 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 35
+          "share_pct": 31
         },
-        "text_en": "Institutional brokers show net distribution, 35% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 31% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 2380.0,
-    "change_1d": -0.0083,
-    "return_10d": -0.048,
-    "volume_ratio": 0.66,
-    "rank_prev": 44,
-    "flow_score_prev": -48.9
+    "close": 2340.0,
+    "change_1d": -0.0209,
+    "return_10d": -0.041,
+    "volume_ratio": 1.17,
+    "rank_prev": 45,
+    "flow_score_prev": -46.6
   },
   "investor": {
     "symbol": "EXCL",
     "name": "PT XLSMART Telecom Sejahtera Tbk",
     "sector": "Infrastructures",
-    "rank": 38,
-    "investor_score": 39.75036421911422,
+    "rank": 41,
+    "investor_score": 39.35263694638695,
     "pillars": {
       "quality": 27.06293706293706,
       "valuation": 50.075757575757585,
-      "slow_flow": 46.875
+      "slow_flow": 45.73863636363637
     },
     "components": [
       {
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0026779597071432686,
-        "percentile": 0.4318181818181818
+        "raw": -0.0031610371566204018,
+        "percentile": 0.38636363636363635
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.00431514568830591,
+        "raw": -0.00488287047110557,
         "percentile": 0.4318181818181818
       },
       {
@@ -507,6 +507,21 @@
         "date": "2026-10-02",
         "close": 2380.0,
         "volume": 4458600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2320.0,
+        "volume": 4636900.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2390.0,
+        "volume": 3064400.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2340.0,
+        "volume": 7874900.0
       }
     ],
     "foreign_flow": [
@@ -887,21 +902,27 @@
         "net": -3812556000.0,
         "cum": -186913438000.0,
         "share": 0.4043
+      },
+      {
+        "date": "2026-10-05",
+        "net": -7706687000.0,
+        "cum": -194620125000.0,
+        "share": 0.4413
+      },
+      {
+        "date": "2026-10-06",
+        "net": -2578871000.0,
+        "cum": -197198996000.0,
+        "share": 0.2616
+      },
+      {
+        "date": "2026-10-07",
+        "net": -10751120000.0,
+        "cum": -207950116000.0,
+        "share": 0.4139
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -26.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -24.9
-      },
-      {
-        "date": "2026-09-09",
-        "score": -24.7
-      },
       {
         "date": "2026-09-10",
         "score": -30.2
@@ -969,6 +990,18 @@
       {
         "date": "2026-10-02",
         "score": -48.2
+      },
+      {
+        "date": "2026-10-05",
+        "score": -46.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": -46.6
+      },
+      {
+        "date": "2026-10-07",
+        "score": -49.1
       }
     ],
     "holder_mix": [
@@ -1035,40 +1068,40 @@
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 20744853000.0,
-        "avg_price": 2398.37
-      },
-      {
-        "code": "DX",
-        "name": "Bahana Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 15403196000.0,
-        "avg_price": 2365.15
+        "net_value": 16937141000.0,
+        "avg_price": 2388.32
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 11325158000.0,
-        "avg_price": 2401.86
+        "net_value": 12349527000.0,
+        "avg_price": 2393.09
       },
       {
         "code": "AZ",
         "name": "Sucor Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 10531913000.0,
-        "avg_price": 2397.94
+        "net_value": 10702397000.0,
+        "avg_price": 2395.65
       },
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
+        "code": "DX",
+        "name": "Bahana Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 6121827000.0,
-        "avg_price": 2369.94
+        "net_value": 10380049000.0,
+        "avg_price": 2335.62
+      },
+      {
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 7375497000.0,
+        "avg_price": 2390.38
       }
     ],
     "sellers": [
@@ -1077,40 +1110,40 @@
         "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -16909980000.0,
-        "avg_price": 2390.54
+        "net_value": -14835317000.0,
+        "avg_price": 2369.29
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -11906221000.0,
-        "avg_price": 2385.68
-      },
-      {
-        "code": "BK",
-        "name": "J.P. Morgan Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -11653682000.0,
-        "avg_price": 2395.35
+        "net_value": -12937140000.0,
+        "avg_price": 2362.44
       },
       {
         "code": "SS",
         "name": "Supra Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": false,
-        "net_value": -8840842000.0,
+        "net_value": -10794217000.0,
         "avg_price": 2400.26
       },
       {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
+        "code": "IF",
+        "name": "Samuel Sekuritas Indonesia",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -10693528000.0,
+        "avg_price": 2364.56
+      },
+      {
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -8560411000.0,
-        "avg_price": 2392.65
+        "net_value": -10456527000.0,
+        "avg_price": 2371.06
       }
     ]
   },

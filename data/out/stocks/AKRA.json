@@ -4,39 +4,39 @@
     "symbol": "AKRA",
     "name": "PT AKR Corporindo Tbk.",
     "sector": "Energy",
-    "rank": 45,
-    "flow_score": -50.2,
-    "label": "strong_distribution",
+    "rank": 41,
+    "flow_score": -38.0,
+    "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.68,
+        "value": -0.5353,
         "weight": 0.3,
-        "contribution": -20.4
+        "contribution": -16.06
       },
       {
         "key": "foreign_streak",
-        "value": -1.0,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": -15.0
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.0745,
+        "value": -0.068,
         "weight": 0.25,
-        "contribution": -1.86
+        "contribution": -1.7
       },
       {
         "key": "institutional_net",
-        "value": -0.5278,
+        "value": -0.6151,
         "weight": 0.15,
-        "contribution": -7.92
+        "contribution": -9.23
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.3016,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -3.02
       },
       {
         "key": "insider",
@@ -45,50 +45,52 @@
         "contribution": -5.0
       }
     ],
-    "flags": [],
+    "flags": [
+      "divergence_distribution"
+    ],
     "reasons": [
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 2.0
+          "sigma": 1.6
         },
-        "text_en": "5-day net foreign outflow is 2 standard deviations from this stock's norm"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 10,
-          "direction": "out"
-        },
-        "text_en": "Net foreign outflow for at least 10 trading days in a row"
+        "text_en": "5-day net foreign outflow is 1.6 standard deviations from this stock's norm"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 53
+          "share_pct": 62
         },
-        "text_en": "Institutional brokers show net distribution, 53% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 62% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "INSIDER_ACTIVITY",
+        "params": {
+          "direction": "distribution",
+          "ratio": -1.0
+        },
+        "text_en": "Insider filings in the last 30 days lean toward disposals"
       }
     ],
-    "close": 1460.0,
-    "change_1d": 0.0069,
-    "return_10d": -0.0068,
-    "volume_ratio": 1.04,
-    "rank_prev": 45,
-    "flow_score_prev": -50.1
+    "close": 1500.0,
+    "change_1d": -0.0132,
+    "return_10d": 0.0274,
+    "volume_ratio": 0.43,
+    "rank_prev": 42,
+    "flow_score_prev": -39.4
   },
   "investor": {
     "symbol": "AKRA",
     "name": "PT AKR Corporindo Tbk.",
     "sector": "Energy",
     "rank": 21,
-    "investor_score": 49.36189997018486,
+    "investor_score": 49.56076360654849,
     "pillars": {
       "quality": 55.37296037296037,
       "valuation": 55.95313601127555,
-      "slow_flow": 37.784090909090914
+      "slow_flow": 38.35227272727273
     },
     "components": [
       {
@@ -142,13 +144,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.005244038585251492,
-        "percentile": 0.20454545454545456
+        "raw": -0.004871662045659665,
+        "percentile": 0.22727272727272727
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.0041439077374441574,
+        "raw": -0.004400850629682882,
         "percentile": 0.45454545454545453
       },
       {
@@ -191,7 +193,7 @@
         "text_en": "Trailing dividend yield is 6.85%."
       }
     ],
-    "rank_prev": 27
+    "rank_prev": 20
   },
   "series": {
     "price": [
@@ -509,6 +511,21 @@
         "date": "2026-10-02",
         "close": 1460.0,
         "volume": 16910600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 1500.0,
+        "volume": 8396500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1520.0,
+        "volume": 15241400.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1500.0,
+        "volume": 6235500.0
       }
     ],
     "foreign_flow": [
@@ -889,21 +906,27 @@
         "net": -7468676500.0,
         "cum": -121446635000.0,
         "share": 0.4907
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": -121446635000.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": -9769250500.0,
+        "cum": -131215885500.0,
+        "share": 0.4275
+      },
+      {
+        "date": "2026-10-07",
+        "net": -1294659500.0,
+        "cum": -132510545000.0,
+        "share": 0.6633
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -30.4
-      },
-      {
-        "date": "2026-09-08",
-        "score": -12.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": -31.3
-      },
       {
         "date": "2026-09-10",
         "score": -31.5
@@ -971,6 +994,18 @@
       {
         "date": "2026-10-02",
         "score": -50.2
+      },
+      {
+        "date": "2026-10-05",
+        "score": -37.0
+      },
+      {
+        "date": "2026-10-06",
+        "score": -39.4
+      },
+      {
+        "date": "2026-10-07",
+        "score": -38.0
       }
     ],
     "holder_mix": [
@@ -1037,40 +1072,40 @@
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 20475446500.0,
-        "avg_price": 1461.02
+        "net_value": 17236276500.0,
+        "avg_price": 1462.1
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 19766466500.0,
-        "avg_price": 1459.52
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 15525799500.0,
-        "avg_price": 1461.57
+        "net_value": 14681825500.0,
+        "avg_price": 1459.81
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 13444201500.0,
-        "avg_price": 1458.91
+        "net_value": 10206543000.0,
+        "avg_price": 1457.26
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 9998545500.0,
+        "avg_price": 1459.07
       },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 5333171500.0,
-        "avg_price": 1467.1
+        "net_value": 5010394500.0,
+        "avg_price": 1478.39
       }
     ],
     "sellers": [
@@ -1079,40 +1114,40 @@
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -36642428500.0,
-        "avg_price": 1461.25
+        "net_value": -26530028500.0,
+        "avg_price": 1465.96
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -16920640000.0,
-        "avg_price": 1464.07
+        "net_value": -16069311500.0,
+        "avg_price": 1470.62
       },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -11184906500.0,
-        "avg_price": 1464.92
+        "net_value": -5667761000.0,
+        "avg_price": 1467.36
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -4953910500.0,
-        "avg_price": 1477.19
+        "net_value": -4495406500.0,
+        "avg_price": 1501.23
       },
       {
-        "code": "AG",
-        "name": "Kiwoom Sekuritas Indonesia",
+        "code": "BK",
+        "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -4528874000.0,
-        "avg_price": 1464.08
+        "net_value": -4222241500.0,
+        "avg_price": 1473.66
       }
     ]
   },

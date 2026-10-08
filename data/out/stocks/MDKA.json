@@ -4,33 +4,33 @@
     "symbol": "MDKA",
     "name": "PT Merdeka Copper Gold Tbk",
     "sector": "Basic Materials",
-    "rank": 33,
-    "flow_score": -27.5,
+    "rank": 30,
+    "flow_score": -17.7,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.5636,
+        "value": -0.2582,
         "weight": 0.3,
-        "contribution": -16.91
+        "contribution": -7.74
       },
       {
         "key": "foreign_streak",
-        "value": -0.7,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": -10.5
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.2018,
+        "value": -0.109,
         "weight": 0.25,
-        "contribution": 5.05
+        "contribution": -2.72
       },
       {
         "key": "institutional_net",
-        "value": -0.3403,
+        "value": -0.382,
         "weight": 0.15,
-        "contribution": -5.1
+        "contribution": -5.73
       },
       {
         "key": "divergence",
@@ -51,39 +51,39 @@
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 1.7
+          "sigma": 0.8
         },
-        "text_en": "5-day net foreign outflow is 1.7 standard deviations from this stock's norm"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 7,
-          "direction": "out"
-        },
-        "text_en": "Net foreign outflow for 7 trading days in a row"
+        "text_en": "5-day net foreign outflow is 0.8 standard deviations from this stock's norm"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 34
+          "share_pct": 38
         },
-        "text_en": "Institutional brokers show net distribution, 34% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 38% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "BROKER_CONCENTRATION",
+        "params": {
+          "direction": "distribution",
+          "value": -0.11
+        },
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
       }
     ],
-    "close": 2850.0,
-    "change_1d": 0.0106,
-    "return_10d": -0.0172,
-    "volume_ratio": 0.46,
-    "rank_prev": 32,
-    "flow_score_prev": -27.5
+    "close": 2920.0,
+    "change_1d": -0.0168,
+    "return_10d": -0.0519,
+    "volume_ratio": 0.29,
+    "rank_prev": 22,
+    "flow_score_prev": -14.0
   },
   "investor": {
     "symbol": "MDKA",
     "name": "PT Merdeka Copper Gold Tbk",
     "sector": "Basic Materials",
-    "rank": 35,
+    "rank": 34,
     "investor_score": 43.94550773838564,
     "pillars": {
       "quality": 38.31002331002331,
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 3.081696800650965e-05,
+        "raw": -0.0001118986775855671,
         "percentile": 0.7954545454545454
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.000847116215885173,
+        "raw": -0.0008808727530227191,
         "percentile": 0.7272727272727273
       },
       {
@@ -175,14 +175,6 @@
         "text_en": "Institutional share rose by 0.35 percentage points across the last 3 monthly snapshots."
       },
       {
-        "code": "FOREIGN_INFLOW_LONG",
-        "params": {
-          "days": 20,
-          "net_to_market_cap": 3.081696800650965e-05
-        },
-        "text_en": "Net foreign accumulation equals 0.003% of market cap over available history in the 20-trading-day window."
-      },
-      {
         "code": "DIVIDEND_YIELD",
         "params": {
           "yield": 0.00431059352138586
@@ -190,7 +182,7 @@
         "text_en": "Trailing dividend yield is 0.43%."
       }
     ],
-    "rank_prev": 31
+    "rank_prev": 35
   },
   "series": {
     "price": [
@@ -508,6 +500,21 @@
         "date": "2026-10-02",
         "close": 2850.0,
         "volume": 17296400.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2920.0,
+        "volume": 34736500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2970.0,
+        "volume": 13585700.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2920.0,
+        "volume": 10563400.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +895,27 @@
         "net": -9631843000.0,
         "cum": -59084665000.0,
         "share": 0.4537
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": -59084665000.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": 492411000.0,
+        "cum": -58592254000.0,
+        "share": 0.343
+      },
+      {
+        "date": "2026-10-07",
+        "net": -4355893000.0,
+        "cum": -62948147000.0,
+        "share": 0.2944
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -23.3
-      },
-      {
-        "date": "2026-09-08",
-        "score": -1.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": -5.1
-      },
       {
         "date": "2026-09-10",
         "score": -5.9
@@ -970,6 +983,18 @@
       {
         "date": "2026-10-02",
         "score": -27.5
+      },
+      {
+        "date": "2026-10-05",
+        "score": -15.1
+      },
+      {
+        "date": "2026-10-06",
+        "score": -14.0
+      },
+      {
+        "date": "2026-10-07",
+        "score": -17.7
       }
     ],
     "holder_mix": [
@@ -1032,86 +1057,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "PD",
-        "name": "Indo Premier Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 62989470000.0,
-        "avg_price": 2882.76
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 45348892000.0,
-        "avg_price": 2981.32
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 42346214000.0,
-        "avg_price": 3016.47
-      },
-      {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 29392532000.0,
-        "avg_price": 3010.56
+        "net_value": 41931142000.0,
+        "avg_price": 3009.62
+      },
+      {
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 35806748000.0,
+        "avg_price": 2886.44
       },
       {
         "code": "NI",
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 18499211000.0,
-        "avg_price": 3003.45
+        "net_value": 15231307000.0,
+        "avg_price": 2964.93
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 13228608000.0,
+        "avg_price": 3087.28
+      },
+      {
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 8789453000.0,
+        "avg_price": 2956.91
       }
     ],
     "sellers": [
-      {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -45204749000.0,
-        "avg_price": 3037.39
-      },
-      {
-        "code": "RF",
-        "name": "Buana Capital Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": false,
-        "net_value": -28130858000.0,
-        "avg_price": 2848.25
-      },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -26741568000.0,
-        "avg_price": 2941.11
-      },
-      {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": -25819950000.0,
-        "avg_price": 2999.28
+        "net_value": -56592816000.0,
+        "avg_price": 2915.9
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -15997402000.0,
-        "avg_price": 2931.0
+        "net_value": -51593937000.0,
+        "avg_price": 2940.32
+      },
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -7519887000.0,
+        "avg_price": 3000.69
+      },
+      {
+        "code": "DP",
+        "name": "DBS Vickers Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -6970931000.0,
+        "avg_price": 3069.86
+      },
+      {
+        "code": "KZ",
+        "name": "CLSA Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -4398611000.0,
+        "avg_price": 2948.72
       }
     ]
   },

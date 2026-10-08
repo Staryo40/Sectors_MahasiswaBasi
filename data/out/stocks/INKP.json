@@ -4,39 +4,39 @@
     "symbol": "INKP",
     "name": "Indah Kiat Pulp & Paper Tbk",
     "sector": "Basic Materials",
-    "rank": 14,
-    "flow_score": -5.5,
+    "rank": 15,
+    "flow_score": -6.2,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.0479,
+        "value": 0.0573,
         "weight": 0.3,
-        "contribution": -1.44
+        "contribution": 1.72
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.0327,
+        "value": 0.0181,
         "weight": 0.25,
-        "contribution": 0.82
+        "contribution": 0.45
       },
       {
         "key": "institutional_net",
-        "value": -0.3273,
+        "value": -0.4825,
         "weight": 0.15,
-        "contribution": -4.91
+        "contribution": -7.24
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": 0.0377,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": 0.38
       },
       {
         "key": "insider",
@@ -51,28 +51,28 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 33
+          "share_pct": 48
         },
-        "text_en": "Institutional brokers show net distribution, 33% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 48% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 8050.0,
-    "change_1d": 0.0094,
-    "return_10d": -0.0667,
-    "volume_ratio": 0.22,
-    "rank_prev": 12,
-    "flow_score_prev": -3.0
+    "close": 8275.0,
+    "change_1d": -0.0207,
+    "return_10d": -0.0207,
+    "volume_ratio": 0.28,
+    "rank_prev": 11,
+    "flow_score_prev": -2.8
   },
   "investor": {
     "symbol": "INKP",
     "name": "Indah Kiat Pulp & Paper Tbk",
     "sector": "Basic Materials",
     "rank": 3,
-    "investor_score": 67.06421945302759,
+    "investor_score": 67.46194672575487,
     "pillars": {
       "quality": 54.731934731934736,
       "valuation": 76.08350951374207,
-      "slow_flow": 74.7159090909091
+      "slow_flow": 75.85227272727273
     },
     "components": [
       {
@@ -126,13 +126,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0010279726455197909,
-        "percentile": 0.8863636363636364
+        "raw": 0.0008781848696843914,
+        "percentile": 0.9318181818181818
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.0013812155152430278,
+        "raw": 0.0013436621256640528,
         "percentile": 0.8181818181818182
       },
       {
@@ -162,9 +162,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 20,
-          "net_to_market_cap": 0.0010279726455197909
+          "net_to_market_cap": 0.0008781848696843914
         },
-        "text_en": "Net foreign accumulation equals 0.103% of market cap over available history in the 20-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.088% of market cap over available history in the 20-trading-day window."
       },
       {
         "code": "HOLDER_SHIFT_INSTITUTIONAL",
@@ -175,7 +175,7 @@
         "text_en": "Institutional share rose by 0.23 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 2
+    "rank_prev": 3
   },
   "series": {
     "price": [
@@ -493,6 +493,21 @@
         "date": "2026-10-02",
         "close": 8050.0,
         "volume": 919600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 8150.0,
+        "volume": 1969500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 8450.0,
+        "volume": 2435500.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 8275.0,
+        "volume": 995900.0
       }
     ],
     "foreign_flow": [
@@ -873,21 +888,27 @@
         "net": 0.0,
         "cum": 60830682500.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": 60830682500.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": 1077910000.0,
+        "cum": 61908592500.0,
+        "share": 0.3849
+      },
+      {
+        "date": "2026-10-07",
+        "net": -1077805000.0,
+        "cum": 60830787500.0,
+        "share": 0.3991
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 8.6
-      },
-      {
-        "date": "2026-09-08",
-        "score": 18.4
-      },
-      {
-        "date": "2026-09-09",
-        "score": 4.3
-      },
       {
         "date": "2026-09-10",
         "score": -2.9
@@ -955,6 +976,18 @@
       {
         "date": "2026-10-02",
         "score": -5.5
+      },
+      {
+        "date": "2026-10-05",
+        "score": -7.0
+      },
+      {
+        "date": "2026-10-06",
+        "score": -2.8
+      },
+      {
+        "date": "2026-10-07",
+        "score": -6.2
       }
     ],
     "holder_mix": [
@@ -1021,82 +1054,82 @@
         "name": "Sinarmas Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 38908207500.0,
-        "avg_price": 8244.29
+        "net_value": 28936305000.0,
+        "avg_price": 8159.02
       },
       {
         "code": "PP",
         "name": "Aldiracita Sekuritas Indonesia",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 31319667500.0,
-        "avg_price": 8246.58
+        "net_value": 20666470000.0,
+        "avg_price": 8141.53
+      },
+      {
+        "code": "RF",
+        "name": "Buana Capital Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": 4999270000.0,
+        "avg_price": 8245.54
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 8954860000.0,
-        "avg_price": 8302.2
-      },
-      {
-        "code": "NI",
-        "name": "BNI Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 7683445000.0,
-        "avg_price": 8346.24
+        "net_value": 4397707500.0,
+        "avg_price": 8251.43
       },
       {
         "code": "AG",
         "name": "Kiwoom Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 5651255000.0,
-        "avg_price": 8212.01
+        "net_value": 3819700000.0,
+        "avg_price": 8197.68
       }
     ],
     "sellers": [
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -29327257500.0,
-        "avg_price": 8335.04
-      },
       {
         "code": "ZP",
         "name": "Maybank Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -25745307500.0,
-        "avg_price": 8248.84
+        "net_value": -26479715000.0,
+        "avg_price": 8217.77
       },
       {
         "code": "BK",
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -19100082500.0,
-        "avg_price": 8270.98
+        "net_value": -14754995000.0,
+        "avg_price": 8191.97
       },
       {
         "code": "IF",
         "name": "Samuel Sekuritas Indonesia",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -12752695000.0,
-        "avg_price": 8346.42
+        "net_value": -11429467500.0,
+        "avg_price": 8281.6
       },
       {
         "code": "DR",
         "name": "RHB Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -9717192500.0,
-        "avg_price": 8030.0
+        "net_value": -9851175000.0,
+        "avg_price": 8033.66
+      },
+      {
+        "code": "TP",
+        "name": "OCBC Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -5427792500.0,
+        "avg_price": 8221.73
       }
     ]
   },

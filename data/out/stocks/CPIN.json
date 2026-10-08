@@ -4,33 +4,33 @@
     "symbol": "CPIN",
     "name": "Charoen Pokphand Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 25,
-    "flow_score": -17.2,
+    "rank": 26,
+    "flow_score": -15.2,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.125,
+        "value": -0.056,
         "weight": 0.3,
-        "contribution": -3.75
+        "contribution": -1.68
       },
       {
         "key": "foreign_streak",
-        "value": 0.0,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 0.0
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": -0.2796,
+        "value": -0.2149,
         "weight": 0.25,
-        "contribution": -6.99
+        "contribution": -5.37
       },
       {
         "key": "institutional_net",
-        "value": -0.4778,
+        "value": -0.4899,
         "weight": 0.15,
-        "contribution": -7.17
+        "contribution": -7.35
       },
       {
         "key": "divergence",
@@ -51,44 +51,36 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 48
+          "share_pct": 49
         },
-        "text_en": "Institutional brokers show net distribution, 48% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 49% of net traded value over the last 2 weeks"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "distribution",
-          "value": -0.28
+          "value": -0.21
         },
         "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
-      },
-      {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "out",
-          "sigma": 0.4
-        },
-        "text_en": "5-day net foreign outflow is 0.4 standard deviations from this stock's norm"
       }
     ],
-    "close": 2910.0,
-    "change_1d": 0.0104,
-    "return_10d": -0.0762,
-    "volume_ratio": 0.58,
-    "rank_prev": 33,
-    "flow_score_prev": -28.0
+    "close": 2930.0,
+    "change_1d": -0.0034,
+    "return_10d": -0.0487,
+    "volume_ratio": 0.26,
+    "rank_prev": 21,
+    "flow_score_prev": -13.2
   },
   "investor": {
     "symbol": "CPIN",
     "name": "Charoen Pokphand Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 27,
-    "investor_score": 47.27490919932781,
+    "rank": 25,
+    "investor_score": 47.67263647205508,
     "pillars": {
       "quality": 63.21678321678322,
       "valuation": 48.97551092318534,
-      "slow_flow": 27.840909090909093
+      "slow_flow": 28.97727272727273
     },
     "components": [
       {
@@ -142,14 +134,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.012440726197017573,
-        "percentile": 0.022727272727272728
+        "raw": -0.008608409749461664,
+        "percentile": 0.045454545454545456
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.029588645815913348,
-        "percentile": 0.022727272727272728
+        "raw": -0.029608038210769898,
+        "percentile": 0.045454545454545456
       },
       {
         "key": "holder_shift",
@@ -510,6 +502,21 @@
         "date": "2026-10-02",
         "close": 2910.0,
         "volume": 14460900.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2910.0,
+        "volume": 10477400.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2940.0,
+        "volume": 9709900.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2930.0,
+        "volume": 5466900.0
       }
     ],
     "foreign_flow": [
@@ -890,21 +897,27 @@
         "net": 0.0,
         "cum": -1411916327000.0,
         "share": 0.0
+      },
+      {
+        "date": "2026-10-05",
+        "net": -4805509000.0,
+        "cum": -1416721836000.0,
+        "share": 0.4521
+      },
+      {
+        "date": "2026-10-06",
+        "net": 292071000.0,
+        "cum": -1416429765000.0,
+        "share": 0.3519
+      },
+      {
+        "date": "2026-10-07",
+        "net": -6122184000.0,
+        "cum": -1422551949000.0,
+        "share": 0.3479
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 2.3
-      },
-      {
-        "date": "2026-09-08",
-        "score": -2.7
-      },
-      {
-        "date": "2026-09-09",
-        "score": -10.9
-      },
       {
         "date": "2026-09-10",
         "score": -27.0
@@ -972,6 +985,18 @@
       {
         "date": "2026-10-02",
         "score": -17.2
+      },
+      {
+        "date": "2026-10-05",
+        "score": -16.9
+      },
+      {
+        "date": "2026-10-06",
+        "score": -13.2
+      },
+      {
+        "date": "2026-10-07",
+        "score": -15.2
       }
     ],
     "holder_mix": [
@@ -1034,44 +1059,44 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 23381634000.0,
-        "avg_price": 3016.4
-      },
-      {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 22038029000.0,
-        "avg_price": 3027.88
+        "net_value": 21772212000.0,
+        "avg_price": 2967.38
+      },
+      {
+        "code": "SQ",
+        "name": "BCA Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 17984909000.0,
+        "avg_price": 2980.97
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 21040927000.0,
-        "avg_price": 3033.31
+        "net_value": 15530392000.0,
+        "avg_price": 2980.92
       },
       {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 18234856000.0,
-        "avg_price": 3072.65
+        "net_value": 10829989000.0,
+        "avg_price": 2964.79
       },
       {
-        "code": "DX",
-        "name": "Bahana Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 16691616000.0,
-        "avg_price": 3128.08
+        "code": "KK",
+        "name": "Phillip Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 7358266000.0,
+        "avg_price": 2975.93
       }
     ],
     "sellers": [
@@ -1080,40 +1105,40 @@
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -52178739000.0,
-        "avg_price": 3018.84
-      },
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -41453555000.0,
-        "avg_price": 3063.55
-      },
-      {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -24429890000.0,
-        "avg_price": 3022.8
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -16908329000.0,
-        "avg_price": 3039.74
+        "net_value": -36078199000.0,
+        "avg_price": 2967.68
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -13329670000.0,
-        "avg_price": 2992.94
+        "net_value": -27197698000.0,
+        "avg_price": 2958.15
+      },
+      {
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -22276581000.0,
+        "avg_price": 2975.92
+      },
+      {
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -13899788000.0,
+        "avg_price": 3025.44
+      },
+      {
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -9793652000.0,
+        "avg_price": 2982.28
       }
     ]
   },

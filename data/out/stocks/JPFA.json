@@ -4,33 +4,33 @@
     "symbol": "JPFA",
     "name": "JAPFA Comfeed Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
-    "rank": 39,
-    "flow_score": -33.1,
+    "rank": 37,
+    "flow_score": -31.2,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.57,
+        "value": -0.5503,
         "weight": 0.3,
-        "contribution": -17.1
+        "contribution": -16.51
       },
       {
         "key": "foreign_streak",
-        "value": -0.4,
+        "value": -0.2,
         "weight": 0.15,
-        "contribution": -6.0
+        "contribution": -3.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.1449,
+        "value": -0.1519,
         "weight": 0.25,
-        "contribution": -3.62
+        "contribution": -3.8
       },
       {
         "key": "institutional_net",
-        "value": -0.427,
+        "value": -0.524,
         "weight": 0.15,
-        "contribution": -6.41
+        "contribution": -7.86
       },
       {
         "key": "divergence",
@@ -59,36 +59,36 @@
         "code": "INSTITUTIONAL_NET",
         "params": {
           "direction": "distribution",
-          "share_pct": 43
+          "share_pct": 52
         },
-        "text_en": "Institutional brokers show net distribution, 43% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 52% of net traded value over the last 2 weeks"
       },
       {
-        "code": "FOREIGN_STREAK",
+        "code": "BROKER_CONCENTRATION",
         "params": {
-          "days": 4,
-          "direction": "out"
+          "direction": "distribution",
+          "value": -0.15
         },
-        "text_en": "Net foreign outflow for 4 trading days in a row"
+        "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
       }
     ],
-    "close": 1995.0,
-    "change_1d": -0.0221,
-    "return_10d": -0.125,
-    "volume_ratio": 1.14,
-    "rank_prev": 31,
-    "flow_score_prev": -25.4
+    "close": 2040.0,
+    "change_1d": 0.0099,
+    "return_10d": -0.0973,
+    "volume_ratio": 0.51,
+    "rank_prev": 40,
+    "flow_score_prev": -36.0
   },
   "investor": {
     "symbol": "JPFA",
     "name": "JAPFA Comfeed Indonesia Tbk",
     "sector": "Consumer Non-Cyclicals",
     "rank": 15,
-    "investor_score": 53.156517658697894,
+    "investor_score": 54.349699476879714,
     "pillars": {
       "quality": 50.52447552447553,
       "valuation": 81.27554615926708,
-      "slow_flow": 36.07954545454545
+      "slow_flow": 39.48863636363637
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.004079918976484234,
-        "percentile": 0.2727272727272727
+        "raw": -0.0027497306738511374,
+        "percentile": 0.4318181818181818
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.012351845541542533,
-        "percentile": 0.22727272727272727
+        "raw": -0.012362003545871114,
+        "percentile": 0.20454545454545456
       },
       {
         "key": "holder_shift",
@@ -190,7 +190,7 @@
         "text_en": "Institutional share fell by 0.11 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 17
+    "rank_prev": 15
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 1995.0,
         "volume": 13968600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 2010.0,
+        "volume": 4395400.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 2020.0,
+        "volume": 7980200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 2040.0,
+        "volume": 5730300.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -8482116000.0,
         "cum": -288965467000.0,
         "share": 0.4408
+      },
+      {
+        "date": "2026-10-05",
+        "net": 0.0,
+        "cum": -288965467000.0,
+        "share": 0.0
+      },
+      {
+        "date": "2026-10-06",
+        "net": -6434428000.0,
+        "cum": -295399895000.0,
+        "share": 0.5963
+      },
+      {
+        "date": "2026-10-07",
+        "net": -326592000.0,
+        "cum": -295726487000.0,
+        "share": 0.7501
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -47.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -50.0
-      },
-      {
-        "date": "2026-09-09",
-        "score": -50.0
-      },
       {
         "date": "2026-09-10",
         "score": -50.0
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -33.1
+      },
+      {
+        "date": "2026-10-05",
+        "score": -29.6
+      },
+      {
+        "date": "2026-10-06",
+        "score": -36.0
+      },
+      {
+        "date": "2026-10-07",
+        "score": -31.2
       }
     ],
     "holder_mix": [
@@ -1036,40 +1069,40 @@
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 10789282500.0,
-        "avg_price": 2079.95
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 9467665000.0,
-        "avg_price": 2129.97
+        "net_value": 9974967500.0,
+        "avg_price": 2057.13
       },
       {
         "code": "LG",
         "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 7374623000.0,
-        "avg_price": 2095.11
+        "net_value": 8459971000.0,
+        "avg_price": 2086.4
       },
       {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
         "is_foreign": false,
-        "net_value": 3893522000.0,
-        "avg_price": 2150.27
+        "net_value": 4988223000.0,
+        "avg_price": 2082.19
       },
       {
-        "code": "OD",
-        "name": "BRI Danareksa Sekuritas",
-        "cohort": "mixed",
+        "code": "BB",
+        "name": "Verdhana Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 3633264000.0,
+        "avg_price": 2049.93
+      },
+      {
+        "code": "YJ",
+        "name": "Lotus Andalan Sekuritas",
+        "cohort": "institutional",
         "is_foreign": false,
-        "net_value": 3870099500.0,
-        "avg_price": 2087.21
+        "net_value": 3091568000.0,
+        "avg_price": 2029.17
       }
     ],
     "sellers": [
@@ -1078,24 +1111,24 @@
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -13839873000.0,
-        "avg_price": 2063.16
+        "net_value": -16357905000.0,
+        "avg_price": 2058.99
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -13550979500.0,
-        "avg_price": 2112.12
+        "net_value": -8451585500.0,
+        "avg_price": 2076.67
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -9608909500.0,
-        "avg_price": 2122.79
+        "net_value": -7004058500.0,
+        "avg_price": 2108.23
       },
       {
         "code": "SS",
@@ -1110,8 +1143,8 @@
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -6294477000.0,
-        "avg_price": 2039.37
+        "net_value": -6028992000.0,
+        "avg_price": 2032.81
       }
     ]
   },

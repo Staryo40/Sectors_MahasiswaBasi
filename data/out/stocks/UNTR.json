@@ -4,39 +4,39 @@
     "symbol": "UNTR",
     "name": "United Tractors Tbk",
     "sector": "Industrials",
-    "rank": 1,
-    "flow_score": 25.5,
-    "label": "accumulation",
+    "rank": 27,
+    "flow_score": -16.3,
+    "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.6084,
+        "value": -0.5976,
         "weight": 0.3,
-        "contribution": 18.25
+        "contribution": -17.93
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": -0.3,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": -4.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.1168,
+        "value": 0.1995,
         "weight": 0.25,
-        "contribution": 2.92
+        "contribution": 4.99
       },
       {
         "key": "institutional_net",
-        "value": 0.1854,
+        "value": 0.206,
         "weight": 0.15,
-        "contribution": 2.78
+        "contribution": 3.09
       },
       {
         "key": "divergence",
-        "value": 0.0,
+        "value": -0.199,
         "weight": 0.1,
-        "contribution": 0.0
+        "contribution": -1.99
       },
       {
         "key": "insider",
@@ -50,45 +50,45 @@
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
-          "direction": "in",
+          "direction": "out",
           "sigma": 1.8
         },
-        "text_en": "5-day net foreign inflow is 1.8 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 1.8 standard deviations from this stock's norm"
       },
       {
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "accumulation",
-          "value": 0.12
+          "value": 0.2
         },
         "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
       },
       {
-        "code": "INSTITUTIONAL_NET",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "accumulation",
-          "share_pct": 19
+          "days": 3,
+          "direction": "out"
         },
-        "text_en": "Institutional brokers show net accumulation, 19% of net traded value over the last 2 weeks"
+        "text_en": "Net foreign outflow for 3 trading days in a row"
       }
     ],
-    "close": 26000.0,
-    "change_1d": -0.0133,
-    "return_10d": 0.0473,
-    "volume_ratio": 0.78,
+    "close": 25350.0,
+    "change_1d": -0.025,
+    "return_10d": 0.0389,
+    "volume_ratio": 0.84,
     "rank_prev": 2,
-    "flow_score_prev": 20.6
+    "flow_score_prev": 12.9
   },
   "investor": {
     "symbol": "UNTR",
     "name": "United Tractors Tbk",
     "sector": "Industrials",
-    "rank": 26,
-    "investor_score": 47.36649082506641,
+    "rank": 29,
+    "investor_score": 46.37217264324822,
     "pillars": {
       "quality": 29.976689976689975,
       "valuation": 44.85553206483439,
-      "slow_flow": 69.0340909090909
+      "slow_flow": 66.19318181818181
     },
     "components": [
       {
@@ -142,14 +142,14 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0014492187370364566,
-        "percentile": 0.9090909090909091
+        "raw": 0.0001755927309612129,
+        "percentile": 0.8409090909090909
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.0017383155275914049,
-        "percentile": 0.6818181818181818
+        "raw": -0.0025172388089646134,
+        "percentile": 0.6363636363636364
       },
       {
         "key": "holder_shift",
@@ -170,9 +170,9 @@
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
           "days": 20,
-          "net_to_market_cap": 0.0014492187370364566
+          "net_to_market_cap": 0.0001755927309612129
         },
-        "text_en": "Net foreign accumulation equals 0.145% of market cap over available history in the 20-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.018% of market cap over available history in the 20-trading-day window."
       },
       {
         "code": "DIVIDEND_YIELD",
@@ -190,7 +190,7 @@
         "text_en": "Institutional share fell by 0.01 percentage points across the last 3 monthly snapshots."
       }
     ],
-    "rank_prev": 38
+    "rank_prev": 26
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 26000.0,
         "volume": 2620600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 25600.0,
+        "volume": 3820000.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 26000.0,
+        "volume": 2475000.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 25350.0,
+        "volume": 2893400.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": 3342345000.0,
         "cum": -168587947500.0,
         "share": 0.7038
+      },
+      {
+        "date": "2026-10-05",
+        "net": -22911230000.0,
+        "cum": -191499177500.0,
+        "share": 0.6941
+      },
+      {
+        "date": "2026-10-06",
+        "net": -19133655000.0,
+        "cum": -210632832500.0,
+        "share": 0.4483
+      },
+      {
+        "date": "2026-10-07",
+        "net": -27394565000.0,
+        "cum": -238027397500.0,
+        "share": 0.6531
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 10.4
-      },
-      {
-        "date": "2026-09-08",
-        "score": 15.5
-      },
-      {
-        "date": "2026-09-09",
-        "score": 26.6
-      },
       {
         "date": "2026-09-10",
         "score": 30.7
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": 25.5
+      },
+      {
+        "date": "2026-10-05",
+        "score": 16.8
+      },
+      {
+        "date": "2026-10-06",
+        "score": 12.9
+      },
+      {
+        "date": "2026-10-07",
+        "score": -16.3
       }
     ],
     "holder_mix": [
@@ -1036,40 +1069,40 @@
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 99826222500.0,
-        "avg_price": 26451.35
-      },
-      {
-        "code": "AK",
-        "name": "UBS Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 80331992500.0,
-        "avg_price": 24771.66
-      },
-      {
-        "code": "TP",
-        "name": "OCBC Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 25569047500.0,
-        "avg_price": 24815.28
-      },
-      {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 23751742500.0,
-        "avg_price": 26140.35
+        "net_value": 82924210000.0,
+        "avg_price": 26573.55
       },
       {
         "code": "KZ",
         "name": "CLSA Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 15295847500.0,
-        "avg_price": 25126.09
+        "net_value": 80572907500.0,
+        "avg_price": 25303.3
+      },
+      {
+        "code": "RX",
+        "name": "Macquarie Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 77909430000.0,
+        "avg_price": 25754.87
+      },
+      {
+        "code": "NI",
+        "name": "BNI Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 14904695000.0,
+        "avg_price": 25015.24
+      },
+      {
+        "code": "PD",
+        "name": "Indo Premier Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 7803140000.0,
+        "avg_price": 25331.63
       }
     ],
     "sellers": [
@@ -1078,45 +1111,51 @@
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -57579795000.0,
-        "avg_price": 25183.08
+        "net_value": -72880432500.0,
+        "avg_price": 25488.63
       },
       {
         "code": "BB",
         "name": "Verdhana Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -56860220000.0,
-        "avg_price": 25173.53
-      },
-      {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -48250067500.0,
-        "avg_price": 24950.38
+        "net_value": -54295107500.0,
+        "avg_price": 25408.25
       },
       {
         "code": "CC",
         "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -38991432500.0,
-        "avg_price": 25203.57
+        "net_value": -33932555000.0,
+        "avg_price": 25459.85
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -28195462500.0,
+        "avg_price": 25260.39
       },
       {
         "code": "XL",
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": -13454282500.0,
-        "avg_price": 25747.07
+        "net_value": -19346500000.0,
+        "avg_price": 25946.64
       }
     ]
   },
   "filings": [],
-  "events": [],
+  "events": [
+    {
+      "date": "2026-10-07",
+      "type": "dividend_ex_date",
+      "detail": "dividend"
+    }
+  ],
   "fundamentals": [
     {
       "key": "roe_ttm",

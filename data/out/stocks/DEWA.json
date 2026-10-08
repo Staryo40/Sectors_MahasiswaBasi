@@ -4,39 +4,39 @@
     "symbol": "DEWA",
     "name": "Darma Henwa Tbk",
     "sector": "Energy",
-    "rank": 4,
-    "flow_score": 14.4,
+    "rank": 8,
+    "flow_score": -2.0,
     "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.1986,
+        "value": -0.0028,
         "weight": 0.3,
-        "contribution": 5.96
+        "contribution": -0.08
       },
       {
         "key": "foreign_streak",
-        "value": 0.2,
+        "value": -0.1,
         "weight": 0.15,
-        "contribution": 3.0
+        "contribution": -1.5
       },
       {
         "key": "broker_concentration",
-        "value": 0.1522,
+        "value": 0.026,
         "weight": 0.25,
-        "contribution": 3.8
+        "contribution": 0.65
       },
       {
         "key": "institutional_net",
-        "value": -0.0062,
+        "value": -0.0769,
         "weight": 0.15,
-        "contribution": -0.09
+        "contribution": -1.15
       },
       {
         "key": "divergence",
-        "value": 0.1754,
+        "value": 0.0116,
         "weight": 0.1,
-        "contribution": 1.75
+        "contribution": 0.12
       },
       {
         "key": "insider",
@@ -46,49 +46,24 @@
       }
     ],
     "flags": [],
-    "reasons": [
-      {
-        "code": "FOREIGN_INFLOW_5D",
-        "params": {
-          "direction": "in",
-          "sigma": 0.6
-        },
-        "text_en": "5-day net foreign inflow is 0.6 standard deviations from this stock's norm"
-      },
-      {
-        "code": "BROKER_CONCENTRATION",
-        "params": {
-          "direction": "accumulation",
-          "value": 0.15
-        },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
-      },
-      {
-        "code": "FOREIGN_STREAK",
-        "params": {
-          "days": 2,
-          "direction": "in"
-        },
-        "text_en": "Net foreign inflow for 2 trading days in a row"
-      }
-    ],
-    "close": 338.0,
-    "change_1d": 0.012,
-    "return_10d": -0.0865,
-    "volume_ratio": 0.97,
-    "rank_prev": 6,
-    "flow_score_prev": 7.4
+    "reasons": [],
+    "close": 358.0,
+    "change_1d": -0.0165,
+    "return_10d": -0.0579,
+    "volume_ratio": 0.8,
+    "rank_prev": 3,
+    "flow_score_prev": 9.8
   },
   "investor": {
     "symbol": "DEWA",
     "name": "Darma Henwa Tbk",
     "sector": "Energy",
-    "rank": 22,
-    "investor_score": 48.958260489510494,
+    "rank": 23,
+    "investor_score": 48.36166958041959,
     "pillars": {
       "quality": 63.64801864801865,
       "valuation": 57.803030303030305,
-      "slow_flow": 25.85227272727273
+      "slow_flow": 24.147727272727273
     },
     "components": [
       {
@@ -142,13 +117,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.002308792402339973,
-        "percentile": 0.4772727272727273
+        "raw": -0.002826810860469715,
+        "percentile": 0.4090909090909091
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.021146723936564044,
+        "raw": -0.02136370994451687,
         "percentile": 0.06818181818181818
       },
       {
@@ -189,7 +164,7 @@
         "text_en": "Trailing dividend yield is 0.44%."
       }
     ],
-    "rank_prev": 26
+    "rank_prev": 29
   },
   "series": {
     "price": [
@@ -507,6 +482,21 @@
         "date": "2026-10-02",
         "close": 338.0,
         "volume": 403372500.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 346.0,
+        "volume": 270544500.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 364.0,
+        "volume": 605407000.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 358.0,
+        "volume": 324091100.0
       }
     ],
     "foreign_flow": [
@@ -887,21 +877,27 @@
         "net": 14586075600.0,
         "cum": -290817207600.0,
         "share": 0.2158
+      },
+      {
+        "date": "2026-10-05",
+        "net": 3246301200.0,
+        "cum": -287570906400.0,
+        "share": 0.1969
+      },
+      {
+        "date": "2026-10-06",
+        "net": 4023549400.0,
+        "cum": -283547357000.0,
+        "share": 0.2135
+      },
+      {
+        "date": "2026-10-07",
+        "net": -27638609600.0,
+        "cum": -311185966600.0,
+        "share": 0.1913
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 2.0
-      },
-      {
-        "date": "2026-09-08",
-        "score": -13.7
-      },
-      {
-        "date": "2026-09-09",
-        "score": -6.1
-      },
       {
         "date": "2026-09-10",
         "score": -9.7
@@ -969,6 +965,18 @@
       {
         "date": "2026-10-02",
         "score": 14.4
+      },
+      {
+        "date": "2026-10-05",
+        "score": 16.7
+      },
+      {
+        "date": "2026-10-06",
+        "score": 9.8
+      },
+      {
+        "date": "2026-10-07",
+        "score": -2.0
       }
     ],
     "holder_mix": [
@@ -1035,40 +1043,40 @@
         "name": "Stockbit Sekuritas Digital",
         "cohort": "retail",
         "is_foreign": false,
-        "net_value": 42041528000.0,
-        "avg_price": 354.0
-      },
-      {
-        "code": "BK",
-        "name": "J.P. Morgan Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 31010222600.0,
-        "avg_price": 347.54
+        "net_value": 28736273200.0,
+        "avg_price": 352.1
       },
       {
         "code": "SQ",
         "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 28863661200.0,
-        "avg_price": 353.36
+        "net_value": 17274623400.0,
+        "avg_price": 353.38
       },
       {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 13831375400.0,
-        "avg_price": 351.09
+        "code": "XC",
+        "name": "Ajaib Sekuritas Asia",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 13303215000.0,
+        "avg_price": 351.57
       },
       {
         "code": "IN",
         "name": "Investindo Nusantara Sekuritas",
         "cohort": "institutional",
         "is_foreign": false,
-        "net_value": 11445869600.0,
-        "avg_price": 333.83
+        "net_value": 11529221000.0,
+        "avg_price": 333.95
+      },
+      {
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": 9962585200.0,
+        "avg_price": 349.01
       }
     ],
     "sellers": [
@@ -1077,40 +1085,40 @@
         "name": "BNI Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -28899753800.0,
-        "avg_price": 348.67
+        "net_value": -23964368600.0,
+        "avg_price": 344.59
       },
       {
-        "code": "YU",
-        "name": "CGS International Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -27251867200.0,
-        "avg_price": 350.82
-      },
-      {
-        "code": "LG",
-        "name": "Trimegah Sekuritas Indonesia TBK.",
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -18845319000.0,
-        "avg_price": 342.66
+        "net_value": -16766511200.0,
+        "avg_price": 350.59
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -15576294400.0,
+        "avg_price": 353.41
+      },
+      {
+        "code": "MG",
+        "name": "Semesta Indovest Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": false,
+        "net_value": -14309122800.0,
+        "avg_price": 351.54
       },
       {
         "code": "AK",
         "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -15438815000.0,
-        "avg_price": 355.75
-      },
-      {
-        "code": "AZ",
-        "name": "Sucor Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": -14727864400.0,
-        "avg_price": 353.45
+        "net_value": -10741147000.0,
+        "avg_price": 353.95
       }
     ]
   },

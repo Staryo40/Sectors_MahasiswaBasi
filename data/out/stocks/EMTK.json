@@ -4,33 +4,33 @@
     "symbol": "EMTK",
     "name": "Elang Mahkota Teknologi Tbk",
     "sector": "Technology",
-    "rank": 28,
-    "flow_score": -21.4,
+    "rank": 36,
+    "flow_score": -29.2,
     "label": "distribution",
     "components": [
       {
         "key": "foreign_5d",
-        "value": -0.1986,
+        "value": -0.2345,
         "weight": 0.3,
-        "contribution": -5.96
+        "contribution": -7.04
       },
       {
         "key": "foreign_streak",
-        "value": -0.1,
+        "value": -0.4,
         "weight": 0.15,
-        "contribution": -1.5
+        "contribution": -6.0
       },
       {
         "key": "broker_concentration",
-        "value": -0.3135,
+        "value": -0.3717,
         "weight": 0.25,
-        "contribution": -7.84
+        "contribution": -9.29
       },
       {
         "key": "institutional_net",
-        "value": -0.4039,
+        "value": -0.4612,
         "weight": 0.15,
-        "contribution": -6.06
+        "contribution": -6.92
       },
       {
         "key": "divergence",
@@ -51,39 +51,39 @@
         "code": "BROKER_CONCENTRATION",
         "params": {
           "direction": "distribution",
-          "value": -0.31
+          "value": -0.37
         },
         "text_en": "The top 3 brokers on the distribution side outweigh the top 3 on the accumulation side over the last 2 weeks"
-      },
-      {
-        "code": "INSTITUTIONAL_NET",
-        "params": {
-          "direction": "distribution",
-          "share_pct": 40
-        },
-        "text_en": "Institutional brokers show net distribution, 40% of net traded value over the last 2 weeks"
       },
       {
         "code": "FOREIGN_INFLOW_5D",
         "params": {
           "direction": "out",
-          "sigma": 0.6
+          "sigma": 0.7
         },
-        "text_en": "5-day net foreign outflow is 0.6 standard deviations from this stock's norm"
+        "text_en": "5-day net foreign outflow is 0.7 standard deviations from this stock's norm"
+      },
+      {
+        "code": "INSTITUTIONAL_NET",
+        "params": {
+          "direction": "distribution",
+          "share_pct": 46
+        },
+        "text_en": "Institutional brokers show net distribution, 46% of net traded value over the last 2 weeks"
       }
     ],
-    "close": 382.0,
-    "change_1d": -0.0052,
-    "return_10d": -0.1838,
-    "volume_ratio": 0.78,
-    "rank_prev": 25,
-    "flow_score_prev": -19.1
+    "close": 398.0,
+    "change_1d": -0.0293,
+    "return_10d": -0.1076,
+    "volume_ratio": 0.5,
+    "rank_prev": 35,
+    "flow_score_prev": -30.7
   },
   "investor": {
     "symbol": "EMTK",
     "name": "Elang Mahkota Teknologi Tbk",
     "sector": "Technology",
-    "rank": 29,
+    "rank": 27,
     "investor_score": 46.89343626334906,
     "pillars": {
       "quality": 43.40326340326341,
@@ -142,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": -0.0036473488704019358,
+        "raw": -0.0037375374945991724,
         "percentile": 0.3181818181818182
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": -0.006099453812151467,
+        "raw": -0.006181571535597937,
         "percentile": 0.38636363636363635
       },
       {
@@ -190,7 +190,7 @@
         "text_en": "Trailing dividend yield is 1.31%."
       }
     ],
-    "rank_prev": 29
+    "rank_prev": 27
   },
   "series": {
     "price": [
@@ -508,6 +508,21 @@
         "date": "2026-10-02",
         "close": 382.0,
         "volume": 28198800.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 396.0,
+        "volume": 45183000.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 410.0,
+        "volume": 24180200.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 398.0,
+        "volume": 17900400.0
       }
     ],
     "foreign_flow": [
@@ -888,21 +903,27 @@
         "net": -1340663200.0,
         "cum": -143123101000.0,
         "share": 0.5618
+      },
+      {
+        "date": "2026-10-05",
+        "net": -1624103000.0,
+        "cum": -144747204000.0,
+        "share": 0.431
+      },
+      {
+        "date": "2026-10-06",
+        "net": -1973615200.0,
+        "cum": -146720819200.0,
+        "share": 0.2468
+      },
+      {
+        "date": "2026-10-07",
+        "net": -4404558400.0,
+        "cum": -151125377600.0,
+        "share": 0.3474
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": 0.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -10.8
-      },
-      {
-        "date": "2026-09-09",
-        "score": 1.2
-      },
       {
         "date": "2026-09-10",
         "score": -13.7
@@ -970,6 +991,18 @@
       {
         "date": "2026-10-02",
         "score": -21.4
+      },
+      {
+        "date": "2026-10-05",
+        "score": -25.1
+      },
+      {
+        "date": "2026-10-06",
+        "score": -30.7
+      },
+      {
+        "date": "2026-10-07",
+        "score": -29.2
       }
     ],
     "holder_mix": [
@@ -1036,40 +1069,40 @@
         "name": "J.P. Morgan Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 7258807000.0,
-        "avg_price": 414.97
-      },
-      {
-        "code": "LG",
-        "name": "Trimegah Sekuritas Indonesia TBK.",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 6181700800.0,
-        "avg_price": 436.99
-      },
-      {
-        "code": "SQ",
-        "name": "BCA Sekuritas",
-        "cohort": "mixed",
-        "is_foreign": false,
-        "net_value": 5515261000.0,
-        "avg_price": 438.38
+        "net_value": 6029654400.0,
+        "avg_price": 402.91
       },
       {
         "code": "YP",
         "name": "Mirae Asset Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": 3930115000.0,
-        "avg_price": 429.22
+        "net_value": 3975197400.0,
+        "avg_price": 406.16
       },
       {
-        "code": "GR",
-        "name": "Panin Sekuritas TBK.",
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 3855607800.0,
+        "avg_price": 408.3
+      },
+      {
+        "code": "LG",
+        "name": "Trimegah Sekuritas Indonesia TBK.",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 3340924400.0,
-        "avg_price": 424.78
+        "net_value": 3614373200.0,
+        "avg_price": 423.18
+      },
+      {
+        "code": "CC",
+        "name": "Mandiri Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 3210860800.0,
+        "avg_price": 399.9
       }
     ],
     "sellers": [
@@ -1078,40 +1111,40 @@
         "name": "Macquarie Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -18357290800.0,
-        "avg_price": 423.54
-      },
-      {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -10264886400.0,
-        "avg_price": 426.39
+        "net_value": -15809565800.0,
+        "avg_price": 415.24
       },
       {
         "code": "YU",
         "name": "CGS International Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -7643765200.0,
-        "avg_price": 409.81
+        "net_value": -10680430600.0,
+        "avg_price": 397.49
+      },
+      {
+        "code": "ZP",
+        "name": "Maybank Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -3766905600.0,
+        "avg_price": 389.44
       },
       {
         "code": "AZ",
         "name": "Sucor Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -5807418600.0,
-        "avg_price": 423.82
+        "net_value": -3299213600.0,
+        "avg_price": 405.17
       },
       {
-        "code": "DR",
-        "name": "RHB Sekuritas Indonesia",
+        "code": "AK",
+        "name": "UBS Sekuritas Indonesia",
         "cohort": "institutional",
         "is_foreign": true,
-        "net_value": -2080275000.0,
-        "avg_price": 442.19
+        "net_value": -3239452000.0,
+        "avg_price": 407.19
       }
     ]
   },

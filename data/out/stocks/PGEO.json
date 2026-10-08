@@ -4,39 +4,39 @@
     "symbol": "PGEO",
     "name": "PT Pertamina Geothermal Energy Tbk",
     "sector": "Infrastructures",
-    "rank": 3,
-    "flow_score": 16.8,
-    "label": "accumulation",
+    "rank": 5,
+    "flow_score": 3.0,
+    "label": "neutral",
     "components": [
       {
         "key": "foreign_5d",
-        "value": 0.028,
+        "value": 0.1267,
         "weight": 0.3,
-        "contribution": 0.84
+        "contribution": 3.8
       },
       {
         "key": "foreign_streak",
-        "value": 0.1,
+        "value": 0.4,
         "weight": 0.15,
-        "contribution": 1.5
+        "contribution": 6.0
       },
       {
         "key": "broker_concentration",
-        "value": 0.2675,
+        "value": -0.0509,
         "weight": 0.25,
-        "contribution": 6.69
+        "contribution": -1.27
       },
       {
         "key": "institutional_net",
-        "value": 0.4221,
+        "value": -0.3948,
         "weight": 0.15,
-        "contribution": 6.33
+        "contribution": -5.92
       },
       {
         "key": "divergence",
-        "value": 0.1477,
+        "value": 0.0379,
         "weight": 0.1,
-        "contribution": 1.48
+        "contribution": 0.38
       },
       {
         "key": "insider",
@@ -48,39 +48,47 @@
     "flags": [],
     "reasons": [
       {
-        "code": "BROKER_CONCENTRATION",
+        "code": "FOREIGN_STREAK",
         "params": {
-          "direction": "accumulation",
-          "value": 0.27
+          "days": 4,
+          "direction": "in"
         },
-        "text_en": "The top 3 brokers on the accumulation side outweigh the top 3 on the distribution side over the last 2 weeks"
+        "text_en": "Net foreign inflow for 4 trading days in a row"
       },
       {
         "code": "INSTITUTIONAL_NET",
         "params": {
-          "direction": "accumulation",
-          "share_pct": 42
+          "direction": "distribution",
+          "share_pct": 39
         },
-        "text_en": "Institutional brokers show net accumulation, 42% of net traded value over the last 2 weeks"
+        "text_en": "Institutional brokers show net distribution, 39% of net traded value over the last 2 weeks"
+      },
+      {
+        "code": "FOREIGN_INFLOW_5D",
+        "params": {
+          "direction": "in",
+          "sigma": 0.4
+        },
+        "text_en": "5-day net foreign inflow is 0.4 standard deviations from this stock's norm"
       }
     ],
-    "close": 940.0,
-    "change_1d": -0.0157,
-    "return_10d": -0.1132,
-    "volume_ratio": 0.89,
-    "rank_prev": 4,
-    "flow_score_prev": 11.5
+    "close": 1010.0,
+    "change_1d": 0.01,
+    "return_10d": -0.0734,
+    "volume_ratio": 0.78,
+    "rank_prev": 10,
+    "flow_score_prev": 0.7
   },
   "investor": {
     "symbol": "PGEO",
     "name": "PT Pertamina Geothermal Energy Tbk",
     "sector": "Infrastructures",
-    "rank": 9,
-    "investor_score": 55.980018769989705,
+    "rank": 8,
+    "investor_score": 56.57660967908061,
     "pillars": {
       "quality": 50.31468531468532,
       "valuation": 42.79157857646229,
-      "slow_flow": 71.875
+      "slow_flow": 73.57954545454545
     },
     "components": [
       {
@@ -134,13 +142,13 @@
       {
         "key": "foreign_20d",
         "pillar": "slow_flow",
-        "raw": 0.0007220439256573343,
-        "percentile": 0.8409090909090909
+        "raw": 0.0006218556729579063,
+        "percentile": 0.9090909090909091
       },
       {
         "key": "foreign_90d",
         "pillar": "slow_flow",
-        "raw": 0.0015770362863507677,
+        "raw": 0.0015037499903087976,
         "percentile": 0.8409090909090909
       },
       {
@@ -161,10 +169,10 @@
       {
         "code": "FOREIGN_INFLOW_LONG",
         "params": {
-          "days": 90,
-          "net_to_market_cap": 0.0015770362863507677
+          "days": 20,
+          "net_to_market_cap": 0.0006218556729579063
         },
-        "text_en": "Net foreign accumulation equals 0.158% of market cap over available history in the 90-trading-day window."
+        "text_en": "Net foreign accumulation equals 0.062% of market cap over available history in the 20-trading-day window."
       },
       {
         "code": "HOLDER_SHIFT_INSTITUTIONAL",
@@ -183,7 +191,7 @@
         "text_en": "Valuation multiples are below their peer averages (PE 0.76×, PB 0.76×)."
       }
     ],
-    "rank_prev": 11
+    "rank_prev": 9
   },
   "series": {
     "price": [
@@ -501,6 +509,21 @@
         "date": "2026-10-02",
         "close": 940.0,
         "volume": 9539600.0
+      },
+      {
+        "date": "2026-10-05",
+        "close": 975.0,
+        "volume": 7178100.0
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1000.0,
+        "volume": 10446600.0
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1010.0,
+        "volume": 8345400.0
       }
     ],
     "foreign_flow": [
@@ -881,21 +904,27 @@
         "net": 1180014500.0,
         "cum": 62189310500.0,
         "share": 0.1678
+      },
+      {
+        "date": "2026-10-05",
+        "net": 319669500.0,
+        "cum": 62508980000.0,
+        "share": 0.1393
+      },
+      {
+        "date": "2026-10-06",
+        "net": 44699500.0,
+        "cum": 62553679500.0,
+        "share": 0.0944
+      },
+      {
+        "date": "2026-10-07",
+        "net": 1165916000.0,
+        "cum": 63719595500.0,
+        "share": 0.1876
       }
     ],
     "flow_score": [
-      {
-        "date": "2026-09-07",
-        "score": -3.2
-      },
-      {
-        "date": "2026-09-08",
-        "score": -5.2
-      },
-      {
-        "date": "2026-09-09",
-        "score": 4.6
-      },
       {
         "date": "2026-09-10",
         "score": 1.7
@@ -963,6 +992,18 @@
       {
         "date": "2026-10-02",
         "score": 16.8
+      },
+      {
+        "date": "2026-10-05",
+        "score": 15.8
+      },
+      {
+        "date": "2026-10-06",
+        "score": 0.7
+      },
+      {
+        "date": "2026-10-07",
+        "score": 3.0
       }
     ],
     "holder_mix": [
@@ -1025,86 +1066,86 @@
   "top_brokers": {
     "buyers": [
       {
-        "code": "ZP",
-        "name": "Maybank Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 13716068000.0,
-        "avg_price": 1065.21
-      },
-      {
-        "code": "BB",
-        "name": "Verdhana Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 4917675500.0,
-        "avg_price": 1064.34
-      },
-      {
-        "code": "RX",
-        "name": "Macquarie Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": 3118383500.0,
-        "avg_price": 1064.99
-      },
-      {
         "code": "SQ",
         "name": "BCA Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 1773525500.0,
-        "avg_price": 1007.11
+        "net_value": 3525463500.0,
+        "avg_price": 999.0
+      },
+      {
+        "code": "OD",
+        "name": "BRI Danareksa Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": 3272323500.0,
+        "avg_price": 1000.49
+      },
+      {
+        "code": "XL",
+        "name": "Stockbit Sekuritas Digital",
+        "cohort": "retail",
+        "is_foreign": false,
+        "net_value": 1726611000.0,
+        "avg_price": 1006.4
       },
       {
         "code": "IF",
         "name": "Samuel Sekuritas Indonesia",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": 1573574500.0,
-        "avg_price": 974.6
-      }
-    ],
-    "sellers": [
-      {
-        "code": "XL",
-        "name": "Stockbit Sekuritas Digital",
-        "cohort": "retail",
-        "is_foreign": false,
-        "net_value": -5808699500.0,
-        "avg_price": 1047.77
-      },
-      {
-        "code": "YP",
-        "name": "Mirae Asset Sekuritas Indonesia",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -3712769000.0,
-        "avg_price": 1022.72
-      },
-      {
-        "code": "AI",
-        "name": "Kay Hian Sekuritas",
-        "cohort": "institutional",
-        "is_foreign": true,
-        "net_value": -3050067500.0,
-        "avg_price": 1063.88
+        "net_value": 1684304500.0,
+        "avg_price": 958.49
       },
       {
         "code": "PD",
         "name": "Indo Premier Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -2481061000.0,
-        "avg_price": 1000.8
+        "net_value": 1647347500.0,
+        "avg_price": 1014.43
+      }
+    ],
+    "sellers": [
+      {
+        "code": "YP",
+        "name": "Mirae Asset Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -4921545500.0,
+        "avg_price": 996.23
       },
       {
-        "code": "CC",
-        "name": "Mandiri Sekuritas",
+        "code": "AZ",
+        "name": "Sucor Sekuritas",
         "cohort": "mixed",
         "is_foreign": false,
-        "net_value": -1627762500.0,
-        "avg_price": 1050.95
+        "net_value": -2405993000.0,
+        "avg_price": 996.68
+      },
+      {
+        "code": "AI",
+        "name": "Kay Hian Sekuritas",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -2110528000.0,
+        "avg_price": 990.69
+      },
+      {
+        "code": "DH",
+        "name": "Sinarmas Sekuritas",
+        "cohort": "mixed",
+        "is_foreign": false,
+        "net_value": -1977648500.0,
+        "avg_price": 983.71
+      },
+      {
+        "code": "BQ",
+        "name": "Korea Investment and Sekuritas Indonesia",
+        "cohort": "institutional",
+        "is_foreign": true,
+        "net_value": -1403145500.0,
+        "avg_price": 1023.4
       }
     ]
   },
