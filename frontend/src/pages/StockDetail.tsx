@@ -31,13 +31,13 @@ function Brokers({
         <p className="chart-unavailable">No broker observations available.</p>
       ) : (
         <div className="scroll">
-          <table>
+          <table className="data-table broker-table">
             <thead>
               <tr>
-                <th>Broker</th>
-                <th>Cohort</th>
-                <th>Net value (IDR)</th>
-                <th>Average price</th>
+                <th scope="col">Broker</th>
+                <th scope="col">Cohort</th>
+                <th className="num" scope="col">Net value (IDR)</th>
+                <th className="num" scope="col">Average price</th>
               </tr>
             </thead>
             <tbody>
@@ -314,12 +314,12 @@ function Research({ stock, backView }: { stock: Stock; backView: string }) {
           <h3>Insider filings</h3>
           {stock.filings.length ? (
             <div className="scroll">
-              <table>
+              <table className="data-table">
                 <thead>
                   <tr>
-                    <th>Date</th>
-                    <th>Transaction</th>
-                    <th>Holder</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Transaction</th>
+                    <th scope="col">Holder</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -365,13 +365,13 @@ function Research({ stock, backView }: { stock: Stock; backView: string }) {
       <section className="card">
         {stock.fundamentals.length ? (
           <div className="scroll">
-            <table>
+            <table className="data-table fundamentals-table">
               <thead>
                 <tr>
-                  <th>Metric</th>
-                  <th>Company</th>
-                  <th>Peer average</th>
-                  <th>Peer percentile</th>
+                  <th scope="col">Metric</th>
+                  <th className="num" scope="col">Company</th>
+                  <th className="num" scope="col">Peer average</th>
+                  <th className="num" scope="col">Peer percentile</th>
                 </tr>
               </thead>
               <tbody>

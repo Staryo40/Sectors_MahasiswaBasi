@@ -5,6 +5,7 @@
   --panel: #fff;
   --border: #e0e7e3;
   --grid: #e9eeeb;
+  --chart-plot: #fbfdfc;
   --track: #eaf0ed;
   --text: #192a26;
   --text-2: #5c7067;
@@ -474,6 +475,11 @@ p {
   font-size: 11px;
   font-weight: 600;
   line-height: 1.5;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease;
 }
 .btn:hover {
   background: #eef4f0;
@@ -487,6 +493,9 @@ p {
 }
 .btn.primary:hover {
   background: #126046;
+}
+.btn:active {
+  transform: translateY(1px);
 }
 .btn .icon {
   width: 14px;
@@ -758,7 +767,7 @@ p {
 }
 .signal-row {
   display: grid;
-  grid-template-columns: 22px 35px minmax(0, 1fr) auto;
+  grid-template-columns: 22px 35px minmax(0, 1fr) auto 29px;
   gap: 10px;
   align-items: start;
   padding: 17px 0;
@@ -826,6 +835,13 @@ p {
   letter-spacing: 0;
   font-weight: 400;
   margin-top: 4px;
+}
+.signal-row > .star-button {
+  grid-column: 5;
+  grid-row: 1;
+  justify-self: end;
+  align-self: start;
+  margin-top: 2px;
 }
 .signal-row /* Signal labels, score bars, and universe breadth */
 .badge {
@@ -962,23 +978,32 @@ p {
 .legend {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 5px 18px;
   font-size: 10px;
   color: var(--text-2);
 }
+.legend .key {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  min-width: 0;
+  border: 0;
+  margin: 0;
+  line-height: 1.4;
+  white-space: nowrap;
+}
 .legend .sw {
-  display: inline-block;
+  display: block;
+  flex: 0 0 7px;
   width: 7px;
   height: 7px;
   border-radius: 2px;
   margin-right: 6px;
 }
-.key {
-  display: inline-block;
-  width: 12px;
-  border-top: 2px solid;
-  vertical-align: middle;
-  margin-right: 5px;
+.legend .key b {
+  margin-left: 4px;
+  color: var(--text);
 }
 .breadth {
   display: grid;
@@ -1203,6 +1228,11 @@ ul.reasons li {
   border-radius: 6px;
   color: #8a9e91;
   background: transparent;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease;
 }
 .star-button:hover {
   color: #b28634;
@@ -1210,6 +1240,8 @@ ul.reasons li {
 }
 .star-button.saved {
   color: #a27725;
+  background: #fff8e7;
+  border-color: #eddeb8;
 }
 .star-button.saved .icon {
   fill: #f5e6be;
@@ -1218,6 +1250,9 @@ ul.reasons li {
   width: 16px;
   height: 16px;
 }
+.star-button:active {
+  transform: scale(0.94);
+}
 .watch-action {
   display: inline-flex;
   align-items: center;
@@ -1225,7 +1260,11 @@ ul.reasons li {
 }
 /* Tables and evidence charts */
 .scroll {
+  width: 100%;
   overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-color: #bdcbc4 transparent;
+  scrollbar-width: thin;
 }
 table {
   border-collapse: collapse;
@@ -1247,6 +1286,44 @@ th {
   letter-spacing: 0.65px;
   white-space: nowrap;
 }
+.data-table th:last-child,
+.data-table td:last-child {
+  padding-right: 0;
+}
+.data-table tbody td {
+  vertical-align: middle;
+}
+.data-table tbody tr {
+  transition: background-color 120ms ease;
+}
+.data-table tbody tr:nth-child(even) {
+  background: #fbfcfb;
+}
+.observation-table {
+  min-width: 480px;
+  table-layout: fixed;
+}
+.observation-table th:first-child,
+.observation-table td:first-child {
+  width: 28%;
+}
+.broker-table {
+  min-width: 560px;
+}
+.broker-table th:first-child,
+.broker-table td:first-child {
+  width: 34%;
+}
+.broker-table th:nth-child(2),
+.broker-table td:nth-child(2) {
+  width: 18%;
+}
+.inputs-table {
+  min-width: 480px;
+}
+.fundamentals-table {
+  min-width: 620px;
+}
 td.num,
 th.num {
   text-align: right;
@@ -1256,8 +1333,8 @@ th.num {
 tr:last-child td {
   border-bottom: 0;
 }
-thead + tbody tr:hover {
-  background: #f7faf8;
+.data-table tbody tr:hover {
+  background: #f3f8f5;
 }
 .chart {
   position: relative;
@@ -1268,6 +1345,11 @@ thead + tbody tr:hover {
   width: 100%;
   height: auto;
   overflow: visible;
+}
+.chart svg:focus-visible {
+  outline: 2px solid #4d9b82;
+  outline-offset: 3px;
+  border-radius: 5px;
 }
 .chart-card h3 {
   margin-bottom: 6px;
@@ -1293,6 +1375,14 @@ thead + tbody tr:hover {
 .chart-card .more {
   margin-top: 8px;
 }
+.chart-card .legend {
+  min-height: 16px;
+  margin-top: 8px;
+}
+.chart-card details.more {
+  border-top: 1px solid var(--border);
+  padding-top: 9px;
+}
 .chart-controls {
   display: flex;
   gap: 3px;
@@ -1307,6 +1397,14 @@ thead + tbody tr:hover {
   color: var(--text-2);
   font-size: 10px;
   background: transparent;
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    box-shadow 150ms ease;
+}
+.chart-controls button:hover {
+  color: var(--pos);
+  background: rgba(255, 255, 255, 0.65);
 }
 .chart-controls button.on {
   background: #fff;
@@ -1872,9 +1970,14 @@ dl.gloss dd {
     font-size: 16px;
   }
   .signal-row {
-    grid-template-columns: 20px 32px minmax(0, 1fr) auto;
+    grid-template-columns: 20px 32px minmax(0, 1fr) auto 24px;
     gap: 8px;
     padding: 15px 0;
+  }
+  .signal-row > .star-button {
+    grid-column: 5;
+    width: 24px;
+    height: 24px;
   }
   .signal-row .avatar {
     width: 32px;
@@ -2136,9 +2239,29 @@ dl.gloss dd {
   color: var(--text-2);
 }
 .chart-inspection {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px 14px;
   font-size: 12px;
   color: var(--text-2);
   min-height: 24px;
+  margin: 4px 0 0;
+}
+.chart-inspection strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.chart-inspection span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.inspection-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex: 0 0 7px;
 }
 .research-back {
   margin-top: 0;

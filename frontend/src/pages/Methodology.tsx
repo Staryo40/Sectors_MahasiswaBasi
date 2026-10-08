@@ -19,11 +19,11 @@ export function Methodology() {
             the stock research view shows every contribution.
           </p>
           <div className="scroll">
-            <table>
+            <table className="data-table">
               <thead>
                 <tr>
-                  <th>Label</th>
-                  <th>Score threshold</th>
+                  <th scope="col">Label</th>
+                  <th scope="col">Score threshold</th>
                 </tr>
               </thead>
               <tbody>
@@ -91,11 +91,11 @@ export function Methodology() {
       </div>
       <section className="card">
         <div className="scroll">
-          <table>
+          <table className="data-table">
             <thead>
               <tr>
-                <th>Input</th>
-                <th>Display unit</th>
+                <th scope="col">Input</th>
+                <th scope="col">Display unit</th>
               </tr>
             </thead>
             <tbody>

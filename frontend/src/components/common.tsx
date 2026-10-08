@@ -186,12 +186,12 @@ export function PillarBars({ entry }: { entry: InvestorEntry }) {
 export function InvestorInputs({ entry }: { entry: InvestorEntry }) {
   return (
     <div className="scroll">
-      <table>
+      <table className="data-table inputs-table">
         <thead>
           <tr>
-            <th>Input</th>
-            <th>Raw value</th>
-            <th>Peer percentile</th>
+            <th scope="col">Input</th>
+            <th className="num" scope="col">Raw value</th>
+            <th className="num" scope="col">Peer percentile</th>
           </tr>
         </thead>
         <tbody>

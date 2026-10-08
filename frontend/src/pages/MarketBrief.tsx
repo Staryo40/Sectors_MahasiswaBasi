@@ -85,12 +85,12 @@ export function MarketBrief({ snapshot }: { snapshot: Snapshot }) {
       <section className="card">
         {upcoming.length ? (
           <div className="scroll">
-            <table>
+            <table className="data-table">
               <thead>
                 <tr>
-                  <th>Date</th>
-                  <th>Symbol</th>
-                  <th>Event</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Symbol</th>
+                  <th scope="col">Event</th>
                 </tr>
               </thead>
               <tbody>
