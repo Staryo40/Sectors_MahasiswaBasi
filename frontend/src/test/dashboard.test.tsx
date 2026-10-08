@@ -218,6 +218,16 @@ for (const source of sources) {
       expect(holderCard.querySelectorAll("tbody tr").length).toBe(
         stock.series.holder_mix.length,
       );
+      const foreignFlowCard = screen
+        .getByRole("heading", { name: "Daily foreign flow" })
+        .closest("section")!;
+      for (const bar of foreignFlowCard.querySelectorAll(".chart-bar")) {
+        const x = Number(bar.getAttribute("x"));
+        const width = Number(bar.getAttribute("width"));
+        expect(x).toBeGreaterThanOrEqual(66);
+        expect(x + width).toBeLessThanOrEqual(622);
+        expect(width).toBeLessThanOrEqual(36);
+      }
       const priceChart = within(priceCard).getByRole("img", {
         name: "Price",
       });

@@ -90,11 +90,19 @@ export function Chart({
   const span = high - low || 1;
   const plotWidth = WIDTH - PADDING.left - PADDING.right;
   const plotHeight = HEIGHT - PADDING.top - PADDING.bottom;
+  const barSlotWidth = plotWidth / Math.max(dates.length, 1);
+  const barWidth = Math.min(36, Math.max(3, barSlotWidth * 0.68));
   const x = (index: number) =>
     PADDING.left +
     (dates.length === 1
       ? plotWidth / 2
       : (index / (dates.length - 1)) * plotWidth);
+  const barX = (index: number) =>
+    PADDING.left +
+    index * barSlotWidth +
+    (barSlotWidth - barWidth) / 2;
+  const activeX = (index: number) =>
+    bars ? barX(index) + barWidth / 2 : x(index);
   const y = (value: number) =>
     PADDING.top + ((high - value) / span) * plotHeight;
   const activeIndex =
@@ -142,20 +150,36 @@ export function Chart({
             if (!rectangle.width) return;
             const position =
               ((event.clientX - rectangle.left) / rectangle.width) * WIDTH;
+            const relativePosition = Math.max(
+              0,
+              Math.min(plotWidth, position - PADDING.left),
+            );
             setSelectedIndex(
               Math.max(
                 0,
                 Math.min(
                   dates.length - 1,
-                  Math.round(
-                    ((position - PADDING.left) / plotWidth) *
-                      (dates.length - 1),
-                  ),
+                  bars
+                    ? Math.floor(
+                        (relativePosition / plotWidth) * dates.length,
+                      )
+                    : Math.round(
+                        (relativePosition / plotWidth) *
+                          (dates.length - 1),
+                      ),
                 ),
               ),
             );
           }}
         >
+          <rect
+            x={PADDING.left}
+            y={PADDING.top}
+            width={plotWidth}
+            height={plotHeight}
+            rx="4"
+            fill="var(--chart-plot)"
+          />
           {[0, 1, 2, 3, 4].map((tick) => {
             const value = low + (span * tick) / 4;
             return (
@@ -179,27 +203,43 @@ export function Chart({
               </g>
             );
           })}
+          {bars && low < 0 && high > 0 && (
+            <line
+              x1={PADDING.left}
+              x2={WIDTH - PADDING.right}
+              y1={y(0)}
+              y2={y(0)}
+              stroke="var(--text-3)"
+              strokeWidth="1.25"
+            />
+          )}
           {series.map((line, lineIndex) => {
             const color = line.color || colors[lineIndex % colors.length];
             if (bars)
               return (
                 <g key={line.name}>
-                  {line.points.map((point) =>
-                    point.value == null ? null : (
+                  {line.points.map((point) => {
+                    if (point.value == null) return null;
+                    const pointIndex = dates.indexOf(point.date);
+                    const isActive = activeIndex === pointIndex;
+                    return (
                       <rect
                         key={point.date}
-                        x={
-                          x(dates.indexOf(point.date)) -
-                          Math.max(2, (plotWidth / dates.length) * 0.65) / 2
-                        }
+                        className="chart-bar"
+                        x={barX(pointIndex)}
                         y={Math.min(y(point.value), y(0))}
-                        width={Math.max(2, (plotWidth / dates.length) * 0.65)}
+                        width={barWidth}
                         height={Math.max(1, Math.abs(y(point.value) - y(0)))}
                         fill={point.value < 0 ? "var(--neg)" : color}
-                        opacity={0.8}
+                        opacity={
+                          activeIndex == null || isActive ? 0.82 : 0.42
+                        }
+                        stroke={isActive ? "var(--text)" : undefined}
+                        strokeWidth={isActive ? 1.25 : undefined}
+                        rx="2"
                       />
-                    ),
-                  )}
+                    );
+                  })}
                 </g>
               );
             // A missing observation breaks the line instead of implying a value.
@@ -219,14 +259,25 @@ export function Chart({
             return (
               <g key={line.name}>
                 <path d={path} fill="none" stroke={color} strokeWidth="2" />
-                {dates.length === 1 && line.points[0]?.value != null && (
-                  <circle
-                    cx={x(0)}
-                    cy={y(line.points[0].value)}
-                    r="3"
-                    fill={color}
-                  />
-                )}
+                {dates.map((date, index) => {
+                  const value = pointMaps[lineIndex].get(date);
+                  if (
+                    value == null ||
+                    (dates.length > 1 && activeIndex !== index)
+                  )
+                    return null;
+                  return (
+                    <circle
+                      key={date}
+                      cx={x(index)}
+                      cy={y(value)}
+                      r="4"
+                      fill={color}
+                      stroke="var(--panel)"
+                      strokeWidth="2"
+                    />
+                  );
+                })}
               </g>
             );
           })}
@@ -249,8 +300,8 @@ export function Chart({
           </text>
           {activeIndex != null && (
             <line
-              x1={x(activeIndex)}
-              x2={x(activeIndex)}
+              x1={activeX(activeIndex)}
+              x2={activeX(activeIndex)}
               y1={PADDING.top}
               y2={HEIGHT - PADDING.bottom}
               stroke="var(--text-3)"
@@ -261,11 +312,16 @@ export function Chart({
       </div>
       {activeDate && (
         <p className="chart-inspection" role="status">
-          {format.date(activeDate)}
+          <strong>{format.date(activeDate)}</strong>
           {series.map((line, index) => (
             <span key={line.name}>
-              {" "}
-              · {line.name}:{" "}
+              <i
+                className="inspection-dot"
+                style={{
+                  background: line.color || colors[index % colors.length],
+                }}
+              />
+              {line.name}:{" "}
               {formatValue(pointMaps[index].get(activeDate) ?? null)}
             </span>
           ))}
@@ -287,12 +343,14 @@ export function Chart({
       <details className="more">
         <summary>View observations</summary>
         <div className="scroll">
-          <table>
+          <table className="data-table observation-table">
             <thead>
               <tr>
-                <th>Date</th>
+                <th scope="col">Date</th>
                 {series.map((line) => (
-                  <th key={line.name}>{line.name}</th>
+                  <th className="num" scope="col" key={line.name}>
+                    {line.name}
+                  </th>
                 ))}
               </tr>
             </thead>
