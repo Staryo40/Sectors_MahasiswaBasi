@@ -36,6 +36,40 @@ def _chunks(text, limit=4000):
         yield "".join(chunk)
 
 
+def _api(token: str, method: str, payload: dict, timeout: int = 30):
+    request = urllib.request.Request(
+        f"https://api.telegram.org/bot{token}/{method}",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            result = json.load(response)
+        if not result.get("ok"):
+            raise RuntimeError("Telegram API did not accept the request.")
+        return result.get("result")
+    except urllib.error.HTTPError as error:
+        raise RuntimeError(f"Telegram API request failed (HTTP {error.code}).") from None
+    except (urllib.error.URLError, OSError, ValueError):
+        raise RuntimeError("Telegram API request failed; check connection and bot settings.") from None
+
+
+def send_to_chat(text: str, chat_id: int | str, token: str) -> None:
+    """Send text to a chat selected by an incoming update."""
+    for chunk in _chunks(text):
+        _api(token, "sendMessage", {"chat_id": chat_id, "text": chunk})
+
+
+def get_updates(token: str, offset: int | None = None, timeout: int = 25) -> list[dict]:
+    """Long-poll text messages without configuring a public webhook."""
+    payload: dict = {"timeout": timeout, "allowed_updates": ["message"]}
+    if offset is not None:
+        payload["offset"] = offset
+    result = _api(token, "getUpdates", payload, timeout=timeout + 5)
+    return result if isinstance(result, list) else []
+
+
 def send(text: str, dry_run: bool = True) -> None:
     if dry_run:
         print(f"[Telegram dry-run]\n{text}")
@@ -45,17 +79,5 @@ def send(text: str, dry_run: bool = True) -> None:
     if not token or not chat_id:
         print("Telegram skipped: channel settings are empty.")
         return
-    for chunk in _chunks(text):
-        request = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage",
-                                         data=json.dumps({"chat_id": chat_id, "text": chunk}).encode("utf-8"),
-                                         headers={"Content-Type": "application/json"}, method="POST")
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                result = json.load(response)
-            if not result.get("ok"):
-                raise RuntimeError("Telegram delivery was not accepted.")
-        except urllib.error.HTTPError as error:
-            raise RuntimeError(f"Telegram delivery failed (HTTP {error.code}).") from None
-        except (urllib.error.URLError, OSError, ValueError):
-            raise RuntimeError("Telegram delivery failed; check connection and channel settings.") from None
+    send_to_chat(text, chat_id, token)
     print("Telegram brief delivered.")

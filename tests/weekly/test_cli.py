@@ -1,4 +1,5 @@
 import json
+from types import SimpleNamespace
 from radar import config
 from radar import __main__ as cli
 from tests.weekly.test_export import seed
@@ -64,6 +65,26 @@ def test_refresh_missing_stops_before_partial_run(db, tmp_path, monkeypatch, cap
     monkeypatch.delattr(cli.jobs, "refresh_weekly", raising=False)
     assert cli.main(["run-weekly"]) == 1
     assert "Agent A refresh jobs are not available" in capsys.readouterr().out
+
+
+def test_incomplete_refresh_stops_before_export(db, tmp_path, monkeypatch, capsys):
+    source = persisted_database(db, tmp_path)
+    monkeypatch.setattr(config, "DB_PATH", source)
+    monkeypatch.setattr(
+        cli.jobs,
+        "refresh_daily",
+        lambda: SimpleNamespace(credits=2, failures=["foreign-flow/BBCA: HTTP 503"]),
+    )
+    monkeypatch.setattr(
+        cli,
+        "build",
+        lambda *args: (_ for _ in ()).throw(
+            AssertionError("Export must not publish an incomplete refresh")
+        ),
+    )
+
+    assert cli.main(["run-daily"]) == 1
+    assert "refresh_daily incomplete" in capsys.readouterr().out
 
 
 def test_daily_send_opt_in_attempts_both_channels(db, daily_stubs, tmp_path, monkeypatch):

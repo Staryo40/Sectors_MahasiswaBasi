@@ -10,13 +10,13 @@ from jsonschema.exceptions import ValidationError
 from radar import config
 from radar.db import connect
 from radar.export.build_out import build
-from radar.deliver import telegram, mailer
+from radar.deliver import telegram, telegram_bot, mailer
 from radar.ingest import jobs
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m radar", description="SQLite radar pipeline")
-    parser.add_argument("command", choices=("export", "run-daily", "run-weekly"))
+    parser.add_argument("command", choices=("export", "run-daily", "run-weekly", "bot"))
     parser.add_argument("--as-of", help="YYYY-MM-DD; defaults to latest trading date in the database")
     parser.add_argument("--db", type=Path, default=config.DB_PATH)
     parser.add_argument("--out", type=Path, default=config.OUT_DIR)
@@ -24,6 +24,7 @@ def main(argv=None):
     delivery = parser.add_mutually_exclusive_group()
     delivery.add_argument("--dry-run", dest="dry_run", action="store_true", default=True, help="print both channel messages (default)")
     delivery.add_argument("--send", dest="dry_run", action="store_false", help="opt in to actual Telegram and email delivery")
+    parser.add_argument("--poll-timeout", type=int, default=25, help="Telegram bot long-poll timeout in seconds")
     args = parser.parse_args(argv)
     if args.as_of is not None:
         try:
@@ -31,6 +32,14 @@ def main(argv=None):
                 raise ValueError("Non-canonical date")
         except ValueError:
             parser.error("--as-of must be YYYY-MM-DD")
+    if not 1 <= args.poll_timeout <= 50:
+        parser.error("--poll-timeout must be between 1 and 50")
+    if args.command == "bot":
+        try:
+            return telegram_bot.run(args.out, poll_timeout=args.poll_timeout)
+        except (RuntimeError, ValueError) as error:
+            print(f"Bot failed: {error}")
+            return 1
     if not args.db.is_file():
         parser.error(f"Database not found: {args.db}")
     try:
@@ -42,8 +51,14 @@ def main(argv=None):
             if any(not callable(getattr(jobs, name, None)) for name in refreshes):
                 raise RuntimeError("Agent A refresh jobs are not available; use --skip-refresh to run from SQLite.")
             for name in refreshes:
-                spent = getattr(jobs, name)()
-                print(f"{name}: {spent} credits spent")
+                report = getattr(jobs, name)()
+                failures = getattr(report, "failures", [])
+                if failures:
+                    preview = "; ".join(failures[:3])
+                    extra = f"; and {len(failures) - 3} more" if len(failures) > 3 else ""
+                    raise RuntimeError(f"{name} incomplete: {preview}{extra}")
+                credits = getattr(report, "credits", report)
+                print(f"{name}: {credits} credits spent")
         with closing(connect(args.db)) as db:
             as_of = args.as_of or db.execute("SELECT MAX(date) FROM prices").fetchone()[0]
             if as_of is None:
