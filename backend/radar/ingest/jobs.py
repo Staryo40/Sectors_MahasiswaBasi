@@ -127,8 +127,17 @@ def _symbols(conn: sqlite3.Connection) -> list[str]:
     return [row["symbol"] for row in conn.execute("SELECT symbol FROM companies ORDER BY symbol")]
 
 
-def _day_after_latest(conn: sqlite3.Connection, table: str, column: str = "date") -> date | None:
-    latest = conn.execute(f"SELECT MAX(substr({column}, 1, 10)) FROM {table}").fetchone()[0]
+def _day_after_latest(
+    conn: sqlite3.Connection,
+    table: str,
+    column: str = "date",
+    symbol: str | None = None,
+) -> date | None:
+    where = " WHERE symbol=?" if symbol is not None else ""
+    params = (symbol,) if symbol is not None else ()
+    latest = conn.execute(
+        f"SELECT MAX(substr({column}, 1, 10)) FROM {table}{where}", params
+    ).fetchone()[0]
     return date.fromisoformat(latest) + timedelta(days=1) if latest else None
 
 
@@ -146,15 +155,20 @@ def daily_calls(conn: sqlite3.Connection, today: date) -> list[Call]:
         ("broker_summary", "broker-summary/{}", parsers.parse_broker_summary, BROKER_WINDOW_DAYS),
     ]
     for table, path, parse, max_days in windows:
-        start = _day_after_latest(conn, table) or today - timedelta(days=max_days)
-        start = max(start, today - timedelta(days=max_days))
-        if start > today:
-            continue
-        params = {"start": start.isoformat(), "end": end}
-        calls += [Call(path.format(symbol), params, 1, table, parse) for symbol in _symbols(conn)]
+        for symbol in _symbols(conn):
+            start = _day_after_latest(conn, table, symbol=symbol) or today - timedelta(days=max_days)
+            start = max(start, today - timedelta(days=max_days))
+            if start > today:
+                continue
+            params = {"start": start.isoformat(), "end": end}
+            calls.append(Call(path.format(symbol), params, 1, table, parse))
 
     # Filings arrive during the day, so the latest stored day is fetched again.
-    filings_start = (_day_after_latest(conn, "filings", "timestamp") or today) - timedelta(days=1)
+    filings_start = min(
+        (_day_after_latest(conn, "filings", "timestamp") or today)
+        - timedelta(days=1),
+        today,
+    )
     events_start = (today - timedelta(days=EVENTS_WINDOW_DAYS)).isoformat()
     events_end = (today + timedelta(days=EVENTS_WINDOW_DAYS)).isoformat()
     calls += [
@@ -200,10 +214,18 @@ def refresh_daily(
     others = [c for c in calls if c not in market]
     report = Report()
     if market:
-        report = run(client, conn, market[:1])
-        if report.rows.get("prices"):
-            rest = run(client, conn, market[1:])
-            _merge(report, rest)
+        price_calls = [call for call in market if call.table == "prices"]
+        latest_price = conn.execute(
+            "SELECT MAX(date) FROM prices"
+        ).fetchone()[0]
+        if not price_calls or latest_price == (today or date.today()).isoformat():
+            report = run(client, conn, market)
+        else:
+            probe = price_calls[0]
+            report = run(client, conn, [probe])
+            if report.rows.get("prices"):
+                rest = run(client, conn, [call for call in market if call is not probe])
+                _merge(report, rest)
     _merge(report, run(client, conn, others))
     return report
 

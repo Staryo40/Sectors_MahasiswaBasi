@@ -54,7 +54,10 @@ def seeded(tmp_path, transport=None, live=True):
     parsers.upsert(conn, "companies", [{"symbol": s, "name": s} for s in ("BBCA", "BBRI")])
     for table in ("prices", "foreign_flow"):
         parsers.upsert(conn, table, [{"symbol": s, "date": "2026-10-02"} for s in ("BBCA", "BBRI")])
-    parsers.upsert(conn, "broker_summary", [{"symbol": "BBCA", "date": "2026-10-02", "broker_code": "AK"}])
+    parsers.upsert(conn, "broker_summary", [
+        {"symbol": symbol, "date": "2026-10-02", "broker_code": "AK"}
+        for symbol in ("BBCA", "BBRI")
+    ])
     parsers.upsert(conn, "filings", [{"id": "x", "symbol": "BBCA", "timestamp": "2026-10-03T20:38:19"}])
     client = SectorsClient(conn, cache=Cache(tmp_path), api_key="k", live=live, credit_cap=500, transport=transport)
     return client, conn
@@ -79,6 +82,43 @@ def test_daily_refresh_skips_tables_that_are_already_current(tmp_path):
     calls = jobs.daily_calls(conn, date(2026, 10, 2))
 
     assert {c.table for c in calls} == {"filings", "corporate_actions", "suspensions"}
+    filings = next(call for call in calls if call.table == "filings")
+    assert filings.params["start"] == "2026-10-02"
+    assert filings.params["end"] == "2026-10-02"
+
+
+def test_daily_refresh_retries_only_the_symbol_with_a_gap(tmp_path, monkeypatch):
+    client, conn = seeded(tmp_path)
+    for table in ("prices", "foreign_flow", "broker_summary"):
+        row = {"symbol": "BBCA", "date": "2026-10-06"}
+        if table == "broker_summary":
+            row["broker_code"] = "AK"
+        parsers.upsert(conn, table, [row])
+
+    market = [
+        call
+        for call in jobs.daily_calls(conn, date(2026, 10, 6))
+        if call.table in ("prices", "foreign_flow", "broker_summary")
+    ]
+    assert {call.path for call in market} == {
+        "daily/BBRI",
+        "foreign-flow/BBRI",
+        "broker-summary/BBRI",
+    }
+    assert all(
+        call.params == {"start": "2026-10-03", "end": "2026-10-06"}
+        for call in market
+    )
+
+    batches = []
+    monkeypatch.setattr(
+        jobs,
+        "run",
+        lambda client, conn, calls: batches.append([call.table for call in calls])
+        or jobs.Report(),
+    )
+    jobs.refresh_daily(client, conn, date(2026, 10, 6))
+    assert batches[0] == ["prices", "foreign_flow", "broker_summary"]
 
 
 def test_weekly_refresh_bypasses_the_cache(tmp_path):

@@ -100,14 +100,15 @@ def cmd_backfill(args: argparse.Namespace) -> int:
 
 
 def _cmd_refresh(args: argparse.Namespace, refresh, label: str) -> int:
-    planned = refresh(dry_run=True)
+    options = {"today": args.as_of} if args.as_of is not None else {}
+    planned = refresh(dry_run=True, **options)
     conn = db.connect()
     print(f"{label} refresh: about {planned.estimate} credits (plus extra pages of filings).")
     print(f"Spent so far: {ledger.credits_spent(conn)} of cap {config.credit_cap()}.")
     if not args.yes:
         print("Re-run with --yes to spend the credits.")
         return 0
-    report = refresh()
+    report = refresh(**options)
     for table, count in sorted(report.rows.items()):
         print(f"  {table:<18} {count:>6} rows")
     for failure in report.failures:
@@ -155,6 +156,11 @@ def main(argv: list[str] | None = None) -> int:
     ):
         refresh = commands.add_parser(name, help=text)
         refresh.add_argument("--yes", action="store_true", help="actually spend the credits")
+        refresh.add_argument(
+            "--as-of",
+            type=date.fromisoformat,
+            help="last market date to request (YYYY-MM-DD; defaults to today)",
+        )
         refresh.set_defaults(func=func)
 
     commands.add_parser("check", help="data-quality report for the database").set_defaults(func=cmd_check)
